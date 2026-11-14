@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2020 round 9</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2020/9" />
+<meta name="description" content="MIT 2020 round 9: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2020" data-packet="9">
+<div class="float-row mb-3"><span class="float-start">Packet 9 (round 9) of <a href="sets/mit-2020/">MIT 2020</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2020/round9.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The Davisson-Germer experiment demonstrated the wave-like nature of matter by the diffraction of what particles?</div><div>ANSWER: Electrons</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+How many stereoisomers are possible for the complex ion [Co(NH<sub>3</sub>)<sub>2</sub>(CN)<sub>2</sub>Cl<sub>2</sub>]<sup>-</sup>?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Which solar system planet features a sharp contrast in topography between the Northern and Southern hemispheres?</div><div>ANSWER: Mars</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true of stellar nucleosynthesis
+1) The CNO cycle is more temperature dependent than the proton-proton chain
+2) The S process occurs in the envelopes of asymptotic giant branch stars
+3) The triple-alpha process only occurs in stars of mass greater than 1.1 solar masses</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+What is ground tissue that is internal to the vascular tissue typically called?</div><div>W) Cortex<br>X) Pith<br>Y) Heartwood<br>Z) Cork</div><div>ANSWER: X) Pith</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+You discover an enzyme with a hydrophobic pocket and 2 charged residues, Lys80 and Asp92, within the pocket. By name or number, identify all of the following three statements that are true about these residues
+1) The pKa of the Asp92 is higher than the pKa of free aspartate in water
+2) The pKa of Lys80 is higher than the pKa of free lysine in water
+3) The mutation Lys80 to Val80 would likely NOT destabilize the protein</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers in the Li group at MIT are investigating aminoacyl-tRNA synthetase levels with regards to tRNA charging. Which of the following statements is true about tRNAs?</div><div>W) tRNAs have an abundance of minor bases<br>X) The CCA tail is located on the 5’ end of the tRNA<br>Y) The T arm contains cytidine, a modified cytosine<br>Z) tRNA molecules are approximately 50 to 60 nucleotides</div><div>ANSWER: W) tRNAs have an abundance of minor bases</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers in the Li group at MIT are studying bacterial transcription and translation. Which of the following genomic regions is found in bacteria?</div><div>W) TATA box<br>X) Pribnow box<br>Y) CAAT box<br>Z) GC box</div><div>ANSWER: X) Pribnow box</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the smallest composite number that is relatively prime to 630?</div><div>ANSWER: 121</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the determinant of the following 3 by 3 matrix? [[2, 0, 0], [1, 5, 3], [2, 4, 1]]</div><div>ANSWER: −14</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following occurs as a traveling wave on a string reflects off of a wall at a fixed end?</div><div>W) It reflects with inversion<br>X) It reflects without inversion<br>Y) It interferes with the incident wave to form a standing wave<br>Z) It interferes perfectly destructively with the incident wave</div><div>ANSWER: W) It reflects with inversion</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, for a system with the same energy levels, degeneracies, and number of particles, arrange the following 3 distributions in order of increasing expected number of particles in a given energy level
+1) Maxwell–Boltzmann
+2) Fermi–Dirac
+3) Bose–Einstein</div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the limit, as x approaches infinity, of 2<sup>x</sup>/(3<sup>x</sup> − 1)?</div><div>ANSWER: 0</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Which of the following functions of an integer n has the fastest asymptotic growth rate as n approaches infinity?</div><div>W) n!<br>X) 100<sup>n</sup><br>Y) 2<sup>n<sup>2</sup></sup><br>Z) n<sup>n</sup></div><div>ANSWER: Y) 2<sup>n<sup>2</sup></sup></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Cummins group at MIT are exploring ways to synthesize strained molecules to explore the limits of chemical bonding theories. One synthetic target is tetrahedrane, with formula C<sub>4</sub>H<sub>4</sub>. What is the unsaturation number of tetrahedrane?</div><div>W) 1<br>X) 2<br>Y) 3<br>Z) 4</div><div>ANSWER: Y) 3</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Cummins group at MIT are studying ways to reduce phosphates sustainably to create other phosphorus related compounds. Answer the following 2 questions about phosphorus.
+1) What is the oxidation state of phosphorus in the phosphate anion?
+2) What is the most kinetically stable allotrope of elemental phosphorus at high temperatures?</div><div>ANSWER: 1) +5; 2) red</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The magnitude of the gravitational field at the corner of a cube with mass m and side length s is g. What is the magnitude of the gravitational field at the corner of a cube with the same density and side length 2 s?</div><div>ANSWER: 2 g</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A thin rod has a total mass of M and length L, but its mass density increases proportionally to x<sup>2</sup>, where x is the distance from one end, such that the density at that end is zero. What is the moment of inertia of this rod about that end?</div><div>ANSWER: 3/5 M L<sup>2</sup></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+If cardiac output increases, what happens to the glomerular filtration rate?</div><div>W) It decreases<br>X) It increases<br>Y) It stays the same<br>Z) It oscillates</div><div>ANSWER: X) It increases</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four transposable elements that are NON-autonomous.
+1) LINEs
+2) SINEs
+3) MITEs
+4) Sleeping Beauty</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following ligands has the highest field splitting in octahedral complexes?</div><div>W) Cyanide<br>X) Water<br>Y) Fluoride<br>Z) Nitrate</div><div>ANSWER: W) Cyanide</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following four molecules in terms of increasing net dipole moment
+1) BCl<sub>3</sub>
+2) NH<sub>3</sub>
+3) HF
+4) CO</div><div>ANSWER: 1,4,2,3</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following objects in the solar system has the highest albedo?</div><div>W) Earth’s moon<br>X) Jupiter<br>Y) Pluto<br>Z) Enceladus</div><div>ANSWER: Z) Enceladus</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What term refers to a location in an ocean basin where no tidal amplitude is experienced due to the Coriolis Effect?</div><div>ANSWER: Amphidromic point</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers in MIT’s Quantum Matter Group recently found an exotic physical phenomenon, known as a Kohn anomaly, using data from advanced neutron and X-ray scattering probes. Kohn anomalies are anomalies in the dispersion relation of what quasiparticles, which are related to the normal modes of a crystal lattice?</div><div>ANSWER: Phonons</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at MIT have shown that plasmon excitations associated with two-dimensional materials can be used to enhance and control light-matter interactions to allow typically forbidden interactions to occur. Indicate, by name or number, all of the following three statements that are true of forbidden transitions
+1) Transitions where the orbital angular momentum changes by more than 1 unit are forbidden
+2) Forbidden mechanisms do not obey conservation of angular momentum
+3) Metastable states decay by emitting more than one photon</div><div>ANSWER: 1) Transitions where the orbital angular momentum changes by more than 1 unit are forbidden</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+What type of epithelial tissue is the human epidermis composed of?</div><div>W) Simple squamous<br>X) Stratified squamous<br>Y) Simple columnar<br>Z) Cuboidal</div><div>ANSWER: X) Stratified squamous</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following is an accurate description of treadmilling by actin?</div><div>W) G-actin is below the critical concentration at the + end but not the − end<br>X) G-actin is below the critical concentration at the − end but not the + end<br>Y) G-actin is below the critical concentration at both the − end and the + end<br>Z) G-actin is above the critical concentration at both the − end and the + end</div><div>ANSWER: X) G-actin is below the critical concentration at the − end but not the + end</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Xavier and Yousef are on either side of a 1 meter long seesaw that is currently balanced on a fulcrum. If Xavier, who is 75 kilograms, starts moving towards the other side of the seesaw at a speed of 4 meters per second, how quickly must 60-kilogram Yousef move in order to keep the seesaw at balance?</div><div>W) 4 meters per second<br>X) 5 meters per second<br>Y) 6 meters per second<br>Z) 8 meters per second</div><div>ANSWER: X) 5 meters per second</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Amy and Alex are astronauts traveling at relativistic velocities with respect to each other. At some time they are at the same place, and they make some measurements that they compare with each other. Disregarding the time of travel of light and measurement, by name or number identify all of the four following measurements that both would agree on.
+1) The length of Alex’s spaceship
+2) The magnitude of the electric field on Alex’s nose
+3) The magnitude of a point charge
+4) The rest mass energy of Amy’s spaceship</div><div>ANSWER: 3 and 4</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+How many unordered pairs of parallel edges does a cube have?</div><div>W) 3<br>X) 6<br>Y) 12<br>Z) 18</div><div>ANSWER: Z) 18</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+10 lines are drawn in the plane. What is the maximum number of quadrilaterals that can be formed?</div><div>ANSWER: 420</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of these solvents would be best for an SN2 reaction?</div><div>W) Benzene<br>X) Carbon tetrachloride<br>Y) Acetonitrile<br>Z) Hydrobromic acid</div><div>ANSWER: Y) Acetonitrile</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, arrange the following 3 excitations in terms of increasing order of energy required for the excitation
+1) Vibrational excitation
+2) Rotational excitation
+3) Electronic excitation</div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is a possible configuration for Venus?</div><div>W) Opposition<br>X) Western quadrature<br>Y) Superior conjunction<br>Z) Northern elongation</div><div>ANSWER: Y) Superior conjunction</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+A certain galaxy has a known distance from Earth of 2.1 gigaparsecs. Using 70 kilometers per second per megaparsec as the Hubble parameter, what is the redshift?</div><div>ANSWER: 0.7</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following neurotransmitters is the primary excitatory neurotransmitter in the central nervous system?</div><div>W) Acetylcholine<br>X) GABA<br>Y) Glycine<br>Z) Glutamate</div><div>ANSWER: Z) Glutamate</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What specific enzyme is responsible for maintaining negative supercoiling in bacteria?</div><div>ANSWER: Gyrase <span class="do-not-accept">(do not accept: topoisomerase)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following best describes an ideal ammeter?</div><div>W) Infinite resistance in parallel<br>X) Infinite resistance in series<br>Y) Zero resistance in parallel<br>Z) Zero resistance in series</div><div>ANSWER: Z) Zero resistance in series</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+What is the focal length of a biconvex lens with glass of index of refraction 3, and spherical surfaces of radius 10 meters and 20 meters?</div><div>ANSWER: 10/3 meters</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following best explains the observational difference between Seyfert galaxies and quasar host galaxies?</div><div>W) Quasars are usually detected in visible light, while Seyferts are usually radio sources<br>X) Quasars are generally much more luminous and further away, so that their host galaxy is not detected<br>Y) Quasars have their jets oriented directly towards Earth while Seyferts have a different orientation<br>Z) Quasars are in elliptical active galaxies, while Seyferts are spiral</div><div>ANSWER: X) Quasars are generally much more luminous and further away, so that their host galaxy is not detected</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+The formation of a reservoir by damming a river or stream will have which of the following effects?</div><div>W) Increase sediment deposition downstream<br>X) Raise the stream profile upstream<br>Y) Increase downcutting upstream<br>Z) Lower the temporary base level</div><div>ANSWER: X) Raise the stream profile upstream</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Up to rotation, how many distinct ways are there to color a spinner with seven equal sections such that each section is either red or blue?</div><div>W) 8<br>X) 14<br>Y) 20<br>Z) 26</div><div>ANSWER: Y) 20</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Andrew defines a function f(x), where f(x) is equal to the sum of the squares of the numbers 1 to x. For how many values of x in the range from 1 to 20 is f(x) divisible by 7?</div><div>W) 5<br>X) 6<br>Y) 7<br>Z) 8</div><div>ANSWER: Z) 8</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following is the functional group formed by the condensation of a hydroxylamine with a ketone?</div><div>W) Hydrazone<br>X) Oxime<br>Y) Carbamide<br>Z) Ester</div><div>ANSWER: X) Oxime</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What is the product when 1-chloro-2,4-dinitrobenzene is treated with sodium hydroxide?</div><div>ANSWER: 2,4-dinitrophenol <span class="also-accept">(also accept: 1-hydroxy-2,4-dinitrobenzene)</span></div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

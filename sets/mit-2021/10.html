@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2021 round 10</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2021/10" />
+<meta name="description" content="MIT 2021 round 10: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2021" data-packet="10">
+<div class="float-row mb-3"><span class="float-start">Packet 10 (round 10) of <a href="sets/mit-2021/">MIT 2021</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2021/round10.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Excluding gravity, strangeness is NOT conserved under which fundamental force?</div><div>ANSWER: Weak nuclear force</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+When an undamped oscillator is driven at its resonant frequency, what happens to the amplitude of the resulting oscillation?</div><div>W) It assumes a maximum possible value but stays constant in time.<br>X) It grows linearly as a function of time.<br>Y) It grows exponentially as a function of time.<br>Z) It immediately becomes infinite.</div><div>ANSWER: X) It grows linearly as a function of time.</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following compounds is ionic in the solid state?</div><div>W) PCl<sub>3</sub><br>X) PCl<sub>5</sub><br>Y) SF<sub>4</sub><br>Z) SF<sub>6</sub></div><div>ANSWER: X) PCl<sub>5</sub></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true regarding reaction kinetics
+1) A reaction with a more negative entropy of activation will have a smaller Arrhenius pre-exponential factor
+2) A reactions entropy of activation is strongly correlated to its Arrhenius activation energy
+3) A reaction’s entropy of activation is strongly correlated with the temperature dependence of the rate</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+By name or number, identify all of the following three shapes that can always be inscribed in a circle
+1) Isosceles trapezoid
+2) Kite
+3) Rectangle</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the sum of the three smallest positive numbers x such that the floor of x is equal to 14 x/15?</div><div>ANSWER: 45 / 7</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Former MIT professor Jeremy England posited the hypothesis known as &quot;dissipation-driven adaptation&quot;, which asserts that the emergence of life can be explained as a natural consequence of what physical law?</div><div>ANSWER: Second law of thermodynamics</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers in the MIT Department of Mathematics are investigating hydrodynamic quantum analogs, which feature droplets of water walking on a vibrating fluid bath. Which interpretation of quantum mechanics, which is inherently nonlocal but preserves determinism, does this behavior most resemble?</div><div>ANSWER: Pilot wave theory <span class="also-accept">(also accept: pilot wave; pilot wave interpretation; Bohmian mechanics; de Broglie-Bohm theory)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three planets which generate internal heat from the Kelvin-Helmholtz mechanism
+1) Uranus
+2) Saturn
+3) Jupiter</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is closest to the critical density of the universe in kilograms per meter cubed?</div><div>W) 1 × 10<sup>-15</sup><br>X) 1 × 10<sup>-25</sup><br>Y) 1 × 10<sup>-35</sup><br>Z) 1 × 10<sup>-45</sup></div><div>ANSWER: X) 1 × 10<sup>-25</sup></div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+On which nitrogenous base does DNA methylation usually occur?</div><div>W) Adenine<br>X) Thymine<br>Y) Guanine<br>Z) Cytosine</div><div>ANSWER: Z) Cytosine</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+The process in which methylation patterns determine the activity of a maternal or paternal allele of a particular gene in early development is called what?</div><div>ANSWER: Genomic imprinting <span class="also-accept">(also accept: imprinting)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What term describes the thin strands of glass that form from the solidification of thin strands of lava after a basaltic eruption?</div><div>ANSWER: Pele’s Hair</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The Blandford-Znajeck process is a proposed mechanism for the extraction of energy from a rotating black hole with a strong magnetic field. By name or number, identify all of the follwing three phenomena which could be explained by this mechanism?
+1) Astrophysical Jets
+2) Type II Supernovae
+3) Active Galactic Nuclei</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+When curved pieces of glass are placed on each other, interference of light generates a pattern of concentric circles which is often used by lensmakers to verify their lens has the proper curvature. What is the name of this pattern?</div><div>ANSWER: Newton rings</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following three statements which are true regarding wavefunctions
+1) Wavefunctions must be continuous everywhere
+2) The derivatives of wavefunctions must be continuous everywhere
+3) The derivatives of wavefunctions must be continuous at all points where the potential is discontinuous</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following species is least susceptible to lithium halogen exchange with an alkyl halide?</div><div>W) phenyllithium<br>X) butyllithium<br>Y) vinyllithium<br>Z) lithium acetylide</div><div>ANSWER: Z) lithium acetylide</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+To the nearest whole number, how many grams of lithium are required to form one mole of butyllithium from 1-chlorobutane?</div><div>ANSWER: 14</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following cranial nerves controls the lateral rectus muscle, which is involved in moving the eye outwards to look to the side?</div><div>W) Abducens nerve<br>X) Facial nerve<br>Y) Oculomotor nerve<br>Z) Trigeminal nerve</div><div>ANSWER: W) Abducens nerve</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true of muscarinic receptors
+1) They are classified as ionotropic receptors
+2) They are primarily involved in the parasympathetic nervous system
+3) Atropine is a well-known muscarinic agonist</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The Langer group at MIT is currently researching drug delivery in various parts of the body, such as at the blood brain barrier. Although most drugs cannot cross the blood-brain barrier, there are a select few that can. What drug often used to treat Parkinson’s disease is able to cross the blood brain barrier and is related to dopamine?</div><div>ANSWER: L-dopa <span class="also-accept">(also accept: levodopa)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+The Langer group is also studying angiogenesis inhibition. One pathway that activates angiogenesis is through hypoxia, which upregulates what transcription factor that further activates the important angiogenesis inducer VEGF?</div><div>ANSWER: HIF-1a <span class="also-accept">(also accept: HIF-1; HIF; hypoxia-inducible factor)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following functions of x is continuous on all real numbers?</div><div>W) x<sup>2/3</sup><br>X) √(x + 1)<br>Y) 7/x<br>Z) tan(x<sup>2</sup>)</div><div>ANSWER: W) x<sup>2/3</sup></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Find the largest possible value of n divided by the totient of n, where n is a positive integer less than 1000.</div><div>ANSWER: 35 / 8</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Calcitonin secretion is known to be regulated by the release of a certain stomach hormone which is secreted from the G cells. What is the name of this stomach hormone, whose primary role is to stimulate the secretion of hydrochloric acid from the parietal cells of the stomach?</div><div>ANSWER: Gastrin</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Mammary glands and ceruminous glands are an example of what kind of glandular secretion?</div><div>ANSWER: Apocrine</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+By name or number, identify all of the following three polynomials that are a factor of x<sup>99</sup> − 1
+1) x<sup>2</sup> − 1
+2) x<sup>3</sup> − 1
+3) x<sup>4</sup> − 1</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many nondecreasing sequences of 5 positive integers have first term 1 and last term 5?</div><div>ANSWER: 35</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers in the Johnson group at MIT are exploring ways to safely deliver drugs into the human body. One method they developed involves attaching the drug onto a polymer framework to make a macromolecular prodrug. One step in the synthesis involves forming an ester from a carboxylic acid and a phenol. By name or number, identify all of the following three reagents that could accomplish this transformation
+1) aqueous hydrogen chloride
+2) dicyclohexylcarbodiimide
+3) sodium hydroxide solution</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Johnson group at MIT are study methods of synthesizing macromolecular prodrugs. To synthesize the polymer framework, the researchers employ a ring-opening metathesis polymerization with a Grubbs third generation catalyst. The mechanism is analagous to a standard olefin metathesis reaction, but the monomers are cyclic olefins rather than linear olefins. Answer the following two questions about ring-opening metathesis polymerization.
+1) If you add 5 mole percent of Grubbs catalyst, what is the expected degree of polymerization?
+2) Is ring-opening metathesis polymerization step-growth or chain-growth polymerization?</div><div>ANSWER: 1) 20; 2) chain-growth polymerization</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+With what power of distance does the potential energy between two molecules experiencing London Dispersion Forces scale as?</div><div>ANSWER: −6</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A solid uniform disk has mass M, radius R, and moment of inertia I. A circle of radius R/2 is drawn on the disk such that the circle passes through the center of the disk and is tangent to the edge of the disk. This circle is then cut out of the disk. In terms of I, what is the moment of inertia of the remainder of the disk?</div><div>ANSWER: 13 I/16</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three locations in a galaxy that one would predominately expect to find Population 1 stars
+1) Halo
+2) Spiral arms
+3) Galactic disk</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true about the Bergeron process
+1) It involves supercooled water freezing upon impact with a solid surface
+2) Forming ice crystals absorb water vapor as they grow
+3) Only snow and not rain can be caused by the Bergeron Process</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+A container contains an ideal gas at a pressure of 1.5 atmospheres. An isothermal compression process compresses the gas to a quarter of its original volume. By name or number, identify all of the following three variables which increased due to the compression
+1) pressure
+2) work done by the system
+3) internal energy</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, order the following three compounds in increasing order of their highest energy absorption in infrared spectroscopy
+1) acetone
+2) chloroform
+3) methyl amine</div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Because the blood brain barrier limits the transport of most antibodies into the CNS, which of the following cells play a major role in the immune defense of the brain?</div><div>W) Astrocytes<br>X) Ependymal cells<br>Y) Horizontal cells<br>Z) Microglia</div><div>ANSWER: Z) Microglia</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four organisms that possess a nerve net
+1) Portuguese man o’ war
+2) King sea cucumber
+3) Brown recluse spider
+4) Pacific hagfish</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Suppose a certain ideal gas is observed to have an adiabatic index of 10 / 9. How many degrees of freedom does this imply?</div><div>ANSWER: 18</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Consider a monatomic ideal gas in the extreme relativistic limit, at which its energy is linearly proportional to momentum, unlike the classical limit in which energy is quadratically proportional to momentum. According to the equipartition theorem, what is the average energy per particle, in terms of Boltzmann’s constant k and the temperature T?</div><div>ANSWER: 3 kT</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+When the swash of a wave approaches the shoreline in an oblique fashion and the backwash is then parallel to the shore what phenomenon occurs?</div><div>ANSWER: Longshore transport</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three currents that are cold water currents
+1) California Current
+2) Labrador Current
+3) Gulf Stream</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following three substances by increasing nucleophilicity
+1) Hydroxylamine
+2) Ammonia
+3) Water</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+How many nodal planes exist in the lowest unoccupied molecular orbital of 1,3,5-hexatriene?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What mathematician discovered the first aperiodic tiling of a plane?</div><div>W) Archimedes<br>X) Euler<br>Y) Laplace<br>Z) Penrose</div><div>ANSWER: Z) Penrose</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+On a circle with radius 12, minor arc AB has measure 75 degrees. What is the area of the smaller section enclosed by the circle and line segment AB?</div><div>ANSWER: 30π − 18√2 − 18√6</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

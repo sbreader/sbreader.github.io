@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MOSFET 2024 Round 9</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mosfet-2024/9" />
+<meta name="description" content="MOSFET 2024 Round 9: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mosfet-2024" data-packet="9">
+<div class="float-row mb-3"><span class="float-start">Packet 9 (Round 9) of <a href="sets/mosfet-2024/">MOSFET 2024</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1egsi8Bazd6fAOnb9TEmF5c06Wsbz6IOC/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following 3 angiosperm structures that are haploid
+1) Megasporocyte
+2) Microspore
+3) Polar nuclei</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following ions is usually responsible for blocking calcium ion channels in nerve cells?</div><div>W) Na<sup>+</sup><br>X) CO<sub>3</sub><sup>2-</sup><br>Y) K<sup>+</sup><br>Z) Mg<sup>2+</sup></div><div>ANSWER: Z) Mg<sup>2+</sup></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What chemical property describes the ability of an atom, ion, or molecule’s electron cloud to become distorted from its normal shape?</div><div>ANSWER: POLARIZABILITY</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three elements that have completely filled 3d subshells
+1) Copper
+2) Zinc
+3) Gallium</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+What is the term used to describe an aquifer where an impermeable layer confines groundwater below its pressure surface?</div><div>W) Unstable<br>X) Artesian<br>Y) Impervious<br>Z) Spontaneous</div><div>ANSWER: X) Artesian</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Place the following four geologic periods in order from oldest to most recent
+1) Devonian
+2) Mississippian
+3) Ordovician
+4) Pennsylvanian</div><div>ANSWER: 3, 1, 2, 4</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the 15th term of an arithmetic sequence with first term 2 and 10th term 47?</div><div>ANSWER: 72</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Using a right Riemann sum with 5 equal intervals, what is the approximate area under the curve x<sup>2</sup>+1 from x = 0 to x = 5?</div><div>ANSWER: 60</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What property of waves, often used to prove Snell’s law, states that every point on a wavefront acts as the source of wavelets?</div><div>ANSWER: HUYGENS’ PRINCIPLE <span class="also-accept">(also accept: HUYGEN-FRESNEL PRINCIPLE)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A layer of oil with density 0.8 g/cm<sup>3</sup> floats on top of a layer of water. If an object with density 0.95 g/cm<sup>3</sup> floats between the oil and the water, what fraction of the object’s volume is below the water’s surface?</div><div>W) 1/4<br>X) 1/2<br>Y) 2/3<br>Z) 3/4</div><div>ANSWER: Z) 3/4</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers at UW Madison are studying linked genes found in the fruit fly genome and their location on chromosomes. Which of the following statements is FALSE regarding the location of linked genes on chromosomes?</div><div>W) Genes more than 50 map units apart behave as if they are on different chromosomes<br>X) Double crossovers can result in a lower recombination frequency than expected<br>Y) Map units correspond to a specific physical distance on a chromosome<br>Z) The closer two genes are on a chromosome, the lower their recombination frequency</div><div>ANSWER: Y) Map units correspond to a specific physical distance on a chromosome</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers at UW Madison are studying the process of oogenesis and the production of egg cells. During this process, the secondary oocyte that will develop into the egg cell is frozen in what stage of the cell cycle following ovulation?</div><div>W) Prophase I<br>X) Metaphase I<br>Y) Prophase II<br>Z) Metaphase II</div><div>ANSWER: Z) Metaphase II</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following statements is false regarding enzymes and DNA replication?</div><div>W) Helicase breaks the hydrogen bonds between strands of DNA<br>X) Single stranded binding protein keeps parental strands separated during replication<br>Y) Primase synthesizes a DNA primer in the 5’ to 3’ direction<br>Z) DNA ligase joins DNA fragments by forming a phosphodiester bond</div><div>ANSWER: Y) Primase synthesizes a DNA primer in the 5’ to 3’ direction</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following statements is false regarding land plants?</div><div>W) Land plants first arose roughly 500 million years ago<br>X) The first land plants had to adapt to a drier environment<br>Y) The first land plants lacked vascular tissue<br>Z) Angiosperms arose during the carboniferous period</div><div>ANSWER: Z) Angiosperms arose during the carboniferous period</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What probability function describes the distribution of particle speeds in a gas, varying based on molar mass and temperature?</div><div>ANSWER: MAXWELL DISTRIBUTION <span class="also-accept">(also accept: MAXWELL-BOLTZMANN)</span></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+The solubility product for the dissolution of KClO<sub>4</sub> is 1.1 × 10<sup>-2</sup>. Identify all of the following three ion concentrations of K<sup>+</sup> and ClO<sub>4</sub><sup>-</sup>, respectively, at which solid KClO<sub>4</sub> would continue dissolving
+1) .1 M and .1 M
+2) 1 M and 1 M
+3) 0.75 M and .05 M</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+What is the main process of energy transfer inside stars lighter than approximately 0.35 solar masses, such as red dwarfs?</div><div>W) Convection<br>X) Conduction<br>Y) Radiation<br>Z) Advection</div><div>ANSWER: W) Convection</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three tidal patterns which have one high tide and one low tide per day
+1) Diurnal
+2) Semidiurnal
+3) Mixed semidiurnal</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+In a circle, chords AB and CD intersect at a point X. If AB = 10 and CD = 12, and X is 4 away from the midpoint of AB, then how far is X from the midpoint of CD?</div><div>ANSWER: 3√3</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Speed is in a room training his soccer skills. The room is 6m x 40m. Standing in one corner, he wants to shoot the ball so that it ricochets off the long walls a total of 4 times before hitting the opposite corner. Assuming that the angle of reflection and the angle of incidence are the same for all reflections, how far did the ball travel in meters?</div><div>ANSWER: 50</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+The electric field due to a dipole, at distances much further than the separation of the dipole, is proportional to what power of distance?</div><div>W) 0<br>X) -1<br>Y) -2<br>Z) -3</div><div>ANSWER: Z) -3</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+What theory of modern physics postulates that for every particle of the standard model, there exists a corresponding particle with different spin properties, and predicts particles such as the higgsino, which is a fermion?</div><div>ANSWER: SUPERSYMMETRY <span class="also-accept">(also accept: SUSY)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at UNR are studying the genesis and localization of metallic mineral deposits, including copper ores, which are important for their use in the electronics industry. Identify all of the following four minerals that are ores of copper
+1) Sphalerite
+2) Malachite
+3) Chalcocite
+4) Galena</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers at UW Madison are studying the urease enzyme in bacteria and how it affects the rate of urea decomposition. What equation helps model this process, by relating the reaction rate of an enzymatic reaction to substrate concentration?</div><div>ANSWER: Michaelis-Menten Equation</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three disorders that are inherited in an x-linked recessive fashion
+1) Duchenne’s muscular dystrophy
+2) Red-Green colorblindness
+3) Achondroplasia</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following statements is false regarding the CRISPR system used in prokaryotes?</div><div>W) In prokaryotes bacteriophage DNA is stored in the genome in palindromic segments<br>X) Cas9 is an enzyme frequently used in bacteria that uses foreign DNA as a guide to prevent future bacteriophage infection<br>Y) The CRISPR system works by methylating foreign DNA and inactivating it<br>Z) The CRISPR system has recently been adapted to treat sickle cell anemia</div><div>ANSWER: Y) The CRISPR system works by methylating foreign DNA and inactivating it</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Identify all of the following four processes which have a negative change in enthalpy
+1) Hydration of gaseous ions
+2) Ionization energy
+3) Combustion
+4) Vaporization</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements is NOT true regarding semiconductors?</div><div>W) The conductivity of a semiconductor increases as temperature increases<br>X) N-type semiconductors contain an excess of free electrons<br>Y) Silicon doped with boron is an example of a p-type semiconductor<br>Z) Most d-block elements are semiconductors</div><div>ANSWER: Z) Most d-block elements are semiconductors</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, place the following three metamorphic rocks in order of increasing pressure of formation
+1) Slate
+2) Hornfels
+3) Blueschist</div><div>ANSWER: 2, 1, 3</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is NOT a mechanism that keeps Europa’s interior warm enough to host a subsurface ocean?</div><div>W) Friction from tidal stresses<br>X) Dissipation of very large waves in the ocean<br>Y) Collisions with high-energy ions around Jupiter<br>Z) Decay of radioactive elements in the crust</div><div>ANSWER: Y) Collisions with high-energy ions around Jupiter</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the modular inverse of 17 modulo 101?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many positive integers less than 300 are relatively prime to 300?</div><div>ANSWER: 80</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following most accurately describes the shape of an adiabatic process on a PV diagram?</div><div>W) A line with positive slope<br>X) A line with negative slope<br>Y) A parabola<br>Z) An inverse power law</div><div>ANSWER: Z) An inverse power law</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Consider a thick, cylindrical wire designed such that there is a uniform current flowing through its entire cross section. Which of the following best describes the magnitude of the magnetic field as distance from the center of the wire increases, starting at 0?</div><div>W) Always increases<br>X) Increases then decreases<br>Y) Decreases then increases<br>Z) Always decreases</div><div>ANSWER: X) Increases then decreases</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Early universe cosmologists are studying phases of matter at extremely high temperatures and pressures as a model for the universe moments after the big bang. What type of matter, which results from the asymptotic freedom of the carriers of the strong force under extremely hot conditions, are they studying?</div><div>ANSWER: QUARK-GLUON PLASMA</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Researchers at UW Madison are studying nanowire lasers with high quality factors. The quality factor, or Q factor, is a dimensionless quantity defined as the ratio of initial energy stored in an oscillator, to what other quantity?</div><div>W) Amplitude decrease in one radian of oscillation<br>X) Period decrease in one radian of oscillation<br>Y) Energy decrease in one radian of oscillation<br>Z) Entropy increase in one radian of oscillation</div><div>ANSWER: Y) Energy decrease in one radian of oscillation</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following 3 enzymes that can be found in the small intestine
+1) Trypsins
+2) Amylases
+3) Carboxypeptidases</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following statements best describes why a neuron’s resting membrane potential is generally closer to the equilibrium potential for potassium than for sodium?</div><div>W) Leaky potassium channels allow potassium to more easily diffuse across the membrane<br>X) The concentration of potassium is greater inside the cell, which is the main factor in determining equilibrium potential<br>Y) The sodium-potassium pump only brings in 2 potassium atoms for every 3 sodium atoms<br>Z) Potassium ions are bigger and therefore factor into the membrane potential equation more than sodium ions</div><div>ANSWER: W) Leaky potassium channels allow potassium to more easily diffuse across the membrane</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Anurag is studying the relationship between oxygen concentrations in lakes and in the atmosphere. Which of the following laws would he find most useful?</div><div>W) Ideal gas law<br>X) Clausius-Clapeyron equation<br>Y) Henry&#39;s Law<br>Z) Raoult&#39;s Law</div><div>ANSWER: Y) Henry&#39;s Law</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three functional groups which can form hydrogen bonds with itself
+1) Amide
+2) Alcohol
+3) Ester</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three positions which Jupiter could achieve
+1) Inferior conjunction
+2) Superior Conjunction
+3) Eastern quadrature</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Liquid metallic hydrogen is a theoretical state of matter thought to exist inside of Jupiter’s core, and is an extremely conductive substance. Liquid metallic hydrogen contributes to Jupiter’s strong magnetic field via what effect, which is responsible for producing the magnetic fields of all planets in the solar system?</div><div>ANSWER: DYNAMO EFFECT</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A number is chosen between 1 and 3<sup>5</sup>, inclusive, at random. What is the probability that when written in base 3, it contains only 0s or 2s?</div><div>ANSWER: 32/243</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Alice is trying to guess Bob’s phone number. She knows it is 6 digits long, and consists only of the digits 1, 2 and 3, with each digit occurring at least once. How many phone numbers would satisfy these conditions?</div><div>ANSWER: 540</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Kartik recreates Young&#39;s double-slit experiment, but with the distance between slits halved and the distance between slit and screen doubled. Which of the following is the ratio of the bright fringe width after the change compared to before?</div><div>W) 1/2<br>X) 1<br>Y) 2<br>Z) 4</div><div>ANSWER: Z) 4</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A particle exists in the 2-d cartesian plane, experiencing a constant external force which can be described by the vector 5i+6j. The particle travels from the point (1, 2) to the point (3, 4). What is the magnitude of the work done on the particle over this trajectory?</div><div>ANSWER: 22</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Prometheus 2021 RR 3</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/prometheus-2021/3" />
+<meta name="description" content="Prometheus 2021 RR 3: 48 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="prometheus-2021" data-packet="3">
+<div class="float-row mb-3"><span class="float-start">Packet 3 (RR 3) of <a href="sets/prometheus-2021/">Prometheus 2021</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/Prometheus%202021/Prometheus_RR3.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Seismic tomography below the Yellowstone su-pervolcano shows a vertical region of low seismic wave velocity, indicating the presence of what feature in the mantle?</div><div>ANSWER: Mantle plume</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following global catastrophic risks would a supervolcano eruption most closely resemble?</div><div>W) Nuclear fallout<br>X) Global pandemic<br>Y) Asteroid impact<br>Z) Runaway climate change</div><div>ANSWER: Y) Asteroid impact</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the sum from n = 1 to infinity of 3/10<sup>n</sup>?</div><div>ANSWER: 1/3</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Consider the function f(x) = sin(x) − sec(x) + tan(x). What is the difference in value between f(0) and f(π)?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following bases has the highest pKa when protonated?</div><div>W) Cyanide<br>X) Hypochlorite<br>Y) Bromide<br>Z) Acetate</div><div>ANSWER: W) Cyanide</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+How many half-occupied orbitals are present in the iron 3+ cation?</div><div>ANSWER: 5</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following types of unconformity would most likely be found above an eroded batholith?</div><div>W) Angular unconformity<br>X) Disconformity<br>Y) Nonconformity<br>Z) Paraconformity</div><div>ANSWER: Y) Nonconformity</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+In which of the following biomes would an ephemeral stream be most likely to form?</div><div>W) Tropical rainforest<br>X) Taiga<br>Y) Savanna<br>Z) Desert</div><div>ANSWER: Z) Desert</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Maturation promotion factor is a kinase which is always inactive, unless bound to what type of proteins, which are named because of their fluctuating concentration throughout the cell cycle?</div><div>ANSWER: Cyclin</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following statements is not true about the immune system?</div><div>W) Cytotoxic T cells primarily recognize antigen fragments displayed on MHC class II molecules<br>X) Humoral immunity involves the production of antibodies by B cells<br>Y) Each immunoglobulin unit is composed of two heavy chains and two light chains<br>Z) Release of interferon by virus-infected cells is part of the innate immune response</div><div>ANSWER: W) Cytotoxic T cells primarily recognize antigen fragments displayed on MHC class II molecules</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A 9 volt battery is connected in series with a 1 mF capacitor and a resistor with unknown resistance R. After a long time, a certain amount of energy E is dissipated by the circuit as heat. As the resistance changes, how does E change with respect to R?</div><div>W) E is constant with respect to R<br>X) E scales inversely with R<br>Y) E scales linearly with R<br>Z) E scales quadratically with R</div><div>ANSWER: W) E is constant with respect to R</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Identify all of the following three changes to the Earth that would decrease Earth’s escape velocity
+1) Decreasing density
+2) Replacing with a hollow planet of the same mass and radius
+3) Increasing the sidereal period.</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Energy <i>Multiple Choice</i>
+One key argument against longtermism hinges upon the fact that people tend to value goods less if they are further in the future. What is this effect called?</div><div>W) Future aversion<br>X) Time discounting<br>Y) Longtermist ambivalence<br>Z) Recency bias</div><div>ANSWER: X) Time discounting</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Energy <i>Multiple Choice</i>
+What tool do economists use to account for time discounting in their calculations?</div><div>W) Actuarial adjustment<br>X) Statistical delay<br>Y) Unit growth adjustment<br>Z) Discount rate</div><div>ANSWER: Z) Discount rate</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following binomial expressions is a factor of the cubic trinomial x<sup>3</sup> − 7 x + 6?</div><div>W) x + 1<br>X) x + 2<br>Y) x + 3<br>Z) x + 4</div><div>ANSWER: Y) x + 3</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Tommy cuts two 2 inch by 6 inch strips of paper. He puts the two strips directly on top of each other then rotates one by 45 degrees. What is the area of the overlapping region?</div><div>ANSWER: 4√2</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+How many total structural isomers exist for butane?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following silver salts has the highest solubility in water?</div><div>W) AgF<br>X) AgCl<br>Y) AgBr<br>Z) AgI</div><div>ANSWER: W) AgF</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+According to the double-degenerate model, what type of supernova occurs when two white dwarfs merge to create a body with a mass greater than the Chandrasekhar limit?</div><div>ANSWER: Type Ia</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What class of galaxies is located at the node of the Hubble Tuning Fork, where the spiral and elliptical branches meet?</div><div>ANSWER: Lenticular <span class="also-accept">(also accept: S0)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Unlike transcription, DNA replication requires a primer. This is because DNA polymerase requires the presence of what functional group to initiate synthesis?</div><div>ANSWER: Hydroxyl <span class="also-accept">(also accept: OH)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following best describes the symplastic route in a plant?</div><div>W) Water moves into the xylem by traveling through the cytosol and plasmodesmata<br>X) Water moves into the xylem through the extracellular space between cell walls<br>Y) Sugar moves into the phloem by traveling through the cytosol and plasmodesmata<br>Z) Sugar moves into the phloem through the extracellular space within cell walls</div><div>ANSWER: W) Water moves into the xylem by traveling through the cytosol and plasmodesmata</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Identify all of the following three situations that would create a virtual image
+1) Using a plane mirror
+2) Keeping the object in front of the focal point of a concave mirror
+3) Keeping the object in front of the focal point of a convex mirror.</div><div>ANSWER: All</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A ball is placed within a viscous fluid. What law describes the viscosity-dependent drag effect on the ball as it sinks?</div><div>ANSWER: Stoke’s law</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Which field within AI began with work on perceptron models and includes all computer algorithms that can improve through experience?</div><div>ANSWER: Machine learning</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Energy <i>Short Answer</i>
+Which type of machine learning algorithm involves simulating a circuit made up of numerical nodes, with connections between them determining their influence on each other?</div><div>ANSWER: Neural network</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+If (x<sup>2</sup>)! ends with at least eight zeroes, what is the lowest possible integer value that x can be?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the value of ∑<sub>n=0</sub><sup>30</sup> sin<sup>2</sup>(3n) if the angle measures are to be taken in degrees?</div><div>ANSWER: 15.5</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following ions would oxidize copper metal under neutral pH?</div><div>W) F –<br>X) Fe 2+<br>Y) Zn 2+<br>Z) Ag +</div><div>ANSWER: Z) Ag +</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Nuclides that have a neutron-to-proton ratio smaller than one are likely to spontaneously produce what particle?</div><div>ANSWER: Positron</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+At altitudes above the planetary boundary layer, winds typically have low friction and a strong Coriolis effect, causing them to move parallel to isobars in what type of flow?</div><div>ANSWER: Geostrophic</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three types of sediment that are biogenous in origin
+1) Calcareous ooze
+2) Siliceous ooze
+3) Manganese nodules.</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What class of RNA is joined with proteins to form spliceosomes?</div><div>ANSWER: Small nuclear RNA <span class="also-accept">(also accept: snRNA)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+A population of griffins can have either black feathers or red feathers, and the allele for black feather color is dominant over the allele for red feather color. 128 griffins out of a population of 800 have red feathers. If there are 1250 individuals in the next generation of griffins, how many of them should be heterozygous to support that the population is in Hardy-Weinberg equilibrium?</div><div>ANSWER: 600</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A mass located at 1/4 the radius of Earth from Earth’s center feels a force F due to gravity towards the center of the Earth. If the mass was taken to a new distance of triple Earth’s radius, in terms of F, what would the new force be on the mass?</div><div>W) F/16<br>X) F/12<br>Y) F/9<br>Z) 4F/9</div><div>ANSWER: Z) 4F/9</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A single force acts on a 1.0 kg particle-like object whose position is given by x = 3 t − 4 t<sup>2</sup>, with x in meters and t in seconds. How much work is done on the object by the force from t = 0 to t = 2 seconds?</div><div>ANSWER: 80</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Energy <i>Multiple Choice</i>
+Humanity’s fossil record suggests that natural risks should pose an extinction risk of less than 1 in 2000, but this is complicated by anthropogenic factors. Which of the following changes would NOT affect humanity’s natural X-risk as a whole?</div><div>W) Spread to isolated regions like Antarctica<br>X) Improved preventative technology<br>Y) Longer human lifespan<br>Z) Greater global population</div><div>ANSWER: Y) Longer human lifespan</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Imagine humanity faces three separate and independent existential risks, which have a probability of causing extinction of 20%, 30%, and 80% respectively. If the 20% risk is reduced to zero, what is the absolute change, to the nearest percent, of the total risk of extinction?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+The product of the positive divisors of 36 can be written as 36<sup>x</sup> for some real number x. What is the value of x?</div><div>ANSWER: 4.5</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+In triangle ABC, AB has length 14, BC has length 8, and AC has length 19. Calculate cos B.</div><div>ANSWER: −101/224</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following acids is diprotic?</div><div>W) Succinic acid<br>X) Phosphoric acid<br>Y) Periodic acid<br>Z) Citric acid</div><div>ANSWER: W) Succinic acid</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Sulfur dioxide is a major air pollutant emitted through volcanic eruptions. In what key industrial process does vanadium (V) oxide catalyze the oxidation of sulfur dioxide?</div><div>ANSWER: Contact process</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+The most recent peak in solar activity occurred in early 2014, with a maximum of 146 sunspots observed in a month. In what year would the next solar activity maximum be most likely to occur?</div><div>ANSWER: 2025</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Studies confirming the accelerating expansion of the universe indicate that which of the following is true of the cosmological constant?</div><div>W) It is positive<br>X) It is negative<br>Y) It is increasing<br>Z) It is decreasing</div><div>ANSWER: W) It is positive</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Most phospholipids in a human cell membrane are produced by the attachment of fatty acids to which of the following alcohols?</div><div>W) Ethanol<br>X) Inositol<br>Y) Glycerol<br>Z) Xylitol</div><div>ANSWER: Y) Glycerol</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+During in vitro fertilization, prior to egg retrieval, what hormone is injected to stimulate egg production?</div><div>ANSWER: Follicle stimulating hormone <span class="also-accept">(also accept: FSH)</span></div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+If the mass of the Sun and Earth and the distance between them were all scaled down by a factor of 100, in terms of the Earth’s current period of rotation, T, what would its new orbital period be?</div><div>W) 1/100 T<br>X) T<br>Y) 100 T<br>Z) 10000 T</div><div>ANSWER: W) 1/100 T</div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+What is the name of the angle that incident polarized light can hit a dielectric without a reflection?</div><div>ANSWER: Brewster angle</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

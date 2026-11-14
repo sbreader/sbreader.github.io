@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2021 round 9</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2021/9" />
+<meta name="description" content="MIT 2021 round 9: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2021" data-packet="9">
+<div class="float-row mb-3"><span class="float-start">Packet 9 (round 9) of <a href="sets/mit-2021/">MIT 2021</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2021/round9.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Type 1A supernovae can be distinguished from other type 1 supernovae by an absorption line of the singly ionized form of what element at 635 nm?</div><div>ANSWER: Silicon</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following events most closely coincides with the boundary between the Archean and Proterozoic Eras?</div><div>W) The formation of the first piece of continental crust<br>X) The first evidence of life<br>Y) The great oxygenation event<br>Z) The Cambrian Explosion</div><div>ANSWER: Y) The great oxygenation event</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The Engelhardt group at MIT is studying quantum gravity and black holes. One phenomenon they are investigating is the observation that all singularities are located within event horizons, known as what hypothesis?</div><div>ANSWER: Cosmic censorship hypothesis</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The Lee group at MIT is investigating the results of high energy proton-proton collisions, including the decay of the Higgs boson. One possible mode is the generation of a Z boson and what meson, consisting of a strange and antistrange quark?</div><div>ANSWER: Phi meson</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+In quantum mechanics, which of the following best describes the states which can be observed?</div><div>W) Hamiltonian state<br>X) Eigenstate<br>Y) Bogoliubov state<br>Z) Instantaneous collapse state</div><div>ANSWER: X) Eigenstate</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A point charge of 10 coulombs is enclosed inside a cube with side length 1 meter. In terms of ε<sub>0</sub>, what is the total electric flux through this cube?</div><div>ANSWER: 10 coulombs/ε<sub>0</sub> <span class="also-accept">(also accept: 10/ε<sub>0</sub>)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+The cyclization of glutamine produces what residue which is known as a helix breaker along with glycine?</div><div>W) Pyrrolysine<br>X) Proline<br>Y) Selenocysteine<br>Z) Glutamic acid</div><div>ANSWER: X) Proline</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Porphyrin rings are an important component of hemoglobin and cytochromes. In non-photosynthetic eukaryotes, what amino acid residue is the precursor of porphyrin?</div><div>ANSWER: Glycine</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+How many stereocenters does the linear form of glucose have?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three compounds which have prochiral sp<sup>2</sup> carbons
+1) Acetone
+2) 2-butanone
+3) Cyclohexanone</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A sequence of three numbers which starts with 6 is both an arithmetic and a geometric sequence. What is the last number in the sequence?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+A cylinder’s surface area is numerically equal to its volume. Which of the following is the largest integer value that can NOT be the radius of the cylinder?</div><div>W) 1<br>X) 2<br>Y) 3<br>Z) 4</div><div>ANSWER: X) 2</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+In a normal distribution with a mean of 0 and standard deviation 1, which of the following z-scores most closely corresponds to a percentile of 70%?</div><div>W) 0.2<br>X) 0.5<br>Y) 1<br>Z) 1.5</div><div>ANSWER: X) 0.5</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What are all the real eigenvalues of the 3 by 3 matrix whose entries are all 1?</div><div>ANSWER: 0 and 3</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Three of the four Galilean moons of Jupiter are locked in a 1:2:4 orbital resonance. Which Galilean moon is NOT part of this resonance?</div><div>ANSWER: Callisto</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following best characterizes the values of the density parameter, omega, that would imply an open universe?</div><div>W) Omega is greater than 0<br>X) Omega is greater than 1<br>Y) Omega is less than 0<br>Z) Omega is less than 1</div><div>ANSWER: Z) Omega is less than 1</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+The Lehmann group at MIT studies RNA localization in Drosophila. mRNA localization to structures called germ granules is crucial to its translational activation, which would most likely be mediated by what structural component of mRNA?</div><div>W) 5’ cap<br>X) 5’ UTR<br>Y) 3’ UTR<br>Z) Poly-A tail</div><div>ANSWER: Y) 3’ UTR</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+The Lehmann group also researches the inheritance of the mitochondrial genome. In evolutionary genetics, what is the term for the process in which mutations accumulate in the absence of robust recombination mechanisms, such as in the mitochondria?</div><div>ANSWER: Muller’s ratchet</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A gas expands from an initial volume to a final volume, what process uses the least amount of work?</div><div>W) Reversible isobaric expansion<br>X) Reversible isothermal expansion<br>Y) Irreversible isothermal expansion<br>Z) Reversible adiabatic expansion</div><div>ANSWER: Z) Reversible adiabatic expansion</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following best describes a vector in Minkowski space that lies inside of the light cone?</div><div>W) Timelike<br>X) Spacelike<br>Y) Lightlike<br>Z) Null</div><div>ANSWER: W) Timelike</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+10 grams of which of the following substances would result in the greatest freezing point depression in aqueous solution?</div><div>W) Ethanol<br>X) Sodium chloride<br>Y) Hydrogen chloride<br>Z) Magnesium chloride</div><div>ANSWER: Y) Hydrogen chloride</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following aqueous solutions will have the largest ionic strength?</div><div>W) 1 molar potassium chloride solution<br>X) 0.75 molar calcium chloride solution<br>Y) 0.5 molar aluminum chloride solution<br>Z) 0.25 molar titanium four chloride solution</div><div>ANSWER: Y) 0.5 molar aluminum chloride solution</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+In an interrupted mating experiment, conjugation between an Hfr bacterial cell and an F-bacterial cell is allowed to occur for a limited time. What are the most probable resulting strains of the two cells, respectively?</div><div>W) Hfr and F-<br>X) Hfr and F+<br>Y) Hfr and Hfr<br>Z) F+ and F-</div><div>ANSWER: W) Hfr and F-</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true of non-Mendelian inheritance patterns
+1) Maternal effect genes can be controlled by mRNA products in the developing oocyte
+2) Variegated coat patterns in mammalian fur almost always occurs in hemizygous individuals
+3) Erasure of one parental allele during genomic imprinting occurs in both somatic and germ-line cells</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+By name or number, order the following three steps in a Western blot in order of occurrence
+1) Blocking with milk
+2) Incubation with secondary antibody
+3) Ponceau stain</div><div>ANSWER: 3, 1, 2</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+SHERLOCK is a diagnostic test for COVID-19 which uses CRISPR-Cas13 to screen for COVID-related macromolecules. Which of the following macromolecules does CRISPR-Cas13 act on?</div><div>W) DNA<br>X) RNA<br>Y) Proteins<br>Z) Carbohydrates</div><div>ANSWER: X) RNA</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+To study computationally difficult problems, which of the following techniques computes the electronic distribution, rather than computing a wave function?</div><div>W) Hartree Fock<br>X) Density Functional Theory<br>Y) Moller-Plesset perturbation theory<br>Z) Configuration interaction</div><div>ANSWER: X) Density Functional Theory</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following three changes that would increase the distance between the first and second peaks in a double slit experiment
+1) Increasing the wavelength of the light
+2) Increasing the distance from the slits to the screen
+3) Increasing the distance between the slits</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+In Earth’s atmosphere, what force is balanced by the gravitational force to maintain hydrostatic equilibrium?</div><div>ANSWER: Pressure-gradient force</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Plutinos are Kuiper belt objects which share which of the following orbital resonances with Neptune?</div><div>W) 2:1<br>X) 3:2<br>Y) 5:2<br>Z) 3:1</div><div>ANSWER: X) 3:2</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Azobisisobutyronitrile is a radical initiator which releases what molecule to generate two tertiary radicals upon heating?</div><div>ANSWER: Nitrogen</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, order the following three radicals in order of increasing stability
+1) Methyl radical
+2) Tertbutyl radical
+3) Hydroxyl radical</div><div>ANSWER: 3,1,2</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A rhombus has a side length of 20, and contains an angle measuring 60 degrees. What is the length of the longest diagonal of the rhombus?</div><div>ANSWER: 20√3</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The population standard deviation of a set of 10 data points is 5. What is the sample standard deviation of the set?</div><div>ANSWER: 5√10 / 3</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers in the Movassaghi group at MIT are studying diketopiperazine rings in potential anticancer products. They have found that n to pi star interactions in the ring’s disulfide bond greatly reduce its capability of being reduced. When a disulfide bond is reduced, what functional group is produced as a result?</div><div>ANSWER: Thiol</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Dinca group at MIT are studying the use of porous catalysts to selectively dimerize ethylene into 1-butene. How many different alkene isomers exist with the same chemical formula as 1-butene?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Rho-dependent termination is an example of a process occurring in which of the following fundamental processes:</div><div>W) DNA replication<br>X) Transcription<br>Y) RNA splicing<br>Z) Translation</div><div>ANSWER: X) Transcription</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Consider 5 genes A-E with dominant and recessive alleles for each individual gene. Assuming a homozygous dominant parent is crossed with a homozygous recessive parent and independent assortment, which of the following gives the probability of second generation offspring exhibiting 3 dominant and 2 recessive phenotypes, assuming the first generation is self-crossed?</div><div>W) 113/512<br>X) 235/1024<br>Y) 135/512<br>Z) 150/512</div><div>ANSWER: Y) 135/512</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is the lowest grade metamorphic mineral?</div><div>W) Sillimanite<br>X) Garnet<br>Y) Chlorite<br>Z) Staurolite</div><div>ANSWER: Y) Chlorite</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+According to the Eddington Approximation, which of the following is closest to the optical depth of the photosphere?</div><div>W) 1/4<br>X) 1/3<br>Y) 2/3<br>Z) 3/4</div><div>ANSWER: Y) 2/3</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following molecules has the lowest boiling point?</div><div>W) Methanol<br>X) Diethyl ether<br>Y) Acetone<br>Z) Water</div><div>ANSWER: X) Diethyl ether</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following is true regarding optical isomerism of complexes with achiral ligands?</div><div>W) Linear complexes display optical isomerism when both ligands differ<br>X) Tetrahedral complexes never display optical isomerism<br>Y) Square planar complexes display optical isomerism when all ligands are different<br>Z) Octahedral complexes with three bidentate ligands will display optical isomerism</div><div>ANSWER: Z) Octahedral complexes with three bidentate ligands will display optical isomerism</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following probability distributions is positively skewed?</div><div>W) Uniform<br>X) Bernoulli<br>Y) Normal<br>Z) Poisson</div><div>ANSWER: Z) Poisson</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Find the integral from 0 to π of x cos(x)dx.</div><div>ANSWER: −2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the Young’s Modulus of a rod of length 3 meters if it shrinks by 1.5 centimeters lengthwise under a pressure of 30 pascals?</div><div>ANSWER: 6,000 pascals</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A tetrahedron is constructed using resistors, such that each edge is composed of a 4-ohm resistor. If two vertices are chosen as the terminals of the resistor, what is the equivalent resistance of this construct, in ohms?</div><div>ANSWER: 2 ohms</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2020 round 3</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2020/3" />
+<meta name="description" content="MIT 2020 round 3: 47 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2020" data-packet="3">
+<div class="float-row mb-3"><span class="float-start">Packet 3 (round 3) of <a href="sets/mit-2020/">MIT 2020</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2020/round3.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following compounds violates the octet rule?</div><div>W) NO<sub>2</sub><br>X) CH<sub>2</sub>Cl<sub>2</sub><br>Y) S<sub>8</sub><br>Z) NCl<sub>3</sub></div><div>ANSWER: W) NO<sub>2</sub></div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+The ideal gas law would best represent a gaseous system under which of the following conditions?</div><div>W) High temperature, high pressure<br>X) High temperature, low pressure<br>Y) Low temperature, high pressure<br>Z) Low temperature, low pressure</div><div>ANSWER: X) High temperature, low pressure</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following experiments was instrumental in discovering the quantization of electron spin?</div><div>W) Michelson-Morley<br>X) Stern-Gerlach<br>Y) Hall<br>Z) Blandford-Znajek</div><div>ANSWER: X) Stern-Gerlach</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the folowing is not a requirement for a fluid to be considered ideal?</div><div>W) The fluid is irrotational<br>X) The density of the fluid is constant throughout<br>Y) The Reynolds number of the fluid is always 0<br>Z) The fluid experiences no shear forces anywhere in its flow</div><div>ANSWER: Y) The Reynolds number of the fluid is always 0</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+In which of the following scenarios would using a 500 millibar constant pressure chart be most useful?</div><div>W) Predicting where low pressure systems may travel over time<br>X) Determining the direction of wind at the surface<br>Y) Determining the location of tornado vortices<br>Z) Determining wind speeds at the surface</div><div>ANSWER: W) Predicting where low pressure systems may travel over time</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true of CO<sub>2</sub> measurements taken at Mauna Loa
+1) CO<sub>2</sub> concentrations peak at the end of winter
+2) CO<sub>2</sub> concentrations have increased by more than 100% from pre-industrial levels
+3) Increases in average CO<sub>2</sub> concentration have been roughly linear over time</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following hormones is synthesized from cholesterol?</div><div>W) Epinephrine<br>X) Thyroxine<br>Y) Aldosterone<br>Z) Oxytocin</div><div>ANSWER: Y) Aldosterone</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four cytoskeletal elements that are primarily associated with the cleavage furrow formed in animal mitotic division.
+1) Actin
+2) Keratin
+3) Myosin
+4) Tubulin</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+To the nearest integer, what is log<sub>3</sub>(7) × log<sub>7</sub>(9)?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+If log<sub>8</sub>(32) = log<sub>x</sub>(3125), what is x?</div><div>ANSWER: 125</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers in the Lodish group at MIT are studying erythropoiesis, the formation of red blood cells. By name or number, identify all of the following four organelles that are missing in red blood cells.
+1) Nucleus
+2) Ribosome
+3) Cell membrane
+4) Mitochondrion</div><div>ANSWER: 1 and 4</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers in the Lodish group are studying brown fat and white fat cells. Which of the following best describes a key feature of brown fat?</div><div>W) Brown fat cells contain low levels of hemoglobin which white fat cells lack, coloring them brown<br>X) Brown fat cells decouple their electron transport chain from ATP production, thus generating more heat<br>Y) Brown fat cells comprise the majority of adipose tissue in the body<br>Z) Brown fat helps cool down the body by acting as a sink for heat</div><div>ANSWER: X) Brown fat cells decouple their electron transport chain from ATP production, thus generating more heat</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three things which can change the equilibrium constant of a reaction.
+1) Changing the temperature
+2) Removing products as they form
+3) Adding more starting material to the reaction mixture</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+How many structural isomers are there for the compound C<sub>5</sub>H<sub>12</sub>?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at the MIT Kavli Institute use observations of the 21-centimeter spectroscopic line in order to better understand the early universe. What molecular element is the source of the 21-centimeter spectroscopic line?</div><div>ANSWER: Hydrogen</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Researchers at MIT’s Research Laboratory for Electronics have been investigating novel methods of representing digital logic on the microscopic level. Which of the following circuit elements is used as the basis of all digital logic gates?</div><div>W) Diode<br>X) Transistor<br>Y) Transformer<br>Z) Rectifier</div><div>ANSWER: X) Transistor</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following is NOT a short term physiological response of the human body to high altitude?</div><div>W) Increased heart rate<br>X) Decreased affinity of hemoglobin to oxygen<br>Y) Increased mitochondria in aerobic tissues<br>Z) Increased breathing rate and depth</div><div>ANSWER: Y) Increased mitochondria in aerobic tissues</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Arrange the following 3 sites from first to last in order of a tRNA’s path through a ribosome
+1) E site
+2) P site
+3) A site</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A car starts from rest and accelerates at 10 meters per second squared. After 4 seconds, how far in meters has the car travelled?</div><div>ANSWER: 80 meters</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following colors would you expect to refract by the largest angle when passing through a prism?</div><div>W) Red<br>X) Yellow<br>Y) Green<br>Z) Violet</div><div>ANSWER: Z) Violet</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+A star has a parallax angle of 0.1 arcseconds. How far away, in parsecs, is the star from the earth?</div><div>ANSWER: 10 parsecs</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following four minerals as being either silicates, carbonates, halides, or sulfates
+1) Quartz
+2) Dolomite
+3) Gypsum
+4) Talc</div><div>ANSWER: 1) Silicate; 2) Carbonate; 3) Sulfate; 4) Silicate</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+In a standard deck of 52 cards, a straight flush is a set of 5 consecutive cards of the same suit, such as the 4, 5, 6, 7, and 8 of clubs. The Ace can be either the highest card or the lowest, but one may not “wrap around”–for instance, the Queen, King, Ace, 2, and 3 of spades do not constitute a straight flush. How many distinct straight flushes are there?</div><div>ANSWER: 40</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+How many ways are there to make change for $9 using only $1, $2, and $5 bills?</div><div>W) 7<br>X) 8<br>Y) 9<br>Z) 10</div><div>ANSWER: X) 8</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following pH values best approximates the pH of a lysosome?</div><div>W) 2<br>X) 5<br>Y) 8<br>Z) 11</div><div>ANSWER: X) 5</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Small molecule inhibitors of proteins associated with which of the following cellular sites will NOT inhibit mitosis?</div><div>W) Microtubule plus end<br>X) Microtubule minus end<br>Y) Topoisomerase I cleavage complex<br>Z) Holliday junction</div><div>ANSWER: Z) Holliday junction</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the term used to describe two lines in space which do not both lie in the same plane?</div><div>ANSWER: Skew <span class="also-accept">(also accept: agonic)</span></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Let A, B, C, and D be the vertices of a regular tetrahedron with side length 12. The lines AB and CD are skew lines. What is the shortest distance between these lines?</div><div>W) 2√5<br>X) 6<br>Y) 4√3<br>Z) 6√2</div><div>ANSWER: Z) 6√2</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following lapse rates is needed to determine the altitude at which a cloud forms?</div><div>W) Dry adiabatic and wet adiabatic<br>X) Dry adiabatic and dew point<br>Y) Dry adiabatic and environmental<br>Z) Environmental and dew point</div><div>ANSWER: X) Dry adiabatic and dew point</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is not a product of the proton-proton chain?</div><div>W) Alpha particle<br>X) Electron<br>Y) Gamma ray<br>Z) Neutrino</div><div>ANSWER: X) Electron</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the name of the maximum distance from a black hole that light can still escape from?</div><div>ANSWER: Schwarzchild radius</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A vat of molecular hydrogen is at a temperature of 400 kelvin. What temperature would a vat of oxygen molecules need to be at in order for the oxygen to have the same root-mean-square velocity as the hydrogen?</div><div>W) 100 kelvin<br>X) 400 kelvin<br>Y) 1600 kelvin<br>Z) 6400 kelvin</div><div>ANSWER: Z) 6400 kelvin</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following quantities increases as the concentration of the solute in a solution increases?</div><div>W) Vapor pressure<br>X) Boiling point<br>Y) Freezing point<br>Z) Ideality</div><div>ANSWER: X) Boiling point</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+The point in a titration at which the indicator can be seen to change color is best described as which of the following:</div><div>W) Endpoint<br>X) Equivalence point<br>Y) Normality point<br>Z) Stoichiometric point</div><div>ANSWER: W) Endpoint</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+In September 2020, researchers at MIT, Cardiff University, and elsewhere reportedly found the spectral fingerprint of phosphine in the atmosphere of Venus, which they believe may be a sign of extraterrestrial life, a claim which other researchers have since contested. What is the oxidation state of phosphorus in the phosphine molecule?</div><div>ANSWER: −3</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Resarchers in the Gedik group at MIT are studying condensed matter physics, including the conductivity in various materials. One material they have been interested in is a single layer of carbon, which has exhibited distinctive conductive properties. What carbon material are they studying?</div><div>ANSWER: Graphene</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is the name of the supermassive black hole at the center of the Milky Way?</div><div>W) Sagittarius A*<br>X) Cygnus X-1<br>Y) M87-star<br>Z) Crab Nebula</div><div>ANSWER: W) Sagittarius A*</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, arrange the following 4 stellar spectral classes in order of decreasing surface temperature
+1) B
+2) M
+3) F
+4) K</div><div>ANSWER: 1,3,4,2</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following behaviors is NOT characteristic of an r -selected species?</div><div>W) High number of offspring per parent<br>X) Type III population curve<br>Y) Inverted population age pyramid<br>Z) Low parental care</div><div>ANSWER: Y) Inverted population age pyramid</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four blood vessels that carry oxygenated blood in the human body
+1) Pulmonary artery
+2) Pulmonary vein
+3) Aorta
+4) Vena cava</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The result of a force being applied to an object over a period of time is a net change in its momentum, known as what?</div><div>ANSWER: Impulse</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A 10-centimeter-long solenoid with 100 windings carries 5 amperes of current. What is the magnetic field at the center of the solenoid, in teslas to one significant figure? Take the permeability of free space to be 1.26 × 10<sup>-6</sup> henries per meter.</div><div>ANSWER: 6 × 10<sup>-3</sup> teslas</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Let σ be the standard deviation of a set of values. If each value in the set is tripled, what is the standard deviation of the new set?</div><div>W) σ/3<br>X) σ<br>Y) 3 σ<br>Z) 9 σ</div><div>ANSWER: Y) 3 σ</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Convert the value 1111 in base 8 into base 2.</div><div>ANSWER: 1001001001</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following salts has the highest lattice enthalpy?</div><div>W) LiF<br>X) NaCl<br>Y) MgO<br>Z) CdS</div><div>ANSWER: Y) MgO</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+2 grams of diatomic hydrogen and 16 grams of diatomic oxygen react together to form hydrogen peroxide. Assuming the reaction goes to completion, what is the mass of hydrogen peroxide formed to the nearest gram?</div><div>ANSWER: 17</div></div><hr><div class="packet-question"><div class="q-text">47. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following four minerals which are silicates
+1) Quartz
+2) Dolomite
+3) Gypsum
+4) Talc.</div><div>ANSWER: 1, 4</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

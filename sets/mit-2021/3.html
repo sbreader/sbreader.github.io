@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2021 round 3</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2021/3" />
+<meta name="description" content="MIT 2021 round 3: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2021" data-packet="3">
+<div class="float-row mb-3"><span class="float-start">Packet 3 (round 3) of <a href="sets/mit-2021/">MIT 2021</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2021/round3.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Which reproductive plant organ contains the stigma, style, and ovary?</div><div>ANSWER: Carpel <span class="also-accept">(also accept: pistil)</span></div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+In plants, which ion is released in the cytoplasm immediately after gamete fusion?</div><div>W) Potassium<br>X) Calcium<br>Y) Magnesium<br>Z) Sodium</div><div>ANSWER: X) Calcium</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+A star has a temperature 5 times that of the sun and a radius 2 times that of the sun. The luminosity of this star is how many times greater than the solar luminosity?</div><div>ANSWER: 2500</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Approximately how thin is the earth’s oceanic crust?</div><div>W) 1 kilometer<br>X) 10 kilometers<br>Y) 100 kilometers<br>Z) 1000 kilometers</div><div>ANSWER: X) 10 kilometers</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The Lamason group at MIT studies the life cycle of Listeria monocytogenes, which causes listeriosis after consumption of contaminated foods. This bacterium, though capable of surviving in the absence or presence of oxygen, prefers aerobic respiration, and is termed what kind of anaerobe?</div><div>ANSWER: Facultative</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+The Lamason group at MIT studies the intracellular life cycle of Rickettsia parkeri, a small bacterium whose genus causes many human diseases. Which of the following diseases is NOT caused by rickettsias?</div><div>W) Lyme disease<br>X) Spotted fever<br>Y) Typhus fever<br>Z) Scrub typhus</div><div>ANSWER: W) Lyme disease</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+By name or number, identify all the following four units that are base SI units
+1) Meter
+2) Gram
+3) Coulomb
+4) Second</div><div>ANSWER: 1 and 4</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+What is the shape of an object’s orbit if it is moving at above escape velocity?</div><div>ANSWER: Hyperbola</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Magnetite has chemical formula Fe<sub>3</sub>O<sub>4</sub>. In one formula unit of magnetite, how many iron II ions are there?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following statements which are true of the anion [FeO<sub>4</sub>]<sup>2-</sup>
+1) It is a strong oxidizing agent.
+2) It is only stable in acidic conditions
+3) The oxidation state of iron in this compound is +6.</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the taxicab distance (also known as the Manhattan distance) between the points (3, 4) and (6, 2)?</div><div>ANSWER: 5</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+If two points in the Cartesian plane are at a Euclidean distance of 6, then what are the minimum and maximum possible taxicab distance between them?</div><div>ANSWER: 6 and 6√2</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following three neutral atoms in order of increasing electron affinity
+1) Chlorine
+2) Gold
+3) Oxygen</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+In the most stable resonance structure of the cyanate anion, what is the formal charge on the oxygen atom?</div><div>ANSWER: −1</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following terms best characterizes the movement of a fly moving towards a sample of strongly-scented food?</div><div>W) Positive chemotaxis<br>X) Negative chemotaxis<br>Y) Positive phototaxis<br>Z) Negative phototaxis</div><div>ANSWER: W) Positive chemotaxis</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What type of distribution best characterizes populations in environments in which resources are scarce?</div><div>ANSWER: Clumped</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Two springs with spring constants 4 newtons per meter and 2 newtons per meter are attached in series to a box weighing 10 kilograms. What is the effective spring constant of the system, in newtons per meter?</div><div>ANSWER: 4/3 newtons per meter</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, rank the following three types of radiation in terms of increasing ability to penetrate through barriers
+1) Alpha
+2) Beta
+3) Gamma</div><div>ANSWER: 1,2,3</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers in the Center for Theoretical Physics at MIT are working on designing quantum computers to tackle large datasets which are challenging to analyze by classical means. What basic unit of information is used to build quantum computers?</div><div>ANSWER: Qubits</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Scientists in the Guth group at MIT have been studying the physics of the early universe. To do so, they have been analyzing data from WMAP, a probe which measures temperature differences in what energy remnant from the Big Bang?</div><div>ANSWER: Cosmic microwave background radiation <span class="also-accept">(also accept: CMBR)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, arrange the following four minerals in order of increasing melting point
+1) Amphibole
+2) Biotite
+3) Olivine
+4) Quartz</div><div>ANSWER: 4,2,1,3</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+On a psychrometer, if the dry bulb and the wet bulb temperatures are the same, what is the relative humidity?</div><div>ANSWER: 100%</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which mathematician is credited with the first proof that there are infinitely many prime numbers?</div><div>W) Euclid<br>X) Leonhard Euler<br>Y) Carl Friedrich Gauss<br>Z) Bernhard Riemann</div><div>ANSWER: W) Euclid</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the smallest possible surface area of a solid which has a volume of 12?</div><div>ANSWER: 12∛(3π) <span class="also-accept">(also accept: 12(3π)<sup>1/3</sup>)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following gas molecules will have the largest constant volume molar heat capacity at standard conditions?</div><div>W) Diatomic hydrogen<br>X) Hydrogen chloride<br>Y) Sulfur dioxide<br>Z) Diatomic nitrogen</div><div>ANSWER: Y) Sulfur dioxide</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three statements that would be true of the boiling of water at a temperature T above its normal boiling point of 373 kelvin.
+1) The enthalpy of vaporization for water at T is more positive than the enthalpy of vaporization at 373 kelvin.
+2) The Gibbs free energy of vaporization for water at T is more positive than the Gibbs free energy of vaporization at 373 kelvin.
+3) The change in internal energy for the boiling of water at T is more positive than the change in internal energy at 373 kelvin.</div><div>ANSWER: None of them</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+How many zeroes does the number 33! end in?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many ways can a 2-by-2 grid of squares be painted such that each square is either red, green, or blue, and no two squares that share a side have the same color?</div><div>ANSWER: 18</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A simple pendulum with length L is released 50 degrees from the vertical. Which of the following describes the period of the resulting oscillations?</div><div>W) The pendulum will not oscillate<br>X) Less than 2π√(L/g)<br>Y) 2π√(L/g)<br>Z) More than 2π√(L/g)</div><div>ANSWER: Z) More than 2π√(L/g)</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A mass is placed on an inclined plane, which is angled 45 degrees from horizontal and has a coefficient of friction of 0.14. To the nearest meter per second squared, what is the acceleration of the mass?</div><div>ANSWER: 6 meters per second squared</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+How many cotyledons does the seed of a tulip exhibit?</div><div>W) 1<br>X) 2<br>Y) 3<br>Z) 4</div><div>ANSWER: W) 1</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following is NOT a trait of a dicot plant?</div><div>W) Taproots<br>X) Net-like veins<br>Y) 4 to 5 petals<br>Z) Two pollen furrows</div><div>ANSWER: Z) Two pollen furrows</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following three layers of the sun from outermost to innermost
+1) Chromosphere
+2) Photosphere
+3) Corona</div><div>ANSWER: 3,1,2</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+What is the name of the semiarid climate region characterized by grassland plains without trees occuring in temperate climates?</div><div>W) Desert<br>X) Steppe<br>Y) Chaparral<br>Z) Taiga</div><div>ANSWER: X) Steppe</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers in the Ceyer group at MIT are studying the reaction of xenon difluoride with a silicon surface, in which the silicon abstracts a fluorine atom from the compound. What is the electron pair geometry of xenon difluoride?</div><div>ANSWER: Trigonal bipyramidal</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+The Danheiser group at MIT is working on annulation strategies to form rings of various sizes in organic synthesis. One of the strategies is to use allenes and tosyl cyanide. In an allene structure, what is the hybridization of the middle carbon?</div><div>ANSWER: sp</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Proteolipid protein accounts for a majority of what general substance that is absent from the nodes of Ranvier?</div><div>ANSWER: Myelin</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following best explains the reason why action potentials only proceed in one direction?</div><div>W) The region behind the action potential has its sodium channels closed<br>X) The region behind the action potential has its sodium channels open<br>Y) The region behind the action potential has its potassium channels closed<br>Z) The region behind the action potential has its potassium channels open</div><div>ANSWER: W) The region behind the action potential has its sodium channels closed</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following three colors of light which have wavelengths greater than green light
+1) Red
+2) Violet
+3) Orange</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following fundamental forces are sterile neutrinos thought to be able to interact with?</div><div>W) Strong nuclear<br>X) Weak nuclear<br>Y) Electromagnetic<br>Z) Gravitational</div><div>ANSWER: Z) Gravitational</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three diatomic molecules which have a bond order of 3
+1) O<sub>2</sub><sup>−</sup>
+2) CN<sup>–</sup>
+3) CO</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+In which of the following compounds is the N–O bond order the least?</div><div>W) N<sub>2</sub>O<br>X) NO<br>Y) NO<sub>2</sub><br>Z) NO<sub>2</sub><sup>-</sup></div><div>ANSWER: W) N<sub>2</sub>O</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following statements follows from the statement &quot;If A, then B?&quot;</div><div>W) If B, then A<br>X) If not A, then not B<br>Y) If not B, then not A<br>Z) If not A, then B</div><div>ANSWER: Y) If not B, then not A</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Three ordinary six-sided dice are rolled. What is the probability that the product of the numbers shown is composite?</div><div>ANSWER: 103 / 108</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The last ice age occurred during which of the following epochs?</div><div>W) Eocene<br>X) Miocene<br>Y) Pleistocene<br>Z) Holocene</div><div>ANSWER: Y) Pleistocene</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is closest to the ratio of the luminosity of a main sequence star to another main sequence star with half the mass?</div><div>W) 1.6<br>X) 3<br>Y) 8<br>Z) 11</div><div>ANSWER: Z) 11</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

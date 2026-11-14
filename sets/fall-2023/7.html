@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Fall 2023 Round 7</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/fall-2023/7" />
+<meta name="description" content="Fall 2023 Round 7: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="fall-2023" data-packet="7">
+<div class="float-row mb-3"><span class="float-start">Packet 7 (Round 7) of <a href="sets/fall-2023/">Fall 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1T7SdZQ90ecKZB9DCTsh6e8HGZs6c_ZJp/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Shining yellow light onto a metal surface ejects electrons. Identify all of the following three colors of light that will also eject electrons when shone onto the surface
+1) Blue light
+2) Green light
+3) Red light.</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three elements that, when doped into silicon, create an n-type semiconductor
+1) Gallium
+2) Arsenic
+3) Phosphorus.</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Scientists in the Niyogi Lab at UC Berkeley are researching new ways to increase the amount of carbon dioxide that is sequestered by plants to combat rising CO<sub>2</sub> levels in the atmosphere. Which of the following processes is most directly responsible for carbon sequestration?</div><div>W) Calvin cycle<br>X) Cellular respiration<br>Y) Oxidative phosphorylation<br>Z) Light-dependent reactions</div><div>ANSWER: W) Calvin cycle</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at the Lawrence Berkeley National Lab have recently simulated the behavior of auxetic materials, those which expand in the direction perpendicular to an applied stress. What is the term for the ratio of deformation in the direction perpendicular to an applied stress compared to the deformation parallel to an applied stress?</div><div>ANSWER: POISSON’S RATIO</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following four volcanic features that cut across horizontal layers of rock
+1) Dike
+2) Sill
+3) Branch pipe
+4) Conduit.</div><div>ANSWER: 1, 3, 4</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The star Alpha Centauri B has a mass that is 0.9 times that of the sun. This star converts hydrogen to helium by primarily using what set of fusion reactions?</div><div>ANSWER: PROTON-PROTON CHAIN <span class="also-accept">(also accept: P-P CHAIN)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+How many four-digit palindromes are divisible by four?</div><div>ANSWER: 20</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Identify all of the following three points that must always be contained within a triangle
+1) Centroid
+2) Circumcenter
+3) Orthocenter.</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Unpolarized light is passed through two ideal polarizing sheets. The transmission axis of the first sheet is horizontal, and the second sheet’s axis is 60 degrees above the horizontal. What is the ratio of the final intensity to the intensity of the initial unpolarized light?</div><div>ANSWER: 1/8</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Neal measures the rate of heat transfer through two samples, A and B. B has half the rate of heat transfer of A, with twice the cross-sectional area. Assuming the boundary temperatures stay the same, what is the ratio of the length of B to A?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Which neurotransmitter produced in the substantia nigra is deficient in Parkinson’s disease?</div><div>ANSWER: DOPAMINE</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+When studying a cellular organelle, you observe that it contains small circular molecules of DNA and free-floating ribosomes. Which of the following could be the identity of this organelle?</div><div>W) Nucleus<br>X) Mitochondria<br>Y) Rough endoplasmic reticulum<br>Z) Lysosome</div><div>ANSWER: X) Mitochondria</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is NOT a star in the Winter Triangle?</div><div>W) Rigel<br>X) Procyon<br>Y) Sirius<br>Z) Betelgeuse</div><div>ANSWER: W) Rigel</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The Sunda fault is an example of what type of fault that forms at a subduction zone and can produce large magnitude earthquakes?</div><div>ANSWER: MEGATHRUST FAULT</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+When a ball is tossed off of a ramp that slopes downwards away from the throw with a 45-degree incline, which of the following angles above the horizontal, in degrees, should the ball be thrown at to maximize horizontal distance traveled?</div><div>W) 0<br>X) 22.5<br>Y) 45<br>Z) 67.5</div><div>ANSWER: X) 22.5</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A wind turbine generates power proportional to air density, blade length, and wind speed, each raised to some exponent. By what factor is the power generated by a wind turbine multiplied when the blade length is doubled?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following adaptive immune cells is responsible for releasing perforin and granzyme B to induce apoptosis in infected cells or tumor cells?</div><div>W) Cytotoxic T cell<br>X) Helper T cell<br>Y) B cell<br>Z) Macrophage</div><div>ANSWER: W) Cytotoxic T cell</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+The gene segment coding for the active site of an enzyme undergoes a single nucleotide mutation at one of the codons in the gene. If the codon previously coded for methionine, which of the following amino acids will LEAST affect enzyme function?</div><div>W) Leucine<br>X) Threonine<br>Y) Glycine<br>Z) Glutamic acid</div><div>ANSWER: W) Leucine</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+A gaseous mixture of O<sub>2</sub> and N<sub>2</sub> has a total pressure of 2 atmospheres. If the mole fraction of O<sub>2</sub> is 0.3, then what is the partial pressure of N<sub>2</sub> in atmospheres?</div><div>ANSWER: 1.4</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Order the following four ions in order of increasing ionic radius
+1) Fluorine minus
+2) Oxygen 2-minus
+3) Sodium plus
+4) Aluminum 3-plus.</div><div>ANSWER: 4, 3, 1, 2</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at the Space Sciences Laboratory at UC Berkeley are continually searching for 21 centimeter radiation to study the history of the universe. Which neutral element emits electromagnetic radiation with a wavelength of 21 centimeters?</div><div>ANSWER: HYDROGEN</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Energy <i>Short Answer</i>
+Scientists at the Lawrence Livermore National Lab are investigating the usage of carbon nanotubes as protection against various biothreats. Identify all of the following three properties that have been observed in carbon nanotubes
+1) High electrical conductivity
+2) High thermal conductivity
+3) High tensile strength.</div><div>ANSWER: 1, 2, 3</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+The complex number 4 – 2i is contained within what quadrant of the complex plane?</div><div>ANSWER: FOURTH</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+For what value of x is the function f(x) = x to the power 1 over x maximized?</div><div>ANSWER: e</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+The reaction A + B forms C is first order in both A and B. What are the correct units for the rate constant of this reaction?</div><div>ANSWER: LITERS PER MOLE PER SECOND <span class="also-accept">(also accept: INVERSE MOLAR TIMES INVERSE SECOND)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+How many different hybridization states are present in benzoic acid?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers at Lawrence Berkeley National Lab have developed a portable optical Thomson scattering diagnostic system for the study of nuclear fusion. Thomson scattering is the low-energy limit of what type of scattering?</div><div>ANSWER: COMPTON SCATTERING</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Scientists at the Barton lab study the selectivity of Pathogen Associated Molecular Patterns (PAMPs), in which certain molecules present in pathogens trigger an immune response upon binding to Toll-Like Receptors in cells. Identify all of the following molecules that will activate Toll-Like Receptors and trigger a PAMP related pathway
+1) Double Stranded RNA
+2) Flagellin
+3) Lipopolysaccharide</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the term for the erosional process in which rock particles in flowing water undergo collisions and grinding, becoming smaller and more rounded?</div><div>ANSWER: ATTRITION</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The concept of self-sustaining star formation theorizes that the birth of massive stars triggers the formation of more stars in the offshoots of spiral galaxies, leading to patchy, discontinuous arms. What classification of spiral galaxies would be accounted for by self-sustaining star formation?</div><div>ANSWER: FLOCCULENT</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three proteins that engage in active transport across the plasma membrane
+1) ATP synthase
+2) Sodium potassium pump
+3) Aquaporins.</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+There are 9000 kilocalories of energy available at the producer level. Which of the following is closest to the amount of energy available, in kilocalories, to secondary consumers in that ecosystem?</div><div>W) 1000<br>X) 900<br>Y) 100<br>Z) 90</div><div>ANSWER: Z) 90</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A collection of magnets is enclosed within a spherical surface. If the magnetic flux through the upper hemisphere of the surface is 10 webers, what is the magnitude of magnetic flux, in webers, through the lower hemisphere?</div><div>ANSWER: 10</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A ball is thrown with velocity 2 meters per second towards a wall which is moving towards the ball at 5 meters per second. Assuming the collision is elastic, with what speed, in meters per second, will the ball bounce back at?</div><div>ANSWER: 12</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the probability of rolling an even number or a multiple of five on a single roll of a fair twelve-sided die?</div><div>ANSWER: 7/12</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Calculate the area of the parallelogram which has two sides given by the vectors 3i + 4j and i + 2j.</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What type of lakes are formed when meanders of rivers are cut off?</div><div>ANSWER: OXBOW LAKES</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Order the following three moons from highest to lowest albedo
+1) Earth’s Moon
+2) Enceladus
+3) Ganymede.</div><div>ANSWER: 2, 3, 1</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A 2-kilogram mass is connected to a spring with a spring constant of 50 newtons per meter, then stretched 2 meters. In meters and to two significant figures, at what distance from the relaxed position does the spring have half of its initial potential energy?</div><div>ANSWER: 1.4</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A battery with a voltage of V supplies current to a circuit which consists of three one ohm resistors in parallel and one additional one ohm resistor in series with the three other resistors. If each of the resistances is doubled, and the voltage of the battery is tripled, by what factor does the current through the battery change?</div><div>ANSWER: 3/2 <span class="also-accept">(also accept: 1.5)</span></div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three Darwinian conditions that are essential for genetic drift to occur
+1) Inheritable traits
+2) Speciation
+3) Variable phenotypes.</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following is not a species concept that biologists use to classify organisms into species?</div><div>W) Morphological<br>X) Phylogenetic<br>Y) Biological<br>Z) Chronological</div><div>ANSWER: Z) Chronological</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following species does NOT exhibit resonance in its most contributing Lewis structure?</div><div>W) Benzene<br>X) Methanol<br>Y) Nitrate ion<br>Z) Sulfite ion</div><div>ANSWER: X) Methanol</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following types of decay will oxygen-15 most likely undergo?</div><div>W) Positron emission<br>X) Beta decay<br>Y) Alpha decay<br>Z) Gamma decay</div><div>ANSWER: W) Positron emission</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the largest integer power of 10 that divides 19 factorial?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many solutions to the equation x + y + z = 7 exist, such that x, y, and z are all nonnegative integers?</div><div>ANSWER: 36</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2021 round 11</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2021/11" />
+<meta name="description" content="MIT 2021 round 11: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2021" data-packet="11">
+<div class="float-row mb-3"><span class="float-start">Packet 11 (round 11) of <a href="sets/mit-2021/">MIT 2021</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2021/round11.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+In writing down all the positive integers between 1 and 200, inclusive, how many times does the digit 2 occur?</div><div>ANSWER: 41</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Alice wants to remove one square from a 8 by n square grid and tile the remaining squares with pieces that are made up of three squares in the shape of an L. For how many values of n less than 20 would there exist a square which she can remove from the grid such that such a tiling is possible?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+In most non-primate organisms, the enzyme urate oxidase serves to catalyze the oxidation of uric acid. In cells, urate oxidase is mostly localised in the core of what organelle?</div><div>ANSWER: Peroxisome</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true of nucleic acid bases
+1) Adenosine deaminase catalyzes the conversion of adenosine to inosine
+2) Wobble base-pairing with xanthine is a common regulatory mechanism in DNA
+3) RNA strands with higher GC content tend to have higher melting points than those with lower GC content</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The K-plus meson is composed of an up quark and antistrange quark. What is the net strangeness of the K-plus meson?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+What quantity, which consists of a sum of Boltzmann factors of possible microstates, can be used in statistical mechanics to find various state functions of the system?</div><div>ANSWER: Partition function</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+The COBE probe accurately measured the near-perfect black body spectrum of what phenomenon?</div><div>ANSWER: Cosmic Microwave Background Radiation <span class="also-accept">(also accept: CMB; CMBR)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What class of eclipsing binaries, named after a Perseus star, is semidetached and has a star whose Roche lobe is unfilled?</div><div>ANSWER: Algol variables <span class="also-accept">(also accept: Algol-type binaries; Algol)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The Van Voorhis group at MIT is developing new methods based on density functional theory to provide an accurate description of excited electron motion in molecular systems. Density functional theory is based on what quantum mechanical principle which states that the ground state energy of a system is always less than or equal to the energy of a trial wavefunction for the system?</div><div>ANSWER: Variational Principle</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The Van Voorhis group at MIT is currently studying methods to harness solar energy using semiconductors. By name or number, identify all of the following three statements which are true about semiconductors
+1) The valence band and conduction band do not intersect on an undoped semiconductor.
+2) Elemental silicon is a semiconductor.
+3) Doping a semiconductor will result in a change in the Fermi energy</div><div>ANSWER: All of them</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following real gases has a higher molar heat capacity than dioxygen?</div><div>W) Dihydrogen<br>X) Helium<br>Y) Dinitrogen<br>Z) Difluorine</div><div>ANSWER: Z) Difluorine</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Consider a closed system consisting of some particles which are free to occupy a certain finite number of states. By name or number, indicate all of the following three statements which are true of this system as the temperature approaches infinity
+1) All states have an equal probability of being occupied
+2) The constant volume heat capacity approaches zero
+3) Doubling the number of states will double the entropy</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What famous paradox in set theory considers the set of all sets which do not contain themselves?</div><div>ANSWER: Russell’s paradox</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Which of the following axioms is not an axiom of Zermelo- Fraenkel set theory?</div><div>W) Axiom of power set<br>X) Axiom of induction<br>Y) Axiom of infinity<br>Z) Axiom of pairing</div><div>ANSWER: X) Axiom of induction</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the name of the most general process for evaluating the mutagenic potential of certain chemicals through the use of a histidine medium?</div><div>ANSWER: Ames Test</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four actions that can be performed by DNA polymerase III
+1) Addition of a new nucleotide at the 5’ end of a DNA strand
+2) Addition of a new nucleotide at the 3’ end of a DNA strand
+3) Removal of a nucleotide at the 5’ end of a DNA strand
+4) Removal of a nucleotide at the 3’ end of a DNA strand</div><div>ANSWER: 2 and 4</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What solution to the Einstein field equations describes a charged, nonrotating black hole?</div><div>ANSWER: Reissner-Nordstrom metric</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The cosmic microwave background photons experience slight polarization in the positive x and z-directions by Thompson scattering. What perceived property of the CMB was theorized to negate these effects by effectively providing for zero net polarization?</div><div>ANSWER: Isotropy <span class="also-accept">(also accept: Symmetry)</span></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The ability of a junction formed by two superconductors separated by a thin insulating barrier to continuously have current flow between them is known as what effect?</div><div>ANSWER: Josephson effect</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following types of diode is specially designed to allow some amount of back current when a reverse voltage is applied?</div><div>W) Zener diode<br>X) Frenkel diode<br>Y) Schottky diode<br>Z) Hender diode</div><div>ANSWER: W) Zener diode</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following aromatic compounds, when mononitrated with nitric and sulfuric acid, will be nitrated at the 2 position as the major product?</div><div>W) Pyridine<br>X) Indole<br>Y) Pyrrole<br>Z) Nitrobenzene</div><div>ANSWER: Y) Pyrrole</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following three dienes from least to greatest ability to participate in a Diels-Alder reaction
+1) Cyclopentadiene
+2) Pyrrole
+3) Furan</div><div>ANSWER: 2,3,1</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers in the Lourido group at MIT are currently studying apicomplexans, a parasitic protist. Which of the following protist supergroups contains the aforementioned protists?</div><div>W) Excavata<br>X) SAR<br>Y) Archaeplastida<br>Z) Unikonta</div><div>ANSWER: X) SAR</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers in the Burge group are investigating new structural and bonding patterns of DNA. Answer the following two questions regarding DNA intermolecular bonding
+1) When guanine nucleotides self-associate, what is the theoretical maximum number of guanosines that are bonded together at one time?
+2) The guanine nucleotide bonding mentioned above, is an example of what general class of non-Watson Crick base pairing?</div><div>ANSWER: 1) 4 2) Hoogsteen Pairing</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+In base-10, how many digits are there in 2021<sup>10</sup>?</div><div>ANSWER: 34</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A ball of radius 4 is cut into two pieces by a plane at distance 1 from its center. What is the surface area of the larger of the two pieces?</div><div>ANSWER: 55π</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following chromosome shapes describes a chromosome in which one arm is slightly shorter than the other?</div><div>W) Metacentric<br>X) Submetacentric<br>Y) Acrocentric<br>Z) Telocentric</div><div>ANSWER: X) Submetacentric</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What is the karyotyping technique for visualizing chromosomes called in which heterochromatin appears darker and euchromatin appears lighter?</div><div>ANSWER: Giemsa stain <span class="also-accept">(also accept: G-banding; Giemsa-banding)</span></div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following four structures that typically contain older rocks towards their centers
+1) Syncline
+2) Anticline
+3) Dome
+4) Basin</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Doppler shifts in what specific type of radiation are often used as a tracer to measure galactic rotation curves?</div><div>ANSWER: 21-centimeter line <span class="also-accept">(also accept: 21-centimeter; hydrogen 21-centimeter line; H1 line)</span></div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+N-heterocyclic carbenes can be formed by deproto-nating a derivative of what 5-membered heterocycle?</div><div>ANSWER: Imidazole</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three statements which are true of N-heterocyclic carbenes
+1) The carbon is formally sp<sup>2</sup> hybridized
+2) The carbene is a singlet carbene
+3) Lone pairs from the nitrogen donate into the empty p orbital of the carbon atom</div><div>ANSWER: All of them</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at MIT are studying X-ray signatures from Betelgeuse taken by the NuSTAR Telescope, in the hopes of detecting what hypothetical dark matter candidate, which is thought to be produced from photons in the cores of massive stars via the Primakoff effect?</div><div>ANSWER: Axion</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at MIT are studying X-ray signatures from Betelgeuse taken by the NuSTAR Telescope, in the hopes of detecting axions. By name or number, identify all of the following three statements that are true of axions
+1) They were proposed as a solution to the Strong-CP problem
+2) They would be a component of Cold Dark Matter
+3) They would have a charge of 0</div><div>ANSWER: 1,2,3</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+What is the shape of a suspension bridge’s massless cables if they support a uniform load?</div><div>W) Parabola<br>X) Catenary<br>Y) Sinusoid<br>Z) Circular arc</div><div>ANSWER: W) Parabola</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The Super-Kamiokande experiment was initially designed to detect what theoretical process, which has a predicted half-life on the order of 10<sup>34</sup> years, and is predicted by multiple grand unified theories?</div><div>ANSWER: Proton decay</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A viscous fluid undergoes laminar fluid through a cylindrical pipe with a radius of 2 centimeters. Assume the fluid is at rest next to the walls of the pipe. What is the ratio of the speed of the fluid at a distance of 1 centimeter from the center to that of the fluid at the center of the pipe?</div><div>ANSWER: 3 / 4</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following is closest to the critical speed at which gasoline, which has a dynamic viscosity of 3.0 × 10<sup>-4</sup> kilograms per meter per second and a density of 750 kilograms per cubic meter, will become turbulent flowing through a cylindrical pipe with a diameter of 4.0 centimeters?</div><div>W) 1.0 × 10<sup>-5</sup> meters per second<br>X) 5.0 × 10<sup>-4</sup> meters per second<br>Y) 8.0 × 10<sup>-3</sup> meters per second<br>Z) 2.0 × 10<sup>-2</sup> meters per second</div><div>ANSWER: Z) 2.0 × 10<sup>-2</sup> meters per second</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following techniques would allow for visualization of topologically associated domains or TADs?</div><div>W) ChIP-seq<br>X) 3C<br>Y) Hi-C<br>Z) Single-cell RNA-seq</div><div>ANSWER: Y) Hi-C</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+The histone code hypothesizes that transcription is in part regulated by the combination of histone tail modifications. Which of the following histone tail modifications are most closely associated with ubiquitin?</div><div>W) citrullination<br>X) SUMOylation<br>Y) ADP-ribosylation<br>Z) acetylation</div><div>ANSWER: X) SUMOylation</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following iodine compounds will not disproportionate in base?</div><div>W) Elemental Iodine<br>X) Hypoiodite<br>Y) Iodite<br>Z) Iodate</div><div>ANSWER: Z) Iodate</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Singlet oxygen can undergo cycloaddition with dienes to create what new functional group?</div><div>ANSWER: Organic Peroxide</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Three of the side lengths of a quadrilateral are 4, 6, and 8. What is the sum of all possible integer values of the fourth unknown side length?</div><div>ANSWER: 153</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the derivative in x of the function x<sup>1/lnx</sup>, for positive real x?</div><div>ANSWER: 0</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following four elements that are considered metals in astronomy
+1) Hydrogen
+2) Helium
+3) Nitrogen
+4) Neon</div><div>ANSWER: 3 and 4</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following four fog types that are caused by cooling
+1) Advection
+2) Steam
+3) Radiation
+4) Upslope</div><div>ANSWER: 1, 3, and 4</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

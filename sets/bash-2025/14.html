@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Bash 2025 Finals 2</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/bash-2025/14" />
+<meta name="description" content="Bash 2025 Finals 2: 52 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="bash-2025" data-packet="14">
+<div class="float-row mb-3"><span class="float-start">Packet 14 (Finals 2) of <a href="sets/bash-2025/">Bash 2025</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/bash-2025/Finals%202.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Students at Montgomery Blair are studying type 2 superconductors. Identify all of the following three materials that CANNOT form a type 2 superconductor
+1) Aluminum
+2) YBCO
+3) Lead</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Students at Amador Valley High School have recently had heart attacks and are taking aspirin. Which of the following options best explains how aspirin affects platelets but not endothelial cells?</div><div>W) Aspirin is unable to diffuse through the membrane of endothelial cells due to the more rigid ECM<br>X) The acidic environment created from the sole use of anaerobic respiration within platelets is able to activate aspirin<br>Y) Aspirin recognizes and attaches to receptors on platelets but not endothelial cells<br>Z) Endothelial cells have functional ribosomes and are able to replace cyclooxygenase inactivated by aspirin</div><div>ANSWER: Z) Endothelial cells have functional ribosomes and are able to replace cyclooxygenase inactivated by aspirin</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Christmas disease involves a deficiency in Factor IX. Which of the two pathways that are subsets of the blood clotting pathway would be affected by Christmas disease?</div><div>ANSWER: INTRINSIC PATHWAY</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following desert landforms does not form via differential weathering?</div><div>W) Ventifact<br>X) Inselberg<br>Y) Yardang<br>Z) Chimney</div><div>ANSWER: W) Ventifact</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following four seismic waves that involve some form of compressional motion
+1) P waves
+2) S waves
+3) Love waves
+4) Rayleigh waves</div><div>ANSWER: 1 AND 4</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Tissue factor would be a cofactor to which of the following reactions?</div><div>W) The activation of Factor V<br>X) The activation of Factor VIII<br>Y) The activation of Factor X<br>Z) The activation of Factor XII</div><div>ANSWER: Y) The activation of Factor X</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+While standard proton-proton coupling in nuclear magnetic resonance is a through-bond effect, another effect, caused by dipole-dipole spin interactions, instead occurs through space. What is the name for this effect?</div><div>ANSWER: NUCLEAR OVERHAUSER EFFECT</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Evan is collecting gases from the atmosphere&#39;s various solar system bodies and isolating their main component. Evan passes the gases that he isolates through an insulated valve and notices that the temperatures of the gases change. What is the name for the effect responsible for this temperature change?</div><div>ANSWER: JOULE-THOMSON EFFECT</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">VISUAL BONUS</span> Chemistry <i>Short Answer</i>
+Answer the following two questions about the complex ion shown in the image below
+1. What is the spin multiplicity of this complex ion?
+2. In terms of the octahedral splitting energy Δo, what is the crystal field stabilization energy of this complex?</div><div class="q-figures"><img class="q-figure" src="data/img/bash-2025/86782.webp" width="640" height="607" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) SINGLET; 2) -12Δo/5</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Identify all of the following three properties of a particle that approach infinity as the particle’s velocity approaches the speed of light
+1) Rest mass
+2) Rapidity
+3) Charge</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Katherine is creating a wave on a string with wavefunction psi. The angular velocity omega depends on the wavenumber k as omega of k = 3k<sup>2</sup>-4k + 6. What are the phase velocity and the group velocity, respectively, of the wave at k = 2?</div><div>ANSWER: 5 AND 8</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Energy <i>Short Answer</i>
+Evan is collecting gases from the atmosphere&#39;s various solar system bodies and isolating their main component. Identify all of the following three solar system bodies whose primary atmospheric constituent would increase in temperature when passed through an insulated valve
+1) The Sun
+2) Titan
+3) Uranus</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following describes why the Rule of 70 works well when approximating how long it takes for money to double at small growth rates?</div><div>W) When x is close to 0, the Taylor series of the natural logarithm of x is approximately x<br>X) When x is close to 0, the Taylor series of the natural logarithm of 1 + x is approximately x<br>Y) When x is close to 0, the Taylor series of the natural logarithm of x is approximately x-1<br>Z) When x is close to 0, the Taylor series of the natural logarithm of 1 + x is approximately 1 + x</div><div>ANSWER: X) When x is close to 0, the Taylor series of the natural logarithm of 1 + x is approximately x</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Identify all of the following three differential equations that are considered exact
+1) 2xy dx + x<sup>2</sup>dy = 0
+2) y<sup>2</sup>e<sup>x</sup> dx + 2ye<sup>x</sup> dy = 0
+3) e<sup>y</sup> dx + xe<sup>y</sup> dy = 0</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Jason is playing poke-DNA Go! where he uses a protein motif to bind to and catch stray DNA molecules. Identify all of the following three protein motifs that he could use
+1) Leucine zipper
+2) EF hand
+3) Zinc finger</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">VISUAL BONUS</span> Biology <i>Short Answer</i>
+Jason is analyzing if an enzyme and its protein substrate interact in vivo by attaching fluorescent dyes to both proteins and detecting the wavelength of the emitted light after he excites the sample. Answer the following 3 questions about Jason’s experiment.
+1) What technique is he employing to analyze the interaction between his samples?
+2) If he uses the dyes BV480 and AF488 and performs the technique ideally, peak emission of which of the following wavelengths, in nanometers, would best signify a close interaction between the samples? W) 450 X) 475 Y) 500 Z) 525
+3) Jason notices that intensity of the final emission is directly correlated with binding affinity of the enzyme to the substrate. Identify all of the following three types of inhibitors that, when added, would likely increase the emission intensity
+1) Competitive
+2) Uncompetitive
+3) Noncompetitive</div><div class="q-figures"><img class="q-figure" src="data/img/bash-2025/47654.webp" width="963" height="476" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) FORSTER RESONANCE ENERGY TRANSFER; 2) Z) 525; 3) 2 ONLY <span class="also-accept">(also accept: FRET)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The instability strip on the Hertzsprung-Russell Diagram exhibits a characteristic blue edge, marking the point beyond which hotter stars can no longer pulsate effectively. Which of the following best explains the reason for the existence of the blue edge?</div><div>W) Hotter stars exhibit less stable resonance at high overtones<br>X) Hotter stars contain too many ionized regions for pulsation<br>Y) Hotter stars are not dense enough for pulsation<br>Z) Hotter stars are highly convecting and can dampen oscillations</div><div>ANSWER: Y) Hotter stars are not dense enough for pulsation</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">VISUAL BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The image below depicts the star distribution in the globular cluster NGC 5904. Answer the following three questions about the image below
+1) What type of variable stars are represented in the cluster labeled A?
+2) What is the dominant fusion pathway in the cores of stars in the cluster labeled A?
+3) The stars in the cluster labeled A pulsate radially due to the effects of opacity on atmospheric temperature and density. What is the name for the driving mechanism behind this pulsation?</div><div class="q-figures"><img class="q-figure" src="data/img/bash-2025/86783.webp" width="1198" height="852" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) RR LYRAE; 2) TRIPLE ALPHA PROCESS; 3) KAPPA MECHANISM</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Kian is performing a Wolff-Kishner reduction on 4-hydroxybenzaldehyde. He wishes to protect the hydroxyl group from the reaction’s harsh conditions, so he decides to add a protecting group. Which of the following protecting groups would be LEAST suitable for this reaction?</div><div>W) Boc<br>X) Fmoc<br>Y) TBS<br>Z) MOM</div><div>ANSWER: X) Fmoc</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following is NOT a distinction between iodometry and iodimetry?</div><div>W) Iodometry is an indirect titration, while iodimetry is a direct titration<br>X) Iodometry measures the concentrations of oxidizing agents, while iodimetry measures the concentrations of reducing agents<br>Y) Iodometry requires the addition of sodium thiosulfate, while iodimetry does not<br>Z) Iodometry requires starch to indicate the endpoint, while iodimetry does not</div><div>ANSWER: Z) Iodometry requires starch to indicate the endpoint, while iodimetry does not</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following pairs of variables will have a commutator of zero?</div><div>W) Position and momentum<br>X) Time and the Hamiltonian<br>Y) X-axis and y-axis spin components<br>Z) X-axis and y-axis position measurements</div><div>ANSWER: Z) X-axis and y-axis position measurements</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Identify all of the following three thermodynamic cycles that will contain vertical line segments when graphed on a T-S diagram
+1) Stirling cycle
+2) Otto cycle
+3) Brayton cycle</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+For a polynomial, we may find the sum of its coefficients by plugging in
+1. However, it is also possible to get the sum of all the kth coefficients for any k by adding the value of the polynomial at specific inputs which cancel out the unwanted terms. For example, the sum of every other coefficient can be found by adding the value at 1 and the value at -1 and dividing by
+2. What is this general method called?</div><div>ANSWER: ROOTS OF UNITY FILTER</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Kian and Evan play a game with a complete graph on n vertices. On each turn, they choose one edge to remove. The first player to disconnect the graph loses. Identify all of the following n for which Kian wins, assuming both players play optimally
+1) 50
+2) 51
+3) 52</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three organelles that have a double membrane
+1) Hydrogenosomes
+2) Amyloplasts
+3) Autophagosomes</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">VISUAL BONUS</span> Biology <i>Short Answer</i>
+Shown in the following image is the blood clotting pathway. Answer the following three questions about this pathway.
+1) Factor IV is often omitted in blood clotting diagrams for clarity due to its involvement in many of the depicted steps. What ion is this important factor?
+2) Christmas disease involves a deficiency in Factor IX. Which of the two pathways that are subsets of the blood clotting pathway would be affected by Christmas disease?
+3) Tissue factor would be a cofactor to which of the following reactions? W) The activation of Factor V X) The activation of Factor VIII Y) The activation of Factor X Z) The activation of Factor XII</div><div class="q-figures"><img class="q-figure" src="data/img/bash-2025/86784.webp" width="1388" height="998" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) CALCIUM; 2) INTRINSIC PATHWAY; 3) Y) THE ACTIVATION OF FACTOR X</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Students at Montgomery Blair are investigating the role of organic macromolecules in prebiotic chemistry on Charon. In particular, they are looking into what compounds responsible for the reddish coloration seen at Charon’s north pole?</div><div>W) Tholins<br>X) Polycyclic aromatic hydrocarbons<br>Y) Cyanopolymers<br>Z) Iron oxide</div><div>ANSWER: W) Tholins</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three mineral deposits that are hydrogenous in origin
+1) Evaporites
+2) Manganese nodules
+3) Banded iron formations</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Yunyi is looking at the moon for extended periods of the time and realizes that he can see over half its surface. Answer the following two questions regarding this phenomena
+1) What is the name of the process described?
+2) Which of the following is the leading cause of this process? W) The Moon’s elliptical orbit and axial tilt causes seasonal exposure changes X) The Moon’s synchronous rotation combined with its elliptical orbit creates geometric variations in visibility Y) The Moon’s rotation rate slightly exceeds its orbital period, periodically revealing additional parts of the surface Z) The Moon’s axial precession interacts with Earth&#39;s orbital motion to periodically change the viewing angle</div><div>ANSWER: 1) LIBRATION, 2) X) The Moon’s synchronous rotation combined with its elliptical orbit creates geometric variations in visibility</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following reagents is most suited for selectively reducing a carboxylic acid over an aldehyde?</div><div>W) L-selectride<br>X) NaBH<sub>4</sub><br>Y) LiBH<sub>4</sub><br>Z) BH<sub>3</sub></div><div>ANSWER: Z) BH<sub>3</sub></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three crystal structures that have an ABABAB repeating pattern
+1) Body-centered cubic
+2) Face-centered cubic
+3) Hexagonal closest packing</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Classical superstring theory predicts 10 dimensions, 9 spatial and 1 time. However, another theory, which unifies all consistent superstring theory versions, predicts an extra spatial dimension. What is the term for this unifying theory?</div><div>ANSWER: M THEORY</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">VISUAL BONUS</span> Physics <i>Short Answer</i>
+Answer the following two questions about the image shown below
+1) What specific type of flow is shown in this image?
+2) Is this an example of laminar or turbulent flow?</div><div class="q-figures"><img class="q-figure" src="data/img/bash-2025/86785.webp" width="1400" height="630" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) COUETTE FLOW; 2) LAMINAR</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Identify all of the following three statements which are true about the nth cyclotomic polynomial
+1) It divides x<sup>n</sup>-1 but not x<sup>k</sup>-1 for any positive integer k less than n
+2) It is irreducible
+3) It is monic.</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">VISUAL BONUS</span> Math <i>Short Answer</i>
+Equilateral triangle ABC is constructed on the outside of a regular hexagon with side length 2. The diagram depicts the process of rolling the triangle once, with A mapping to A’ and C mapping to C’. This process is repeated until triangle ABC returns to its initial position. What is the area swept out by the triangle?</div><div class="q-figures"><img class="q-figure" src="data/img/bash-2025/47670.webp" width="962" height="960" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 8π + 6√3</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The secondary messengers IP<sub>3</sub> and DAG originate from what precursor molecule cleaved from the plasma membrane by phospholipase C?</div><div>ANSWER: PHOSPHATIDYLINOSITOL 4,5-BISPHOSPHATE <span class="also-accept">(also accept: PIP<sub>2</sub>)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Yunyi finds two tall identical plant stalks and decides to dye the upper half of each red, and the lower half of each blue. He then disables all PIN proteins in the red half of the first plant, and in the blue half of the second plant. Which of the following most likely describes the length of the red and blue halves, respectively, in the first plant compared to the second?</div><div>W) Shorter, equal<br>X) Equal, shorter<br>Y) Longer, equal<br>Z) Equal, longer</div><div>ANSWER: W) Shorter, equal</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+What is the general class of asteroids that cross Earth’s orbit and have a semimajor axis less than 1 AU?</div><div>W) Apollo asteroids<br>X) Aten asteroids<br>Y) Amor asteroids<br>Z) Hirayama asteroids</div><div>ANSWER: X) Aten asteroids</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Axions are unique amongst dark matter candidates in that they can interact with the electromagnetic force. What is the name for the effect in which axions convert into photons in the presence of a strong electromagnetic field?</div><div>ANSWER: PRIMAKOFF EFFECT</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Identify all of the following three reagents that can be used in the workup of the ozonolysis reaction of 2-butene to form acetaldehyde
+1) Dimethyl sulfide
+2) Zinc
+3) Sodium borohydride</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">VISUAL BONUS</span> Chemistry <i>Short Answer</i>
+Answer the following three questions about the image below
+1) The image depicts two layers of single sheets of sp<sup>2</sup> hybridized carbon atoms. What is the name for this single-sheet, 2D material?
+2) The conductivity of the 3D structure formed by layers of this material depends on the direction of the electric current. What is the general term for the property of direction dependence?
+3) The top sheet is tilted at a slight angle relative to the second sheet, creating an interference pattern when light is shined upon it. What is the name for these patterns?</div><div class="q-figures"><img class="q-figure" src="data/img/bash-2025/86786.webp" width="492" height="522" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) GRAPHENE; 2) ANISOTROPY; 3) MOIRE PATTERNS</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Olivia shines a beam of light at a penny, casting a shadow on the wall behind it. To her surprise, she observes a bright spot in the middle of the shadow, caused by the light diffracting around the edges. What is the name for this phenomenon?</div><div>ANSWER: FRESNEL SPOT <span class="also-accept">(also accept: ARAGO SPOT; POISSON SPOT)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A train has a length of 200 kilometers and is traveling at a speed of 0.8 times the speed of light relative to a stationary observer. Two clocks are synchronized in the train’s frame, one at the very front of the train and one at the very rear. To two significant figures and in milliseconds, how far ahead will the observer view the rear clock to be relative to the front clock?</div><div>ANSWER: 0.53</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Consider any positive integer a. There are infinitely many primes that divide 2<sup>n</sup>+a for some n due to what theorem, which says that adding a nonzero integer to an infinite set with finitely many prime divisors yields a set with infinitely many prime divisors?</div><div>ANSWER: KOBAYASHI’S THEOREM</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">VISUAL BONUS</span> Math <i>Short Answer</i>
+In the diagram shown, the three tangency points of the excircles are drawn. Answer the following two questions about the setup.
+1) What is the name given to point N which is the intersection of AA&#39;, BB&#39;, and CC&#39;?
+2) To prove these three segments indeed concur, what theorem may be used, which gives length conditions on the concurrence of three segments in a triangle, with each segment having one endpoint at a vertex and the other endpoint on the opposite side?</div><div class="q-figures"><img class="q-figure" src="data/img/bash-2025/47679.webp" width="508" height="444" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) NAGEL POINT; 2) CEVA&#39;S THEOREM</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Edwin recently learned that anticlinal cell divisions are those in which the new cell wall is perpendicular to the surface of the plant, while periclinal divisions are those in which the new cell wall is parallel to the surface of the plant. He is analyzing the growth of a tree on a cross-section parallel to the ground. Identify all of the following 3 types of divisions that Edwin would identify as anticlinal
+1) Division of vascular cambium into a xylem cell and a cambium cell
+2) Division of vascular cambium into two cambium cells
+3) Extension of vascular rays</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Due to their different roles in raising offspring, male and female parents favor different amounts of resource allocation to the growing embryo. Which of the following genes is most likely to be genomically imprinted due to evolutionary pressures?</div><div>W) A paternally derived gene that inhibits the cell cycle<br>X) A maternally derived gene that inhibits the cell cycle<br>Y) A paternally derived gene involved in DNA repair<br>Z) A maternally derived gene involved in DNA repair</div><div>ANSWER: W) A paternally derived gene that inhibits the cell cycle</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Students at Amador Valley are studying algorithms. What algorithm to compute the strongly connected components of a directed graph runs a depth first search on the graph and then the graph with the edges reversed in a specific order?</div><div>ANSWER: KOSARAJU&#39;S ALGORITHM</div></div><hr><div class="packet-question"><div class="q-text">49. <span class="fw-semibold">VISUAL BONUS</span> Energy <i>Short Answer</i>
+The differential equations shown model a Lotka-Volterra system of 2 species based on their population sizes x1 and x2: dx<sub>1</sub>/dt = r<sub>1x</sub><sub>1</sub>(600 − (x<sub>1</sub> + 2.0x<sub>2</sub>)) and dx<sub>2</sub>/dt = r<sub>2x</sub><sub>2</sub>(400 − (x<sub>2</sub> + 0.6x<sub>1</sub>)). What are the equations for the isoclines of population x1 and x2, respectively, in terms of the population sizes x1 and x2?</div><div class="q-figures"><img class="q-figure" src="data/img/bash-2025/85486.webp" width="413" height="165" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: x1 + 2.0x2 = 600 and x2 + 0.6x1 = 400 <span class="also-accept">(also accept: x2 + 0.6x1 = 400 and x1 + 2.0x2 = 600)</span></div></div><hr><div class="packet-question"><div class="q-text">50. <span class="fw-semibold">BONUS</span> Energy <i>Multiple Choice</i>
+The differential equations shown model a Lotka-Volterra system of 2 species based on their population sizes x1 and x2: dx<sub>1</sub>/dt = r<sub>1x</sub><sub>1</sub>(600 − (x<sub>1</sub> + 2.0x<sub>2</sub>)) and dx<sub>2</sub>/dt = r<sub>2x</sub><sub>2</sub>(400 − (x<sub>2</sub> + 0.6x<sub>1</sub>)). Which of the following statements is true about the situation depicted by the differential equations?</div><div>W) There is a stable equilibrium<br>X) There is an unstable equilibrium<br>Y) Species X1 will outcompete species X2<br>Z) Species X2 will outcompete species X1</div><div>ANSWER: Z) Species X2 will outcompete species X1</div></div><hr><div class="packet-question"><div class="q-text">51. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Yunyi is looking at the moon for extended periods of the time and realizes that he can see over half its surface. What is the name of the process described?</div><div>ANSWER: LIBRATION</div></div><hr><div class="packet-question"><div class="q-text">52. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is the leading cause of libration?</div><div>W) The Moon&#39;s elliptical orbit and axial tilt causes seasonal exposure changes<br>X) The Moon&#39;s synchronous rotation combined with its elliptical orbit creates geometric variations in visibility<br>Y) The Moon&#39;s rotation rate slightly exceeds its orbital period, periodically revealing additional parts of the surface<br>Z) The Moon&#39;s axial precession interacts with Earth&#39;s orbital motion to periodically change the viewing angle</div><div>ANSWER: X) The Moon&#39;s synchronous rotation combined with its elliptical orbit creates geometric variations in visibility</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

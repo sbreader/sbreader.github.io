@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - SBL Fall Round 1</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/sbl/1" />
+<meta name="description" content="SBL Fall Round 1: 44 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="sbl" data-packet="1">
+<div class="float-row mb-3"><span class="float-start">Packet 1 (Fall Round 1) of <a href="sets/sbl/">SBL</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/SBL/SBL%20Fall%20Round%201.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Rank the following three molecules in terms of increasing bond dissociation energy
+1) Cl<sub>2</sub>
+2) F<sub>2</sub>
+3) HF.</div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+How many distinct carbon-carbon bond lengths are present in one molecule of 1,3-butadiene?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three features that correctly characterize shield volcanoes
+1) Relatively viscous magma
+2) Explosive eruptions
+3) Very steep profiles.</div><div>ANSWER: NONE</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The Earth’s moon contains maria, which are various patches of dark surface thought to be volcanic in origin. Maria are composed primarily of what rock?</div><div>ANSWER: BASALT</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the magnitude of the vector 2 i + 2 j – 3 k?</div><div>ANSWER: √17 <span class="also-accept">(also accept: SQUARE ROOT OF 17)</span></div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the sum of the first 60 terms of the arithmetic sequence that has first three terms 1, 5, 9?</div><div>ANSWER: 7140</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following agents does NOT act to inhibit clotting?</div><div>W) Heparins<br>X) Plasmins<br>Y) Prostacyclins<br>Z) Thromboxanes</div><div>ANSWER: Z) Thromboxanes</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following four vitamins that are correctly matched to symptoms or disorders of their deficiency
+1) B12 and pernicious anemia
+2) B1 and beriberi
+3) A and rickets
+4) B9 and spina bifida.</div><div>ANSWER: 1, 2, AND 4</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A car’s motion is parametrized by the position vector r(t) = 2 t<sup>2</sup>i – 2 t j – t<sup>3</sup>k. What is the magnitude of the car’s acceleration at time t = 1/2?</div><div>ANSWER: 5</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+What dimensionless quantity in fluid dynamics describes the resistance of a body in a viscous fluid and depends on its shape?</div><div>ANSWER: DRAG COEFFICIENT</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers at Pacific Northwest National Lab have been attempting to determine the sizes of hydrated hydronium ions that are usually surrounded by upwards of 8 water molecules. To determine these sizes, they used what class of porous minerals as molecular sieves?</div><div>ANSWER: ZEOLITES</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Scientists at Argonne National Lab are developing new syntheses of two-dimensional inorganic frameworks called MXenes, which consist of early transition metals intercalated into layers of graphene. Which of the following elements is an early transition metal?</div><div>W) Titanium<br>X) Carbon<br>Y) Antimony<br>Z) Hydrogen</div><div>ANSWER: W) Titanium</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the term for the respiratory systems possessed by most insects?</div><div>ANSWER: TRACHEAL SYSTEMS</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three proteins that are found in the A band of a sarcomere
+1) Actin
+2) Myosin
+3) Titin.</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Identify all of the following three phenomena that are considered evidence for the particle-like nature of light
+1) Diffraction
+2) Compton scattering
+3) Photoelectric effect.</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+When a student shakes a piece of metal in a nonuniform magnetic field, she notices a strong resistance to its motion, as if she were pulling it through honey. What physical phenomenon is likely responsible for this?</div><div>ANSWER: EDDY CURRENTS <span class="also-accept">(also accept: INDUCTION)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Rank the following three igneous minerals in terms of increasing stability to weathering at STP
+1) Olivine
+2) Quartz
+3) Hornblende.</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+To the nearest AU, what is the average separation between a binary system of stars with masses of 2 and 3 solar masses and an orbital period of 5 years?</div><div>ANSWER: 5</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Manganese exists in a variety of oxidation states, all of which have diverse and distinct chemical reactivity. In which oxidation state is manganese LEAST likely to act as a reducing agent?</div><div>W) +7<br>X) +5<br>Y) +4<br>Z) +2</div><div>ANSWER: W) +7</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+For a particle in a three-dimensional cubic potential well, what is the degeneracy of the first excited state?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+If f(x) is a cubic polynomial, and g(x) is a quartic polynomial, what is the degree of the polynomial f of g of x?</div><div>ANSWER: 12</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many integer solutions are there to the equation a times b times c times d equals 1?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Scientists at Brookhaven National Lab’s Relativistic Heavy Ion Collider are using the Heavy Flavor Tracker to study the formation of hadrons under early universe conditions. Hadrons are composite particles made up of what elementary particles?</div><div>W) Gluons<br>X) Quarks<br>Y) Mesons<br>Z) Leptons</div><div>ANSWER: X) Quarks</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Energy <i>Short Answer</i>
+Scientists at Lawrence Livermore National Lab are combining quantum mechanical computations with advanced spectroscopic techniques to gauge the electrolytic properties of ionic liquids at a graphite interface. To do so, they are bombarding the ionic liquids with photons from what region of the electromagnetic spectrum?</div><div>ANSWER: X-RAY</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three statements that are true for all amphibians
+1) They possess four extraembryonic membranes
+2) During organogenesis, the blastopore forms the mouth
+3) They possess a pseudocoelom.</div><div>ANSWER: NONE</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following statements is true regarding friction?</div><div>W) Static friction between two surfaces can vary in magnitude over time<br>X) Frictional forces are conservative<br>Y) Kinetic frictional force is often greater than static frictional force for a given surface<br>Z) Kinetic friction can be minimized by reducing surface contact area</div><div>ANSWER: W) Static friction between two surfaces can vary in magnitude over time</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+When expressed mathematically, Heisenberg’s uncertainty principle states that the uncertainty of momentum times the uncertainty of position is greater than or equal to one half of what constant?</div><div>ANSWER: REDUCED PLANCK’S CONSTANT <span class="also-accept">(also accept: H BAR)</span> <span class="do-not-accept">(do not accept: PLANCK’S CONSTANT)</span></div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the slope of the inverse of the linear equation y = 4 x + 3?</div><div>ANSWER: 1/4</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+An ellipse has a major axis of 10 and a minor axis of 6. What is the closest distance from one focus to a point on the ellipse?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following planets appears the biggest from Earth at opposition?</div><div>W) Jupiter<br>X) Saturn<br>Y) Mercury<br>Z) Venus</div><div>ANSWER: W) Jupiter</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three statements regarding body seismic waves that are true
+1) P and S waves both have respective shadow zones
+2) P waves travel faster than S waves
+3) P waves may propagate through fluids while S waves cannot.</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+When acetone is exposed to hydrogen gas in the presence of a metal catalyst, which of the following functional groups is most likely to form as the major product?</div><div>W) Primary alcohol<br>X) Secondary alcohol<br>Y) Ether<br>Z) Aldehyde</div><div>ANSWER: X) Secondary alcohol</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following three bonds in terms of increasing bond force constant
+1) Ethylene C – H bond
+2) Acetylene C – H bond
+3) Acetylene C – C bond.</div><div>ANSWER: 1,2,3</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+If x is an integer greater than 2, and x and x + 1 have the same number of positive factors, what is the smallest possible value of x?</div><div>ANSWER: 14</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Some thermometers contain a bimetallic strip, which bends in response to temperature changes. These two metals must differ in what property?</div><div>W) Coefficient of expansion<br>X) Thermal conductivity<br>Y) Emissivity<br>Z) Temperature</div><div>ANSWER: W) Coefficient of expansion</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+In electrodynamics, the magnetic field B can be expressed as the curl of the vector potential A. This is because the B field is which of the following?</div><div>W) Divergence-free<br>X) Steady-state<br>Y) Conservative<br>Z) A pseudovector</div><div>ANSWER: W) Divergence-free</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three ocean sediments that can be classified as hydrogenous
+1) Manganese nodules
+2) Turbidite deposits
+3) Calcareous ooze.</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three atmospheric gases that could lead to the formation of acid rain
+1) Nitrogen dioxide
+2) Sulfur dioxide
+3) Carbon dioxide.</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Following overactivation of adenylyl cyclase, c yc lic AMP may be broken down into AMP by what enzyme?</div><div>ANSWER: PHOSPHODIESTERASE</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Daniel steps on a nail, receiving external injury to his skin, and bacteria quickly take the opportunity to enter. Representing the majority of leukocytes, which class of cells is responsible for performing diapedesis and phagocytosis on the bacteria?</div><div>ANSWER: NEUTROPHILS</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Scientists at Lawrence Berkeley National Lab are conducting both X-ray crystallography and X-ray emission spectroscopy experiments in order to characterize biochemical systems involved in the oxidation of water. Which of the following processes are they investigating?</div><div>W) Gluconeogenesis<br>X) Cellular respiration<br>Y) The light reactions<br>Z) Nucleotide biosynthesis</div><div>ANSWER: Y) The light reactions</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Scientists at Argonne National Lab are studying trace elements in meteorites to gather clues regarding nucleosynthesis in novae. Novae generally occur in binary systems of a main sequence star and what other object?</div><div>ANSWER: WHITE DWARF</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+The reaction of methyl iodide with sodium hydroxide proceeds primarily via which of the following mechanisms?</div><div>W) SN1<br>X) SN2<br>Y) E1<br>Z) E2</div><div>ANSWER: X) SN2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following ligands may exhibit a denticity greater than one in binding to a metal center?</div><div>W) Carbonate<br>X) Ammonia<br>Y) Hydroxyl<br>Z) Water</div><div>ANSWER: W) Carbonate</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

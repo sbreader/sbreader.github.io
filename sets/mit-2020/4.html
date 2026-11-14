@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2020 round 4</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2020/4" />
+<meta name="description" content="MIT 2020 round 4: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2020" data-packet="4">
+<div class="float-row mb-3"><span class="float-start">Packet 4 (round 4) of <a href="sets/mit-2020/">MIT 2020</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2020/round4.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Ball A has mass m and kinetic energy E. It collides partially inelastically with a stationary ball B also of mass m. Which of the following best describes the kinetic energy of ball B after the collision?</div><div>W) It is equal to 0<br>X) It is between 0 and E<br>Y) It is equal to E<br>Z) It is greater than E</div><div>ANSWER: X) It is between 0 and E</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, rank the following three objects by speed from slowest to fastest
+1) Light wave
+2) Car traveling at 40 meters per second
+3) Oxygen molecule at room temperature</div><div>ANSWER: 2,3,1</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers in the Lamason group at MIT are studying how bacteria migrate through tissues. Which of the following do bacteria NOT use as a method of generating motion?</div><div>W) Flagella<br>X) Surface protein complexes<br>Y) Pili<br>Z) Microvilli</div><div>ANSWER: Z) Microvilli</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers in the Lamason group at MIT are studying Rickettsia and Listeria bacteria. Which of the following diseases is NOT caused by these genera of bacteria?</div><div>W) Typhus<br>X) Rickets<br>Y) Listeriosis<br>Z) Rocky Mountain spotted fever</div><div>ANSWER: X) Rickets</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+How many electrons are transferred in the complete combustion of one molecule of methane?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+To the nearest whole number, what is the pressure in atmospheres of 3 moles of an ideal gas at 480 kelvin in a container of volume 12 liters?</div><div>ANSWER: 10 atmospheres</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following minerals does NOT belong to the sulfide group?</div><div>W) Hematite<br>X) Sphalerite<br>Y) Pyrite<br>Z) Cinnabar</div><div>ANSWER: W) Hematite</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+How does the age of rock vary with increasing distance from the center of a syncline?</div><div>W) Constant<br>X) Older<br>Y) Younger<br>Z) Varies randomly</div><div>ANSWER: X) Older</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Find all solutions to the equation √(8 − x) = x + 4.</div><div>ANSWER: x = −1</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Emily is multiplying the 6 complex roots of the equation x<sup>6</sup> = 1, but forgets one of them. The product she gets is −1/2 + (√3/2)i. Which root did she forget?</div><div>ANSWER: 1/2 + (√3/2)i</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What term is used to describe a behavior that reduces the fitness of the individual performing it, but increases the fitness of the population overall?</div><div>ANSWER: Altruism</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, rank the following four structures in order from least compact to most compact
+1) Double helix
+2) Nucleosomes
+3) Loop domains
+4) Metaphase chromosome</div><div>ANSWER: 1,2,3,4</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers in the Drennan group at MIT are interested in resolving the structure of many proteins, including key enzymes in metabolic pathways. To do so, they utilize what technique, which relies on the diffraction of low wavelength electromagnetic radiation to resolve structures?</div><div>ANSWER: X-ray crystallography</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Johnson group at MIT are synthesizing biodegradable thermoset polymers to be used in drug delivery. A common example of polymerization is done through 1-alkenes via a radical propagation step, though these methods can be prone to severe branching and their stereochemistry is difficult to control. What d<sup>0</sup> organometallic catalysts can be used to synthesize linear polymers of 1-alkenes while also controlling the stereochemistry of the product?</div><div>ANSWER: Ziegler-Natta catalysts</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+The presence of an enlarged thyroid gland, or goiter, may suggest the deficiency of which element?</div><div>W) Iron<br>X) Sulfur<br>Y) Iodine<br>Z) Phosphorus</div><div>ANSWER: Y) Iodine</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Which vitamin does the skin help to produce when exposed to ultraviolet light?</div><div>ANSWER: Vitamin D <span class="also-accept">(also accept: vitamin D3; cholecalciferol)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+William is working in the lab and sees that another student is pouring a beaker of warm tap water into an aqueous solution of concentrated sulfuric acid. Why might this be a bad decision?</div><div>W) Sulfuric acid explodes upon exposure to air.<br>X) William is not using distilled water, and is contaminating their solution with metal ions.<br>Y) Adding water to acid may cause the solution to rapidly heat up and boil, which may splash concentrated acid.<br>Z) The water will neutralize the sulfuric acid.</div><div>ANSWER: Y) Adding water to acid may cause the solution to rapidly heat up and boil, which may splash concentrated acid.</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+In the classic demonstration of pouring concentrated sulfuric acid on sucrose, what type of reaction is occurring?</div><div>W) Oxidation<br>X) Hydrogenation<br>Y) Dehydrogenation<br>Z) Dehydration</div><div>ANSWER: Z) Dehydration</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A wire with a radius of a and a length of l has a resistance of R. If another wire has a radius of 2 a and a length of l/2, what is its resistance in terms of R?</div><div>W) 4 R<br>X) R<br>Y) R/4<br>Z) R/8</div><div>ANSWER: Z) R/8</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A 7-kilogram mass is at rest on a frictionless surface, and a 4-kilogram mass moves towards it at 5 meters per second. If they collide perfectly elastically, and move along the same axis after the collision, what is the speed, in meters per second, of the 7-kilogram mass after the collision?</div><div>ANSWER: 40 / 11 meters per second</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, arrange the following three minerals in order of increasing hardness on the Mohs hardness scale.
+1) Gypsum
+2) Calcite
+3) Quartz</div><div>ANSWER: 1,2,3</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+The inclusion of which of the following elements gives rubies their distinctive red color?</div><div>W) Titanium<br>X) Chromium<br>Y) Iron<br>Z) Vanadium</div><div>ANSWER: X) Chromium</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+In a 9 by 9 square grid, what is the maximum number of unit squares that can be picked so that no two chosen squares touch, even diagonally?</div><div>ANSWER: 25</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the only Pythagorean triple whose side lengths are all between 20 and 30, inclusive?</div><div>ANSWER: 20,21,29</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following atoms has the lowest ionization energy?</div><div>W) Lithium<br>X) Beryllium<br>Y) Boron<br>Z) Cesium</div><div>ANSWER: Z) Cesium</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following reactions has a negative change in entropy at standard conditions?</div><div>W) Elemental carbon reacts with oxygen gas to produce carbon monoxide<br>X) Elemental carbon reacts with oxygen gas to produce carbon dioxide<br>Y) Dinitrogen tetroxide dissociates into two molecules of nitrogen dioxide<br>Z) Nitrogen dioxide dimerizes to form dinitrogen tetroxide</div><div>ANSWER: Z) Nitrogen dioxide dimerizes to form dinitrogen tetroxide</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers at MIT’s Materials Research Laboratory have been investigating photonics and optical devices in order to provide more secure methods of communication. To do this, they study the interactions of light with different materials. What is the name of the phenomenon by which a light ray changes direction as it goes from one medium to another?</div><div>ANSWER: Refraction</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Researchers at MIT’s Laboratory for Nuclear Science are developing new detectors in order to measure the direction from which the wind of dark matter blows on Earth. Which of the following is used as direct evidence of the existence of dark matter?</div><div>W) Flattened galaxy rotation curve<br>X) Splitting of spectral lines from sources near black holes<br>Y) Inertial drag of objects moving through space<br>Z) Light scattering as it passes through empty space</div><div>ANSWER: W) Flattened galaxy rotation curve</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following Galilean moons of Jupiter is the MOST geologically active?</div><div>W) Io<br>X) Europa<br>Y) Ganymede<br>Z) Callisto</div><div>ANSWER: W) Io</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following metamorphic facies is most strongly associated with a subduction zone?</div><div>W) Facies occupying low temperature, low pressure zones<br>X) Facies occupying low temperature, high pressure zones<br>Y) Facies occupying high temperature, low pressure zones<br>Z) Facies occupying high temperature, high pressure zones</div><div>ANSWER: X) Facies occupying low temperature, high pressure zones</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the name of the general process by which nitrogen in the form of ammonia and nitrates is returned to the atmosphere?</div><div>ANSWER: Denitrification</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Which antibody is commonly known to pass through the human placenta from a mother to her fetus, not only conferring temporary immunity to some pathogens, but also neutralizing some vaccines if administered too early?</div><div>ANSWER: Immunoglobulin G <span class="also-accept">(also accept: Ig G)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is 2020 in Roman numerals?</div><div>ANSWER: MMXX</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+If a and b are positive integers satsisfying ab + 4 = 2a + 5b, how many possible values are there for the ordered pair (a, b)?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What class of elementary particles were initially proposed by Pauli in order to conserve momentum in beta decay?</div><div>ANSWER: Neutrinos</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A charge of +3.0 coulombs is placed in a constant magnetic field of magnitude 12 teslas. Given that the charge travels at an angle of 30 degrees to the magnetic field, what is the magnitude of the particle’s velocity in meters per second to two significant figures if it is found that it is acted on by a force of 48 newtons?</div><div>ANSWER: 2.7 meters per second</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Yash stands 1 meter from a speaker, and notices that the sound level is 97 decibels. He walks away such that his new position is 10 meters from the speaker. What is the new sound level, in decibels?</div><div>ANSWER: 77</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, identify of the following four quantities that are quantized in a classical system.
+1) Charge
+2) Number of atoms
+3) Volume
+4) Temperature</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+David wants to give his 10 indistinguishable marbles to 4 friends. Assuming marbles cannot be split and each friend will get at least one marble, how many ways are there for David to give away his marbles?</div><div>ANSWER: 84</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many ordered triples (x, y, z) of positive integers satisfy xyz = 2020?</div><div>ANSWER: 54</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following hormones is produced by the posterior pituitary gland?</div><div>W) Gonadotropin releasing hormone<br>X) Follicle stimulating hormone<br>Y) Antidiuretic hormone<br>Z) Triiodothyronine</div><div>ANSWER: Y) Antidiuretic hormone</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four molecules that are produced from the conversion of pyruvate into acetyl coA.
+1) CO<sub>2</sub>
+2) NADPH
+3) NAD<sup>+</sup>
+4) H<sup>+</sup></div><div>ANSWER: 1 and 4</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, arrange the following three features of a passive continental margin in order of increasing incline
+1) Continental shelf
+2) Continental slope
+3) Continental rise</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three microorganisms that are associated with the production of siliceous ooze
+1) Radiolarians
+2) Diatoms
+3) Coccolithophores</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+When the combustion of methane with oxygen gas to form carbon dioxide and water is balanced with lowest, whole number coefficients, what is the coefficient of oxygen gas?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following choices is an effect that cannot be caused by a catalyst?</div><div>W) Lowering of reaction activation energy<br>X) Providing an alternative mechanism for reaction<br>Y) Shifting the equilibrium towards the products<br>Z) Decreasing the rate of reaction</div><div>ANSWER: Y) Shifting the equilibrium towards the products</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

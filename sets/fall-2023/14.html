@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Fall 2023 Round 14</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/fall-2023/14" />
+<meta name="description" content="Fall 2023 Round 14: 45 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="fall-2023" data-packet="14">
+<div class="float-row mb-3"><span class="float-start">Packet 14 (Round 14) of <a href="sets/fall-2023/">Fall 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1G3y2OkkOTOFT8mVW1QkTKPVcz0oCxL11/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+For a solid composed of five diatomic molecules with two possible orientations for each molecule, how many distinct microstates of the system are possible?</div><div>ANSWER: 32</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following ethers has the highest ring strain?</div><div>W) Propylene oxide<br>X) Dimethyl ether<br>Y) THF<br>Z) Dioxane</div><div>ANSWER: W) Propylene oxide</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following is TRUE about the function f(x) = the fraction with numerator x + 4 and denominator x + 6?</div><div>W) The limit does not exist at x = 0<br>X) The limit as x approaches –6 from the right is positive infinity<br>Y) The limit as x approaches negative infinity is 1<br>Z) The limit as x approaches –4 from the left is negative infinity</div><div>ANSWER: Y) The limit as x approaches negative infinity is 1</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+If a and b are positive integers less than 100, then what is the largest possible value for b that satisfies the equation 3a – 4b = 1?</div><div>ANSWER: 74</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Pollen grains contain microspores which are needed to fertilize a megaspore in the ovule of a heterosporous seed plant. Which of the following describes where the microspore is produced in a pine gymnosperm?</div><div>W) Thylakoid<br>X) Archegonium<br>Y) Microsporangium<br>Z) Pollen tube</div><div>ANSWER: Y) Microsporangium</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three symptoms that would be exhibited by a male with Klinefelter syndrome
+1) Testicular atrophy
+2) Osteoporosis
+3) Female pubic hair patterns.</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers in the Arnold Group at UC Berkeley focus on synthesizing new organometallic complexes. Constantine wishes to confirm the synthesis of a certain metal cyanide complex in solution. Identify all of the following three techniques that he could use to verify this synthesis in solution
+1) Mass spectrometry
+2) IR spectroscopy
+3) X-ray diffraction.</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Scientists in the Sarpong Group at UC Berkeley are focused on developing strategies for synthesizing complex biomolecules found in nature, or “natural products.” To do this, they often work backwards from their target molecule, decomposing it into simpler precursors. What is the name of this general technique in organic chemistry?</div><div>ANSWER: RETROSYNTHETIC ANALYSIS <span class="also-accept">(also accept: RETROSYNTHESIS)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the name for a subatomic particle composed of a quark and an anti-quark?</div><div>ANSWER: MESON</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Consider a system of two masses A and B, placed at the coordinates (–2, 1) and (6, –7), respectively. If the masses of A, and B are 5 and 3 kilograms, respectively, then what is the center of mass of the system?</div><div>ANSWER: (1, –2)</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What type of diagram graphs both critical erosion velocity and deposition velocity as a function of particle size and is used to determine if a river will erode, transport or deposit sediment?</div><div>ANSWER: HJULSTRÖM DIAGRAM</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+A higher value of which of the following quantities will NOT lead to a higher chance of tornadogenesis?</div><div>W) Lifted condensation level<br>X) Convective available potential energy<br>Y) Storm relative helicity<br>Z) Deep layer shear</div><div>ANSWER: W) Lifted condensation level</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the limit as x approaches 2 of the fraction with numerator x<sup>2</sup> + 6x + 5 and denominator 2x<sup>2</sup> + 11x + 5?</div><div>ANSWER: 3/5</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many numbers between 30 and 3000, inclusive, are divisible by 4 and do NOT end in 2?</div><div>ANSWER: 594</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A cylindrical bucket filled halfway with water is rotated with an angular velocity of 10 radians per second. Which of the following is closest to the height of the water in meters at a distance of 1 meter from the center of the bucket, relative to the height of the water at the center?</div><div>W) 0.5<br>X) 1<br>Y) 5<br>Z) 10</div><div>ANSWER: Y) 5</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A radioactive particle is moving at 90% the speed of light relative to an observer. Identify whether the value of each of the following quantities as measured by the observer is greater than, less than, or equal to the value that would be measured if the particle were at rest relative to the observer
+1) Diameter
+2) Mass
+3) Half-life.</div><div>ANSWER: 1 – LESS THAN, 2 – GREATER THAN, 3 – LESS THAN</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the name for an achiral compound with two or more chiral centers?</div><div>ANSWER: MESO COMPOUND</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">VISUAL BONUS</span> Chemistry <i>Short Answer</i>
+Shown in the image is the phase diagram for a lead-tin alloy. Answer the following two questions about the image
+1) What is the term for the point labeled A?
+2) How many phases are present at the point labeled A?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86900.webp" width="985" height="781" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – EUTECTIC POINT; 2 – 3</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Autotrophic organisms alternate between a sporophyte, a diploid, and a gametophyte, a haploid. Which of the following groups of photosynthetic organisms have a dominant gametophyte cycle?</div><div>W) Bryophytes<br>X) Lycophytes<br>Y) Gymnosperms<br>Z) Angiosperms</div><div>ANSWER: W) Bryophytes</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Huntington’s disease is caused by an expansion in the number of CAG repeats in the Huntington gene. Huntington’s disease and several other diseases are known as polyQ diseases due to the repeat of which of the following amino acids?</div><div>W) Glutamate<br>X) Aspartate<br>Y) Glutamine<br>Z) Asparagine</div><div>ANSWER: Y) Glutamine</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Lawrence Berkeley National Lab Staff Scientist Daniela Ushizima has been developing deep learning tools to automatically detect structural issues in lithium-ion batteries. Her software is specifically aimed at imaging what shard-like formations commonly found in lithium-ion batteries?</div><div>ANSWER: DENDRITES</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Scientists at the Cate Lab are studying translation regulation by studying the protein complex elF3. Part of translational regulation involves identifying possible open reading frames and what proteins they code for. What term describes an mRNA strand with multiple open reading frames?</div><div>ANSWER: POLYCISTRONIC <span class="do-not-accept">(do not accept: MONOCISTRONIC)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following accurately describes the Atlantic Meridional Overturning Circulation?</div><div>W) It is strengthened by the melting of Greenland’s Ice sheet<br>X) It is strongly correlated with precipitation in Africa<br>Y) It is linked to colder temperatures in Northern Europe<br>Z) If it were to collapse, it would favor an El Niño-dominant ENSO</div><div>ANSWER: X) It is strongly correlated with precipitation in Africa</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">VISUAL BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The picture shown is a Hubble Telescope image of Messier 53, a globular cluster of stars which contains an unusually large number of blue stragglers. Answer the following two questions about blue stragglers.
+1. Aside from stellar collisions, what is the primary phenomenon by which blue stragglers are formed?
+2. Identify all of the following three properties which are characteristic of blue stragglers
+1) Abnormally high mass
+2) Abnormally high temperature
+3) Abnormally high luminosity</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86901.webp" width="849" height="849" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) MASS TRANSFER; 2) ALL</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Arushi is looking to perform an organic reaction involving free radicals, for which she requires a radical initiator to begin the chain reaction. Which of the following organic functional groups might she use as a radical initiator?</div><div>W) Peroxide<br>X) Ether<br>Y) Acetal<br>Z) Nitrile</div><div>ANSWER: W) Peroxide</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">VISUAL BONUS</span> Chemistry <i>Short Answer</i>
+Shown in the image is a proton NMR spectrum of the molecule at the bottom, with magnetically distinct hydrogens on that molecule labeled A–D and each peak on the spectrum labeled 1–4. Assign the hydrogens to each peak</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86902.webp" width="1064" height="796" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – B; 2 – A; 3 – C; 4 – D</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three observations which support the hypothesis of the existence of dark matter
+1) Orbital velocities at the outer disk of the Milky Way are approximately constant
+2) The orbits of satellite galaxies around their host galaxies are mostly coplanar
+3) Gravitational lensing</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The orbit of Venus has a semi-major axis of about 0.75 astronomical units. To the nearest whole number, how many years pass on Venus when 5 years pass on Earth?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The Aldabra rail, which was extinct until a similar species evolved to possess adaptations found in the bird, is an example of what evolutionary phenomenon?</div><div>ANSWER: ITERATIVE EVOLUTION <span class="also-accept">(also accept: DE-EXTINCTION)</span></div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">VISUAL BONUS</span> Biology <i>Short Answer</i>
+Shown in the image is a picture of the human body in the standard anatomical position divided into several planes. Answer the following two questions about this image
+1. Identify all of the following three bones that are considered medial to the acromioclavicular joint
+1) Scapula
+2) Clavicle
+3) Humerus.
+2. In the standard anatomical position, which of the following best describes the relative position of the radius with respect to the ulna? W) Anterior X) Posterior Y) Medial Z) Lateral</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86903.webp" width="938" height="862" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – 1 AND 2; 2 – Z) LATERAL</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+If a particular system has 20 joules of kinetic energy and 30 joules of potential energy, then in joules, what is the value of its Lagrangian?</div><div>ANSWER: –10</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Researchers at Lawrence Berkeley National Lab have developed a Python library called QET-U to aid in linear algebra quantum mechanics calculations. One of the most essential classes of quantum mechanical matrices is those where the inverse matrix equals the conjugate transpose of the matrix. What is the name of this class of matrices?</div><div>ANSWER: UNITARY MATRIX</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Researchers at Berkeley Lab’s CAMERA Center have developed new mathematical techniques to model the synthesis and properties of nanopolymers and nanoporous materials. To do this, they use a technique where the image is partitioned into regions of points closest to each atom. What is the name of this diagram formulation?</div><div>ANSWER: VORONOI DIAGRAM</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+For a circle of radius 1 with an inscribed equilateral triangle, what is the area of the sector within the circle that is outside of the equilateral triangle?</div><div>ANSWER: π – √3 <span class="also-accept">(also accept: π – ROOT 3)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the volume of the solid generated by revolving the line y = 2e<sup>x</sup> about the x-axis from x = negative infinity to x = 2?</div><div>ANSWER: 2πe<sup>4</sup></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the tree-like structure that is formed when fungal hyphae extend into the cell walls of plant cells in mycorrhizal associations?</div><div>ANSWER: ARBUSCULES <span class="do-not-accept">(do not accept: HYPHAE)</span></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Enzymes are often utilized to cut DNA at select points. Tn5 is a transposase used in which of the following genetic sequencing tests?</div><div>W) CHIP-sequencing<br>X) ATAC-sequencing<br>Y) RNA sequencing<br>Z) Paired-end sequencing</div><div>ANSWER: X) ATAC-sequencing</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the term for the process near the beginning of the universe in which the conservation of baryon number was violated, leading to the predominance of matter over antimatter in the present universe?</div><div>ANSWER: BARYOGENESIS</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following four types of rocks which could be produced through contact metamorphism
+1) Greenschist
+2) Hornfel
+3) Blueschists
+4) Marble</div><div>ANSWER: 2 AND 4</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following quantities is NOT used to calculate the lattice enthalpy of sodium fluoride using the Born-Haber cycle?</div><div>W) Electron affinity of fluorine<br>X) Enthalpy of vaporization of sodium<br>Y) Electronegativity of fluorine<br>Z) Ionization energy of sodium</div><div>ANSWER: Y) Electronegativity of fluorine</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+The presence of which of the following functional groups is predicted to most increase the chemical shift of neighboring protons in NMR?</div><div>W) Carbonyl<br>X) Aryl<br>Y) Fluoro<br>Z) Hydroxyl</div><div>ANSWER: W) Carbonyl</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+The number 2023 is equal to 68 squared minus 51 squared. What is the sum of all divisors of 2023?</div><div>ANSWER: 2456</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the integral from 0 to infinity of x<sup>3</sup>e<sup>-x</sup> with respect to x?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following species would be the direct product of the alpha decay of francium-223?</div><div>W) Polonium-215<br>X) Bismuth-215<br>Y) Astatine-219<br>Z) Radium-219</div><div>ANSWER: Y) Astatine-219</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following statements regarding orbital energy is true?</div><div>W) The orbital energy of an elliptical orbit can be positive, negative, or zero<br>X) An object’s total orbital energy is a minimum at apoapsis<br>Y) A hyperbolic orbit has a positive excess velocity<br>Z) An object with a parabolic orbit has a greater magnitude of kinetic energy than potential energy</div><div>ANSWER: Y) A hyperbolic orbit has a positive excess velocity</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

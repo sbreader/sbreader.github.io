@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2020 round 8</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2020/8" />
+<meta name="description" content="MIT 2020 round 8: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2020" data-packet="8">
+<div class="float-row mb-3"><span class="float-start">Packet 8 (round 8) of <a href="sets/mit-2020/">MIT 2020</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2020/round8.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+How many normal modes of vibration does the benzene molecule have?</div><div>W) 12<br>X) 13<br>Y) 30<br>Z) 31</div><div>ANSWER: Y) 30</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Assuming that each sodium atom is spherical, which of the following is the closest to the percentage of a body-centered-cubic unit cell occupied by sodium atoms?</div><div>W) 82%<br>X) 74%<br>Y) 68%<br>Z) 52%</div><div>ANSWER: Y) 68%</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+In a particular calendar year, the month of December has 5 Mondays. By this information alone, what are all of the days of the week that must occur only 4 times in this month of December?</div><div>ANSWER: Thursday and Friday</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Find the roots of the quartic equation x<sup>4</sup> + 2x<sup>3</sup> + 2x<sup>2</sup> + 2x + 1 = 0.</div><div>ANSWER: −1, i, −i</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, arrange the following three layers of the earth in order of increasing density
+1) Continental lithosphere
+2) Asthenosphere
+3) Oceanic lithosphere</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Indicate, by name or number, all of the following three statements that are true of T Tauri stars
+1) They are typically found in star formation regions
+2) T associations are gravitationally bound
+3) They are often found at the center of planetary nebulae</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Antidepressant medications such as fluoxetine (Prozac) and sertraline (Zoloft) work by which of the following mechanisms?</div><div>W) Monoamine oxidase inhibition<br>X) N-methyl-D-aspartate receptor antagonism<br>Y) Selective serotonin reuptake inhibition<br>Z) Serotonin-norepinephrine reuptake inhibition</div><div>ANSWER: Y) Selective serotonin reuptake inhibition</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+MAPKKK, also known as mitogen activated protein kinase kinase kinase, is an intracellular kinase important in cell proliferation, cell differentiation, and apoptosis, among other cellular functions. By name or number, identify all of the following four amino acids which are commonly phosphorylated in the cytosol
+1) Glutamine
+2) Threonine
+3) Phenylalanine
+4) Serine</div><div>ANSWER: 2 and 4</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+As a percentage, what is the coefficient of performance of a Carnot refrigerator operating to keep its contents at a constant temperature of 87° C while transferring heat to an outside reservoir at 327° C?</div><div>ANSWER: 150%</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true of damped harmonic motion
+1) Energy is conserved
+2) The frequency of underdamped oscillations is greater than the natural oscillation frequency
+3) In overdamped motion, the position goes exponentially to zero</div><div>ANSWER: 3) In overdamped motion, the position goes exponentially to zero</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers in the Weissman group at MIT are using single-cell CRISPR screens to explore gene function. Which of the following CRISPR-Cas9 system components are needed to bring the Cas9 protein into the nucleus?</div><div>W) sgRNA<br>X) PAM<br>Y) crRNA<br>Z) NLS</div><div>ANSWER: Z) NLS</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers in the Weissman group at MIT are working on the development of new applications of CRISPR-Cas9 systems. By name or number, identify all of the following four Cas proteins needed for spacer acquisition across all CRISPR-Cas systems.
+1) Cas1
+2) Cas2
+3) Cas5
+4) Cas9</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+The genome of the novel coronavirus, SARS-CoV-2, can best be described as which of the following?</div><div>W) Double-stranded DNA<br>X) Double-stranded RNA<br>Y) Single-stranded DNA<br>Z) Single-stranded RNA</div><div>ANSWER: Z) Single-stranded RNA</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Which part of the lac operon does the lac repressor bind to?</div><div>ANSWER: Lac operator <span class="also-accept">(also accept: operator)</span></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A spherical conductor carrying net charge Q is placed at the origin. Which of the following statements is NOT true?</div><div>W) The electric field points radially outward<br>X) The conductor carries charge only on its surface<br>Y) The volume of the conductor is an equipotential<br>Z) Outside the sphere, the electric field falls off as 1/r<sup>3</sup></div><div>ANSWER: Z) Outside the sphere, the electric field falls off as 1/r<sup>3</sup></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A resistor is constructed using an infinite number of resistors in parallel. The first one has a resistance of 1 ohm, and each successive resistor has a resistance of double the previous one. What is the resistance, in ohms, of this composite?</div><div>ANSWER: 0.5 ohms</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following silicate minerals does NOT exhibit cleavage?</div><div>W) Muscovite<br>X) Fluorite<br>Y) Orthoclase<br>Z) Quartz</div><div>ANSWER: Z) Quartz</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Suppose Venus is at its greatest western elongation. Its appearance through a telescope will be most similar to which of the following phases of the Moon?</div><div>W) Waning crescent<br>X) Last quarter<br>Y) Waning gibbous<br>Z) Full moon</div><div>ANSWER: X) Last quarter</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the limit, as x approaches 0, of cos(x)/(x + 1)?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Which of the following statements about geometry in 4 dimensions is NOT true?</div><div>W) The volume of a hypercube is equal to the fourth power of its side length<br>X) The intersection of two non-tangent hyperspheres is a circle<br>Y) Two 2-dimensional planes can intersect at a single point<br>Z) The maximum number of points which are all at unit distance from each other is 5</div><div>ANSWER: X) The intersection of two non-tangent hyperspheres is a circle</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Jamison group at MIT are exploring the synthesis of complex natural products through a series of epoxide-opening reactions. Which of the following is NOT true regarding epoxides?</div><div>W) Epoxides contain a three-membered ring<br>X) Epoxide stability decreases because of angle strain<br>Y) Epoxide stability decreases because of torsional strain<br>Z) The full mechanism of ozonolysis proceeds via an epoxide intermediate</div><div>ANSWER: Z) The full mechanism of ozonolysis proceeds via an epoxide intermediate</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Dincă group at MIT are employing a range of characterization techniques, such as IR spectroscopy, to observe and design new materials. By name or number, rank the following three carbon-oxygen double bonds from least to highest stretching frequency on an IR spectrum
+1) The carbonyl in an ester
+2) The carbonyl in an amide
+3) The carbonyl in an acid chloride</div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Under certain conditions, the average rate of appearance of oxygen gas when ozone is converted to oxygen gas is 1.2 × 10<sup>-3</sup> atm/s. What is the average rate for the disappearance of ozone, expressed in atm/s?</div><div>ANSWER: 8 × 10<sup>-4</sup></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following aqueous solutions would have the lowest freezing point?</div><div>W) 0.25 molal sodium chloride<br>X) 0.20 molal sodium sulfate<br>Y) 0.15 molal magnesium chloride<br>Z) 0.10 molal aluminum sulfate</div><div>ANSWER: X) 0.20 molal sodium sulfate</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Surendranath group at MIT are researching how to install modifications at the boundary of graphene surfaces. One technique they discovered was the condensation of a diamine with a 1,3-dicarbonyl at the surface. Which of the following types of ring systems did they form?</div><div>W) Pyridine<br>X) Pyrimidine<br>Y) Pyrrole<br>Z) Pyrazole</div><div>ANSWER: X) Pyrimidine</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Hong group at MIT are studying the structure of tau fibrils using nuclear magnetic resonance. One technique involved is studying the perturbation between spatially close nuclei, an effect known as what?</div><div>ANSWER: Nuclear Overhauser Effect</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+With which of the following river zones is the trunk stream most commonly associated with?</div><div>W) Zone of deposition<br>X) Zone of transportation<br>Y) Zone of erosion<br>Z) Zone of saltation</div><div>ANSWER: X) Zone of transportation</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, arrange the following three dwarf planets in the solar system from closest to furthest average distance from the Sun
+1) Eris
+2) Pluto
+3) Ceres</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following best explains why the speed of sound is higher in water than it is in air?</div><div>W) Water is denser than air<br>X) Air is denser than water<br>Y) Water is stiffer than air<br>Z) Air is stiffer than water</div><div>ANSWER: Y) Water is stiffer than air</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Initially unpolarized light passes through three Polaroid filters in the sequence A, B, C. Filter B’s polarization axis makes an angle of 60 degrees with respect to filter A, while filter C’s polarization axis makes an angle of 90 degrees with respect to filter A. Expressed as a fraction of the initial intensity I<sub>0</sub>, find the intensity of the light after passing through filter C.</div><div>ANSWER: 3 / 32</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+The van der Waals equation is a modification of the ideal gas equation, with two constants a and b which help characterize the gas. Which of the following molecules has the highest value of b?</div><div>W) He<br>X) HCl<br>Y) H<sub>2</sub>O<br>Z) C<sub>6</sub>H<sub>6</sub></div><div>ANSWER: Z) C<sub>6</sub>H<sub>6</sub></div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three statements that true of a weak acid titrated by strong base.
+1) The equivalence point has a pH greater than 7
+2) The pH at the half-equivalence point is equal to the pKa
+3) The slope of the titration curve is smallest at the start of the titration</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What plant hormone causes guard cells to close up in response to water shortage?</div><div>ANSWER: Abscisic acid</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Aspirin and Ibuprofen both help to relieve pain by inhibiting cyclooxygenases. Cyclooxygenases are responsible for producing what class of molecules?</div><div>W) Prostaglandins<br>X) Leukotrienes<br>Y) Catecholamines<br>Z) PROTACs</div><div>ANSWER: W) Prostaglandins</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following statements about non-degenerate cubic functions with real coefficients is NOT true?</div><div>W) a cubic function can never have a global minimum<br>X) a cubic function always has 1 or 3 different real roots<br>Y) a cubic function always has an inflection point<br>Z) a cubic function must always take on a negative value at some input</div><div>ANSWER: X) a cubic function always has 1 or 3 different real roots</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Josh is climbing up 10 stairs, taking them either 1 or 2 at a time. How many different ways are there for him to climb up the stairs?</div><div>W) 20<br>X) 55<br>Y) 89<br>Z) 100</div><div>ANSWER: Y) 89</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or by number, identify all of the follwing four drainage patterns which are not dependent on the composition of the underlying bedrock in their formation
+1) Dendritic
+2) Rectangular
+3) Radial
+4) Trellis</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following forces did Wegner propose as the driving force behind his theory of continental drift?</div><div>W) Repulsive forces from the earth’s magnetic field<br>X) Convective movement of the earth’s mantle<br>Y) Tidal forces from the sun and moon<br>Z) Buoyancy forces from different crustal densities</div><div>ANSWER: Y) Tidal forces from the sun and moon</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the term used to describe a covalent bond formed between a Lewis acid and a Lewis base, in which both electrons originate from the base?</div><div>ANSWER: Dative bond <span class="also-accept">(also accept: coordinate covalent bond)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following three isotopes in order of increasing binding energy per nucleon.
+1) H-2
+2) He-4
+3) Li-7</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+At what real values of x does the following function have a vertical asymptote: f(x) = (x<sup>2</sup> − 3x + 2)/(x<sup>4</sup> − 16)?</div><div>ANSWER: −2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A square of side length 6 is rotated about one of its diagonals. What is the volume of the solid that it sweeps out?</div><div>ANSWER: 36√2 π</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following sugars is NOT an aldose?</div><div>W) Glucose<br>X) Ribose<br>Y) Galactose<br>Z) Fructose</div><div>ANSWER: Z) Fructose</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Name the two fatty acids that are essential for humans.</div><div>ANSWER: Linoleate and linolenate <span class="also-accept">(also accept: linoleic acid and alpha-linolenic acid)</span> <span class="do-not-accept">(do not accept: omega-3 and omega-6)</span></div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A ball is moving at a constant velocity of 1/2 c in the frame of a space shuttle, which is moving at 3/5 c relative to an observer on Earth. If the space shuttle and ball are moving in the same direction to the observer on Earth, what is the speed of the ball for the observer?</div><div>ANSWER: 11/13 c</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following magnetic fields defined in Cartesian coordinates could theoretically exist in a magnetostatic system?</div><div>W) B(x, y, z) = −x i − y j − z k<br>X) B(x, y, z) = y i − z j + x k<br>Y) B(x, y, z) = xy i + yz j + xz k<br>Z) B(x, y, z) = y i − x j + z k</div><div>ANSWER: X) B(x, y, z) = y i − z j + x k</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

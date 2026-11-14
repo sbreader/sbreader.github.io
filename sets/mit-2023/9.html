@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2023 Round 9</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2023/9" />
+<meta name="description" content="MIT 2023 Round 9: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2023" data-packet="9">
+<div class="float-row mb-3"><span class="float-start">Packet 9 (Round 9) of <a href="sets/mit-2023/">MIT 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2023/Round%209.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What is the coefficient of x<sup>2</sup> y<sup>2</sup> in the expansion of (x + 3y)<sup>4</sup>?</div><div>W) 6<br>X) 18<br>Y) 54<br>Z) 162</div><div>ANSWER: Y) 54</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+When the base 16 number 33333<sub>16</sub> is written in base 2, how many base 2 digits does it have?</div><div>ANSWER: 18</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+MIT undergrads working at the Griffith Lab have been studying fibronectin derived adhesion peptides and how they can form a synthetic extracellular matrix. Fibronectin is a protein in the ECM known to bind to which cell surface receptors that bind to micofilaments in the cytoplasm?</div><div>ANSWER: Integrins</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+The Weissman Lab at MIT is using methods such as ribosome profiling to determine the levels of mRNA that are bound to ribosomes and are therefore destined for protein synthesis. Ribosome profiling is used as an alternative to what technique that measures the levels of ALL cytosolic mRNA molecules?</div><div>W) Northern blotting<br>X) RT-PCR<br>Y) RNA-seq<br>Z) FISH</div><div>ANSWER: Y) RNA-seq</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+In some inertial reference frame, two events happen one second apart at a distance of 1 astronomical unit apart. Identify all of the following three statements that are true about the two events
+1) There exists an inertial reference frame in which the two events occur at the same time
+2) There exists an inertial reference frame in which the two events occur at the same position
+3) There exists an inertial reference frame in which a beam of light emitted at the first event reaches the second event.</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A ladder weighing 60 newtons leans against a frictionless wall, forming an angle of 60 degrees with the horizontal. What is the magnitude of the force exerted by the ladder against the wall in newtons? Assume g equals 10 meters per second squared.</div><div>ANSWER: 10√3/3</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What type of nuclear decay is expected for light elements below the nuclear drip line?</div><div>ANSWER: Beta-plus decay <span class="also-accept">(also accept: Positron emission)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Ne is using Tollen’s reagent in his UROP. Which of the following molecules will produce a characteristic “silver mirror” when he adds Tollens reagent?</div><div>W) Acetone<br>X) Acetaldehyde<br>Y) Ethanol<br>Z) Acetic Acid</div><div>ANSWER: X) Acetaldehyde</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+To one significant figure, by what factor would the speed of a shallow water wave on Mars be compared to Earth, given that Martian gravity is around 38% that of Earth, and the water waves are travelling in water columns of the same height?</div><div>W) 0.4<br>X) 0.6<br>Y) 0.8<br>Z) 1</div><div>ANSWER: X) 0.6</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three molecules that would be expected to be found at elevated abundances near a cold seep relative to elsewhere on the ocean floor
+1) Methane
+2) Hydrogen Sulfide
+3) Carbon Dioxide</div><div>ANSWER: All</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+You are studying a mutant plant, that grows shorter, thicker, and more horizontally relative to its wild-type counterparts. Which of the following mutations would be consistent with these observations?</div><div>W) A loss-of-function mutation of ethylene receptors<br>X) A loss-of-function mutation of an inhibitor of ethylene signal transduction<br>Y) A mutation causing overproduction of abscisic acid<br>Z) A loss-of-function mutation of a kinase involved in abscisic acid signal transduction</div><div>ANSWER: X) A loss-of-function mutation of an inhibitor of ethylene signal transduction</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following four conditions that would decrease transpiration rate of an angiosperm
+1) Increasing leaf surface area
+2) Increasing environmental humidity
+3) Secreting abscisic acid from the plant
+4) Increasing the water potential of the soil relative to the inside of the root</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers in the Schlau-Cohen Lab at MIT are studying energy transfer in light-harvesting complexes. Which of the following types of microscopy are the scientists using to image these membrane-embedded proteins?</div><div>W) Confocal microscopy<br>X) Cryogenic electron microscopy<br>Y) Scanning electron microscopy<br>Z) Transmission electron microscopy</div><div>ANSWER: X) Cryogenic electron microscopy</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers from the Imperiali Lab at MIT are studying N-linked glycosylation across different domains of life. N-linked glycosylation couples an oligosacharide with what functional group in asparagine?</div><div>ANSWER: Amide</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Rank the following three types of carbon-hydrogen bonds in terms of increasing bond dissociation energy
+1) Primary
+2) Vinylic
+3) Allylic</div><div>ANSWER: 3,1,2</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following three conformations of butane by increasing energy
+1) Anti
+2) Eclipsed
+3) Gauche</div><div>ANSWER: 1, 3, 2</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What term describes the texture of certain sedimentary rocks that includes rounded, accretionary grains, such as bauxite?</div><div>ANSWER: Pisolitic</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following observations would be able to differentiate a hydraulic and hydrostatic pingo?</div><div>W) Prescence of ice in the center of the pingo<br>X) Located in a periglacial region<br>Y) Annual growth of the hill’s size<br>Z) Located near a river</div><div>ANSWER: Y) Annual growth of the hill’s size</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Notch signaling involves the binding of extracellular Notch receptors to ligands on adjacent cell membranes. Which of the following types of cell signaling correctly classifies Notch signaling?</div><div>W) Autocrine<br>X) Juxtacrine<br>Y) Paracrine<br>Z) Endocrine</div><div>ANSWER: X) Juxtacrine</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+A bear consumes 400 kilojoules of food. Of this, 150 kilojoules are excreted in waste products, 120 kilojoules are used in cellular respiration, and 130 kilojoules were used to make new biomass. As a percentage, what is the production efficiency of this bear?</div><div>ANSWER: 52%</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A conducting wire is placed on the z-axis, and carries a current in the positive z-direction. An electron is placed at position (2, 0, 0) meters and given an initial velocity of (1, 0, 0) meters per second. What is the initial direction of the net force on the electron?</div><div>W) Positive z direction<br>X) Negative z direction<br>Y) Positive y direction<br>Z) Negative y direction</div><div>ANSWER: X) Negative z direction</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The Sun’s radius and average distance from the Earth are each 400 times greater than that of the moon, while the moon’s mass is 40 nano-solar masses. To the nearest ten percent, the tidal force exerted by the Sun on the Earth is what percent of the tidal force exerted by the Moon on the Earth?</div><div>ANSWER: 40%</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+In graph theory, what is the name of a graph in which every pair of vertices are connected with a unique edge?</div><div>ANSWER: Complete graph</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Triangle ABC is constructed such that side AB has length 13, side BC has length 14, and side AC has length 15. What is the tangent of angle C?</div><div>ANSWER: 4/3</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Order the following four planetary bodies in order of increasing axial tilt, assuming rotation is defined to be counterclockwise looking from above the plane of the solar system
+1) Mercury
+2) Venus
+3) Earth
+4) Uranus</div><div>ANSWER: 1,3,4,2</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify the following three statements that are true regarding globular clusters
+1) They may be torn apart to form tidal streams
+2) Massive objects tend to drift inward with time
+3) Hypernovae are often observed within globular clusters</div><div>ANSWER: 1,2</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Arjun has one quarter, one dime, one nickel, and one penny. Using at least one coin from his collection, how many different sums of money are possible?</div><div>ANSWER: 15</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Let S be the set of the first five positive integers. Let P be the power set of S. To the nearest power of 10, how many subsets of P are there?</div><div>ANSWER: 10<sup>9</sup></div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following is a property of the vector field describing a central force?</div><div>W) The divergence of the field is zero everywhere<br>X) The divergence of the field is non-zero everywhere<br>Y) The curl of the field is zero everywhere<br>Z) The curl of the field is non-zero everywhere</div><div>ANSWER: Y) The curl of the field is zero everywhere</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A simple pendulum consists of a 10 kilogram mass swinging from a 5 meter long massless string. During the course of the swing, the mass makes a maximum angle of 60 degrees with the vertical. In newtons, at that moment, when the mass is stationary, what is the tension in the string?</div><div>ANSWER: 49</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Scientists in the Lee group at MIT are part of the CMS collaboration at the large hadron collider, where they are colliding energetic jets of particles in search of new physics. The scattering rates of these particle collisions are computed theoretically using what diagrammatic technique from quantum field theory, where the propogation and interaction of particles are represented by lines and vertices?</div><div>ANSWER: Feynman diagrams</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers in the Jarillo-Herrero group are studying the electronic properties of magic-angle graphene. A single layer of graphene is part of what class of materials, where the top of the valence band just barely touches the bottom of the conduction band?</div><div>ANSWER: Semimetal</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+To the nearest power of 10 in Kelvin, a blackbody with peak radiation around 3 nanometers is at what temperature?</div><div>ANSWER: 10<sup>6</sup></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following crown ethers will best solvate a sodium cation?</div><div>W) 12-crown-4<br>X) 15-crown-5<br>Y) 18-crown-6<br>Z) 21-crown-7</div><div>ANSWER: X) 15-crown-5</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following animal phyla is NOT a protostome?</div><div>W) Hemichordata<br>X) Mollusca<br>Y) Annelida<br>Z) Rotifera</div><div>ANSWER: W) Hemichordata</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Suppose a certain diploid cell contains 8 chromosomes. If two nondisjunction events occur in the same cell during meiosis II but no nondisjunction events occur during meiosis I, how many chromosomes will the resulting gametes with fewer chromosomes contain?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following molecular orbitals, constructed from the 2p orbitals of Boron, is the lowest energy?</div><div>W) Sigma bonding<br>X) Pi bonding<br>Y) Sigma antibonding<br>Z) Pi antibonding</div><div>ANSWER: X) Pi bonding</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three reagents that will reduce an ester to an alcohol
+1) LiBH<sub>4</sub>
+2) NaBH<sub>4</sub>
+3) LiAlH<sub>4</sub></div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Currently, our galactic neighborhood is rather quiet. How far out would we begin to start expecting observations of quasars?</div><div>W) 50,000 light years<br>X) 1 million light years<br>Y) 50 million light years<br>Z) 1 billion light years</div><div>ANSWER: Z) 1 billion light years</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Order the following three satellites from earliest to latest in the observation of the cosmic microwave background radiation.
+1) Cosmic Background Explorer
+2) Wilkinson Microwave Anisotropy Probe
+3) Planck Satellite</div><div>ANSWER: 1, 2, 3</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following proteins would one expect to have the highest rates of ubiquitination and subsequent degradation?</div><div>W) Phosphofructokinase<br>X) Collagen<br>Y) Cyclin<br>Z) Protein kinase A</div><div>ANSWER: Y) Cyclin</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Joints between which of the following bone pairs does NOT include a synovial joint?</div><div>W) Femur and tibia<br>X) Metacarpals and phalanges<br>Y) Radius and ulna<br>Z) Scapula and humerus</div><div>ANSWER: Y) Radius and ulna</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A person drops a ball from the top of a tower. Identify all of the following three forces which act on the ball, in the reference frame of an observer standing on top of the building
+1) Gravity
+2) Coriolis
+3) Centrifugal</div><div>ANSWER: All <span class="also-accept">(also accept: 1; 2; 3)</span></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A ramp is placed at the bottom of a hill such that objects that roll onto the ramp exit with a perfectly vertical velocity. If a frictionless block that starts at the top of the hill reaches a peak height of 3 meters after leaving the slope, what is the peak height in meters of a solid cylinder that is rolled down the hill?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Rhombus ABCD has sidelength 13. Which of the following cannot be the area of ABCD?</div><div>W) 13<br>X) 65<br>Y) 144<br>Z) 170</div><div>ANSWER: Z) 170</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What are the coordinates of the point on the line y = 2x − 3 that is closest to the origin?</div><div>ANSWER: (6/5, −3/5)</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Prometheus 2021 DE 5</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/prometheus-2021/12" />
+<meta name="description" content="Prometheus 2021 DE 5: 48 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="prometheus-2021" data-packet="12">
+<div class="float-row mb-3"><span class="float-start">Packet 12 (DE 5) of <a href="sets/prometheus-2021/">Prometheus 2021</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/Prometheus%202021/Prometheus_DE5.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the name for ingredients in a vaccine that can increase the body’s immune response to a vaccination dose?</div><div>ANSWER: Adjuvants</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Which class of adjuvant binds to immune receptors to increase their sensitivity to antigens?</div><div>ANSWER: TLR ligands</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+How many values of theta in the interval 0 &lt; θ &lt; 2π satisfy the equation 1 − 2 sin θ + 5 cos 2θ = 0?</div><div>W) 2<br>X) 3<br>Y) 4<br>Z) 5</div><div>ANSWER: Y) 4</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Peter nearly drops his 6 inch by 3 inch phone, causing it to spin wildly in his hands. If the phone’s center never moves, what is the maximum possible area his phone could have swept out while it spun?</div><div>ANSWER: 45π√5/2</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+An ionic inorganic chloride has the empirical formula MCl2. An atomic force microscopy study of this substance indicates the presense of MCl4<sup>–</sup> anions. Which the following is the most likely identity of M?</div><div>W) Beryllium<br>X) Magnesium<br>Y) Gallium<br>Z) Tellerium</div><div>ANSWER: Y) Gallium</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following nuclei is not doubly magic?</div><div>W) Helium-4<br>X) Carbon-12<br>Y) Oxygen-16<br>Z) Nickel-56</div><div>ANSWER: X) Carbon-12</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following properties of nebulae is most conducive to the formation of forbidden spectral lines?</div><div>W) Low temperature<br>X) Low metallicity<br>Y) Low ionization<br>Z) Low density</div><div>ANSWER: Z) Low density</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following currents in the Indian Ocean Gyre is typically the strongest?</div><div>W) South Indian<br>X) South Equatorial<br>Y) West Australia<br>Z) Agulhas</div><div>ANSWER: Z) Agulhas</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three plant cells which are dead at functional maturity
+1) Companion cells
+2) Albuminous cells
+3) Subsidiary cells.</div><div>ANSWER: None</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following protein secondary structures could have a phi angle of -50 and a psi angle of -60?</div><div>W) Right handed alpha helix<br>X) Left handed alpha helix<br>Y) Parallel beta sheet<br>Z) Antiparallel beta sheet</div><div>ANSWER: W) Right handed alpha helix</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Inside a massive box, a zero-length spring is attached to a mass and the inner top surface of the box and set into oscillation. If the system is suddenly dropped off a cliff, what happens to the period of its oscillations?</div><div>W) It increases<br>X) It decreases<br>Y) It remains constant<br>Z) It initially increases, then decreases</div><div>ANSWER: X) It decreases</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A parallel plate capacitor is set up with a dielectric fully placed within the distance d between the plates. If the free charge density at the surface of one of the plates is σ, and the permittivity of the dielectric is 2, what is the electric potential between the plates?</div><div>ANSWER: dσ/2</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A wise man once said that when shopping, you should bring more money than you think you will need, to counteract which bias whose effects include causing construction projects to frequently fall behind schedule and over budget?</div><div>ANSWER: Planning fallacy</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+One way of counteracting the planning fallacy is by ignoring the unique features of a project and simply looking at the features of past projects. What is this perspective called?</div><div>ANSWER: Outside view</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the term for the graph of a polar curve with equation r = a + b cos θ?</div><div>ANSWER: Limaçon</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the inverse of the 2 x 2 matrix with first row: [7, 3] and second row: [6, 4]?</div><div>ANSWER: First row: [2/5, −3/10]; second row: [−3/5, 7/10]</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Identify all of the following four orbitals in diboron that are predicted to have ungerade symmetry by molecular orbital theory
+1) Sigma 2s bonding
+2) Sigma 2s antibonding
+3) Pi 2p bonding
+4) Pi 2p antibonding.</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What is the molecular geometry of the chromium carbonyl metal complex?</div><div>ANSWER: Octahedral</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What line on the HR diagram denotes the conditions where an evolving protostar gains a strong enough stellar wind to blow away the cloud of dust and gas surrounding it?</div><div>ANSWER: Birthline</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three elements that are typically present in the spectra of a type Ia supernova
+1) Hydrogen
+2) Helium
+3) Silicon.</div><div>ANSWER: 3 only</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following biological techniques could be used to study the kinetics of phospholipid diffusion in the plasma membrane?</div><div>W) Forster resonance energy transfer<br>X) Photoactivated localization microscopy<br>Y) Stochastic optical reconstruction microscopy<br>Z) Fluorescence recovery after photobleaching</div><div>ANSWER: Z) Fluorescence recovery after photobleaching</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Consider a pressure-volume curve of the cardiac cycle. The opening of the mitral valve is marked by point A, closing of the mitral valve by point B, opening of the aortic valve by point C, and closing of the aortic valve by point D. The T wave on an electrocardiogram corresponds to what interval on this pressure-volume curve?</div><div>W) A through B<br>X) B through C<br>Y) C through D<br>Z) D through A</div><div>ANSWER: Z) D through A</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What term describes the property of material that refracts light differently depending on its angle of incidence and polarization?</div><div>ANSWER: Birefringence</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+1 mole of an ideal gas expands to occupy e<sup>2</sup> times more volume than initially. If its temperature is constantly 28 Celsius, what is the change in internal energy of the gas in joules to the nearest hundred?</div><div>ANSWER: 0</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Deepfake images are based off of what type of unsupervised learning algorithm?</div><div>ANSWER: Generative adversarial network</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Energy <i>Short Answer</i>
+The discriminative network within a GAN typically uses which type of neural network, modeled off of the operation of a visual cortex?</div><div>ANSWER: Convolutional neural network</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following types of probability distributions is most helpful for predicting the chance of an event happening over a time interval given the event’s average rate of occurrence?</div><div>W) Bernoulli<br>X) Poisson<br>Y) Hypergeometric<br>Z) Negative Binomial</div><div>ANSWER: X) Poisson</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Two identically oriented regular hexagons with side length 6 overlap each other such that the center is located above or below the perimeter of the other. What is the total area of this shape?</div><div>ANSWER: 171√3/2</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following best describes the outcome of the reaction between bromobenzene and n-butyllithium?</div><div>W) Lithium will be installed on the benzene ring ortho to bromine<br>X) Lithium will be installed on the benzene ring meta to bromine<br>Y) Lithium will be installed on the benzene ring para to bromine<br>Z) Lithium will substitute bromine on the ring</div><div>ANSWER: Z) Lithium will substitute bromine on the ring</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+To 1 significant figure and in joules, how much energy is required to raise the temperature of 35 grams of chlorine gas by 30 degrees Celsius under constant pressure?</div><div>ANSWER: 400 J</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three quantities that typically increase in the Atlantic Ocean due to the presence of Saharan dust
+1) Primary productivity
+2) Albedo
+3) Rate of condensation.</div><div>ANSWER: All</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+During the Archean, more active convection meant that oceanic crust was not fully cooled before subducting and so should have been too buoyant to subduct. This increased buoyancy is thought to be counteracted by the increased prevalence of what dense rock in Archean oceanic crust?</div><div>ANSWER: Komatiite</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+When a ligand binds to a receptor, there is an entropic barrier to binding due to the loss of degrees of freedom. In the simplest case where the ligand binds extremely tightly to the receptor, how many total degrees of freedom are lost from the ligand-receptor system?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following four signaling molecules that have the net effect of increasing sodium concentration in filtrate
+1) Atrial natriuretic peptide
+2) Aldosterone
+3) Adenosine
+4) Angiotensin II.</div><div>ANSWER: 2 and 4</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Take the Lagrangian to be a function of x, the time derivative of x, and time. You find that the Lagrangian of a particular open system is independent of x. This indicates the conservation of what quantity by this system?</div><div>ANSWER: Linear momentum <span class="also-accept">(also accept: Momentum)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The Reynolds number, a dimensionless quantity that predicts fluid flow patterns, is related to the flow speed, a characteristic length, and kinematic viscosity measured in meters squared per second. Given that doubling the flow speed would double the Reynolds number, by what factor is Reynolds number multiplied by if the radius of the pipe was tripled, and the viscosity is doubled?</div><div>ANSWER: 1.5</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+What type of radiometer is used by reconaissance satellites to track the presence and yield of nuclear tests?</div><div>ANSWER: Bhangmeter</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+A bhangmeter uses which effect of a nuclear explosion to verify that an increase in light is indeed from a nuclear explosion?</div><div>W) Seismic activity from shockwaves<br>X) Double flash<br>Y) Gamma radiation emission<br>Z) Mushroom cloud</div><div>ANSWER: X) Double flash</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the term used to describe two matrices if one can be obtained from the other by a sequence of row operations?</div><div>ANSWER: Row equivalent</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Calculate (1 + i√3)<sup>3</sup>.</div><div>ANSWER: -8</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the name given to liquid crystals prepared by dissolving amphipathic molecules in a solvent?</div><div>ANSWER: Lyotropic</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+According to the Bohr effect, an increase in the concentration of carbon dioxide will result in which of the following?</div><div>W) Blood pH increases and hemoglobin releasing oxygen<br>X) Blood pH increases and hemoglobin picking up oxygen<br>Y) Blood pH decreases and hemoglobin releasing oxygen<br>Z) Blood pH decreases and hemoglobin picking up oxygen</div><div>ANSWER: Y) Blood pH decreases and hemoglobin releasing oxygen</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following best describes the density wave theory describing how spiral galaxies maintain their arms?</div><div>W) Stars follow independent paths that concentrate in arms<br>X) An AGN pulls on central stars<br>Y) Nearby galaxies pull stars in complex tidal interactions<br>Z) Galaxies represent eddies in cosmic filaments</div><div>ANSWER: W) Stars follow independent paths that concentrate in arms</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+A carbon star typically forms after what kind of stellar event, where convection brings core elements to the star’s surface?</div><div>ANSWER: Dredge-up</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What term is given to chromosomes that can undergo Robertsonian translocations because their centromere is positioned nearly at the end of the chromosome?</div><div>ANSWER: Acrocentric <span class="do-not-accept">(do not accept: Telocentric)</span></div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three biochemical pathways which transketolase participates in
+1) Calvin cycle
+2) Pentose phosphate pathway
+3) Cori cycle.</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A ball is attached to a rope and twirled around a vertical rod with non-negligible diameter. Ignoring gravity and air resistance, which of the following is true about the ball’s kinetic energy and angular momentum about the center of the rod?</div><div>W) Kinetic energy is conserved but angular momentum is not<br>X) Kinetic energy is not conserved but angular momentum is<br>Y) Both are conserved<br>Z) Neither is conserved</div><div>ANSWER: W) Kinetic energy is conserved but angular momentum is not</div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Identify all of the following three statements that are true of a momentum vs time graph
+1) Its second derivative is jerk
+2) When its derivative is 0, there is no acceleration
+3) Every local minimum is an unstable equilibrium.</div><div>ANSWER: 2 only</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

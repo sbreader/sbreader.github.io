@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2023 Round 13</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2023/13" />
+<meta name="description" content="MIT 2023 Round 13: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2023" data-packet="13">
+<div class="float-row mb-3"><span class="float-start">Packet 13 (Round 13) of <a href="sets/mit-2023/">MIT 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2023/Round%2013.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What probability distribution, also known as the generalized binomial distribution, models the distribution of k rolls of an n -sided die?</div><div>W) Multinomial<br>X) Hyperbinomial<br>Y) Negative binomial<br>Z) Gamma</div><div>ANSWER: W) Multinomial</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Identify all of the following three operations acting on a three-dimensional vector that can be written in terms of matrix multiplication on that vector
+1) The dot product of the vector with (1, 1, 1)
+2) The cross product of the vector with (1, 1, 1)
+3) Squaring each term of the vector</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following is an example of a trait that exhibits positive frequency-dependent selection?</div><div>W) Aposematic coloration<br>X) Malaria resistance in humans<br>Y) Plant self-incompatibility genes<br>Z) Sidedness in scale eating cichlid mouths</div><div>ANSWER: W) Aposematic coloration</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Sea urchins are commonly used as a model organism to study animal development. Rank the following steps of sea urchin fertilization in chronological order
+1) Acrosomal processes bind to receptors
+2) Intracellular calcium ion concentration increases
+3) Cortical granules fuse with the egg membrane</div><div>ANSWER: 1, 2, 3</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Consider a planet that is exactly like the Earth except there is no land mass other than a single small island. How many high tides and low tides does an observer on the island experience every lunar day?</div><div>W) 1, 1<br>X) 1, 2<br>Y) 2, 1<br>Z) 2, 2</div><div>ANSWER: Z) 2, 2</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Cloud condensation nuclei composed on unburned gasoline would require what relative humidity for condensation?</div><div>W) Less than 25%<br>X) 25 to 50%<br>Y) 50 to 75%<br>Z) Greater than 100%</div><div>ANSWER: Z) Greater than 100%</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The Grossman Lab at MIT is studying the regulation of the bacterial protein DnaA, which binds to the origin of replication and recruits DNA bending proteins to promote the separation of DNA strands. The sites of DNA strand separation are rich in which two nucleobases?</div><div>ANSWER: Adenine and thymine <span class="also-accept">(also accept: A and T)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers at the Forman Lab have been studying Myasthenia Gravis, which results in skeletal muscle paralysis due to the disruption of the motor synapse. Which of the following types of receptors are they likely studying?</div><div>W) AMPA<br>X) Muscarinic<br>Y) NMDA<br>Z) Nicotinic</div><div>ANSWER: Z) Nicotinic</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+In metal refining, oxygenation leads to the formation of silicon dioxide from silicon impurities. This silicon dioxide is leached off as what compound that forms when it is mixed with calcium oxide?</div><div>ANSWER: CaSiO<sub>3</sub> <span class="also-accept">(also accept: Slag; calcium silicate)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Two identical, perfectly-insulating containers each have 1 liter of gas at 1 atmosphere of pressure. The first container is filled with helium gas, while the second container is filled with methane gas. The gas in each container is expanded to a final volume of 8 liters. What is the ratio of the work done by methane gas in the second container to the work done by helium gas in the first container?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+An ideal gas expands slowly and adiabatically. Identify all of the following three quantities that remain constant during this expansion
+1) Energy
+2) Entropy
+3) Enthalpy</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+The air inside of a soap bubble with radius 1 centimeter is at temperature 300 kelvin. The soap bubble then expands reversibly and adiabatically to a radius of 2 centimeters. Assuming air is an ideal diatomic gas, which of the following is closest to the temperature in kelvin of the air inside the expanded bubble?</div><div>W) 90<br>X) 130<br>Y) 190<br>Z) 230</div><div>ANSWER: X) 130</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following is NOT true concerning the renin-angiotensin-aldosterone system?</div><div>W) A decrease in blood pressure will result in an increased amount of renin secretion.<br>X) Aldosterone helps to increase blood volume by promoting Na+ reabsorption.<br>Y) Angiotensin-converting enzyme inhibitors work to lower blood pressure.<br>Z) Atrial natriuretic peptide increases aldosterone release by the adrenal glands.</div><div>ANSWER: Z) Atrial natriuretic peptide increases aldosterone release by the adrenal glands.</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+In fruit flies, grey bodies are dominant to black bodies and normal wings are dominant to vestigial wings. The recombination frequency between these two genes is approximately 20%. A true-breeding grey-bodied fly with normal wings is crossed with a true-breeding black-bodied fly with vestigial wings. You then take two of the offspring and cross them with each other. What is the probability that the offspring of this second cross has a black body and vestigial wings?</div><div>ANSWER: 16% <span class="also-accept">(also accept: 0.16)</span></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers at the Pentelute lab are investigating arylation of peptides through reaction of hexafluorobenzene with which of the following amino acids?</div><div>W) Lysine<br>X) Alanine<br>Y) Cysteine<br>Z) Methionine</div><div>ANSWER: Y) Cysteine</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Wendlandt Lab at MIT are researching photochemical reactions. Identify all of the following three electrocyclizations that are photochemically allowed
+1) Conrotatory 4π
+2) Conrotatory 6π
+3) Disrotatory 4π</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+How many nodes are in the highest occupied molecular orbital of 1,3,5-hexatriene?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+What species is responsible for the blue color that results from dissolving sodium in ammonia?</div><div>W) Sodium cation<br>X) Ammonium radicals<br>Y) Solvated electrons<br>Z) Amide complexes</div><div>ANSWER: Y) Solvated electrons</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following best describes the primary mode of particle motion in a Rayleigh wave?</div><div>W) Circular and prograde<br>X) Circular and retrograde<br>Y) Elliptical and prograde<br>Z) Elliptical and retrograde</div><div>ANSWER: Z) Elliptical and retrograde</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following best explains why the Atlantic is more saline than the Pacific?</div><div>W) Salt is transported into the Atlantic by the Agulhas current while no corresponding current exists for the Pacific<br>X) Freshwater is exported from the Atlantic to the Pacific via precipitation<br>Y) The Antarctic circumpolar current carries saltier water into the Atlantic<br>Z) The Atlantic actively generates deepwater, which skews average salinities</div><div>ANSWER: X) Freshwater is exported from the Atlantic to the Pacific via precipitation</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Aaron has a DC voltage source of 2 volts. If he wishes to amplify this voltage, which of the following devices would he most likely use?</div><div>W) Operational amplifier<br>X) Transistor<br>Y) Transformer<br>Z) Rectifier</div><div>ANSWER: W) Operational amplifier</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The surface tension of the boundary between air and soapy water is approximately 2.5 × 10<sup>-2</sup> newtons per meter. If a spherical soap bubble is formed with a radius of 5 centimeters, what is the pressure difference in pascals between the inside and outside of the bubble to one significant figure?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+The distribution of the heights of men can be modeled as a normal model with a variance of 3 while the distribution of heights of women can be modeled as a normal model with a variance of 4. What is the standard deviation of the normal model produced from the difference of the heights of men and women?</div><div>ANSWER: √7</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The function f(n) takes positive integer values of n and outputs the sum of the fifth powers of the integers from 1 to n inclusive. When f(n) is written as a polynomial in n, what is the coefficient of its leading term?</div><div>ANSWER: 1/6</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+The Hercules-Corona Borealis Great Wall is the largest known instance of what kind of object formed from gravitationally bound superclusters?</div><div>ANSWER: Galactic filament</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Haumea is best approximated by as what type of triaxial ellipsoid?</div><div>ANSWER: Jacobi ellipsoid</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A two-state qubit has basis states ket 0 and ket 1. If the qubit is currently in the state three-fifths ket 0 plus four-fifths ket 1, what is the probability that the qubit will be measured to be in the state ket zero?</div><div>W) 3 / 4<br>X) 3 / 7<br>Y) 9 / 16<br>Z) 9 / 25</div><div>ANSWER: Z) 9 / 25</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A spherical marble is placed on a very large ramp inclined 30 degrees to the horizontal and rolls down the ramp without slipping. After rolling a distance of 7 centimeters, to one significant figure and in meters per second, what is the velocity of the marble?</div><div>ANSWER: 0.7</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three statements that are TRUE regarding prokaryotic and eukaryotic translation
+1) Eukaryotic mRNA transcripts more often encode multiple proteins at one time.
+2) In both eukaryotes and prokaryotes, mRNA first attaches to the small ribosomal subunit.
+3) Prokaryotic translation can occur simultaneously with transcription</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following pairs of codons could be recognized by the same tRNA due to wobble base pairing?</div><div>W) GCU and UCU<br>X) UAG and UAA<br>Y) AUU and AUG<br>Z) AGU and AGC</div><div>ANSWER: Z) AGU and AGC</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following best explains why many lead (IV) compounds spontaneously decompose at room temperature?</div><div>W) Group 14 elements tend to only form compounds in +2 state.<br>X) Lead is a heavy metal, which tend to not form compounds of +4 state due to the large activation energy.<br>Y) The 6s electrons of lead experience great attraction to the nucleus and thus tend to not participate in bonding.<br>Z) The lead atom is too large and thus incapable of holding a stable tetrahedral structure.</div><div>ANSWER: Y) The 6s electrons of lead experience great attraction to the nucleus and thus tend to not participate in bonding.</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Viraj takes a sample of zinc sulfide and adds fills all tetrahedral holes with manganese atoms. What is the molar ratio of manganese to zinc in his product?</div><div>ANSWER: 1/2 <span class="also-accept">(also accept: 0.5)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers in the Sojacic group at MIT are exploring new ways to produce X-rays. One way to produce X-rays is through the deceleration of an electron, which emits radiation in what phenomenon?</div><div>ANSWER: Bremsstrahlung</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers in the Choi Group at MIT are looking at ways to flip off-resonance qubits with composite NMR pulses. When a non-composite, single NMR pulse is applied to a qubit, the qubit precesses in the rotating frame. What is the name of the frequency at which the qubit precesses?</div><div>ANSWER: Rabi frequency</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Three cats and three dogs sit down at seats around a round table uniformly at random. What is the probability that all three cats sit in consecutive seats?</div><div>W) 1/5<br>X) 1/4<br>Y) 3/10<br>Z) 7/20</div><div>ANSWER: Y) 3/10</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+ABC is a triangle with AB = 6, BC = 8, and CA = 10. The angle bisector of angle B intersects the circumcircle of ABC at point D. What is the length of BD?</div><div>ANSWER: 7√2</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The structure of the Lyman-alpha forest in the spectrum of a distant quasar encodes information regarding what structure between the quasar and the observer?</div><div>W) Location of HII regions<br>X) Location of HI regions<br>Y) Location of dark matter<br>Z) Regions of high carbon monoxide density</div><div>ANSWER: W) Location of HII regions</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Systems of multiple massive objects, when given time, sort themselves by density. Identify all of the following three pairs that correctly assign an object to their massive central object
+1) M87, Virgo Cluster
+2) Virgo Cluster, Virgo Supercluster
+3) Sagittarius A-star, Local Group</div><div>ANSWER: 1, 2</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The pair production of an electron and positron from a single photon often occurs near the nucleus of an atom in order to conserve what quantity?</div><div>ANSWER: Momentum <span class="also-accept">(also accept: Linear momentum)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Bob has a convex lens with focal length 10 centimeters made out of glass with an index of refraction of 2. Emmy builds another convex lens of exactly the same shape, but with a different material which has an index of refraction of 3. In centimeters, what is the focal length of Emmy’s mirror?</div><div>ANSWER: 5</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the period of the function defined as f(x) = ⌈x/2⌉ − x/2?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Four sheep and four pigs are to be herded into two pens such that each pen has at least one of each type of animal. If animals of the same type are distinguishable, how many ways can the animals be herded?</div><div>ANSWER: 196</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+In which organelle would one observe the breakdown of lignoceric acid, a long chain fatty acid with 26 carbon atoms?</div><div>ANSWER: Peroxisome</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following four statements that are TRUE when a species with 12 chromosomes and a species with 10 chromosomes give way to a fertile hybrid species with 22 chromosomes
+1) This is an example of allopatric speciation
+2) This is an example of autopolyploidy
+3) This process occurs commonly in plants
+4) Meiotic errors could have contributed to the production of this species</div><div>ANSWER: 3 and 4</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following compounds is the most acidic?</div><div>W) Benzoic acid<br>X) Ortho-nitro benzoic acid<br>Y) Meta-nitro benzoic acid<br>Z) Para-nitro benzoic acid</div><div>ANSWER: X) Ortho-nitro benzoic acid</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three molecules whose symmetric stretching vibrational mode is IR active
+1) Hydrogen
+2) Nitric oxide
+3) Carbon dioxide</div><div>ANSWER: 2 only</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

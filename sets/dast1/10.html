@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - DAST1 DAST Round 10</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/dast1/10" />
+<meta name="description" content="DAST1 DAST Round 10: 43 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="dast1" data-packet="10">
+<div class="float-row mb-3"><span class="float-start">Packet 10 (DAST Round 10) of <a href="sets/dast1/">DAST1</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/DAST1/DAST%20Round%2010.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Simplify the following expression: (3+5i)/(3-5i) + (3-5i)/(3+5i)</div><div>ANSWER: -16/17</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the largest possible integer n such that 7 raised to the power of n divides 9 raised to the power of 2058 minus 6 raised to the power of 2058?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Akul and Bob are at USABO camp, and they decide to climb a tall tree. Bob climbs first, but once he reaches the top, he slips and must dangle over the ground. If Akul has a 13/16 chance of saving Bob, what is the minimum coefficient of relatedness between Akul and Bob such that natural selection favors Akul saving Bob?</div><div>ANSWER: 3/16 <span class="also-accept">(also accept: 0.1875)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+A population of DASTs consists of 50 males and females, and 60% of the population are males. If 10 of the males do not breed, what is the smallest number of females that must breed so that the effective population size is at least 60% of the real population size?</div><div>ANSWER: 12</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following species would most likely need the Hammett Acidity function to measure its acidity due to the breaking down of the pH scale?</div><div>W) Hydrofluoric acid<br>X) Perchloric acid<br>Y) Dilute sulfuric acid<br>Z) Fluoroantimonic acid</div><div>ANSWER: Z) Fluoroantimonic acid</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">VISUAL BONUS</span> Chemistry <i>Short Answer</i>
+Jay is attempting to convert ketones into alkenes using the Wittig Reaction. Answer the following three questions regarding this reaction
+1) What is the general term for the molecule labeled 2?
+2) How many members does the ring formed by the intermediate have?
+3) True or False: If Jay would like the E alkene to predominate, he should use a resonance-stabilized form of molecule 2.</div><div class="q-figures"><img class="q-figure" src="data/img/dast1/5427.webp" width="1349" height="328" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) YLIDE; 2) 4; 3) TRUE</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A superconductor and a current carrying wire of current I are placed a distance x away from each other. If the force between two current carrying wires of current 2I a distance 2 x away from each other is F, find the force between the current carrying wire and the superconductor.</div><div>ANSWER: F/4</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Identify all of the following four statements that are TRUE concerning phonons, excitations of lattice energy.
+1) The Einstein Model assumes that all vibrational nodes of a solid have the same frequency
+2) The Debye model is a more accurate representation of phonons.
+3) The heat capacitance of a 3D solid saturates to 3R at high temperatures.
+4) The low temperature result of an Einstein solid is known as the Dulong-Petit Rule.</div><div>ANSWER: 1, 2, AND 3</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Galaxies often evolve by interacting and merging with other galaxies. Which of the following is expected of galaxies that do not interact or merge with other galaxies?</div><div>W) The galaxy becomes brighter and bluer.<br>X) The galaxy becomes brighter and redder.<br>Y) The galaxy becomes dimmer and bluer.<br>Z) The galaxy becomes dimmer and redder.</div><div>ANSWER: Z) The galaxy becomes dimmer and redder.</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">VISUAL BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Shown in this image is the galaxy Cygnus A. Answer the following questions about this image
+1) What part of the electromagnetic spectrum was this image taken in?
+2) According to the Hubble morphological classification, to what class does this galaxy belong?
+3) What process is responsible for the emission seen in the image at the very center of the galaxy?</div><div class="q-figures"><img class="q-figure" src="data/img/dast1/86905.webp" width="1084" height="638" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) RADIO; 2) ELLIPTICALS; 3) SYNCHROTRON RADIATION</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at the Joint Genome Institute are studying the phylogenetic history of raptor eyes. Many raptors possess both a deep and a shallow variety of what anatomical feature that allows for acute vision?</div><div>ANSWER: FOVEA</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">VISUAL BONUS</span> Physics <i>Short Answer</i>
+Scientists at the University of Washington have been studying solutions to the dark matter problem. They are using SQUIDs, or superconducting quantum interference devices, to measure hypothetical axion fields that are candidates for dark matter. Shown in the diagram are two types of SQUIDs. Answer the following two questions regarding the diagram.
+1) Identify the types of SQUIDs labeled A and B, respectively, in the diagram.
+2) What type of circuit element is colored green in the diagram?</div><div class="q-figures"><img class="q-figure" src="data/img/dast1/86906.webp" width="1096" height="520" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) A is RF (radio frequency) SQUID, B is DC SQUID; 2) Josephson junction</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following nuclear reactions is incorrectly paired with a decay pathway?</div><div>W) Carbon 10 to Boron 10; Beta Plus Decay<br>X) Uranium 238 to Thorium 234; Alpha Decay<br>Y) Aluminum 26 to Magnesium 26; Beta Minus Decay<br>Z) Argon 37 to Chlorine 37; Electron Capture</div><div>ANSWER: Y) Aluminum 26 to Magnesium 26; Beta Minus Decay</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three statements that are true regarding substitution on benzene rings
+1) For 1,4-disubstituted rings, nitration occurs at the less sterically hindered position
+2) When substituting on toluene, the para product dominates strongly over the ortho product
+3) For 1,3-disubstituted rings, virtually no reactions take place at the position between both substituents.</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the name for the effect where an emf is generated when a temperature difference is applied to two ends of a conductor?</div><div>ANSWER: SEEBECK EFFECT</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Rushil is standing on the edge of the nonexistent merry-go-round at Cornerstone Elementary that has an angular velocity at any time t seconds being equal to sin(t), with positive angular velocity caused by counterclockwise rotation. When the merry-go-round starts to spin, Rushil starts walking along its diameter, and he walks in a straight line with constant velocity with respect to the rotating frame, taking a total of 2π seconds to reach the other end. Given this, which of the following statements is true regarding forces in the rotating frame?</div><div>W) There is a nonzero centrifugal force acting on Rushil when t = π.<br>X) When he is halfway from either end to the center, no azimuthal force acts on Rushil.<br>Y) There is a nonzero azimuthal force acting on Rushil when t = π.<br>Z) When he is halfway from either end to the center, no centrifugal force acts on Rushil.</div><div>ANSWER: X) When he is halfway from either end to the center, no azimuthal force acts on Rushil.</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Jupiter’s magnetic field is partially due to its liquid metallic hydrogen core. However, its moon, Io, more than doubles Jupiter’s magnetic field strength by emitting large amounts of sulfur dioxide, which gets swept up in Jupiter’s magnetic sphere to form what object that surrounds the planet?</div><div>ANSWER: IO PLASMA TORUS <span class="also-accept">(also accept: IO TORUS; PLASMA TORUS; TORUS)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Jupiter has multiple gossamer rings composed largely of dust from impacts on the moons Amalthea and Thebe. Originally, these dust particles had the same orbit as their moons. What process is responsible for their orbital decay?</div><div>W) Extremely small gravitational waves<br>X) Collision with other dust particles in the ring<br>Y) Interactions with Jupiter’s magnetic field<br>Z) Drag from solar radiation</div><div>ANSWER: Z) Drag from solar radiation</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Browerian mimicry is best exemplified by which of the following scenarios?</div><div>W) A spider acts as if it belongs to an ant colony<br>X) Two venomous snake species resemble each other<br>Y) A harmless male butterfly mimics a poisonous female<br>Z) A highly venomous snake mimics a moderately venomous snake</div><div>ANSWER: Y) A harmless male butterfly mimics a poisonous female</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which group of genes would you expect to not be constitutively expressed in a bacterium?</div><div>W) Genes that code for ribosomal components<br>X) Genes that respond to environmental changes in external resources<br>Y) Genes that create enzymes that participate in the biosynthesis of cell wall components<br>Z) Genes that code for transcription factors</div><div>ANSWER: X) Genes that respond to environmental changes in external resources</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+All solutions of the equation cosine of 8x equals negative one half can be expressed in the form (kn ± 1)π/12, where n is an integer. Find the positive value of k.</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Scientists at Oak Ridge National Laboratory are attempting to solve analytic continuation problems through stochastic optimization. One such method of stochastic optimization is what iterative process that can be used for differentiable functions and involves the use of a step size?</div><div>ANSWER: GRADIENT DESCENT</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Researchers at the Princeton Plasma Physics Lab are using quantum computers to analyze the interactions between fundamental particles. These quantum computers use qubits which use the idea of superposition to be a 0 or 1 or any linear combination of 0s and 1s. Which of the following linear combinations of two qubits written in bra-ket notation does NOT require them to be entangled?</div><div>W) bra-0,0-ket + bra-1,1-ket<br>X) bra-1,0-ket + bra-0,1-ket<br>Y) bra-0, 0-ket + bra-0, 1-ket<br>Z) bra-0, 1-ket + bra-1, 0-ket</div><div>ANSWER: Y) bra-0, 0-ket + bra-0, 1-ket</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Viraj used his immense strength to throw a rock of mass 7 kilograms at 0.6c into outer space. What is the ratio of its total energy to its kinetic energy right after the rock leaves his hand?</div><div>ANSWER: 5</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three amino acids that contain at least one 5-membered ring
+1) Tryptophan
+2) Histidine
+3) Proline</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the amino acids is NOT correctly matched with its characteristic functional group?</div><div>W) Cysteine and sulfhydryl<br>X) Arginine and guanidine<br>Y) Tyrosine and phenol<br>Z) Tryptophan and azulene</div><div>ANSWER: Z) Tryptophan and azulene</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+In reflection nebulae like the Pleiades, starlight does not ionize the nebula; instead, compounds scatter their light. Two elements that appear in compounds that scatter light in nebulae are iron and nickel. Due to their alignment with the magnetic field of their galaxy, the light from reflection nebulae is slightly affected by what phenomenon?</div><div>ANSWER: POLARIZATION</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+The Large Magellanic Cloud appears to have a stellar bar, suggesting that it used to be a barred dwarf stellar galaxy. Which of the following explains why the Large Magellanic Cloud is now irregular in shape?</div><div>W) Tidal interactions with a galaxy in its distant past<br>X) Tidal interactions with the Small Magellanic Cloud<br>Y) Tidal interactions with the Milky Way<br>Z) Tidal interactions with other dwarf galaxies in the Local Group</div><div>ANSWER: X) Tidal interactions with the Small Magellanic Cloud</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following complexes has a tetrahedral shape?</div><div>W) Nickel tetracarbonyl<br>X) Tetracyanonickelate (II)<br>Y) Tetrachloroaurate (I)<br>Z) Tetrachlorocuprate (II)</div><div>ANSWER: W) Nickel tetracarbonyl</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What is the point group of the digermyne molecule Ge<sub>2</sub>H<sub>2</sub>?</div><div>ANSWER: C2h</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+The point A (4, 6) is reflected over the line y = x to point B. What is the area of the triangle formed by points A, B, and the origin?</div><div>ANSWER: 10</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A recursive sequence defined as a<sub>n</sub> = 3a<sub>n-1</sub> − 2a<sub>n-2</sub> has first terms a<sub>1</sub> = 1 and a<sub>2</sub> = 3. What is the fourteenth term of this sequence?</div><div>ANSWER: 16383</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers at the Department of Energy’s DIII-D National Fusion Facility have discovered new properties of plasmas by studying what magnetic field oscillations propagated throughout plasmas that give rise to phenomena such as the auroras?</div><div>ANSWER: ALFVÉN WAVES</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">VISUAL BONUS</span> Biology <i>Short Answer</i>
+Shown in the image is the 3C-like protease, the main protease found in coronaviruses, and its active site makeup. In the active site, cysteine 145 and histidine 41 make up a catalytic dyad . Answer the following questions regarding this enzyme
+1) Identify the structural motif labelled a
+2) Which of the following three amino acid substitutions would most likely not impact enzymatic activity
+1) Cys145 to Arg145
+2) Leu141 to Asp141
+3) Ala191 to Val191</div><div class="q-figures"><img class="q-figure" src="data/img/dast1/86907.webp" width="1004" height="459" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1-BETA BARREL; 2-3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The electric potential is given by the function f of x, y, and z equals x times y times z squared minus z times the natural log of y. What is the electric field at the point (3, −4, 1)?</div><div>ANSWER: 4i+2j-24k</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Right triangle ABC has legs of length 12 and 16. If a line is drawn from vertex B that intersects AC at P, how many different integer values can the length of BP be?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Let A be a matrix such that A times the matrix with first row 2, second row 5, and third row 3 equal a matrix with first row -9, second row -2, and third row 4, and A times the matrix with first row -1, second row 5, and third row 2 equal a matrix with first row -10, second row 4, and third row 1. What is the sum of the entries in the matrix that is the result of A multiplied by the matrix with first row -3, second row 0, and third row -1?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Ms. Allen is trying to predict the regiochemical outcomes of nitrating toluene. Which of the following statements is true regarding the nitration of toluene?</div><div>W) Nitration of toluene strongly favors the ortho form because the intermediate has a resonance structure that exhibits a positive charge adjacent to the methyl group<br>X) Nitration of toluene strongly favors the para form because the intermediate has a resonance structure that exhibits a negative charge adjacent to the methyl group<br>Y) Nitration of toluene strongly favors the meta form because the intermediate has a resonance structure that exhibits a positive charge adjacent to the methyl group<br>Z) Nitration of toluene strongly favors the meta form because the intermediate has a resonance structure that exhibits a negative charge adjacent to the methyl group</div><div>ANSWER: W) Nitration of toluene strongly favors the ortho form because the intermediate has a resonance structure that exhibits a positive charge adjacent to the methyl group</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">VISUAL BONUS</span> Chemistry <i>Short Answer</i>
+Answer the following three questions regarding the molecule shown in the image
+1) What is the name of the polymer made from this molecule?
+2) How many distinct peaks would show up in a carbon 13 NMR spectrum of this molecule?
+3) How many sigma bonds are in the molecule?</div><div class="q-figures"><img class="q-figure" src="data/img/dast1/86908.webp" width="773" height="463" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1-POLYSTYRENE; 2-6; 3-16</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following best describes a hanging valley?</div><div>W) A valley formed when the river forming a valley forms a waterfall, making a cliff-like structure along the valley.<br>X) A valley typically within a mountain range which lies above sea level and lies adjacent to a cirque.<br>Y) A valley formed when a tributary glacier’s floor hangs over where it merges with the main glacier.<br>Z) A valley shaped formation along a coastline made by the erosion of the edge of a sea cliff.</div><div>ANSWER: Y) A valley formed when a tributary glacier’s floor hangs over where it merges with the main glacier.</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">VISUAL BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Match the particles on the left with their corresponding glacial striations.</div><div class="q-figures"><img class="q-figure" src="data/img/dast1/5464.webp" width="973" height="492" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1, A; 2, C; 3, B</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What name is given to the region along which transcription factors commonly bind to DNA? This region of DNA is distinct from its counterpart in its wider structure thus allowing transcription factor binding.</div><div>ANSWER: MAJOR GROOVE</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Classify the following mammals as either marsupial mammals, eutherian mammals, or neither of them
+1) Kangaroo
+2) Wolverine
+3) Flying Squirrel</div><div>ANSWER: 1-MARSUPIAL; 2 – EUTHERIAN; 3 – EUTHERIAN</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

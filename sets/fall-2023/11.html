@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Fall 2023 Round 11</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/fall-2023/11" />
+<meta name="description" content="Fall 2023 Round 11: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="fall-2023" data-packet="11">
+<div class="float-row mb-3"><span class="float-start">Packet 11 (Round 11) of <a href="sets/fall-2023/">Fall 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/18jNZbFgkqJnr_y2XchQp2GEIQRM1i4WZ/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is 7226 mod 227?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the integral from zero to infinity of 2 times e to the power of the quantity -x<sup>2</sup>, dx.</div><div>ANSWER: √π <span class="also-accept">(also accept: SQUARE ROOT OF PI)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+What was the massive ice sheet that covered most of Canada and the northern US during the Pleistocene epoch?</div><div>W) Agassiz ice sheet<br>X) Laurentide ice sheet<br>Y) Benioff ice sheet<br>Z) Bonneville ice sheet</div><div>ANSWER: X) Laurentide ice sheet</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements regarding tides is NOT true?</div><div>W) Tidal forces on a satellite can cause an increase in the temperature of the satellite’s interior<br>X) Earth’s neap tides occur at quarter moons<br>Y) The Sun’s effect on tides are approximately 20% that of the Moon’s effect<br>Z) Friction from the Earth’s tides against the ocean floor affect the orbital paths of the Earth and Moon around each other</div><div>ANSWER: Y) The Sun’s effect on tides are approximately 20% that of the Moon’s effect</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A 1-kilogram rubber ball falls 5 meters before bouncing off the ground, making contact with the ground for 0.25 seconds. Given g equals 10 meters per second squared, what is the average force in newtons applied by the floor onto the ball?</div><div>ANSWER: 80</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+If the relative permittivity and permeability in a given medium are both equal to 3, then in meters per second and to two significant figures, what is the speed of light in this medium?</div><div>ANSWER: 1.0 × 10<sup>8</sup></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following is true about the complex MnCl<sub>4</sub><sup>2–</sup>?</div><div>W) It is dark red in color<br>X) It is high spin<br>Y) It is an octahedral complex<br>Z) It has four unpaired electrons</div><div>ANSWER: X) It is high spin</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following is the primary donor–acceptor orbital interaction in the reaction between ammonia and boron trifluoride?</div><div>W) Sigma to 2p<br>X) Sigma to pi star<br>Y) Pi to 2p<br>Z) Pi to pi star</div><div>ANSWER: W) Sigma to 2p</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Scientists at Helen Wills Neuroscience Institute at UC Berkeley are studying ways to implement NexGen 7T MRI machines, which have significantly improved resolution compared to other MRI machines. MRI machines work by pulsing electromagnetic signals to cause spin flips in nuclei. These pulses can be found in what range of the electromagnetic spectrum?</div><div>ANSWER: RADIO</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Scientists at the Lawrence Berkeley National Lab have worked on converting solid waste into methyl ketones, which can be used as diesel fuel precursors. Which of the following is an example of a methyl ketone?</div><div>W) Propanone<br>X) Cyclohexanone<br>Y) Benzophenone<br>Z) 3-hexanone</div><div>ANSWER: W) Propanone</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three physiological changes that are direct effects of parathyroid hormone
+1) Bone resorption
+2) Increased urinary cyclic AMP
+3) Increased phosphate reabsorption in the nephron.</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Reporter genes are often used in reporter assays to determine the activity of an enhancer. Which of the following is used as a reporter gene in blue-white assays because its product can cleave X-Gal?</div><div>W) HTT<br>X) GUS<br>Y) GFP<br>Z) LacZ</div><div>ANSWER: Z) LacZ</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Identify all of the following three statements that are true of racemic mixtures
+1) They are equal mixtures of two enantiomers
+2) They are optically inactive
+3) They can usually be separated via distillation.</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Sahand is interested in constructing a laser. Identify all of the following three model systems that could hypothetically be used to generate stimulated emission in lasers
+1) Two-level system
+2) Three-level system
+3) Quantum harmonic oscillator.</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements is NOT true regarding various orbits around the Sun?</div><div>W) Earth’s sidereal day is shorter than its synodic day<br>X) Saturn’s orbital period is greater than that of Jupiter’s<br>Y) Earth’s aphelion occurs in January<br>Z) Earth’s orbit around the Sun precesses</div><div>ANSWER: Y) Earth’s aphelion occurs in January</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+List the following three layers in the ophiolite sequence from top to bottom
+1) Gabbro
+2) Pillow Basalt
+3) Deep-sea Sediment.</div><div>ANSWER: 3, 2, 1</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The moment of inertia of a circle with a 1 meter radius about its central axis is 10 kilogram meters-squared. In kilogram meters-squared, what is the moment of inertia of the same circle, about an axis in the plane of the circle and tangent to its circumference?</div><div>ANSWER: 25</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+One violinist plays a 440 hertz A, while another is out of tune because their A string has a tension 21% higher than it should. What is the beat frequency in hertz?</div><div>ANSWER: 44</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What German mathematician lends his name to the class of complete topological vector spaces endowed with an inner product?</div><div>ANSWER: HILBERT</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Let F be the vector field defined by F(x, y, z) = xyi + yzj + z<sup>2</sup>k. What is the divergence of F at the point (2, 1, 3)?</div><div>ANSWER: 10</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following sections of a sarcomere is exclusively composed of thick myosin filaments?</div><div>W) A-band<br>X) H-zone<br>Y) I-band<br>Z) Z-line</div><div>ANSWER: X) H-zone</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+When conducting a quantitative direct ELISA, you find that changing the substrate concentration added doesn’t change measured absorbance. Identify all of the following three mistakes you have made in your procedure
+1) Too much substrate was added in all trials
+2) Added substrate concentration was too close to KM
+3) A competitive inhibitor was accidentally introduced.</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Scientists in the Crommie group at UC Berkeley utilize scanned probe techniques to analyze carbon nanotubes. What property of the structure of carbon nanotubes provide them with their incredibly large mechanical strength?</div><div>W) A network of covalently bonded sp<sup>3</sup> carbon atoms<br>X) A network of covalently bonded sp<sup>2</sup> carbon atoms<br>Y) A lattice of ionically bonded carbon atoms<br>Z) A lattice of carbon atoms doped with fluorine atoms</div><div>ANSWER: X) A network of covalently bonded sp<sup>2</sup> carbon atoms</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at the Lawrence Berkeley National Lab are analyzing the details of the Higgs boson interactions with various fermions and bosons. Order the following three particles in order of increasing strength of interaction with the Higgs field
+1) Top quark
+2) Tau lepton
+3) Photon.</div><div>ANSWER: 3, 2, 1</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is the type of mass wasting which occurs slowly in water-saturated soil, often in regions with permafrost?</div><div>W) Rockslide<br>X) Slump<br>Y) Solifluction<br>Z) Liquefaction</div><div>ANSWER: Y) Solifluction</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three stars or star systems which would be categorized as intrinsic variable stars
+1) Algol
+2) RR Lyrae
+3) Delta Cephei</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the name given to the aberration that occurs in a lens with different focal lengths along different axes?</div><div>ANSWER: ASTIGMATISM</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following statements regarding elementary particles is NOT true?</div><div>W) Top quarks are more massive than up quarks<br>X) Antileptons have half-integer spin<br>Y) W and Z bosons are the elementary particles that carry the weak nuclear force<br>Z) The spin of a proton is equal to the sum of spins of its constituent quarks</div><div>ANSWER: Z) The spin of a proton is equal to the sum of spins of its constituent quarks</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Identify all of the following three compounds that exhibit 3-center-2-electron bonding
+1) Diborane
+2) Aluminum chloride
+3) Trihydrogen cation.</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three reactions that can be used to convert an alkyne into a cis-alkene
+1) Hydroboration-oxidation
+2) Hydrogenation with Raney nickel
+3) Hydrogenation with Lindlar’s catalyst.</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Which phenomenon describes the release of biochemicals into the environment to reduce competition among plants growing in the same niche?</div><div>ANSWER: ALLELOPATHY</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Hashimoto&#39;s disease is an autoimmune disorder that causes hyperthyroidism. Which of the following mechanisms is the most probable trigger for this condition?</div><div>W) Macrophages perform phagocytosis on thyroid cells<br>X) Antibodies actively stimulate the thyroid receptor<br>Y) Granulocytes trigger apoptosis on thyroid cells<br>Z) Antibodies actively block the thyroid receptor</div><div>ANSWER: X) Antibodies actively stimulate the thyroid receptor</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the coefficient of x<sup>6</sup>y<sup>9</sup> in the expansion of the expression: (x<sup>2</sup> + y<sup>3</sup>), to the sixth power?</div><div>ANSWER: 20</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A region is composed of a circle of radius 10 with two tangent lines that intersect at a 30 degree angle. What is the area of the region bounded by the circle and two tangent lines?</div><div>ANSWER: 100√3 – 100π/3 <span class="also-accept">(also accept: 100 ROOT 3 – 100π/3)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers at Lawrence Berkeley National Lab are using nanotechnology to improve the efficiency of traditional silicon-based computers, which contain doped semiconductors. What quasiparticles are known to carry current in P-type silicon semiconductors?</div><div>ANSWER: HOLES</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Scientists in the Lee Group at UC Berkeley have been investigating the ability of viruses to generate electrical current when heated, a phenomenon known as pyroelectricity. They found that this phenomenon was related to the unfolding of alpha helices in certain proteins, thereby reducing their net polarization. Which of the following is NOT true regarding alpha helices?</div><div>W) They possess a net dipole due to amino acid side chain interactions<br>X) Their C-termini are negatively charged<br>Y) They are right-handed structures<br>Z) They are stabilized by hydrogen bonds within the backbone</div><div>ANSWER: W) They possess a net dipole due to amino acid side chain interactions</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Rank the following three ligands in terms of increasing ligand strength
+1) Nitrite ion
+2) Hydroxide ion
+3) Water.</div><div>ANSWER: 2, 3, 1</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements about brass is true?</div><div>W) Brass is a heterogeneous alloy<br>X) Brass is denser than zinc<br>Y) Brass does not have a fixed melting point<br>Z) Brass has a lower melting point than zinc</div><div>ANSWER: Y) Brass does not have a fixed melting point</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following sequencing techniques uses bridge amplification that forms molecular clusters that fluoresce as they are formed?</div><div>W) Sanger Sequencing<br>X) Oxford Nanopore Sequencing<br>Y) Illumina Sequencing<br>Z) PacBio Sequencing</div><div>ANSWER: Y) Illumina Sequencing</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+In the human body, the average hematocrit is approximately 45% in healthy males. What is the volume, to the nearest milliliter, of hematocrit found in a 0.25 liter blood sample from a healthy male, assuming that the buffy coat percentage is negligible?</div><div>ANSWER: 113</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The Whirlpool Galaxy has two very distinct arms, each extending through a large angle in space. Which of the following would be the BEST classification for the Whirlpool Galaxy?</div><div>W) Elliptical<br>X) Flocculent spiral<br>Y) Grand design spiral<br>Z) Irregular</div><div>ANSWER: Y) Grand design spiral</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which statement correctly matches a type of sand dune to its description?</div><div>W) Parabolic dunes have tips pointing downwind<br>X) Transverse dunes form in areas with steady winds and plentiful sand<br>Y) Barchans tend to be anchored by vegetation<br>Z) Longitudinal dunes form perpendicular to the wind</div><div>ANSWER: X) Transverse dunes form in areas with steady winds and plentiful sand</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A one metric ton car is suspended on springs with a total spring constant of 1 times 10 to the power of 7 newtons per meter. What damping coefficient in kilograms per second would the system need to critically damp the car’s oscillations?</div><div>ANSWER: 2 × 10<sup>5</sup></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A particle is constrained to move in the x dimension and is subjected to a force field F of x equals x<sup>3</sup> – 7x<sup>2</sup> + 8x – 2. For what value of x is the particle in stable equilibrium?</div><div>ANSWER: x = 4 <span class="do-not-accept">(do not accept: x = 2/3)</span></div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A class with a sample size of 81 students predicted an average of 5.1 points on a recent quiz with standard deviation of 1 point. What is the value of t in a t-test if the actual average was 6 points?</div><div>ANSWER: 0.1</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+The Fourier transform of a Gaussian distribution yields what type of distribution in frequency space?</div><div>W) Constant<br>X) Delta function<br>Y) Exponential decay<br>Z) Gaussian</div><div>ANSWER: Z) Gaussian</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

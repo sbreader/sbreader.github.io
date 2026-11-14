@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Fall 2023 Round 1</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/fall-2023/1" />
+<meta name="description" content="Fall 2023 Round 1: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="fall-2023" data-packet="1">
+<div class="float-row mb-3"><span class="float-start">Packet 1 (Round 1) of <a href="sets/fall-2023/">Fall 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1a_4fyMF-wxzSziHJSFLoeSJj2mWuNYMi/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the hybridization of the central carbon atom in formaldehyde?</div><div>ANSWER: sp<sup>2</sup></div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the three following properties that are state functions
+1) Heat
+2) Work
+3) Enthalpy.</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Yeast produces beer and other alcohol products through what general reaction pathway?</div><div>ANSWER: FERMENTATION <span class="also-accept">(also accept: ANAEROBIC RESPIRATION)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following monophyletic groups is NOT classified as being one of the three major biological domains?</div><div>W) Bacteria<br>X) Protista<br>Y) Eukarya<br>Z) Archaea</div><div>ANSWER: X) Protista</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers at the Fischer Lab at UC Berkeley use a combination of organic synthesis and scanning electron microscopy to create new materials from parent molecules such as graphene, which is an allotrope of which element?</div><div>ANSWER: CARBON</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at the Space Sciences Laboratory at UC Berkeley are collaborating with Lockheed Martin to develop a model for the evolution of the Sun’s magnetic field. What type of event consists of charged or magnetized particles being emitted due to fluctuations in the Sun’s magnetic field?</div><div>ANSWER: CORONAL MASS EJECTION <span class="do-not-accept">(do not accept: SOLAR FLARE)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A wheel is rotating at 5 radians per second. In radians per second squared, what angular acceleration must be applied to the wheel to accelerate it to 10 radians per second in 20 seconds?</div><div>ANSWER: 0.25 <span class="also-accept">(also accept: 1/4)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Identify all of the following three types of forces that are conservative
+1) Frictional
+2) Gravitational
+3) Magnetic.</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the slope of the line with the equation 3y + 5x = 12?</div><div>ANSWER: –5/3</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the sum of the infinite geometric series with first term 3/5 and second term 1/5?</div><div>ANSWER: 9/10</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the term for localized volcanism due to plumes of hot magma rising from the mantle?</div><div>ANSWER: HOTSPOT</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Dylan looks up at the sky and notices that there are multiple layers of clouds at different heights. Order the following three types of clouds from lowest to highest altitude
+1) Altocumulus
+2) Cirrus
+3) Stratus.</div><div>ANSWER: 3, 1, 2</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+In what phase of the cell cycle does DNA replication occur?</div><div>ANSWER: S-PHASE <span class="also-accept">(also accept: S)</span> <span class="do-not-accept">(do not accept: INTERPHASE)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Scientists develop a mutant-type rat that has a large decrease in ATP production compared to its wild-type counterpart by preventing the binding of a heme cofactor to a certain protein. Which of the following systems of cellular respiration did the mutation most likely affect?</div><div>W) Glycolysis<br>X) Pyruvate oxidation<br>Y) Citric acid cycle<br>Z) Electron transport chain</div><div>ANSWER: Z) Electron transport chain</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the term for a coral reef separated from the main coast by a deep channel or lagoon?</div><div>ANSWER: BARRIER REEF</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three geologic periods whose ends were marked by mass extinction events
+1) Devonian
+2) Permian
+3) Jurassic.</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+If a piston does 150 joules of work and loses 20 joules of energy as heat, what is its change in internal energy in joules?</div><div>ANSWER: –170</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following elements has the greatest second ionization energy?</div><div>W) Sodium<br>X) Calcium<br>Y) Carbon<br>Z) Titanium</div><div>ANSWER: W) Sodium</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the log base 4 of 12 times the log base 12 of 20 times the log base 20 of 64?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A circle of radius 2 root 2 is centered at the origin and has a tangent line at the point (2, 2). What is the slope of this tangent line?</div><div>ANSWER: –1</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+If a 20-ohm resistor is rated for 5 watts, then in volts, what is the maximum potential difference that can be applied across it?</div><div>ANSWER: 10</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Consider an isolated, charged capacitor. By what factor is the voltage on the capacitor multiplied when the dielectric is swapped out for a dielectric with twice the original dielectric constant?</div><div>ANSWER: 1/2</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What type of inhibition occurs when a molecule binds to a secondary site on an enzyme and changes the conformation of the active site of that enzyme?</div><div>ANSWER: ALLOSTERIC <span class="also-accept">(also accept: NONCOMPETITIVE)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+In their famous experiment, Meselson and Stahl grew bacteria with radioactive isotopes to track DNA. Their experimental results proved which of the following models of DNA replication?</div><div>W) Dispersive<br>X) Semiconservative<br>Y) Conservative<br>Z) Random</div><div>ANSWER: X) Semiconservative</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What phenomenon describes the emission of light from a solid due to heat?</div><div>ANSWER: INCANDESCENCE <span class="also-accept">(also accept: BLACK BODY RADIATION)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+What is the steric number of the central carbon atom in methane?</div><div>W) 2<br>X) 3<br>Y) 4<br>Z) 5</div><div>ANSWER: Y) 4</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+UC Berkeley Bioengineering Professor Seung-Wuk Lee has demonstrated pyroelectricity in the genetically-engineered virus M13. When heated, the virus develops a voltage difference due to the denaturation of coat proteins located on what viral structure?</div><div>ANSWER: CAPSID</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+A team led by UC Berkeley Professor Imke de Pater recently observed a 3000-mile wide band near Jupiter’s equator with winds of 320 miles per hour. What is the term for these fast-flowing high altitude air currents?</div><div>ANSWER: JET STREAMS</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+If f(x) = 12x – 10, what is f inverse of 26?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the lowest possible perimeter for a rectangle with an area of 56?</div><div>ANSWER: 8√14 <span class="also-accept">(also accept: 8 TIMES THE SQUARE ROOT OF 14)</span></div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Jellyfish are members of what phylum, which is characterized by radial symmetry and the presence of nematocysts?</div><div>W) Mollusca<br>X) Cnidaria<br>Y) Arthropoda<br>Z) Annelida</div><div>ANSWER: X) Cnidaria</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three molecules that are products of glycolysis
+1) Pyruvate
+2) NADH
+3) ATP.</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the magnitude of the force, in newtons, on a wire carrying 5 milliamps of current when placed in a magnetic field of 0.1 teslas parallel to the wire?</div><div>ANSWER: 0</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An Atwood machine has 30-kilogram and 15-kilogram masses hanging off its two ends. Using g equals 10 meters per second squared, what is the magnitude of the acceleration of the system, in meters per second squared and to two significant figures?</div><div>ANSWER: 3.3</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is closest to the average temperature of the universe in kelvins?</div><div>W) 300<br>X) 30<br>Y) 3<br>Z) 0.3</div><div>ANSWER: Y) 3</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Constantine is monitoring the weather in central Illinois and observes a passing cold front. Identify all of the following three weather events that he likely observed
+1) A broad area of light precipitation
+2) An increase in dew point
+3) A wind shift from south to northwest.</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the highest-energy occupied atomic orbital in a ground state phosphorus atom?</div><div>ANSWER: 3p</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+On a heating curve, what term is given to the quantity that determines how much energy is required for a phase change?</div><div>ANSWER: LATENT HEAT</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Members of the Particle Data Group at the Lawrence Berkeley National Lab are continually characterizing the properties of various elementary particles of the standard model. To do this, they use a particle accelerator which propels a particle in a spiral path. What is the name of this type of particle accelerator?</div><div>ANSWER: CYCLOTRON</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+In an effort to create more efficient biofuel crops, researchers at the Joint Bioenergy Institute are researching ways to optimize plant cell walls. Which of the following sugars is most likely to be found in plant cell walls?</div><div>W) Chitin<br>X) Cellulose<br>Y) Glucose<br>Z) Glycogen</div><div>ANSWER: X) Cellulose</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+How many times do the graphs of y = x + 2 and y = e<sup>x</sup> intersect?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+In radians, what is the sum of the internal angles of a regular dodecagon?</div><div>ANSWER: 10π</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+The transit of what planet was famously timed to test the theory of general relativity?</div><div>ANSWER: MERCURY</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is the principal ore of aluminum?</div><div>W) Cryolite<br>X) Siderite<br>Y) Bauxite<br>Z) Corundum</div><div>ANSWER: Y) Bauxite</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Which of Maxwell’s equations most directly prohibits the existence of magnetic monopoles?</div><div>ANSWER: GAUSS’S LAW FOR MAGNETISM <span class="do-not-accept">(do not accept: GAUSS’S LAW)</span></div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A 1-kilogram block slides down a 45-degree incline without accelerating. What is the minimum possible value for the coefficient of static friction for this system?</div><div>ANSWER: 1</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

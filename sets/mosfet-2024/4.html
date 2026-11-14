@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MOSFET 2024 Round 4</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mosfet-2024/4" />
+<meta name="description" content="MOSFET 2024 Round 4: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mosfet-2024" data-packet="4">
+<div class="float-row mb-3"><span class="float-start">Packet 4 (Round 4) of <a href="sets/mosfet-2024/">MOSFET 2024</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1zgikYeDsYLdUviaSUCpTQdLw6JVLOenr/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+What protein component of the cytoskeleton is responsible for pulling apart sister chromatids during meiosis and transporting molecules around the cell?</div><div>W) Microfilaments<br>X) Actin filaments<br>Y) Microtubules<br>Z) Intermediate Filaments</div><div>ANSWER: Y) Microtubules</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+During DNA replication, what term describes the disjointed strands of DNA, formed by DNA polymerase during synthesis of the lagging strand?</div><div>ANSWER: OKAZAKI FRAGMENTS</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following quantum numbers corresponds most closely to the energy level of an electron?</div><div>W) Principal<br>X) Angular Momentum<br>Y) Magnetic<br>Z) Spin</div><div>ANSWER: W) Principal</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+In joules, what is the change in internal energy of a gas if 6 kJ of heat is supplied, and the gas expands 3 cubic meters against a pressure of 1500 Pascals?</div><div>ANSWER: +1500 J</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Order the following three cloud types from lowest to highest in altitude
+1) Cirrus
+2) Stratus
+3) Altocumulus</div><div>ANSWER: 2, 3, 1</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What is the term given to the hypothetical phenomenon causing the universe’s expansion to accelerate, despite the gravitational pull of all matter in existence?</div><div>ANSWER: Dark energy</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+A certain conic has the equation x<sup>2</sup> + 4x-y<sup>2</sup>-5 = 0. Which of the following types of conic sections best describes it?</div><div>W) Circle<br>X) Ellipse<br>Y) Parabola<br>Z) Hyperbola</div><div>ANSWER: Z) Hyperbola</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Given that the polynomial P(x) has zeros at x = 2 and x = -3, for what values of x does the function P(log<sub>2</sub>(x)) have zeros?</div><div>ANSWER: 4 and ⅛</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Standing at the top of Middleton High School, Owen throws a ball horizontally off the building with an initial velocity of 5 m/s. At the same instant, Ray drops an identical ball straight downward. Assuming Middleton High School is very tall, what is the distance between the two balls, in meters, after 5 seconds?</div><div>ANSWER: 25</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+In the form of a simplified fraction, what is the Lorentz factor of an object traveling at 80% the speed of light?</div><div>ANSWER: 5/3</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers at UW-Madison are studying the behavior of matter at very low temperatures. Specifically, they are studying helium-4 around temperatures of 2 kelvin, which takes the form of what exotic state of matter?</div><div>ANSWER: SUPERFLUID <span class="also-accept">(also accept: BOSE-EINSTEIN CONDENSATE)</span></div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers at UW-Madison are studying corn kernels and the structures they derive nutrients from during growth. What triploid structure in a corn embryo contains the majority of the corn seed’s food storage?</div><div>ANSWER: ENDOSPERM</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Stephen is currently very stressed about college applications, and his sympathetic nervous system is kicking into overdrive. Which of the following physical responses would you NOT expect him to have?</div><div>W) Increased blood pressure<br>X) Increased blood glucose<br>Y) Increased diameter of bronchioles<br>Z) Increased saliva production</div><div>ANSWER: Z) Increased saliva production</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following best describes the difference between apical and lateral meristems?</div><div>W) Apical meristems are found at the tips of shoots and lateral meristems are found at the tips of roots<br>X) Apical meristems allow plants to grow in height and lateral meristems allow plants to grow in width<br>Y) Apical meristems can produce new organisms if isolated and lateral meristems can only produce parts of organisms when isolated<br>Z) Apical meristems can divide indefinitely and lateral meristems can only divide a finite number of times</div><div>ANSWER: X) Apical meristems allow plants to grow in height and lateral meristems allow plants to grow in width</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+The rate constant of a reaction is most directly dependent on which of the following quantities?</div><div>W) Activation energy<br>X) Initial reactant concentration<br>Y) Initial product concentration<br>Z) External pressure</div><div>ANSWER: W) Activation energy</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+In which of the following compounds does sulfur have the highest oxidation number?</div><div>W) H<sub>2</sub>S<br>X) H<sub>2</sub>SO<sub>4</sub><br>Y) FeS<br>Z) SO<sub>2</sub></div><div>ANSWER: X) H<sub>2</sub>SO<sub>4</sub></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following would most likely be the dominant source of energy production in a 4 solar mass post-main sequence star?</div><div>W) Proton-proton chain<br>X) CNO Cycle<br>Y) PEP Pathway<br>Z) Triple Alpha Process</div><div>ANSWER: Z) Triple Alpha Process</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following processes would NOT be classified as a type of chemical weathering?</div><div>W) Salt wedging<br>X) Hydrolysis<br>Y) Oxidation<br>Z) Dissolution</div><div>ANSWER: W) Salt wedging</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What is the units digit of 3 raised to the 2024th power?</div><div>W) 1<br>X) 3<br>Y) 7<br>Z) 9</div><div>ANSWER: W) 1</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Kartik plots 15 distinct points on a plane, no three of which are collinear. How many total line segments can he draw in between these points?</div><div>ANSWER: 105</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Josh is developing a device that can measure the exact location of a photon at any given instant. However, as he’s testing this device, he notices that the closer he gets to reaching his goal, the less he’s able to measure the momentum of said photon. This observation is a direct consequence of which of the following laws?</div><div>W) Schrödinger Equation<br>X) Pauli Exclusion Principle<br>Y) Heisenberg Uncertainty Principle<br>Z) Selection Rules</div><div>ANSWER: Y) Heisenberg Uncertainty Principle</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An aluminum rod with coefficient of linear thermal expansion 25 × 10<sup>-6</sup> is heated from 0 degrees celsius to 400 degrees celsius. Expressed in scientific notation, and assuming the initial length of the rod was 1 meter, what is the change in length of the rod, in millimeters?</div><div>ANSWER: 10</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Researchers at UW Madison are studying the strong nuclear force and how quarks are held together in an atom. Which of the following particles is the carrier of the strong force?</div><div>W) Photon<br>X) W boson<br>Y) Z boson<br>Z) Gluon</div><div>ANSWER: Z) Gluon</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers at UW Madison are studying the unique properties of network covalent solids and how these properties could be used to increase thermal efficiency in wiring. Identify all of the following three molecules that form network covalent solids
+1) Fe<sub>2</sub>O<sub>3</sub>
+2) SiO<sub>2</sub>
+3) I<sub>2</sub></div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+What type of enzymatic inhibition occurs when an inhibitor binds to a site on the enzyme other than the active site?</div><div>W) Competitive<br>X) Uncompetitive<br>Y) Allosteric<br>Z) Restrictive</div><div>ANSWER: Y) Allosteric</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What type of cells in the nervous system provide physical and chemical support for neurons, and help create the myelin surrounding the axons of neurons?</div><div>ANSWER: GLIAL CELLS <span class="also-accept">(also accept: OLIGODENDROCYTES)</span></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Identify all of the following three properties of an ideal gas that are directly proportional to temperature
+1) Pressure
+2) Volume
+3) Amount of substance</div><div>ANSWER: 1 AND 2 (PRESSURE, VOLUME)</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three bond properties which would be higher in a carbon-carbon double bond than a carbon-carbon triple bond
+1) Bond length
+2) Bond strength
+3) Bond polarity</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Ray looks through a refracting telescope and thinks he’s seeing double because different wavelengths of light are focusing at different points. What is the name for this optical effect?</div><div>ANSWER: CHROMATIC ABERRATION</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Order the following three gases from most to least prevalent in the atmosphere of Venus
+1) Nitrogen
+2) Carbon dioxide
+3) Sulfur dioxide</div><div>ANSWER: 2, 1, 3</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Many Science Bowl tournaments have a double-elimination bracket with 32 teams. In such a bracket, what is the maximum number of matches that must be played to determine a winner, assuming that there are no ties?</div><div>ANSWER: 63</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Which of the following figures cannot be constructed with a ruler and compass?</div><div>W) Equilateral triangle<br>X) Square<br>Y) Regular hexagon<br>Z) Regular heptagon</div><div>ANSWER: Z) Regular heptagon</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+An 8 volt battery is connected to two resistors wired in series, each with resistance 2 ohms. In watts, what is the power dissipated across this circuit?</div><div>ANSWER: 16</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+An object experiences quadratic drag with magnitude Fd = 0.5 * v<sup>2</sup>. If the object has mass 100kg, what is its terminal velocity in meters per second?</div><div>W) 0.7<br>X) 70<br>Y) 140<br>Z) 1400</div><div>ANSWER: Y) 140</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Researchers at Penn State University are studying the effects of external radiation exposure on astronauts’ bone health and skeletal integrity. Which of the following nuclear decay pathways produces the radiation they are most concerned about?</div><div>W) Alpha<br>X) Beta plus<br>Y) Beta minus<br>Z) Gamma</div><div>ANSWER: Z) Gamma</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers at UW-Madison are studying the ABO blood group and blood transfusions. If a female of blood type A mates with a male of blood type B, identify all of the following three blood types their child could have
+1) A
+2) B
+3) O</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+What type of species, which is usually not abundant in an ecosystem, exerts strong control on an ecosystem&#39;s structure due to its pivotal ecological role?</div><div>W) Dominant Species<br>X) Restraining Species<br>Y) Keystone Species<br>Z) Basal Species</div><div>ANSWER: Y) Keystone Species</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three proteins that are transmembrane proteins
+1) Aquaporins
+2) G protein coupled receptors
+3) Sodium-potassium pumps</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Identify all of the following three types of chemical species which would be soluble in ethanol, but not in benzene
+1) Ions
+2) Nonpolar molecules
+3) Polar molecules</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Order the following three elements in terms of increasing reduction potential
+1) Lithium
+2) Fluorine
+3) Sodium</div><div>ANSWER: 1, 3, 2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following geologic periods occurred directly after the largest mass extinction in Earth’s history?</div><div>W) Cretaceous<br>X) Permian<br>Y) Tertiary<br>Z) Triassic</div><div>ANSWER: Z) Triassic</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following mineral properties analyzes the color of a mineral after it has been crushed into a powder?</div><div>W) Diaphaneity<br>X) Streak<br>Y) Luster<br>Z) Tenacity</div><div>ANSWER: X) Streak</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+How many distinct real roots does the quadratic 9x<sup>2</sup>-4x + 2 have?</div><div>ANSWER: 0</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many ways are there to select a committee of 5 people, 2 men and 3 women, from a body of applicants of 6 men and 4 women?</div><div>ANSWER: 60</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+In degrees, which of the following is the critical angle from the normal at which a light ray transitioning between materials of n=2 and n=√3 will experience total internal reflection?</div><div>W) 15<br>X) 30<br>Y) 45<br>Z) 60</div><div>ANSWER: Z) 60</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An infinite line of resistors is wired in parallel, such that the first resistor has resistance 1 ohm, the second resistor has resistance 3 ohms, the third resistor has resistance 9 ohms, and so on. What is the equivalent resistance of this arrangement, in ohms?</div><div>ANSWER: 2/3 OHMS</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Fall 2023 Round 4</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/fall-2023/4" />
+<meta name="description" content="Fall 2023 Round 4: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="fall-2023" data-packet="4">
+<div class="float-row mb-3"><span class="float-start">Packet 4 (Round 4) of <a href="sets/fall-2023/">Fall 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1dDicpFtbLo-gLJFrT3_23J7Ft43FuaM3/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following changes is most likely to increase the solubility of a saturated zinc hydroxide solution?</div><div>W) Adding more zinc hydroxide<br>X) Adding potassium hydroxide<br>Y) Adding zinc chloride<br>Z) Adding hydrochloric acid</div><div>ANSWER: Z) Adding hydrochloric acid</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Order the following three compounds from first to last to condense in a distillation experiment
+1) Water
+2) Ethanol
+3) Acetone.</div><div>ANSWER: 3, 2, 1</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following functions of x is monotonic?</div><div>W) Absolute value of x<br>X) Sine x<br>Y) Arctangent x<br>Z) x<sup>2</sup></div><div>ANSWER: Y) Arctangent x</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Given that October 20th on a given year is a Saturday, on what day of the week is December 11th?</div><div>ANSWER: TUESDAY</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following is a protist?</div><div>W) Elodea<br>X) Sand dollars<br>Y) Sea grass<br>Z) Kelp</div><div>ANSWER: Z) Kelp</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following is NOT formed in the breakdown of lactose by beta galactosidase?</div><div>W) ATP<br>X) Water<br>Y) Galactose<br>Z) Glucose</div><div>ANSWER: W) ATP</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Researchers in the Prashi Group at Lawrence Berkeley National Lab are developing photonic heaters to drive solar-powered desalination, which would be able to treat water with high levels of dissolved solids. What is a common method of water purification involving a semi-permeable membrane?</div><div>ANSWER: REVERSE OSMOSIS</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Cohen Lab at UC Berkeley are working to develop instrumentation to detect the concentration of sulfates in the biosphere by quantitative precipitation. This is most similar to what common chemistry laboratory technique?</div><div>ANSWER: GRAVIMETRIC ANALYSIS</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Rank the following three subatomic particles in terms of increasing Compton wavelength
+1) Electron
+2) Electron neutrino
+3) Proton.</div><div>ANSWER: 3, 1, 2</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Two wheels have the same mass and radius. Wheel A is a ring and has all its mass concentrated on the edge, while wheel B is a solid disk. If wheel A rotates half as fast as wheel B, what is the ratio of the rotational kinetic energy of wheel A to wheel B?</div><div>ANSWER: 1/2 <span class="also-accept">(also accept: 0.5)</span></div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following properties of limestone BEST explains why it is suited to produce karst topography?</div><div>W) Limestone easily dissolves in water<br>X) Limestone is produced by viscous silicate lava<br>Y) Limestone can be formed by carbonate-enriched hot spring waters<br>Z) Limestone is naturally deposited in the ocean as calcareous algae die</div><div>ANSWER: W) Limestone easily dissolves in water</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Black holes can be completely characterized by their mass, spin, and what other property?</div><div>ANSWER: CHARGE</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Let f of x be a monic, cubic polynomial. If the three roots of f are 1, 3, and 5, what is f of 4?</div><div>ANSWER: –3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+After rolling two fair six-sided dice, what is the expected value of the product of their top faces?</div><div>ANSWER: 49/4 <span class="also-accept">(also accept: 12.25)</span></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Order the following four fundamental forces from weakest to strongest
+1) Electromagnetic
+2) Strong
+3) Gravitational
+4) Weak.</div><div>ANSWER: 3, 4, 1, 2</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A large tank of unknown liquid has a top which is open to the atmosphere. The liquid leaks out of the tank from a small hole in the side at a horizontal velocity of 2.5 meters per second. In centimeters, at what depth is the hole from the surface of the liquid?</div><div>ANSWER: 62.5 <span class="also-accept">(also accept: 125/2)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+A scientist is interested in modeling real gases which cannot be approximated as ideal due to their significant intermolecular attractions. What famous equation describes real gas behavior by directly modifying the ideal gas law?</div><div>ANSWER: VAN DER WAALS EQUATION</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following is true regarding the titration of sulfuric acid with sodium hydroxide?</div><div>W) pH equals pKa at the endpoint<br>X) pH equals pKa at the equivalence point<br>Y) The Ka of H<sub>2</sub>SO<sub>4</sub> is lower than the Ka of HSO<sub>4</sub><sup>-</sup><br>Z) The pKa of H<sub>2</sub>SO<sub>4</sub> is lower than the pKa of HSO<sub>4</sub><sup>-</sup></div><div>ANSWER: Z) The pKa of H<sub>2</sub>SO<sub>4</sub> is lower than the pKa of HSO<sub>4</sub><sup>-</sup></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What structures in the lung are responsible for oxygen exchange with pulmonary capillaries?</div><div>ANSWER: ALVEOLI</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+An HIV hijacks a host epithelial cell and integrates its own genetic code into the cell. What is the name of the host cell DNA after integration?</div><div>ANSWER: PROVIRUS</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Scientists in the Reimer Group work jointly with local startups to study silicate-based minerals for carbon capture. What is the name for the group of characteristically green-colored minerals mostly made up of iron magnesium silicates?</div><div>ANSWER: OLIVINE</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at Lawrence Livermore National Lab have designed detectors to study the behavior of antineutrinos. According to the Standard Model, what is the magnitude of the spin of antineutrinos?</div><div>ANSWER: 1/2</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+In 1980, UC Berkeley earth science Professor Walter Alvarez discovered that the Cretaceous–Paleogene boundary contains abnormal levels of which of the following elements?</div><div>W) Iron<br>X) Radium<br>Y) Iridium<br>Z) Silicon</div><div>ANSWER: Y) Iridium</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What is the term given to large crystals embedded within the groundmass of igneous rocks?</div><div>ANSWER: PHENOCRYSTS</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the molecular geometry of phosphorus trichloride?</div><div>ANSWER: TRIGONAL PYRAMIDAL</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three statements that are true about the exothermic decomposition of dinitrogen tetroxide into nitrogen dioxide
+1) Increasing temperature shifts the reaction right
+2) Increasing pressure shifts the reaction right
+3) The reaction is spontaneous at room temperature.</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+The 1985 eruption of Nevado del Ruiz killed around 25,000 people, mainly due to melting ice and snow causing a mudflow which buried the town of Armero. What is the term for this type of volcanic mudflow?</div><div>ANSWER: LAHAR</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+In which of the following locations would you MOST likely find a protostar?</div><div>W) H II region<br>X) H I region<br>Y) Planetary nebula<br>Z) Supernova remnant</div><div>ANSWER: W) H II region</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+In eukaryotic transcription, what part of the DNA sequence does RNA polymerase bind to?</div><div>ANSWER: PROMOTER <span class="also-accept">(also accept: TATA BOX)</span></div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following describes why nitrogen is often a limiting nutrient despite being common in the atmosphere?</div><div>W) Decomposers use up the majority of bioavailable nitrogen<br>X) Assimilation of atmospheric nitrogen only occurs in anaerobic conditions<br>Y) The strong triple bond in nitrogen gas renders it inert to biological reactions<br>Z) Animals must rely on plants for nitrogen</div><div>ANSWER: Y) The strong triple bond in nitrogen gas renders it inert to biological reactions</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the thermal efficiency, to the nearest tenth of a percent, of a thermodynamic engine that has a net power output of 350 kilowatts and rejects heat at a rate of 50 kilowatts?</div><div>ANSWER: 87.5</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+If a 2-ampere current flows through a 5-millihenry inductor, what is the energy, in joules, stored in the inductor?</div><div>ANSWER: 0.01</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Scientists at Lawrence Berkeley National Lab are studying communication between plants via chemical signals such as plant hormones. Which of the following plant hormones causes elongation of cells in shoots and helps in regulating plant growth?</div><div>W) Jasmonates<br>X) Cytokinins<br>Y) Auxins<br>Z) Strigolactones</div><div>ANSWER: Y) Auxins</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at Lawrence Berkeley National Lab are studying various means of increasing energy efficiency. What thermodynamic cycle gives the hypothetical maximum efficiency that can be achieved by a heat engine operating between two temperatures?</div><div>ANSWER: CARNOT CYCLE</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+According to the rational root test, which of the following is NOT a possible root of the following polynomial: 2x<sup>3</sup> + 7x<sup>2</sup> – 3x + 6?</div><div>W) –2<br>X) 1/2<br>Y) 3<br>Z) 4</div><div>ANSWER: Z) 4</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A random variable X has a mean of 7 and a standard deviation of 6. Another random variable Y has a mean of 10 and a standard deviation of 8. What are the mean and standard deviation, respectively, of X + Y?</div><div>ANSWER: MEAN = 17, STANDARD DEVIATION = 10 <span class="also-accept">(also accept: 17 AND 10)</span> <span class="do-not-accept">(do not accept: 10 AND 17)</span></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three organelles that are theorized to have originated through the process of endosymbiosis
+1) Mitochondria
+2) Chloroplast
+3) Lysosome.</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following metabolic processes that are undertaken by mature erythrocytes
+1) Glycolysis
+2) Citric acid cycle
+3) Oxidative phosphorylation.</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+According to the Grand Unified Theory, in the moments just after the Big Bang, three of the four fundamental forces of the universe were unified as one. Of these three, which was the first to separate from the others?</div><div>ANSWER: STRONG NUCLEAR FORCE <span class="also-accept">(also accept: STRONG FORCE)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is NOT considered evidence for the fact that the Mediterranean Sea dried to form a salt desert 5 to 6 million years ago?</div><div>W) Stromatolites are found in many estuaries around the Mediterranean Sea<br>X) A sharp decrease in the marine fossil record approximately 5 to 6 million years ago<br>Y) A seismically reflective layer of salt on the bottom of the Mediterranean sea<br>Z) The Nile River cuts its bed 2500 meters below sea level at the Nile Delta</div><div>ANSWER: W) Stromatolites are found in many estuaries around the Mediterranean Sea</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Rank the following three ions in terms of increasing size
+1) Al<sup>3+</sup>
+2) Fe<sup>2+</sup>
+3) Li<sup>+</sup>.</div><div>ANSWER: 1, 2, 3</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following is closest to the van’t Hoff factor of KCl?</div><div>W) 1<br>X) 2<br>Y) 3<br>Z) 4</div><div>ANSWER: X) 2</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Ann faces east and then walks around her neighborhood, taking two right turns, a left turn, and then turning right again. What direction is she facing after her walk?</div><div>ANSWER: WEST</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Find all values of x that satisfy the following equation: the quantity x + 1 cubed equals the quantity x – 1 times the quantity x + 2 times the quantity x + 3.</div><div>ANSWER: x = 1 + 2√2 AND x = 1 − 2√2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Arushi throws a ball vertically upwards at a speed of v and it reaches a height h. If Ben wants to throw his ball to a height of 3h, then in terms of v, at what vertical speed must Ben throw his ball?</div><div>ANSWER: v√3 <span class="also-accept">(also accept: v TIMES THE SQUARE ROOT OF 3)</span></div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A circuit consisting of a fully charged 4 farad capacitor, 4 henry inductor, and a 300 ohm resistor, is closed. What is the resonant angular frequency of the circuit in radians per second?</div><div>ANSWER: 0.25</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

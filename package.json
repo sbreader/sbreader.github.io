@@ -1,0 +1,9 @@
+{
+  "name": "sb-reader",
+  "private": true,
+  "description": "Static Science Bowl practice site. No dependencies: this file only defines the test commands (the browser tests need Playwright, which CI installs).",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "test:e2e": "node --test --test-concurrency=4 tests/e2e/*.e2e.js"
+  }
+}

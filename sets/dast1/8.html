@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - DAST1 DAST Round 8</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/dast1/8" />
+<meta name="description" content="DAST1 DAST Round 8: 44 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="dast1" data-packet="8">
+<div class="float-row mb-3"><span class="float-start">Packet 8 (DAST Round 8) of <a href="sets/dast1/">DAST1</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/DAST1/DAST%20Round%208.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Magma underneath a volcano forms basalt and gabbro when cooled. Which of the following features is the volcano most likely to have?</div><div>W) Cinder cone<br>X) Shield volcano<br>Y) Stratovolcano<br>Z) Lava dome</div><div>ANSWER: X) Shield volcano</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What silicate group has a base structural unit of Si<sub>2</sub>O<sub>6</sub><sup>4-</sup>, contains chains of silicates, and includes the amphiboles and pyroxenes?</div><div>ANSWER: INOSILICATES</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Rank the following three absorptions by increasing wavenumber in Infrared Spectroscopy
+1) N – H stretch
+2) aldehyde C – O stretch
+3) N – O asymmetric stretch.</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Given that the standard oxidation potential for the Silver (I) ion is –0.80 V, and the standard reduction potential for the Thallium (III) ion is +0.72 V, calculate the voltage of a galvanic cell which reduces Ag<sup>+</sup> at the cathode and oxidizes Tl<sup>3+</sup> at the anode.</div><div>ANSWER: +0.08 V</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Chronic myelogenous leukemia occurs when a reciprocal translocation swaps a large portion of chromosome 22 with a small fragment of chromosome 9. What is the name for the new small chromosome 22?</div><div>ANSWER: PHILADELPHIA CHROMOSOME</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Justin has run out of vegetables that taste good to him, so he wants to bioengineer a new one. In order to do this, he uses what technique in which plant cells of different species have their cell walls removed and are then combined to form hybrid cells that grow in a culture?</div><div>ANSWER: PROTOPLAST FUSION</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What is the value of the integral from 0 to infinity of the fraction with numerator e and denominator (π times x) d x?</div><div>W) 0<br>X) pi to the power of e<br>Y) e to the power of pi<br>Z) It diverges</div><div>ANSWER: Z) It diverges</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following actions will double the gravitational binding energy of a spherical planet?</div><div>W) Doubling its mass<br>X) Doubling its radius<br>Y) Halving its mass<br>Z) Halving its radius</div><div>ANSWER: Z) Halving its radius</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+What magnetic state is commonly referred to in quantum chaos theory and contains spins that are completely random, making it analogous to the random positional disorder in amorphous materials?</div><div>ANSWER: SPIN GLASS</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Scientists at Lawrence Berkeley National Lab have recently been investigating quantum computers. Pure states of the quantum bit, or qubit, can be represented on the surface of what 3-D geometric model?</div><div>ANSWER: BLOCH SPHERE</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at Idaho National Lab have been attempting to create new nanotechnologies using conducting plates with small separation. They’ve been trying to apply what effect, in which the space between two conducting plates will have restrictions on virtual particle frequencies, causing a negative energy density?</div><div>ANSWER: CASIMIR EFFECT</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements is true regarding carbocation rearrangements?</div><div>W) Hydride shifts favor the formation of secondary carbocations because they are more stable than tertiary carbocations<br>X) Methyl shifts favor the formation of secondary carbocations because they are more stable than tertiary carbocations<br>Y) A hydride shift can occur that moves a tertiary carbocation to the vinylic position, creating a resonance-stabilized carbocation<br>Z) A hydride shift can occur that moves a tertiary carbocation to the allylic position, creating a resonance-stabilized carbocation</div><div>ANSWER: Z) A hydride shift can occur that moves a tertiary carbocation to the allylic position, creating a resonance-stabilized carbocation</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Order the following three isotopes by increasing binding energy per nucleon
+1) Tin-119
+2) Uranium-238
+3) Iron-56.</div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following statements pertaining to chromatin and its modifications is FALSE?</div><div>W) Telomeres are more likely to be composed of euchromatin than heterochromatin<br>X) Euchromatin has a dispersed arrangement when compared to heterochromatin<br>Y) Euchromatin can be easily used to transcribe genes, while heterochromatin cannot<br>Z) According to the histone code hypothesis, methylation and phosphorylation of neighboring residues on a histone tail should cause loosening of chromatin</div><div>ANSWER: W) Telomeres are more likely to be composed of euchromatin than heterochromatin</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following four statements regarding piwi-associated RNAs that are true
+1) They induce the conversion of euchromatin to heterochromatin via acetylation of lysine residues on histone tails
+2) They inhibit transposon expression
+3) They can be found in both animals and plants
+4) They are a type of noncoding RNA.</div><div>ANSWER: 2 AND 4</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Let f be a function that removes the leftmost and rightmost digits of a positive integer and outputs the new, shortened number. For example, f of 1234 equals 23, and f of 12 equals 0. X is a positive integer with all nonzero digits such that X is divisible by 12, f of X is divisible by 45, and f of f of X equals 0. How many possible values of X are there?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the term for a geologic structure where the strata have an uniform dip in the same direction and approximately the same angle?</div><div>ANSWER: HOMOCLINE</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following four types of faults that are characteristic of a detachment fault
+1) Reverse fault
+2) Thrust fault
+3) Megathrust fault
+4) Normal fault.</div><div>ANSWER: 4 ONLY</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A strip is made of two metals, zinc and copper, which have linear expansion coefficients of 2.6 times 10 to the minus 5th power and 1.7 times 10 to the minus 5th power, respectively. Which of the following best describes what happens when the strip is heated?</div><div>W) The strip will bend toward the copper.<br>X) The strip will bend toward the zinc.<br>Y) The strip will not bend.<br>Z) More information about the amount that the strip is heated is needed in order to determine how the strip will behave.</div><div>ANSWER: W) The strip will bend toward the copper.</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A container of water of mass 12 kilograms has a temperature 20 degrees Celsius. A hot 2-kilogram metal with temperature 150 degrees Celsius is placed inside the water to cool down. To the nearest degree, what is the temperature of the metal after it reaches thermal equilibrium with the water if the heat capacity of the water is 4200 Joules per kilogram Celsius and if the heat capacity of the metal is 126 Joules per kilogram Celsius?</div><div>ANSWER: 21 DEGREES CELSIUS <span class="also-accept">(also accept: 294 KELVIN)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at Oak Ridge National Lab are modelling the flow of water through plants to better understand resource distribution pathways. What hypothesis, the prevailing theory regarding plant nutrient transport, claims that xylem sap rises due to transpiration?</div><div>ANSWER: COHESION-TENSION HYPOTHESIS</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Scientists at Argonne National Laboratory are using the Advanced Photon Source to study the primordial atmosphere of Earth. Molecules released from the outgassing process eventually react with crustal rocks to form what class of minerals?</div><div>ANSWER: CARBONATES</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+At Cape Cod, a spring tide is measured on the morning of September 5th. At what month and date is the next neap tide most likely to occur?</div><div>ANSWER: SEPTEMBER 12TH</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The tropical atmosphere fluctuates on 30-to-90-day intervals. This fluctuation is responsible for the inverse relationship between the tropical activity in the Western North Pacific basin and the North Atlantic basin, as well as Pineapple Express events in California. What phenomenon dictates these weather patterns?</div><div>ANSWER: MADDEN-JULIAN OSCILLATION <span class="also-accept">(also accept: MJO)</span></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What name is given to a wave that maintains its shape while it moves as a result of the cancellation of dispersion?</div><div>ANSWER: SOLITON</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Identify all of the following three statements about solitons that are true
+1) They are localized to a specific region
+2) Combining two solitons results in a bion
+3) They are unaffected in collisions with other solitons.</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following four drugs that are commonly used to treat breast cancer of the subtype Luminal A
+1) Herceptin
+2) Taxol
+3) Tamoxifen
+4) Lapatinib.</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three statements that are NOT true regarding the pentose phosphate pathway
+1) The first step is the reduction of glucose 6-phosphate as it accepts an electron from NADPH
+2) It occurs in the cytosol in mammals
+3) A reversal of its nonoxidative phase is essentially the Calvin Cycle.</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following is closest to the bond angle in NO<sub>2</sub>?</div><div>W) 106 degrees<br>X) 118 degrees<br>Y) 134 degrees<br>Z) 162 degrees</div><div>ANSWER: Y) 134 degrees</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+One mole of a real gas at 0 degrees Celsius occupies 1 liter of volume. If the van der Waals parameters are a equals 10 atmosphere liters-squared per mole-squared and b equals .05 liters per mole, which of the following is closest to the pressure of the gas?</div><div>W) 6.5 atmospheres<br>X) 13 atmospheres<br>Y) 26 atmospheres<br>Z) 52 atmospheres</div><div>ANSWER: X) 13 atmospheres</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following is the closest to the value of the integral from 1 to 400 of the natural log of x d x minus the natural log of 400 factorial?</div><div>W) -100<br>X) 0<br>Y) 100<br>Z) 10000</div><div>ANSWER: X) 0</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+If f of x, y, z equals x times y minus y times the natural log of z, find the Laplacian of f.</div><div>ANSWER: y/z<sup>2</sup></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Scientists at Argonne National Lab are studying nickel-bismuth compounds using the Advanced Photon Source to research the interactions between ferromagnetic and diamagnetic materials. Diamagnetic materials are defined to have what values for magnetic susceptibility?</div><div>W) negative<br>X) zero<br>Y) positive<br>Z) imaginary</div><div>ANSWER: W) negative</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Scientists at Oak Ridge National Laboratory are studying the impact of energy production on aquatic ecosystems. Recently, climate change has caused coral to bleach. What organisms are expelled from the coral polyp when bleaching occurs?</div><div>ANSWER: ALGAE</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Two pentane molecules are separated at a certain distance. If the distance between the molecules is halved, by what factor does the attractive force between them change?</div><div>ANSWER: 128</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three statements that are true regarding molecular orbitals
+1) All sigma bonding orbitals have zero nodal planes crossing the internuclear axis
+2) Bonding orbitals are constructed more from atomic orbitals of an electropositive element, and antibonding orbitals are constructed more from atomic orbitals of an electronegative element
+3) The molecular orbitals in a carbon-carbon triple bond create a region of electron density that lacks cylindrical symmetry due to pi molecular orbitals.</div><div>ANSWER: NONE</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Sid kicks a ball into the air at an angle of 60 degrees at 20 meters per second. When the ball is at its highest point, what is the radius of curvature of its trajectory in meters, given that g = 10 meters per second squared?</div><div>ANSWER: 10</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Three spherical shells of masses 5, 10, and 15 kilograms that have inner radii and outer radii of 1 and 2 meters, 2 and 3 meters, and 3 and 4 meters, respectively, are placed inside each other, with the small shell being placed in the middle shell, which is then placed in the large shell. A torque of 17 newton meters is applied tangent to the outer shell. Find the acceleration at a point on the outer surface of the largest shell in meters per seconds squared.</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+If log of 2 equals 0.301 and if log of 3 equals 0.477, what is log of 15?</div><div>ANSWER: 1.176</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Let a and b be the two distinct roots of x squared plus 20 x plus 21. Compute a squared minus 20 b.</div><div>ANSWER: 379</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+In prokaryotes, what sequence serves as the ribosomal binding site for mRNA, as opposed to the 5 prime cap in eukaryotes?</div><div>ANSWER: SHINE-DALGARNO SEQUENCE</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three monosaccharides that are aldoses
+1) glucose
+2) ribose
+3) fructose.</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+The optical depth decreases as an observer looks toward the edges of the Sun in the sky as opposed to the center of the disk. This leads to what phenomenon where the central part of the disk appears to be brighter than the edges?</div><div>ANSWER: LIMB DARKENING</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+A star is 16 times as massive as the Sun. What factor of the Sun’s lifetime will this star’s lifetime be?</div><div>ANSWER: 1/1024</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

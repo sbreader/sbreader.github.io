@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Prometheus 2021 DE 1</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/prometheus-2021/8" />
+<meta name="description" content="Prometheus 2021 DE 1: 49 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="prometheus-2021" data-packet="8">
+<div class="float-row mb-3"><span class="float-start">Packet 8 (DE 1) of <a href="sets/prometheus-2021/">Prometheus 2021</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/Prometheus%202021/Prometheus_DE1.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Which 6th century pandemic killed approximately 6 million people and contributed to a loss of territory by empires?</div><div>ANSWER: The Plague of Justinian</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+The plague of Justinian was caused by Yersinia pestis, which, despite its rare status in the modern day, still has not been eradicated. Why is it not considered a candidate for eradication?</div><div>W) It is spread by animal vectors<br>X) There is no vaccine against it<br>Y) It can remain on surfaces for long periods of time<br>Z) Outbreaks are too infrequent to target it for eradication</div><div>ANSWER: W) It is spread by animal vectors</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+(3<sup>2022</sup> + 3<sup>2020</sup>)/(3<sup>2022</sup> − 3<sup>2020</sup>) is equivalent to what real number?</div><div>ANSWER: 5/4 <span class="also-accept">(also accept: 1.25)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+What is the eccentricity of the ellipse with equation 16 x<sup>2</sup> + 25 y<sup>2</sup> = 100?</div><div>W) 3/4<br>X) 3/5<br>Y) 4/5<br>Z) 5/4</div><div>ANSWER: X) 3/5</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Since molecular bromine readily adds across double bonds, which of the following bromine containing reagents is typically used to add bromine to the allyl position of an alkene?</div><div>W) NBS<br>X) AgBr<br>Y) HOBr<br>Z) CH<sub>3</sub>MgBr</div><div>ANSWER: W) NBS</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following best describes the character of the boron-boron bond in diboron according to molecular orbital theory?</div><div>W) 1 sigma bond with bond order 1<br>X) 2 sigma bonds with bond order 1/2<br>Y) 1 pi bond with bond order 1<br>Z) 2 pi bonds with bond order 1/2</div><div>ANSWER: Z) 2 pi bonds with bond order 1/2</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following ores would be least likely to produce acid mine drainage?</div><div>W) Bornite<br>X) Pyrite<br>Y) Magnetite<br>Z) Sphalerite</div><div>ANSWER: Y) Magnetite</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following conditions would most likely create a mesocyclone?</div><div>W) Strong wind shear<br>X) Strong downdraft<br>Y) Conditional instability<br>Z) High-altitude convergence</div><div>ANSWER: W) Strong wind shear</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the name for the reduced mitochondria found in the Parabasalid group?</div><div>ANSWER: Hydrogenosomes</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three parts of the kidney where the osmolarity of the extracellular fluid increases
+1) Ascending limb of the loop of Henle
+2) Collecting duct
+3) Descending limb of the loop of Henle.</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What type of magnetism that is least affected by changes in temperature is most common in ionic crystals and has a negative magnetic susceptibility?</div><div>ANSWER: Diamagnetism</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Cookie dough is spread on a conveyor belt moving at velocity v to the right. A circular cookie cutter stamps out cake as it passes by underneath. Taking relativistic lengths into account, what shape does the stamped out cake make?</div><div>W) Circular<br>X) Squashed in the direction of the belt’s motion<br>Y) Stretched in the direction of the belt’s motion<br>Z) It depends on the speed of the conveyor belt</div><div>ANSWER: Y) Stretched in the direction of the belt’s motion</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researcher and essayist Brian Tomasik has been influential in writing about a new type of existential risk, in which the concern is catastrophic amounts of future suffering rather than the end of civilization. What is this risk called?</div><div>ANSWER: S-risk</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following existential risks is not considered an s-risk?</div><div>W) Far-future harms to animals<br>X) Risk from bioengineering of viruses<br>Y) Misaligned artificial intelligence<br>Z) Far-future value drift</div><div>ANSWER: X) Risk from bioengineering of viruses</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Let x be a three digit number with three equal digits and let y be a three digit number with three distinct digits. What is the minimum possible difference between the two numbers?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+According to Vieta’s formulas, the product of the roots r<sub>1</sub>, r<sub>2</sub>, and r<sub>3</sub> of the polynomial P(x) = ax<sup>3</sup> + bx<sup>2</sup> + cx + d equals which of the following?</div><div>W) −b/a<br>X) c/a<br>Y) −c/a<br>Z) −d/a</div><div>ANSWER: Z) −d/a</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following molecules is IR active?</div><div>W) Methane<br>X) Diatomic oxygen<br>Y) Diatomic nitrogen<br>Z) Diatomic hydrogen</div><div>ANSWER: W) Methane</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following gases has the highest b van der Waals parameter?</div><div>W) Argon<br>X) Chlorine<br>Y) Carbon Dioxide<br>Z) Ammonia</div><div>ANSWER: X) Chlorine</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What cosmological theory of galaxy formation states that small variations in the primordial universe created so-called seeds that built up the large-scale structures we see today?</div><div>ANSWER: Bottom-up theory</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Sirius is a binary system consisting of two stars, one with twice the mass of the other. Measuring from the barycenter, what is the ratio of the distance from the larger star to the distance from the smaller star?</div><div>ANSWER: 1 to 2 <span class="also-accept">(also accept: 1/2)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Immunophenotyping involves the characterization of the cell types present in a patient’s immune system. Modern lab techniques allow exquisite specificity, sorting millions of cells into distinct populations. What technique is most commonly used in immunophe-notyping studies?</div><div>W) MALDI-TOF mass spectrometry<br>X) Flow cytometry<br>Y) Immunoprecipitation<br>Z) Affinity chromatography</div><div>ANSWER: X) Flow cytometry</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Many muscles are set up in antagonistic pairs, where one muscle contracts while the other relaxes. A motor neuron causes contraction of one muscle while an inhibitory interneuron prevents the motor neuron innervating the other muscle from causing contraction. Identify all of the following four neurotransmitters that the inhibitory interneuron could release
+1) GABA
+2) Glutamate
+3) Acetylcholine
+4) Glycine.</div><div>ANSWER: 1 and 4</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A cylinder has an outer radius B and an inner radius A. By what factor is the rate of heat transfer multiplied by if both the inner and outer radius are squared?</div><div>ANSWER: 1/2</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Water’s index of refraction is 1.3, and the critical angle for the interface between medium A and water is 30 degrees. If light has a critical angle of 60 degrees, in an interface between medium A and B, which of the following is closest to the index of refraction of medium B?</div><div>W) 1.12<br>X) 1.75<br>Y) 2.25<br>Z) 2.6</div><div>ANSWER: Y) 2.25</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following diseases, contrary to its name, is not caused by a poxvirus?</div><div>W) Monkeypox<br>X) Smallpox<br>Y) Cowpox<br>Z) Chickenpox</div><div>ANSWER: Z) Chickenpox</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Chickenpox is in the same family as which virus, which is considered a major cause of myalgic encephalomyelitis?</div><div>ANSWER: Epstein-Barr virus</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+How many arithmetic sequences of three terms exist such that all three terms are part of the set 1, 2, 3, 4, 5?</div><div>ANSWER: 13 <span class="do-not-accept">(do not accept: 8)</span></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+What is the approximation for f(1) using Euler’s method with two equal steps given the initial condition f(0) = 1 and the differential equation dy/dx = 2y + 1?</div><div>W) 2.5<br>X) 3.5<br>Y) 4.5<br>Z) 5.5</div><div>ANSWER: Z) 5.5</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the degree of unsaturation of maleic anhydride?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+The bond between oxygen and hydrogen in water is said to be polar covalent since there is higher electron density on oxygen than hydrogen. Which of the following differences best explains this difference?</div><div>W) Valence electrons in hydrogen are in an n = 1 orbital, giving them a lower energy than those in oxygen<br>X) Valence electrons in hydrogen are in an l = 0 orbital, giving them lower energy than those in oxygen<br>Y) Valence electrons in oxygen are in an n = 1 orbital, giving them lower energy than those in hydrogen<br>Z) Valence electrons in oxygen are in an l = 1 orbital, so the lower effective nuclear charge gives them a lower energy than those in hydrogen</div><div>ANSWER: Z) Valence electrons in oxygen are in an l = 1 orbital, so the lower effective nuclear charge gives them a lower energy than those in hydrogen</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+In which of Earth’s four compositional layers do earthquake waves typically travel the fastest?</div><div>ANSWER: Mantle</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Pyritization of fossils would most likely occur in which of the following depositional environments?</div><div>W) Oxygen-rich lacustrine<br>X) Anoxic lacustrine<br>Y) Oxygen-rich marine<br>Z) Anoxic marine</div><div>ANSWER: Z) Anoxic marine</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Histone modifications play an extremely important role in the regulation of gene expression. What amino acid, which can be both methylated and acetylated, is most commonly modified in histones?</div><div>ANSWER: Lysine</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Based on their listed functions, identify all of the following three compounds that would inhibit protein synthesis in bacteria but not in eukaryotes
+1) Tetracycline, inhibits binding of charged tRNAs to the 30S ribosomal subunit
+2) Chloramphenicol, inhibits peptide bond formation by binding to the 70S ribosome
+3) Cycloheximide, blocks exit side of the 60S ribosomal subunit.</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+What type of spectroscopy uses radio waves to excite nuclei, which gives important information on a molecule’s structure?</div><div>W) X-ray<br>X) NMR<br>Y) Raman<br>Z) Spark emission</div><div>ANSWER: X) NMR</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An object with a mass of 2 grams and a charge of 1 coulomb is moving perpendicular to a magnetic field with a strength of 4 × 10<sup>-3</sup> teslas. Due to centripetal acceleration, the object moves in a circular path with a radius of 25 centimeters. What is the object’s velocity, in meters per second?</div><div>ANSWER: 0.5</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Which thought experiment suggests that in utilitarianism, the welfare of a being that experiences sufficiently massive amounts of happiness would be put above all other considerations?</div><div>ANSWER: Utility monster</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Which analogous thought experiment suggests that a world containing some number of people living in utopian conditions would be worse than a world containing a sufficiently large number of people experiencing only’Muzak and potatoes?’</div><div>ANSWER: Repugnant conclusion</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following double-angle identities does not equal cos 2x?</div><div>W) cos<sup>2</sup> x − sin<sup>2</sup> x<br>X) 2 cos x sin x<br>Y) 2 cos<sup>2</sup> x − 1<br>Z) 1 − 2 sin<sup>2</sup> x</div><div>ANSWER: X) 2 cos x sin x</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Compute ∫<sub>π/4</sub><sup>9π/4</sup> (sin<sup>2</sup> x + cos<sup>2</sup> x) dx.</div><div>ANSWER: 2π</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following elements exhibits the weakest inert pair effect?</div><div>W) Tin<br>X) Lead<br>Y) Gallium<br>Z) Polonium</div><div>ANSWER: Y) Gallium</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following four functional groups that are ortho-para directors in electrophilic aromatic substitutions
+1) Hydroxyl
+2) Trifluoromethyl
+3) Chloro
+4) Aldehyde.</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The solar tachocline separates which of the following regions of the Sun?</div><div>W) Chromosphere and photosphere<br>X) Photosphere and convective zone<br>Y) Convective zone and radiative zone<br>Z) Radiative zone and core</div><div>ANSWER: Y) Convective zone and radiative zone</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three star types that are typically Population I stars
+1) RR Lyrae variables
+2) B-type main sequence stars
+3) Classical Cepheid variables.</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following statements is true about transcription and post-transcriptional processing?</div><div>W) Addition of the 5 prime cap occurs after introns are removed<br>X) Alternative splicing occurs after pre-mRNA is exported to the cytoplasm<br>Y) The TATA box is not found in bacteria<br>Z) Silencers are typically found immediately upstream of the gene they regulate</div><div>ANSWER: Y) The TATA box is not found in bacteria</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following four statements that are true regarding human chorionic gonadotropin, abbreviated as hCG
+1) hCG is produced by the trophoblast, which eventually forms the placenta
+2) hCG stimulates the production of progesterone by supporting the corpus luteum
+3) A primary method of testing for pregnancy is by measuring hCG in the blood or urine.</div><div>ANSWER: All</div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+An observer throws a clock in a circle at a constant speed of 0.96c. To the observer, how long does it appear to take, in seconds, for one second to elapse on the clock?</div><div>ANSWER: 25/7 sec</div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A system of gas molecules is in equilibrium with its surroundings such that the root mean square speed of the molecules was found to be 2√6 meters per second. In meters per second, what speed are the majority of the gas molecules within the system moving with?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">49. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Compute ∫<sub>π/4</sub><sup>9π/4</sup> (sin<sup>2</sup> x + cos<sup>2</sup> x) dx</div><div>ANSWER: 2π</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

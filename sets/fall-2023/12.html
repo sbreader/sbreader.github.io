@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Fall 2023 Round 12</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/fall-2023/12" />
+<meta name="description" content="Fall 2023 Round 12: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="fall-2023" data-packet="12">
+<div class="float-row mb-3"><span class="float-start">Packet 12 (Round 12) of <a href="sets/fall-2023/">Fall 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1kR50UTQPkXb7k3nZuC5mje_7g_CJanh6/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What organic functional group is formed in the reaction of a ketone with an excess of sodium borohydride?</div><div>ANSWER: ALCOHOL <span class="also-accept">(also accept: SECONDARY ALCOHOL)</span></div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Consider the two reactions A forms B, and B forms C. The rate constant for the dissociation of A is 1 molar per second and the equilibrium constant is 0.5. The second reaction has a forward rate constant of 2 molar per second. Assuming the steady state approximation holds for B, what’s the rate of formation of C as a multiple of concentration of A?</div><div>ANSWER: 0.5 TIMES THE CONCENTRATION OF A</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements regarding oceanic productivity is false?</div><div>W) Productivity in tropical oceans is limited by nutrient supply<br>X) Productivity is lowest in the open ocean<br>Y) Mid-latitude oceans have one phytoplankton bloom per year<br>Z) Productivity in the southern Atlantic is greater than in other polar oceans</div><div>ANSWER: Y) Mid-latitude oceans have one phytoplankton bloom per year</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Order the following four astronomical objects by the expected width of their spectral lines, from narrowest to broadest
+1) The jet from an active galactic nucleus
+2) The thin accretion disk around an active galactic nucleus
+3) A planetary nebula
+4) A red dwarf.</div><div>ANSWER: 4, 3, 1, 2</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+As of 2023, what is the only one of the Clay Mathematics Instute’s Millennium Prize Problems that has been completely solved?</div><div>ANSWER: POINCARÉ CONJECTURE</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Identify all of the following four shapes that may be constructed with a straightedge and compass in finitely many steps
+1) A square
+2) A regular decagon
+3) A regular 17-gon
+4) A regular 18-gon.</div><div>ANSWER: 1, 2, 3</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following units of distance is the longest?</div><div>W) An astronomical unit<br>X) A parsec<br>Y) A lightyear<br>Z) A gigameter</div><div>ANSWER: X) A parsec</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">VISUAL BONUS</span> Physics <i>Short Answer</i>
+Shown in the image is a Feynman diagram illustrating a specific type of radioactive decay. Answer the following two questions regarding this diagram
+1. What are the particles represented by the labels A and B, respectively?
+2. If an oxygen-15 nucleus undergoes the process shown in the diagram, what is the resulting nucleus?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86883.webp" width="844" height="814" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) A – POSITRON, B – ELECTRON NEUTRINO; 2) NITROGEN-15 <span class="also-accept">(also accept: ANTIELECTRON)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Researchers at Lawrence Berkeley National Lab recently developed “multielement ink”, which allows semiconductor manufacturing at much lower temperatures. They used what class of ceramic materials that are commonly found in solar cells?</div><div>ANSWER: PEROVSKITES</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">VISUAL BONUS</span> Biology <i>Short Answer</i>
+Scientists at Helen Wills Neuroscience Institute at UC Berkeley are studying ways to implement NexGen 7T MRI machines, which have significantly improved resolution compared to other MRI machines. The images below show some of the images produced by this newest MRI technique. Answer the following two questions about this image.
+1. What lobe of the brain is highlighted in orange in all three scans?
+2. The highlighted regions show accumulation of modified tau microfibrils, a characteristic of Alzheimer’s disease. What functional group, when added to tau microfibrils, causes this destabilization?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86884.webp" width="1400" height="629" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – OCCIPITAL; 2 – PHOSPHATE <span class="also-accept">(also accept: PHOSPHORYLATION; HYPERPHOSPHORYLATION)</span></div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Proton transfer in bacteriorhodopsin relies on the cis-trans isomerization of a Schiff base formed between retinal and which amino acid?</div><div>ANSWER: LYSINE</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+A fetus that has congenital adrenal hyperplasia suffers a mutation to an enzyme 21-hydroxylase, leading to virilization of the XX fetus. Which of the following statements is NOT true?</div><div>W) If left untreated, the fetus will have atypical genitalia<br>X) The mutation to 21-hydroxylase leads to increased cortisol production<br>Y) Adrenocorticotropic hormone (ACTH) stimulation is greatly increased<br>Z) Mutant 21-hydroxylase will not effectively synthesize cholesterol</div><div>ANSWER: X) The mutation to 21-hydroxylase leads to increased cortisol production</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Let u and v be unit length vectors in R<sup>3</sup>. Identify all of the following four choices that could describe the locus of vectors x in R<sup>3</sup> satisfying (u dot x) = 0 and (v dot x) = 0 simultaneously
+1) the empty set
+2) a single point
+3) a line
+4) a plane.</div><div>ANSWER: 3 AND 4</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">VISUAL BONUS</span> Math <i>Short Answer</i>
+Shown in the image is a scatter plot of students’ scores on a recent test, graphed against their GPA. Answer the following two questions about this image
+1. Identify all of the following statements that are true
+1) the plot is heteroscedastic
+2) the r-value is close to positive 1
+3) the plot has a linear relationship.
+2. The average GPA is 2.6 with a standard deviation of 0.9, and the average test score is 5.2, with a standard deviation of
+3. If both variables have a correlation coefficient of r = 0.6, what is the root mean squared error for regression for the test scores?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86885.webp" width="1088" height="801" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – 3 ONLY; 2 – 2.4</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following Miller indices for the same FCC system will have the smallest interplanar spacing?</div><div>W) (100)<br>X) (110)<br>Y) (111)<br>Z) (200)</div><div>ANSWER: Z) (200)</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">VISUAL BONUS</span> Physics <i>Short Answer</i>
+Shown in the image is a top-down view of a spring oscillating on a horizontal circular table. The table’s radius and rotational velocity are shown in the diagram, along with the spring’s unstretched length, spring constant, and mass. Assuming that the spring’s oscillations are negligible compared to the radius of the table, and ignoring all Coriolis forces, answer the following two questions about this system
+1. What is the equilibrium length of the spring in meters?
+2. How many oscillations does the spring make in one revolution of the table?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86886.webp" width="901" height="876" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – 1; 2 – 4</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following hypophysiotropic hormones in the hypothalamus is responsible for stimulating the secretion of follicle-stimulating hormone and luteinizing hormone?</div><div>W) Corticotropin-releasing hormone<br>X) Growth hormone-releasing hormone<br>Y) Somatostatin<br>Z) Gonadotropin-releasing hormone</div><div>ANSWER: Z) Gonadotropin-releasing hormone</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+The myogenic response is a mechanism by which the kidney regulates the rate of urine production. In this mechanism, activation of stretch receptors triggers the reduction of GFR by causing vasoconstriction in which of the following types of vessel?</div><div>W) Efferent Arteriole<br>X) Afferent Arteriole<br>Y) Peritubular Capillary<br>Z) Collecting Duct</div><div>ANSWER: X) Afferent Arteriole</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the term for the zone of subducted lithosphere where earthquakes may occur, which extends to a depth of about 660 kilometers?</div><div>ANSWER: WADATI-BENIOFF ZONE</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Nereid, one of Neptune’s largest moons, has an apparent magnitude that fluctuates by nearly 1. Aside from its irregular shape, what property of Nereid, also observed in Pluto’s moons and Hyperion, is the primary cause of this fluctuation?</div><div>ANSWER: CHAOTIC ROTATION</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+The zero-point energy of a particle in a one-dimensional box is 20.2 electron-volts. What’s the energy in electron-volts emitted when the particle drops from the n = 4 to n = 3 energy levels?</div><div>ANSWER: 141.4</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">VISUAL BONUS</span> Chemistry <i>Short Answer</i>
+Shown in the image is a simplified schematic for the Buchwald–Hartwig coupling developed by UC Berkeley’s John Hartwig for the coupling of amines with aryl halides. Answer the following two questions about this image
+1. What fundamental organometallic mechanistic step is labeled A?
+2. What are the oxidation states of the palladium complexes labeled B and C, respectively?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86887.webp" width="795" height="797" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – REDUCTIVE ELIMINATION; 2 – 0 AND 2+</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Energy <i>Multiple Choice</i>
+Scientists at the Lawrence Berkeley National Lab seek to understand ion-molecular interactions in battery electrolytes. Which of the following techniques would be most effective in describing and predicting these interactions?</div><div>W) X-ray diffraction<br>X) Fluorescence spectroscopy<br>Y) NMR spectroscopy<br>Z) Molecular dynamics simulations</div><div>ANSWER: Z) Molecular dynamics simulations</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">VISUAL BONUS</span> Math <i>Short Answer</i>
+Researchers in the Bediako Lab at UC Berkeley are exploring using Moire patterns through stacked graphene lattices with a certain rotational offset. If researchers can offset the lattices at increments of exactly 3 degrees, how many distinct “twisted” bilayer structures can be produced, including no rotational offset?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/44951.webp" width="939" height="744" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 20</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+The visual contrast of the subject matter is enhanced due to lateral inhibition of the visual input by which of the following cell types in the retina?</div><div>W) Ganglion Cells<br>X) Muller Cells<br>Y) Amacrine Cells<br>Z) Horizontal Cells</div><div>ANSWER: Z) Horizontal Cells</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">VISUAL BONUS</span> Biology <i>Short Answer</i>
+Shown below is a picture of Bacillus anthracis. Answer the following two questions about this image
+1. Name the structure that is targeted in the staining procedure that produces the picture below.
+2. Identify all of the following three molecules that can trigger PAMP recognition
+1) Peptidoglycan
+2) Anthrax toxin
+3) Lipopolysaccharide</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86888.webp" width="1234" height="838" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – CELL WALL; 2 – 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+An observer standing at a latitude of 10 degrees north observes a star at a right ascension of 2 hours and a declination of 30 degrees. At the same time, a different observer is standing at a latitude of 60 degrees north. At what declination in degrees does the second observer see the star?</div><div>ANSWER: –20</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three statements that are true about thunderstorms
+1) Intense updrafts may have an overshooting top extending into the stratosphere
+2) Thunderstorms can only generate cold downbursts
+3) Downdrafts that reach the surface produce gust fronts.</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following prefixes describes the benzene substitution pattern of the major organic product formed in the Lewis acid-catalyzed reaction of nitrobenzene with acetyl chloride?</div><div>W) ortho<br>X) meta<br>Y) para<br>Z) ipso</div><div>ANSWER: X) meta</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following are possible terms in the Hamiltonian for multi-electron atoms that prevent the Schrodinger equation from being solved exactly?</div><div>W) Kinetic energy of the electrons<br>X) Kinetic energy of the nuclei<br>Y) Coulombic attraction between electrons and protons<br>Z) Coulombic repulsion between electrons</div><div>ANSWER: Z) Coulombic repulsion between electrons</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Order the following three classes of vector spaces by containment, with the smallest class first
+1) Banach Space
+2) Frechet Space
+3) Hilbert Space</div><div>ANSWER: 3, 1, 2</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the largest value of k such that the graph of the equation x<sup>2</sup> – 6x + y<sup>2</sup> – 8y = k in R2 has entirely non-negative (x,y) solutions?</div><div>ANSWER: -16</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Researchers at Berkeley Lab are investigating various theories to explain the origin and behavior of gravity and gravitational energy. In general relativity, gravity is modeled as the curvature of spacetime by celestial objects. What is the name of the space of flat, zero-curvature spacetime with three spatial and one temporal dimensions?</div><div>W) de Sitter Space<br>X) Anti de-Sitter Space<br>Y) Riemannian Space<br>Z) Minkowski space</div><div>ANSWER: Z) Minkowski space</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Scientists at the Cate Lab are studying translation regulation by studying the large protein complex elF3. They attach a solution of the eIF3 protein complexes to carbon coated grids, and then resolve their structures using which of the following techniques?</div><div>W) X-ray crystallography<br>X) Cryo-electron microscopy<br>Y) Scanning tunneling electron microscopy<br>Z) Nuclear magnetic imaging</div><div>ANSWER: X) Cryo-electron microscopy</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A rectangular slide-wire generator in a uniform magnetic field of 0.3 teslas has a slider that is 20 centimeters long. At what speed in centimeters per second must the slider be pulled to induce a voltage of 15 millivolts?</div><div>ANSWER: 25</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A circuit consists of only a 10 kilo ohm resistor and a 100-microfarad capacitor which initially stores a charge of 20 coulombs. To the nearest hundredth of a second, how long does it take for the charge on the capacitor to decrease to 10 coulombs?</div><div>ANSWER: 0.69</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three cytokines that can elicit a basophil response
+1) interleukin-3
+2) granulocyte-macrophage colony stimulating factor
+3) tumor necrosis factor alpha.</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">VISUAL BONUS</span> Biology <i>Short Answer</i>
+The image below shows two different base pairing modes, both of which naturally occur in the cell. Answer the following questions about this picture.
+1. Describe the pairing methods as either Watson-Crick or Hoogsteen
+2. Identify the nucleotides labeled 1-4</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86889.webp" width="1256" height="823" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) 1: Watson-Crick, 2: Hoogsteen; 2) 1: A, 2: T, 3: G, 4: C</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following reactions contains a pericyclic reaction as one of its mechanistic steps?</div><div>W) Claisen condensation<br>X) Ozonolysis<br>Y) Electrophilic aromatic substitution<br>Z) Fischer esterification</div><div>ANSWER: X) Ozonolysis</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What quantity in statistical mechanics is used as the normalization constant when computing the probability of a microstate in the canonical ensemble?</div><div>ANSWER: PARTITION FUNCTION</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A 1-kilogram block is attached to a wall by a spring with a spring constant of 150 newtons per meter. If a bullet with a 0.5 kilogram mass and initial velocity 200 meters per second is shot at and sticks to the block, what is the angular frequency, in radians per second, of the oscillation of the bullet-block-spring system?</div><div>ANSWER: 10</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An electron is moving parallel to a wire, 10 centimeters away, with a 0.1 millimeter per second velocity equal to the drift velocity of the electrons in the wire. If the current in the wire is one ampere, what electric field, as a multiple of magnetic permeability, does the electron experience from its frame of reference?</div><div>ANSWER: 5 TIMES 10 TO THE POWER OF NEGATIVE 4 DIVIDED BY PI</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following types of fossilization creates petrified wood?</div><div>W) Preservation in amber<br>X) Permineralization<br>Y) Carbonization<br>Z) Authigenic mineralization</div><div>ANSWER: X) Permineralization</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">VISUAL BONUS</span> Earth &amp; Space <i>Short Answer</i>
+In the diagrams shown in the image, the small dark circle represents the Moon and the large dark circle represents the Earth, with the arrow indicating the direction of Earth’s rotation. Earth’s oceans are represented by the gray hatched area. Answer the following two questions regarding the image.
+1. Which diagram is the MOST accurate representation of the tides caused by the Moon’s gravitational pull?
+2. Earth’s gravitational pull conversely impacts the Moon, contributing to cracks in the lunar surface called lobate scarps. What other lunar process also contributes to the formation of lobate scarps?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86890.webp" width="1278" height="761" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – Y; 2 – INTERIOR COOLING</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A roulette table contains the numbers 1–36, with odd numbers colored black and even numbers colored red. All outcomes are equally likely. What is the probability of landing on a black number that is 19 or higher three times in a row?</div><div>ANSWER: 1/64</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">VISUAL BONUS</span> Math <i>Short Answer</i>
+The image below depicts the double torus embedded in R-three. Answer the following two questions
+1. What is the surface’s Euler characteristic?
+2. For surfaces without a boundary like the one below, the Gauss-Bonnet theorem relates the Euler characteristic with the surface integral of what quantity?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86891.webp" width="1346" height="704" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – -2; 2 – GAUSSIAN CURVATURE <span class="also-accept">(also accept: CURVATURE)</span></div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

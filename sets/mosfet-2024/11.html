@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MOSFET 2024 Round 11</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mosfet-2024/11" />
+<meta name="description" content="MOSFET 2024 Round 11: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mosfet-2024" data-packet="11">
+<div class="float-row mb-3"><span class="float-start">Packet 11 (Round 11) of <a href="sets/mosfet-2024/">MOSFET 2024</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/175Du5t-S6X1DCfMhWT-n0kP9iXloNsZE/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following is most likely to occur if there is a mutation in the signal peptide sequence of a polypeptide chain?</div><div>W) The polypeptide chain will not be brought to the endoplasmic reticulum for modification<br>X) The polypeptide chain will stop elongation prematurely<br>Y) The resulting protein will contain more hydrophobic regions than normal<br>Z) This type of mutation would only greatly affect proteins destined to stay in the cell</div><div>ANSWER: W) The polypeptide chain will not be brought to the endoplasmic reticulum for modification</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following 4 organs that are derived from the endoderm
+1) Heart
+2) Adrenal medulla
+3) Small intestine
+4) Liver</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the pH in an aqueous solution of 5 × 10<sup>-4</sup> M calcium hydroxide?</div><div>ANSWER: 11</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+A sample of nitrogen gas is held at 600 K, while a sample of oxygen gas is held at 300 K. What is the ratio between the rates of effusion of the nitrogen and oxygen samples?</div><div>ANSWER: 4√7/7 <span class="also-accept">(also accept: 4 SQUARE ROOT 7 / 7)</span></div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the name given to the ridges of sediment running parallel to a river’s channel, which are generally deposited during periods of flooding?</div><div>ANSWER: LEVEE</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Observations of type 1a supernovae have indicated that the expansion of the universe is accelerating. Astronomers have proposed “dark energy”, a form of energy inherent to the vacuum, to explain this. What term in the Einstein field equations is associated with this energy, and forms the “Lambda” in the Lambda-CDM model?</div><div>ANSWER: COSMOLOGICAL CONSTANT</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What is the derivative with respect to x of the function (sin(x))<sup>3</sup>?</div><div>W) 3 sin(x)<sup>2</sup><br>X) 3 sin(x<sup>2</sup>)<br>Y) 3 sin(x)<sup>2</sup> cos x<br>Z) 3 sin(x<sup>2</sup>) cos x</div><div>ANSWER: Y) 3 sin(x)<sup>2</sup> cos x</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+ABCDEF is a regular hexagon with side length 2. The intersection of the interiors of triangles ACE and BDF marks a second, regular hexagon. What is the side length of this second hexagon?</div><div>ANSWER: 2√3/3</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Given that all objects are identical and in the same star system, Order the following three orbits in terms of increasing total mechanical energy
+1) Circular orbit with radius R
+2) Elliptical orbit with periapsis R/4 and apoapsis R/2
+3) Hyperbolic orbit with periapsis R/8</div><div>ANSWER: 2, 1, 3</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Saathvik was banished by Josh to the center of the earth, and wants to get back to the surface. As Saathvik crawls his way back to the surface and away from the core, he measures the strength of the force of gravity he feels. Which of the following describes how this strength varies with the distance from the center?</div><div>W) Proportional to the square of distance<br>X) Proportional to distance<br>Y) Constant<br>Z) Inversely proportional to distance</div><div>ANSWER: X) Proportional to distance</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers at UW Madison are using corn to better understand the mechanisms of photosynthesis in the mesophyll cells of plant leaves. What specific type of mesophyll, found near the epidermis of the leaf, is compact, columnar, and is thought to carry out the majority of photosynthesis in plants?</div><div>W) Spongy<br>X) Palisade<br>Y) Kranz<br>Z) Sheath</div><div>ANSWER: X) Palisade</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at UNLV are monitoring Clark County water quality, particularly water hardness, which is caused primarily by calcium and magnesium ions. Identify all of the following four rocks whose dissolution would increase water hardness
+1) Sandstone
+2) Dolostone
+3) Chalk
+4) Gypsum</div><div>ANSWER: 2, 3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Which structure is derived from the ruptured follicle following ovulation and secretes estradiol and progesterone to maintain the uterine lining?</div><div>ANSWER: CORPUS LUTEUM</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three plant groups that posses a dominant gametophyte generation
+1) Mosses
+2) Lycophytes
+3) Ferns</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+The Ka of acetic acid is 1.8 × 10<sup>-5</sup>. At which of the following pH values would a buffer solution of acetic acid and acetate be LEAST effective?</div><div>W) 3<br>X) 4<br>Y) 5<br>Z) 6</div><div>ANSWER: W) 3</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following transition metals has the highest melting point?</div><div>W) Chromium<br>X) Manganese<br>Y) Iron<br>Z) Zinc</div><div>ANSWER: W) Chromium</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the name for objects under 0.075 solar masses that can sustain deuterium burning but aren’t massive enough to fuse normal hydrogen?</div><div>ANSWER: BROWN DWARF</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements is NOT true regarding the El Niño Southern Oscillation?</div><div>W) El Niño leads to cooler conditions in the continental United States<br>X) El Niño increases sea surface temperatures in the Eastern Pacific, and decreases temperatures in the Western Pacific<br>Y) El Niño decreases upwelling off the coast of South America<br>Z) El Niño is associated with positive ENSO index</div><div>ANSWER: W) El Niño leads to cooler conditions in the continental United States</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+In triangle ABC, AB = 9, angle BCA is 30 degrees, and angle ABC is 45 degrees. What is the length of side AC?</div><div>ANSWER: 9√2</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Simplify the following expression: the quantity 12<sup>3</sup>-5<sup>3</sup> all over 7</div><div>ANSWER: 229</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A pair of infinitely long parallel wires carry the same current in the same direction. Which of the following describes the direction of the total magnetic force felt by one of the wires?</div><div>W) Along the axis of the wire, in the direction of the current<br>X) Along the axis of the wire, against the direction of the current<br>Y) Towards the other wire<br>Z) Away from the other wire</div><div>ANSWER: Y) Towards the other wire</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An object of mass m is attached to a wall via a spring of spring constant k, and undergoes oscillations of period TA. If the spring in this system is instead replaced with two identical springs of the same spring constant connected in series, the new system oscillates with period TB. What is TB/TA?</div><div>ANSWER: SQUARE</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Evolutionary geneticist Svante Paabo won the 2022 Nobel Prize in Physiology or Medicine for his work with Neanderthal and Denisovan genomes. One particular challenge in sequencing genomes of extinct species is the small amounts of prehistoric DNA that are actually viable. What technique did Paabo’s team use to address and overcome this problem?</div><div>ANSWER: PCR</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at UW Madison are studying color charge in certain subatomic particles. Identify all of the following 4 particles that experience color confinement
+1) Gluon
+2) Photon
+3) Quark
+4) Electron.</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three sugars that are aldoses
+1) Glucose
+2) Fructose
+3) Galactose</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following statements regarding cyclin dependent kinases is false?</div><div>W) Cyclin dependent kinases are primarily involved in cell cycle regulation<br>X) Cyclin dependent kinases regulate other proteins by adding phosphate groups<br>Y) The concentration of cyclin dependent kinases varies significantly by stage in the cell cycle<br>Z) Cyclin dependent kinases are responsible for the breakdown of the nuclear membrane during mitosis</div><div>ANSWER: Y) The concentration of cyclin dependent kinases varies significantly by stage in the cell cycle</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What law states that two systems in thermal equilibrium with a third system are also in thermal equilibrium with each other?</div><div>ANSWER: ZEROTH LAW OF THERMODYNAMICS</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following is NOT a common reason for using a catalyst in a reaction?</div><div>W) Increasing selectivity for a specific product<br>X) Decreasing the temperature needed for a reaction<br>Y) Increasing a reaction’s thermodynamic favorability<br>Z) Increasing the rate of the reaction</div><div>ANSWER: Y) Increasing a reaction’s thermodynamic favorability</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following minerals has a mohs hardness higher than that of quartz?</div><div>W) Biotite<br>X) Orthoclase<br>Y) Pyrite<br>Z) Beryl</div><div>ANSWER: Z) Beryl</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Tidal heating causes Io, a moon of Jupiter, to exhibit strong volcanism. Which of the following describes the zone of charged particles in Jupiter’s magnetosphere that these volcanoes emit material into?</div><div>W) Magnetodisk<br>X) Van Allen belt<br>Y) Bow shock<br>Z) Magnetosheath</div><div>ANSWER: X) Van Allen belt</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Kian has a bag of 5 red balls, 5 green balls, and 5 blue balls. Within each color, the balls are labeled 1 through 5. Kian then pulls two balls out of the bag at random, without replacement. What is the probability that the two balls share neither a color nor a number?</div><div>ANSWER: 8/15</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Jacob is trying to buy some apples, bananas, cantaloupe, and durians. He wants to buy at least one of each fruit and 10 total fruits. How many different combinations of fruit can Jacob buy?</div><div>ANSWER: 84</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+An infinitely-long wire carries current in the positive x direction. A proton is placed near the wire and given a small velocity in the negative x direction. Which of the following best describes the resulting trajectory of the proton?</div><div>W) Hyperbola<br>X) Line<br>Y) Circle<br>Z) Helix</div><div>ANSWER: Z) Helix</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A square current loop of side length 3 m in the xy plane travels side first with velocity 2 m/s, into a region with a magnetic field of 0.5 T directed along the z axis. In volts, what is the strength of the induced emf in the loop?</div><div>ANSWER: 3 V</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at UW Madison are studying the metabolic response to hypothermia and the production of heat within brown fat. What protein, found in the inner mitochondrial membrane in brown fat, allows for the quick production of heat without the production of ATP?</div><div>ANSWER: THERMOGENIN</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers at UW Madison are using micropropagation to produce new plants from a callus. During this process, a high ratio of auxin to cytokinin would favor which of the following?</div><div>W) The formation of roots<br>X) The formation of shoots<br>Y) The production of a larger callus<br>Z) The formation of flowers</div><div>ANSWER: W) The formation of roots</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What cellular process occurs when old or damaged organelles fuse with a lysosome and are degraded by hydrolytic enzymes?</div><div>ANSWER: AUTOPHAGY</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three structures that have microtubules in a 9+2 arrangement
+1) Centrosome
+2) Motile Cilium
+3) Basal Body</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+The ionization energies of most elements on the Periodic Table decreases down the group. However, elements in groups 13 and 14 see ionization energies stabilize and even increase. What is the name of this effect, arising due to the unusual stability of the electrons in outer s-orbitals?</div><div>ANSWER: INERT PAIR EFFECT</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three types of isomers which could be separated using distillation
+1) Structural isomers
+2) Enantiomers
+3) Cis-Trans isomers</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What term describes the apparent forwards and backwards “wobbling” of the Moon as seen from Earth, as it moves in its elliptical orbit?</div><div>ANSWER: LIBRATION</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three igneous intrusions that are considered tabular
+1) Sill
+2) Pluton
+3) Laccolith</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+When written out in base 10, how many trailing zeroes does 131 factorial have?</div><div>ANSWER: 32</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Kartik has infinitely many boxes of vegan chicken nuggets. The boxes come in two types: the regular size has 9 nuggets and the small size has 4 nuggets. What is the largest number of nuggets that Kartik cannot make using the boxes?</div><div>ANSWER: 23</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+According to general relativity, light moving through spacetime will travel along what type of curve, which minimizes the distance traveled in curved spacetime?</div><div>ANSWER: GEODESIC</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Alice is flying in a spaceship at 0.5c relative to Charlie, who is standing at rest on the Earth. Alice then shoots out Bob in an ejector pod at 0.7c relative to the spaceship. In simplified form, at what fraction of the speed of light does Bob appear to be moving from the perspective of Charlie on Earth?</div><div>ANSWER: 8/9</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

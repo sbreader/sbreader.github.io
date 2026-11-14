@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2020 round 2</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2020/2" />
+<meta name="description" content="MIT 2020 round 2: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2020" data-packet="2">
+<div class="float-row mb-3"><span class="float-start">Packet 2 (round 2) of <a href="sets/mit-2020/">MIT 2020</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2020/round2.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following traits is an example of codominance?</div><div>W) Blue feathers in chickens<br>X) Eye colors in humans<br>Y) Blood groups in humans<br>Z) Skin colors in humans</div><div>ANSWER: Y) Blood groups in humans</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following four species is usually the limiting factor in plant growth?</div><div>W) Sulfate<br>X) Iodate<br>Y) Chloride<br>Z) Phosphate</div><div>ANSWER: Z) Phosphate</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following statements is true of two systems A and B which are in thermal equilibrium with each other?</div><div>W) The root mean square speed of molecules in each system is the same<br>X) Energy transfer between the two systems is impossible<br>Y) If system C is in thermal equilibrium with system A, then it is also in thermal equilibrium with system B<br>Z) The temperatures of the two systems are different</div><div>ANSWER: Y) If system C is in thermal equilibrium with system A, then it is also in thermal equilibrium with system B</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following three properties that neutrinos have a nonzero value for
+1) Charge
+2) Mass
+3) Color</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+After 10 billion years, the sun will most likely occupy which region on a Hertzsprung-Russell diagram?</div><div>W) Upper left<br>X) Upper right<br>Y) Lower left<br>Z) Lower right</div><div>ANSWER: Y) Lower left</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Tyler has three eyepieces to use with his refracting telescope, which has a primary lens focal length of 90 centimeters. Eyepiece 1 has a focal length of 25 millimeters, eyepiece 2 has a focal length of 15 millimeters, and eyepiece 3 has a focal length of 12 millimeters. Which eyepiece should he use to have the maximum magnification, and what is the magnification of his telescope when he uses that eyepiece?</div><div>ANSWER: Eyepiece 3; 75</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What process can be described as the passing of gas particles through a small hole, which is characterized by Graham’s law?</div><div>ANSWER: Effusion</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+In a galvanic cell, the presence of a salt bridge filled with an electrolyte, such as aqueous potassium nitrate, is crucial. Over the course of the reaction, what happens to the potassium and nitrate ions in the salt bridge?</div><div>W) The potassium ions move toward the cathode, while the nitrate ions move toward the anode.<br>X) The potassium ions move toward the anode, while the nitrate ions move toward the cathode.<br>Y) Both the potassium and nitrate ions move toward the cathode.<br>Z) Both the potassium and nitrate ions move toward the anode.</div><div>ANSWER: W) The potassium ions move toward the cathode, while the nitrate ions move toward the anode.</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+The MIT Energy Initiative is currently exploring efficient catalysts for oxygen reduction for the hydrogen fuel cell. How many electrons are transferred per oxygen molecule in the hydrogen fuel cell reaction?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+The MIT Energy Initiative is also looking for ways to reduce carbon dioxide into combustible liquid hydrocarbons. Currently, there is an industrial process which converts a syngas mixture to hydrocarbons as fuel. What is this process called?</div><div>ANSWER: Fischer–Tropsch process</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following is closest to 2<sup>3<sup>4</sup></sup>?</div><div>W) 10<sup>23</sup><br>X) 10<sup>24</sup><br>Y) 10<sup>25</sup><br>Z) 10<sup>26</sup></div><div>ANSWER: X) 10<sup>24</sup></div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+By name or number, order the following three numbers from least to greatest
+1) 2<sup>21</sup>
+2) 5<sup>9</sup>
+3) 3<sup>14</sup></div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers in the Yaffe group at MIT are studying cell signaling, especially in the context of cancer. Cell signaling commonly involves phosphorylation. Which tool is commonly used to examine the phosphorylation state of a protein?</div><div>W) Northern blot<br>X) Western blot<br>Y) Southern blot<br>Z) MS2 tagging</div><div>ANSWER: X) Western blot</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers in the Voigt group at MIT are developing novel gene pathways to produce new molecules in bacteria. What is the name for a group of genes in bacteria under the same promoter?</div><div>ANSWER: Operon</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+How many edges are in a pentagonal prism?</div><div>ANSWER: 15</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Sarah is playing a game where she rolls a 6-sided die up to two times. Her winnings are determined by the roll she stops on. After rolling once, she can choose to re-roll. Assuming Sarah chooses when to re-roll optimally, what are her expected winnings?</div><div>ANSWER: 17 / 4 <span class="also-accept">(also accept: 4.25)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following processes is a direct transition of a substance from solid to gas?</div><div>W) Vaporization<br>X) Sublimation<br>Y) Deposition<br>Z) Fusion</div><div>ANSWER: X) Sublimation</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+The Lyman series consists of spectral lines produced by an excited hydrogen electron relaxing to the ground state. What class of electromagnetic radiation does the Lyman series fall into?</div><div>W) Infrared<br>X) Visible<br>Y) Ultraviolet<br>Z) X-ray</div><div>ANSWER: Y) Ultraviolet</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Which vitamins are fat soluble?</div><div>ANSWER: Vitamins A, D, E, and K</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+A mother needs to get a paternity test done for her recently born baby, who is blood type A. The mother refuses to disclose her own blood type. By name or number, identify all of the following four blood types which the father could possibly have had.
+1) B
+2) O
+3) AB
+4) A</div><div>ANSWER: 1,2,3,4 <span class="also-accept">(also accept: all)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A ball is tied to a string and swung around in a vertical circle. When observed in a rotating reference frame, which of the following forces acting on the ball does not have a reaction force pair according to Newton’s third law?</div><div>W) Gravitational force<br>X) Tension<br>Y) Centrifugal force<br>Z) Air friction</div><div>ANSWER: Y) Centrifugal force</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A small block of cold metal at 0 degrees Celsius that has a specific heat of 2 joules per gram per kelvin is placed inside a tub of water at 27 degrees Celsius. If the metal is only a quarter of the mass of the water, what will be the temperature in degrees Celsius of both bodies at thermal equilibrium, to two significant figures?</div><div>ANSWER: 24 degrees</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, indicate all of the following three plate boundaries that are correctly paired with fault types.
+1) Convergent and normal
+2) Transform and reverse
+3) Divergent and thrust</div><div>ANSWER: None of them</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements is true of magmatic differentiation?</div><div>W) Crystal settling changes magmatic compositions by removing dense iron-rich minerals<br>X) Differentiation tends to make magmas more mafic<br>Y) A magma chamber that has undergone partial differentiation will be more volatile to eruption<br>Z) Magmatic differentiation leads to the creation of uniform batholiths</div><div>ANSWER: Y) A magma chamber that has undergone partial differentiation will be more volatile to eruption</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify the fine-grained counterpart in the coarse-grained igneous rock diorite.</div><div>ANSWER: Andesite</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements best explains why the position of the North Celestial Pole travels in a circle with respect to the background stars, with a period of roughly 26,000 years?</div><div>W) The revolution of the solar system about the center of the Milky Way causes different stars to be at the pole at different positions in the orbit<br>X) The gravity of the Sun and Moon causes Earth’s axis to wobble<br>Y) The gravity of nearby stars causes the ecliptic to wobble, changing the orientation of the whole solar system<br>Z) The shape of Earth’s orbit varies slightly over time, causing the axis to point at different areas of the sky</div><div>ANSWER: X) The gravity of the Sun and Moon causes Earth’s axis to wobble</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+The price of a jacket is discounted by 20%, and a month later it is discounted again by 20% from its price at that time. Which of the following is closest to the percent increase in price needed for the jacket to return to its original price?</div><div>W) 32%<br>X) 40%<br>Y) 48%<br>Z) 56%</div><div>ANSWER: Z) 56%</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The correlation coefficient between two random variables X and Y is zero. By name or number, identify all of the following three statements which must be true
+1) The variance of X + Y equals the variance of X plus the variance of Y .
+2) X and Y are independent.
+3) If one performs least-squares linear regression to predict Y from the value of X, one will always predict the same value of Y regardless of X.</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Resarchers in the Kardar group at MIT are interested in studying the Casimir force, a weak attractive force between closely parallel plates. The Casimir force can be understood as a quantum interaction between the plates and what carriers of the electromagnetic force?</div><div>ANSWER: Photons</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Researchers led by MIT’s Haystack Observatory recently developed software to combine radio signals from the 40 telescopes in the Atacama Large Millimeter Observatory coherently, transforming the telescope array into the equivalent of a single large telescope. What is the term for this technique?</div><div>ANSWER: Interferometry</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following atoms has the smallest atomic radius?</div><div>W) Mg<sup>2+</sup><br>X) Na<sup>+</sup><br>Y) F<sup>-</sup><br>Z) O<sup>2-</sup></div><div>ANSWER: W) Mg<sup>2+</sup></div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify the number of distinct bond lengths in the following two molecules.
+1) ClF<sub>3</sub>
+2) PCl<sub>5</sub></div><div>ANSWER: 1) 2; 2) 2</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following molecules normally CANNOT travel through a channel protein?</div><div>W) Sodium<br>X) Bicarbonate<br>Y) Creatinine<br>Z) Albumin</div><div>ANSWER: Z) Albumin</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, order the following three root zones in a typical eudicot from least to most mature.
+1) Zone of differentation
+2) Zone of cell division
+3) Zone of elongation</div><div>ANSWER: 2,3,1</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Two cylindrical columns of water that have the same height but different cross-sectional areas are sitting on a table. Which of the following is true of the water pressure at the bottom of the containers and the normal force the table exerts on them?</div><div>W) The columns have the same water pressure and have the same normal force<br>X) The columns have the same water pressure and have different normal forces<br>Y) The columns have different water pressures and have the same normal force<br>Z) The columns have different water pressures and have different normal forces</div><div>ANSWER: X) The columns have the same water pressure and have different normal forces</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A circuit consists of an ideal DC voltage source of 10 volts, an inductor with an inductance of 2.0 millihenries, and a fuse which causes the circuit to become open when the current reaches 12 amperes, all in series. The current through the circuit is initially 0 amperes. How long, in seconds to two significant figures, will it take until the fuse opens the circuit?</div><div>ANSWER: 2.4 × 10<sup>-3</sup> seconds</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following molecules has the highest normal boiling point?</div><div>W) HF<br>X) H<sub>2</sub>O<br>Y) NH<sub>3</sub><br>Z) CH<sub>4</sub></div><div>ANSWER: X) H<sub>2</sub>O</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following functions as a Lewis acid, but not a Bronsted Lowry acid?</div><div>W) HF<br>X) CH<sub>3</sub>COOH<br>Y) BH<sub>3</sub><br>Z) NH<sub>3</sub></div><div>ANSWER: Y) BH<sub>3</sub></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A particle’s position as a function of time is given by the equation x(t) = 5 t<sup>3</sup> − 9 t<sup>2</sup> − 19 t + 28. What is its acceleration at time t = 2?</div><div>ANSWER: 42</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+In the operation of lasers, the phosphor can be excited to a metastable state. In order for the laser to function, a state in which more of the phosphor is in the excited state than ground state is required. What is this state known as?</div><div>ANSWER: Population inversion <span class="do-not-accept">(do not accept: inversion)</span></div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following organs plays an important role in immune system maturation?</div><div>W) Telencephalon<br>X) Thyroid<br>Y) Thymus<br>Z) Thalamus</div><div>ANSWER: Y) Thymus</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+In a cross between two peas heterozygous in pea color and shape, where both traits follow Mendelian genetics and the yellow trait and the smooth trait are dominant, what fraction of the child peas will be both yellow and smooth?</div><div>ANSWER: 9/16</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the probability of drawing two consecutive queens from a standard 52-card deck, without replacement?</div><div>ANSWER: 1/221</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+An ant is walking from one corner of a cube to the corner farthest from it. What is the shortest distance it must walk if the cube has volume 216?</div><div>ANSWER: 6√5</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three metamorphic rocks which exhibit foliation.
+1) Slate
+2) Schist
+3) Quartzite</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following sedimentary rocks were NOT formed through chemical precipitation of sediment?</div><div>W) Chalk<br>X) Travertine<br>Y) Gypsum<br>Z) Rock salt</div><div>ANSWER: W) Chalk</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

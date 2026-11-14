@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2023 Round 8</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2023/8" />
+<meta name="description" content="MIT 2023 Round 8: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2023" data-packet="8">
+<div class="float-row mb-3"><span class="float-start">Packet 8 (Round 8) of <a href="sets/mit-2023/">MIT 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2023/Round%208.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following particles does NOT obey the Pauli exclusion principle?</div><div>W) Pion<br>X) Proton<br>Y) Neutrino<br>Z) Electron</div><div>ANSWER: W) Pion</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Heat is transferred to two moles of a monatomic ideal gas at constant volume such that the temperature rises by 1 degree celsius. In joules to the nearest integer, how much heat was transferred?</div><div>ANSWER: 25</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Scientists at the Suess group at MIT are studying iron-sulfur proteins in organisms. In which of the following locations would they find these iron-sulfur proteins?</div><div>W) Oxygen evolving complex<br>X) Mitochondrial electron transport chain<br>Y) Inside of peroxisomes<br>Z) Nucleolus</div><div>ANSWER: X) Mitochondrial electron transport chain</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers in the Fink Lab at MIT have studied how m6A modifications in the 3’ UTR of certain yeast mRNA molecules can promote meiosis. Which of the following is NOT true concerning the 3’ UTRs of eukaryotic mRNA?</div><div>W) A frameshift mutation may cause the 3’ UTR to be translated<br>X) The polyadenylation signal is contained within the 3’ UTR<br>Y) The 3’ UTR is spliced by snRNAs<br>Z) The 3’ UTR promotes mRNA stability</div><div>ANSWER: Y) The 3’ UTR is spliced by snRNAs</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Karst topography is more readily found in tropical and temperate regions even though calcite dissolves more readily in polar regions. What observation best accounts for this apparent incongruency?</div><div>W) Polar regions tend to be drier<br>X) Polar regions receive less sunlight<br>Y) Polar flora secrete fewer acids into the ground<br>Z) Snow cover in polar regions prevents rainfall intrusion</div><div>ANSWER: W) Polar regions tend to be drier</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+A seismic gap found below an active volcano could reasonably be interpreted as what feature?</div><div>W) A related lopolith<br>X) An anomalously shallow moho<br>Y) The volcano’s magma chamber<br>Z) A sill-like intrusion</div><div>ANSWER: Y) The volcano’s magma chamber</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+The isotherms of an ideal gas on a P − V diagram are most closely related to which of the following types of conic sections?</div><div>W) Circle<br>X) Ellipse<br>Y) Parabola<br>Z) Hyperbola</div><div>ANSWER: Z) Hyperbola</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What is the average oxidation state of iron in iron(II) hexacyanoferrate(III)?</div><div>ANSWER: 2.4 <span class="also-accept">(also accept: 12/5)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Gregory is studying pea plants. He notes that the purple flower trait is dominant to the white flower trait, the yellow pea trait is dominant to the green pea trait, and the round pea trait is dominant to the wrinkled pea trait. He performs a trihybrid cross. Assuming independent assortment, what fraction of the offspring of this cross will have purple flowers and yellow, round peas?</div><div>ANSWER: 27/64</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+A macrophage engulfs a protist with a mitochondria. How many lipid bilayers are between the interior of the protist mitochondria and the exterior of the macrophage?</div><div>ANSWER: 5</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+On the number line, the distance between the number x and the number 0 is twice the distance between the number x and the number 3. What is the sum of all possible values of x?</div><div>W) 2<br>X) 4<br>Y) 6<br>Z) 8</div><div>ANSWER: Z) 8</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Arnold has ten red ducks and two blue ducks in a row. If the red ducks must form two contiguous segments, how many ways can Arnold arrange his ducks?</div><div>W) 18<br>X) 19<br>Y) 27<br>Z) 28</div><div>ANSWER: Y) 27</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers in the Willard group are working on finetuning the properties of organic electronic devices, where these properties are often highly-dependent on what quasiparticle, which is the bound state of an electron and electron hole?</div><div>ANSWER: Excitons</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Jamison group at MIT are investigating methods of carbon-carbon bond formation via nickel catalysis. When refining metallic nickel, an impure ore is heated up with carbon monoxide until nickel tetracarbonyl is formed, which observes what geometry?</div><div>ANSWER: Tetrahedral</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What is the smallest positive integer that can be written in the form 2023 x + 13 y where x and y are integers?</div><div>W) 1<br>X) 2<br>Y) 3<br>Z) 4</div><div>ANSWER: W) 1</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The base-6 representation of a number ends in 120. In base-10, what is the largest number which it must be a multiple of?</div><div>ANSWER: 24</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following is NOT true concerning hyperthyroidism?</div><div>W) In Graves’ disease, anti-TSH receptor antibodies cause excessive release of T3 and T4<br>X) Hyperthyroidism often results in heat intolerance<br>Y) One would expect to see decreased levels of TRH in a person with hyperthyroidism<br>Z) Hyperthyroidism is associated with increased sensitivity of the hypothalamus to T3 and T4</div><div>ANSWER: Z) Hyperthyroidism is associated with increased sensitivity of the hypothalamus to T3 and T4</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three factors that, when increased, would increase the Starling forces of filtration out of the capillary
+1) Capillary hydrostatic pressure
+2) Interstitial colloid pressure
+3) Total peripheral resistance</div><div>ANSWER: All</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A charged particle is moving in the positive x direction at 3 meters per second. An observer at the origin sees that 1 meter away from the particle in the positive y direction, the magnetic field from the particle has a strength of 3 teslas. What is the magnetic field strength observed at the same point by an observer traveling at 3 meters per second in the positive x direction?</div><div>ANSWER: 0</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A 30 kilogram astronaut in space is carrying a 20 kilogram object and traveling at 10 meters per second. She then throws the object in the direction of her motion. After the throw, the object moves at 5 meters per second relative to her body. What is the astronaut’s new speed in meters per second?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+At what height in kilometers would a dry air parcel six Kelvin warmer than its environment stop ascending when the environmental lapse rate is 7 degrees Celsius per kilometer and the dry adiabatic lapse rate is 10 degrees Celsius per kilometer?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three geologic features which are correctly paired with their erosional agent
+1) Yardang, Aeolian
+2) Roche mountonee, Glacial
+3) Pothole, Fluvial</div><div>ANSWER: All</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the VSEPR predicted molecular geometry of iodine pentafluoride?</div><div>ANSWER: Square pyramidal</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following best explains why chlorine gas is formed instead of oxygen gas during the electrolysis of brine?</div><div>W) The oxidation potential of the chloride-chlorine electrode is greater than that of the water-oxygen electrode<br>X) The oxidation potential of the chloride-chlorine electrode is less than that of the water-oxygen electrode<br>Y) The overpotential of the chloride-chlorine electrode is greater than that of the water-oxygen electrode<br>Z) The overpotential of the chloride-chlorine electrode is less than that of the water-oxygen electrode</div><div>ANSWER: Z) The overpotential of the chloride-chlorine electrode is less than that of the water-oxygen electrode</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the maximum value over real values of x for the expression e<sup>sin(x) + cos(x)</sup>?</div><div>ANSWER: e<sup>√2</sup></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A line segment is drawn in the plane. How many distinct regular pentagons contain the two endpoints of the line segment as vertices?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Hydroids and leptoids are tissues found in which of the following types of plants?</div><div>W) Bryophyta<br>X) Lycophyta<br>Y) Anthocerophyta<br>Z) Marchantiophyta</div><div>ANSWER: W) Bryophyta</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+The plant Mimosa pudica contains pulvini, specialized organs that can rapidly lose turgor pressure. Which of the following best describes the function of pulvini?</div><div>W) Regulates the movement of soil nutrients into the root<br>X) Moderates thigmonastic response in the leaves<br>Y) Controls the flow of xylem through the plant<br>Z) Coordinates the opening of stomata</div><div>ANSWER: X) Moderates thigmonastic response in the leaves</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers in the Francis Bitter Magnet Laboratory at MIT are studying magnetism. Curie’s law is an emperical law that relates the magnetic susceptibility of paramagnetic materials to their temperature. According to Curie’s law, the magnetic susceptibility is proportional to temperature raised to what power?</div><div>ANSWER: −1</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Reasearchers in MIT’s Center for Theoretical Physics are studying the structure of the proton, which can be modeled as a combination of 3 quarks. Which of the following is closest to the percent of the proton’s mass constituted by these 3 quarks?</div><div>W) 1 percent<br>X) 30 percent<br>Y) 70 percent<br>Z) 99 percent</div><div>ANSWER: W) 1 percent</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Rank the following three molecules in terms of increasing entropy of vaporization at 25 degrees Celsius
+1) Water
+2) Methanol
+3) Methane</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What type of magnetism is generally observed in metal-carbonyl complexes?</div><div>ANSWER: Diamagnetism</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+What type of objects are observed to contain Lyman alpha forests in their spectra due to their luminosity and large distance from Earth?</div><div>W) Pulsars<br>X) Quasars<br>Y) Type II Cepheids<br>Z) Type 1a supernovae</div><div>ANSWER: X) Quasars</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+It is currently 6 pm and the moon is highest in the sky. After three days, what phase will the moon be in?</div><div>ANSWER: Waxing gibbous</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A wheel with radius 0.4 meters rolls without slipping at a speed of 3 meters per second. A point that is 0.2 meters away from the center of the wheel is chosen. In meters per second, as the wheel rolls, what is the maximum speed of the point?</div><div>ANSWER: 4.5</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The resistivity of copper is approximately 1.5 × 10<sup>−8</sup> ohm meters. Expressing your answer in scientific notation to one significant figure, what is the resistance in ohms of a cylindrical copper wire with length 20 centimeters and radius 4 millimeters?</div><div>ANSWER: 6 × 10<sup>-5</sup></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following four statements are not true of the moons of Mars
+1) Phobos lies in a stable orbit
+2) Deimos is the largest martian moon
+3) Phobos and Deimos are in equatorial orbits
+4) Deimos’s composition resembles the asteroid Ceres</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify the following four structures that contain the Milky Way
+1) Local Group
+2) Boötes Void
+3) Virgo Cluster
+4) Virgo Supercluster</div><div>ANSWER: 1 and 4</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following is TRUE about the velocity of the wave crest for a light wavepacket?</div><div>W) Its velocity is the phase velocity and can exceed the speed of light<br>X) Its velocity is the phase velocity and cannot exceed the speed of light<br>Y) Its velocity is the group velocity and can exceed the speed of light<br>Z) Its velocity is the group velocity and cannot exceed the speed of light</div><div>ANSWER: Y) Its velocity is the group velocity and can exceed the speed of light</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Two rods that are each 2 meters long are joined at right angles to make a plus shape with 4 arms. A 0.5 meter long segment of one of the arms is snapped off. What is the distance between the center of mass of the object and the intersection point in meters?</div><div>ANSWER: 3 / 28</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+When chlorine gas is bubbled into basic water, the chloride anion along with what other chlorine-containing ion is formed?</div><div>ANSWER: Hypochlorite anion <span class="also-accept">(also accept: Hypochlorite; OCl −)</span></div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+In terms of the ideal gas constant, R, which of the following is closest to the constant-volume heat capacity of dinitrogen at 400 Kelvin?</div><div>W) 2 R<br>X) 2.5 R<br>Y) 3 R<br>Z) 3.5 R</div><div>ANSWER: X) 2.5 R</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following statements is NOT true regarding the hormone cholecystokinin, otherwise known as CCK?</div><div>W) CCK inhibits gastric emptying<br>X) CCK leads to secretion of pancreatic juice<br>Y) CCK stimulates bile synthesis by the gallbladder<br>Z) CCK leads to the relaxation of the sphincter of Oddi</div><div>ANSWER: Y) CCK stimulates bile synthesis by the gallbladder</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following is LEAST likely to occur at the infection site if a plant is infected with bacterial effector proteins?</div><div>W) Increased expression of R genes<br>X) Decreased lignin synthesis to conserve metabolites<br>Y) Formation of localized lesions to contain the pathogen<br>Z) Export of methylsalicylic acid to promote systemic acquired resistance</div><div>ANSWER: X) Decreased lignin synthesis to conserve metabolites</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Euler’s totient function counts the number of positive integers up to a given integer N that are relatively prime to N . Which of the following is the largest value that the Euler’s totient function attains over the first one hundred positive integers?</div><div>W) 95<br>X) 96<br>Y) 97<br>Z) 98</div><div>ANSWER: X) 96</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+In slope-intercept form, what is the equation for the line perpendicular to the curve of y = x<sup>2</sup> at the point (2, 4)?</div><div>ANSWER: y = −(1/4)x + 9/2</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

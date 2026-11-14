@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MOSFET 2024 Round 10</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mosfet-2024/10" />
+<meta name="description" content="MOSFET 2024 Round 10: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mosfet-2024" data-packet="10">
+<div class="float-row mb-3"><span class="float-start">Packet 10 (Round 10) of <a href="sets/mosfet-2024/">MOSFET 2024</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1YmlmfBRXo4sH4dHxgXz_g5CN237AnmsW/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Which type of cell, produced by a myeloid progenitor cell, undergoes fragmentation to produce platelets?</div><div>ANSWER: MEGAKARYOCYTE <span class="also-accept">(also accept: MEGALOKARYOCYTE)</span></div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three statement that are true of DNA polymerase I
+1) DNA polymerase I is found in both prokaryotes and eukaryotes
+2) DNA polymerase I is primarily responsible for the elongation of the leading strand in the 5’ to 3’ direction
+3) DNA polymerase I possesses 3’ to 5’ exonuclease activity</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following compounds is NOT an anhydride of a strong acid?</div><div>W) Cl<sub>2</sub>O<sub>7</sub><br>X) SO<sub>3</sub><br>Y) N<sub>2</sub>O<sub>3</sub><br>Z) Cl<sub>2</sub>O<sub>5</sub></div><div>ANSWER: Y) N<sub>2</sub>O<sub>3</sub></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What is the average bond order of the N-N bond in a molecule of N<sub>2</sub>O?</div><div>ANSWER: 2.5</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Order the following three Milankovitch cycles in order of shortest period to longest period
+1) Obliquity
+2) Axial precession
+3) Eccentricity</div><div>ANSWER: 2, 1, 3</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following rocks is composed of nearly entirely olivine?</div><div>W) Kimberlite<br>X) Gabbro<br>Y) Basalt<br>Z) Dunite</div><div>ANSWER: Z) Dunite</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the remainder when 2021<sup>2021</sup> is divided by 5?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Li wants to go skydiving between now and some time infinitely far in the future. On any given day, the chance that Li is able to book a skydiving lesson is 2/3. The probability that he successfully skydives is ½ if he goes on the first day, but his anxiety gradually builds over time, so with each passing day the probability that he successfully skydives decreases by a factor of ½. He will not go skydiving again if he skydives unsuccessfully. What is the probability that he successfully skydives at some point?</div><div>ANSWER: 2/5</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A conical pendulum is a pendulum that can pivot anywhere in the xy plane. Nihar attaches a paint bucket to the bottom of a conical pendulum to track the location of the bob above the ground. Which of the following shapes cannot be drawn by Nihar using this setup?</div><div>W) Line<br>X) Circle<br>Y) Ellipse<br>Z) Sine wave</div><div>ANSWER: Z) Sine wave</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The moment of inertia of a square in the xy plane about an axis through the center and perpendicular to the plane of the square is 36 kg*m<sup>2</sup>. What is the moment of inertia of the square about an axis through the center of the square in the plane of the square, assuming the axis is through the midpoint of one of the square’s sides?</div><div>ANSWER: 18 kg*m<sup>2</sup></div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at UW Madison are studying the human genome and using DNA analysis to help solve crimes. What regions of the genome, which are repeated sections of 2-5 nucleotides, differ in the number or repeats between individuals?</div><div>ANSWER: SHORT TANDEM REPEATS <span class="also-accept">(also accept: STRs)</span></div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at UW Madison are interested in superconductivity. What model of superconductivity posits that this effect arises as a result of pairs of electrons bound together at low temperatures?</div><div>ANSWER: COOPER PAIRS</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following 3 organelles in which beta-oxidation occurs
+1) Mitochondria
+2) Lysosome
+3) Peroxisome</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Order the following three polysaccharides in terms of increasing degree of branching
+1) Glycogen
+2) Amylose
+3) Amylopectin</div><div>ANSWER: 2, 3, 1</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+In the formation of carbon dioxide from nitrogen dioxide and carbon monoxide, nitrogen trioxide is formed as an intermediate. In evaluating the kinetics of this reaction, what technique assumes that the rate of change of the concentration of nitrogen trioxide is approximately 0?</div><div>ANSWER: STEADY-STATE</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+When the temperature of a hypothetical liquid is increased from 250 K to 500 K, the liquid’s vapor pressure doubles. To one significant figure and in joules, what is the enthalpy of vaporization of this liquid?</div><div>ANSWER: 3000 J</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following best describes how hanging valleys are formed?</div><div>W) A second glacier erodes across an older glacier valley, before eventually melting<br>X) A stream erodes through the wall of a dry river valley<br>Y) A smaller glacier joins a larger glacier, and after time both melt<br>Z) A smaller stream joins a larger river, and after time both dry up</div><div>ANSWER: Y) A smaller glacier joins a larger glacier, and after time both melt</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+In kilometers per second and to the nearest whole number, what is the recessional velocity of a galaxy at a distance of 30,000 parsecs from Earth?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Kartik is conducting a biology experiment, and comes up with a chi squared for his results. If this chi squared is less than the critical value, which of the following decisions should Kartik make when drawing his conclusions? hypothesis.</div><div>W) Reject the null hypothesis<br>X) Fail to reject the null hypothesis<br>Y) Accept the null hypothesis<br>Z) Declare there is not enough information to reject, fail to reject, or accept the null</div><div>ANSWER: X) Fail to reject the null hypothesis</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many distinct positive integer solutions are there to the equation w+x+y+z=14?</div><div>ANSWER: 286</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Josh and Saathvik are running a 5k. Josh is running at 300m/s whereas Saathvik runs at 3m/s. When Josh is 1km away, Saathvik sees him in front of him and yells something towards him. In seconds, how long does it take for Josh to hear Saathvik, given standard atmospheric conditions?</div><div>W) 10<br>X) 15<br>Y) 20<br>Z) 25</div><div>ANSWER: Z) 25</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Identify all of the following three quantities which must be 0 in the interior of an ideal superconductor
+1) Magnetic field
+2) Electric field
+3) Current density</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers at UW Madison are simulating protein folding in different cell environments. Which of the following families of heat shock proteins aid in folding of polypeptide chains in the cytosol, to ensure that these chains acquire the proper 3D shape?</div><div>W) Chaperonins<br>X) Scaffolding proteins<br>Y) Clathrin<br>Z) Snare Proteins</div><div>ANSWER: W) Chaperonins</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers at UW Madison are studying the acquisition of antibiotic resistance among certain populations of E. Coli. What set of genes is required for conjugation between two bacteria and codes for genes necessary in the production of pili?</div><div>ANSWER: F FACTOR <span class="also-accept">(also accept: F PLASMID; SEX FACTOR)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following is an example of Mullerian mimicry?</div><div>W) A milk snake mimicking a coral snake<br>X) A baby cheetah mimicking a honey badger<br>Y) A viceroy butterfly mimicking a monarch butterfly<br>Z) A bark praying mantis mimicking a fire ant</div><div>ANSWER: Y) A viceroy butterfly mimicking a monarch butterfly</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+During lipid digestion, triglycerides are broken down into fatty acids and glycerol and absorbed by epithelial cells. There, fatty acids and glycerol combine with other types of lipids to form what larger particles, which travel through the lymph and then enter larger veins?</div><div>ANSWER: CHYLOMICRONS <span class="also-accept">(also accept: ULDLS)</span></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+In which of the following solvents would pyridine, an electrically neutral weak base, have the highest degree of ionization?</div><div>W) Acetic acid<br>X) Ammonia<br>Y) Isopropanol<br>Z) Carbon tetrachloride</div><div>ANSWER: W) Acetic acid</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three processes which are associated with increases in the internal energy of a gas
+1) Isothermal compression
+2) Isobaric expansion
+3) Isochoric heating</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Which of the three major atmospheric circulation cells is found at the lowest latitudes?</div><div>ANSWER: HADLEY CELL</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three statement that are true regarding desert geology
+1) Wind is the primary agent of erosion in deserts
+2) Barchan dunes are produced in areas with bi-directional prevailing winds
+3) Sand dunes generally exhibit extensive cross-bedding</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+How many points of intersection between sin(x) and tan(x) exist on the closed interval from 0 to 2π?</div><div>W) 1<br>X) 3<br>Y) 5<br>Z) 7</div><div>ANSWER: X) 3</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Integer polynomial P is cubic and satisfies P(1) = 1, P(2) = 2, P(3) = 3, and P(0) = -6. What is P(4)?</div><div>ANSWER: 10</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+When incorporated into Maxwell’s equations for electromagnetism, Ampere’s circuital law contains an additional correcting term, which accounts for the phantom “current” caused by changing electric fields. What is the term for this type of current?</div><div>ANSWER: DISPLACEMENT CURRENT</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+What type of probability distribution would describe the probabilistic breakdown of kinetic energies in a gas of electrons, or any other particle with half integer spin?</div><div>ANSWER: FERMI-DIRAC DISTRIBUTION</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at Lawrence Berkeley National Lab are studying glacial ice formation in the Andes and its implications on the Sierra Nevadas in California. What term describes compacted snow from past years that has yet to become glacial ice?</div><div>ANSWER: FIRN</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Researchers at MIT have created a 3D printer capable of using multiple materials at the same time. If they wanted to create a mechanism with an elastic spring and a rigid foundation, what would be the best Young’s moduli for the spring and the foundation, respectively?</div><div>W) Low and high<br>X) Both high<br>Y) High and low<br>Z) Both low</div><div>ANSWER: W) Low and high</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three statements regarding gene transfer in bacteria which are true
+1) Transformation requires the presence of a bacteriophage
+2) Transduction is the only mechanism where bacteria can obtain genes from another species
+3) Any sequence of genes can be transferred via conjugation</div><div>ANSWER: NONE</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+According to the ABC hypothesis of floral formation, a nonfunctional A gene would lead to which of the following mutated phenotypes?</div><div>W) Carpel, Stamen, Stamen, Carpel<br>X) Petal, Petal, Stamen, Stamen<br>Y) Sepal, Sepal, Carpel, Carpel<br>Z) Sepal, Petal, Petal, Sepal</div><div>ANSWER: W) Carpel, Stamen, Stamen, Carpel</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+A 5f orbital has how many total radial nodes?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+The dissolution of which of the following salts into water is most likely to increase the temperature of the solution?</div><div>W) Sodium bicarbonate<br>X) Potassium chloride<br>Y) Ammonium nitrate<br>Z) Calcium hydroxide</div><div>ANSWER: Z) Calcium hydroxide</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is FALSE about Triton, the largest moon of Neptune?</div><div>W) It is in hydrostatic equilibrium<br>X) It is a regular satellite<br>Y) It is tectonically active<br>Z) It has a retrograde orbit</div><div>ANSWER: X) It is a regular satellite</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+A type II supernova would likely not generate large amounts of which of the following?</div><div>W) Neutrinos<br>X) Gamma rays<br>Y) Gravitational waves<br>Z) Visible light</div><div>ANSWER: Y) Gravitational waves</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Triangle ABC has AB = 13, BC = 14, CA = 15, and an area of 84. Point D is chosen on side BC such that DB = 8, and point E is chosen on CA such that EA = 5. What is the area of triangle CED?</div><div>ANSWER: 24</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A cube has a side length of 3. What is the area of the cross-section of the cube through a plane containing 3 non-adjacent corners?</div><div>ANSWER: 9√3 / 2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+WIMPs are a hypothetical form of dark matter being studied by researchers. They are particles that account for strange rotation curves in galaxies due to their mass and cannot be detected by radio astronomy. Identify all of the following four fundamental forces that WIMPS are predicted to interact with
+1) Weak force
+2) Strong force
+3) Electromagnetic force
+4) Gravity</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+MACHOs are another hypothetical form of dark matter. Identify all of the following 3 objects which could potentially be a MACHO
+1) Pulsar
+2) Brown dwarf
+3) Microscopic black hole</div><div>ANSWER: 2</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

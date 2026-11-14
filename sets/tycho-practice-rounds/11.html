@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Tycho Practice Rounds Medium Round 2012</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/tycho-practice-rounds/11" />
+<meta name="description" content="Tycho Practice Rounds Medium Round 2012: 49 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="tycho-practice-rounds" data-packet="11">
+<div class="float-row mb-3"><span class="float-start">Packet 11 (Medium Round 2012) of <a href="sets/tycho-practice-rounds/">Tycho Practice Rounds</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://github.com/OutplayedApps/tychoDB/blob/master/docx%20files%20input/Medium%20Round%202012.docx" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Which specific tissue of the brain is responsible for producing cerebrospinal fluid?</div><div>ANSWER: CHOROID PLEXUS</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following best describes the addition of a molecule of bromine to the carbon-carbon double bond of an alkene?</div><div>W) Both bromine atoms add to the same carbon atom<br>X) The bromine atoms add in a syn-configuration to adjacent carbon atoms<br>Y) The bromine atoms add in an anti-configuration to adjacent carbon atoms<br>Z) Only one bromine atom adds to the carbon skeleton</div><div>ANSWER: Y) The bromine atoms add in an anti-configuration to adjacent carbon atoms</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following techniques would be most useful for determining the binding constant of a protein to its ligand?</div><div>W) performing NMR on the protein-ligand complex<br>X) performing SPR with the protein deposited on a gold surface<br>Y) performing X-ray crystallography on the protein and comparing the structure to the structure of the ligand<br>Z) performing UV/vis spectroscopy on a solution of the ligand and the protein</div><div>ANSWER: X) performing SPR with the protein deposited on a gold surface</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following alkyl chlorides in order of increasing reactivity in an S<sub>N1</sub> reaction, from the least reactive to the most: Isopropyl Chloride Methyl Chloride tert-Butyl Chloride</div><div>ANSWER: 2, 1, 3 <span class="also-accept">(also accept: Methyl chloride, isopropyl chloride, tert-butyl chloride)</span></div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The midday color of the sky and its reddish hues at sunset are caused by Rayleigh scattering of sunlight in the atmosphere. Assume that the rate of scattering of light is C. If the wavelength of light is doubled, what is the new rate?</div><div>ANSWER: C/16</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Suppose that the photon emitted by a particle in a box transitioning from the n=3 to n=2 quantum level has frequency f. In terms of f, what is the frequency of a photon transitioning from the n=2 to n=1 quantum level in this box?</div><div>ANSWER: 3f/5</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+For a curve parametrized by the equations x(t) = 2cos(t) + 1 and y(t) = sin(t), what is the value of t on the closed interval [0, π] that gives a horizontal tangent?</div><div>ANSWER: T= π/2</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Which of the following is true of ANOVA methods?</div><div>W) The random effect ANOVA model is most useful for analyzing data from natural populations<br>X) ANOVA assumes that cases are not independent<br>Y) ANOVAs are less likely to produce a type I error than t-tests<br>Z) ANOVAs are not useful for randomization-based analysis</div><div>ANSWER: Y) ANOVAs are less likely to produce a type I error than t-tests</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Indicate all of the following three statements concerning streams and rivers that are TRUE
+1. A stream that existed before the present topography was created is called an antecedent stream.
+2. Foreset beds are generally composed of sand and silt.
+3. The east coast of North America generally lacks deltas because of weak waves and tides.</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Which type of optical aberration involves light from a distant point source not being focused on the same point due to the increased refraction of light rays when they strike a mirror near its edge?</div><div>ANSWER: SPHERICAL ABERRATION</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three statements concerning the hydrogen economy that are TRUE
+1. Some noble metals, like palladium, are being investigated in potential storage mechanisms for Hydrogen.
+2. Some byproducts of hydrogen combustion must be contained and released in special deposit areas.
+3. Currently, hydrogen is largely produced by the heterolysis of ammonia from the Haber process.</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Indicate all of the following three statements concerning solar energy that are TRUE
+1. Solar insolation averages about 140 watts per square meter on the Earth
+2. The current theoretical efficiency for a silicon PV cell is about 30-35%
+3. Solar thermal energy is generally less efficient than PV at using photons to drive a heat engine</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+For both the cation and anion respectively, what is the coordination number of the type of lattice that is most stable when cations and anions are of roughly equal size, as typified by cesium chloride?</div><div>ANSWER: 8 AND 8</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three statements concerning coordination compounds that are TRUE
+1. Tetrahedral splitting is greater than octahedral splitting for the same ligands and metal
+2. Strong-field ligands produce complexes with large splitting
+3. Square planar and octahedral coordination complexes cannot be chiral</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Indicate all of the following four changes that would increase hemoglobin&#39;s affinity for oxygen gas
+1. Increasing blood pH
+2. Increasing 2,3-bisphosphoglycerate&#39;s intracellular levels
+3. Increasing serum concentration of CO<sub>2</sub>
+4. Increasing temperature</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE of Bicoid and the morphogen gradient hypothesis
+1. Bicoid increases in concentration anterior to posterior
+2. Bicoid undergoes active transport from cell to cell
+3. Bicoid mRNA is transferred to egg cells via cytoplasmic bridges</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Indicate all of the following four particles which have half-integer spin: Top quark π<sup>0</sup> meson W<sup>+</sup> boson Muon</div><div>ANSWER: 1 AND 4</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Consider an electrostatic configuration where the electric potential V = xyz. Rank the following three points in terms of increasing value for the electric field in the y-hat direction
+1. The origin
+2. The point (1,2,-3)
+3. The point (1,-2,3).</div><div>ANSWER: 3, 1, 2</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Consider a line that passes through the point (5,5) and has a positive x-intercept and a negative y-intercept. Which of the following points could also be on this line?</div><div>W) (5,7)<br>X) (1,-1)<br>Y) (7,6)<br>Z) (6,7)</div><div>ANSWER: Z) (6,7)</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A right circular cone with a base radius of 4 is inscribed in a sphere with a radius of 5. What is the ratio of the volume of the cone to that of the sphere?</div><div>ANSWER: 32/125</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is TRUE of type 1A supernovas?</div><div>W) The primary peak in their light curves is due to the formation and decay of nickel<br>X) Most type 1A supernovas result in the formation of white dwarves and neutron stars<br>Y) Type 1A supernovas occur almost always in elliptical galaxies<br>Z) Type 1A supernovas lack silicon spectral lines</div><div>ANSWER: W) The primary peak in their light curves is due to the formation and decay of nickel</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Indicate all of the following four stars that are in the constellation Orion
+1. Bellatrix
+2. Rigel
+3. Capella
+4. Betelgeuse</div><div>ANSWER: 1, 2, AND 4</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Over the past decade, oil extraction at the Canadian oil sands has exceeded the world average amount of carbon released into the atmosphere per barrel of oil extracted by 20%. The release of what gas is responsible for this discrepancy?</div><div>ANSWER: METHANE</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+DOE researchers at Fermilab&#39;s Tevatron accelerate and then collide what two particles?</div><div>ANSWER: PROTONS AND ANTIPROTONS</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following correctly gives the molecular orbital description for the molecule C<sub>2</sub>?</div><div>W) C<sub>2</sub> is paramagnetic and has unpaired electrons filling valence antibonding π* orbitals<br>X) C<sub>2</sub> is diamagnetic and has only paired electrons filling valence antibonding π* orbitals<br>Y) C<sub>2</sub> is paramagnetic and has unpaired electrons filling valence bonding orbitals<br>Z) C<sub>2</sub> is diamagnetic and has only paired electrons filling valence bonding orbitals</div><div>ANSWER: Z) C<sub>2</sub> is diamagnetic and has only paired electrons filling valence bonding orbitals</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What is the VSEPR-predicted hybridization of the central atom and molecular geometry of the molecule BrF<sub>3</sub>?</div><div>ANSWER: HYBRIDIZATION IS dsp<sup>3</sup> AND MOLECULAR GEOMETRY IS T-SHAPED <span class="also-accept">(also accept: sp<sup>3</sup>d)</span></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Unpolarized light is passed through a vertical polarizer, and then passed again through a polarizer titled 30 degrees from the vertical. Assuming both polarizers are ideal, what fraction of the initial intensity passes through?</div><div>ANSWER: 3/8</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+At 50 degrees Celsius, water has a surface tension of approximately 10 millinewtons per meter. When the flow rate through a pipe is kept sufficiently low and turbulent, a stream of water is observed to separate into drops. To the nearest millimeter, what is the minimum diameter of these drops?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Indicate all of the following three proteases that are serine proteases
+1. Pepsin
+2. Trypsin
+3. Chymotrypsin</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Both ocean sunfish and pufferfish contain which powerful neurotoxin which acts as a sodium channel blocker?</div><div>ANSWER: TETRODOTOXIN</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the limit as x approaches 1 of the fraction with numerator (x-1) and denominator (x<sup>6</sup>-1)?</div><div>ANSWER: 1/6</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+For the function f(x) = x<sup>3</sup> –6x<sup>2</sup> + 9x, find all the critical values for x and classify them as either maxima, minima, or neither</div><div>ANSWER: X=1 IS A MAXIMUM, X=3 IS A MINIMUM</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What type of unconformity results when in which the upper beds overlie metamorphic or igneous rock?</div><div>ANSWER: NONCONFORMITY</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Radiation from a hypothetical blue dwarf is peaked at a wavelength of 250 nanometers. A spaceship travelling away from the star at 0.8c observes a spectrum peaked at what wavelength, in nanometers?</div><div>ANSWER: 750</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements is TRUE regarding the Haber process?</div><div>W) The catalyst used is a mixture of platinum and rhodium<br>X) The reaction is run at a low temperature of 25 C to increase the equilibrium constant<br>Y) Ammonia produced is used to produce nitric acid in the Ostwald process<br>Z) Most of the nitrogen used is isolated from soil</div><div>ANSWER: Y) Ammonia produced is used to produce nitric acid in the Ostwald process</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Recently, DOE researchers at the Advanced Light Source studied the magnetic nanocrystal chains produced by some genera of bacteria using X-ray magnetic circular dichroism. What is the name for bacteria that produce and use these nanocrystals to find their optimum environments?</div><div>ANSWER: MAGNETOTACTIC BACTERIA <span class="also-accept">(also accept: MTB)</span></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements about reaction kinetics is false, given that C represents the concentration of a reactant A?</div><div>W) Zero order reactions have a linear relationship between C and time<br>X) First order reactions have a linear relationship between the logarithm of C and time<br>Y) Second order reactions have a linear relationship between the reciprocal of C and time<br>Z) Third order reactions have a linear relationship between the square root of C squared and time</div><div>ANSWER: Z) Third order reactions have a linear relationship between the square root of C squared and time</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three thermodynamic quantities which would have a positive value in the vaporization of liquid water into steam at 95 °C. ΔH ΔS ΔG</div><div>ANSWER: 1, 2, AND 3 <span class="also-accept">(also accept: ALL OF THEM)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A hollow conducting sphere encloses a charge of +q and has a net charge of -2q. What are the charges on the inner surface and the outer surface of the sphere, respectively?</div><div>ANSWER: -Q AND -Q</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A particle is moving with a displacement s in meters as a function of time t in seconds as s(t) = 2t<sup>3</sup> + 2t<sup>2</sup> -2t –1, for t greater than zero. At what positive times in seconds is the velocity of the particle zero?</div><div>ANSWER: T = 1/3</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE of neurotransmitters
+1. Acetylcholine only has excitatory function
+2. Glycine has only excitatory function
+3. Serotonin has only excitatory function</div><div>ANSWER: NONE OF THEM</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What peptide acts on GPCRs in the GI tract and CNS to cause satiety by reducing the rate of gastric emptying?</div><div>ANSWER: CHOLECYSTOKININ <span class="also-accept">(also accept: CCK)</span></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+If g(x) = 2 – f(x), and the integral from 0 to 3 of f(x) dx is equal to 12, what is the average value of g(x) on the interval from 0 to 3?</div><div>ANSWER: -2</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Consider the probability of rolling two primes on two 20-sided dice. When this probability is expressed as p over q for p and q co-prime integers, what is p + q?</div><div>ANSWER: 29</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements is FALSE of Bowen&#39;s reaction series?</div><div>W) In the continuous series, calcium-rich plagioclase crystallizes before sodium-rich<br>X) Potassium-rich muscovite mica crystallizes before magnesium-rich biotite mica<br>Y) Out of the common minerals, olivine crystallizes first and quartz crystallizes last<br>Z) Felsic rocks will generally crystallize after mafic rocks</div><div>ANSWER: X) Potassium-rich muscovite mica crystallizes before magnesium-rich biotite mica</div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What near-IR telescope, which is aimed to orbit at the Earth-Sun L2 point and was launched in December 2021, is the successor to Hubble and contains hexagonal gold-plated beryllium mirrors?</div><div>ANSWER: JAMES WEBB SPACE TELESCOPE <span class="also-accept">(also accept: JWST)</span></div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+DOE scientists working with European counterparts at CERN are colliding fermions at the LHC to generate and study the Higgs boson. Which of the following statements concerning fermions and bosons is TRUE?</div><div>W) Bosons have symmetric wave functions under particle exchange and obey the Pauli exclusion principle<br>X) Bosons have antisymmetric wave functions under particle exchange and violate the Pauli exclusion principle<br>Y) Fermions have symmetric wave functions under particle exchange and violate the Pauli exclusion principle<br>Z) Fermions have antisymmetric wave functions under particle exchange and obey the Pauli exclusion principle</div><div>ANSWER: Z) Fermions have antisymmetric wave functions under particle exchange and obey the Pauli exclusion principle</div></div><hr><div class="packet-question"><div class="q-text">25. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+The reaction of carbon monoxide gas with oxygen gas to produce carbon dioxide gas is exothermic. Indicate all of the following three actions that will shift the equilibrium of this reaction to the right. Increasing the volume of the container Increasing the temperature of the container Adding nitrogen gas to the container</div><div>ANSWER: NONE OF THEM</div></div><hr><div class="packet-question"><div class="q-text">25. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following three compounds in terms of increasing oxidation state of carbon: Methylamine Formaldehyde Methane</div><div>ANSWER: 3, 1, 2</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

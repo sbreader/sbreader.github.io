@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2023 Round 2</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2023/2" />
+<meta name="description" content="MIT 2023 Round 2: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2023" data-packet="2">
+<div class="float-row mb-3"><span class="float-start">Packet 2 (Round 2) of <a href="sets/mit-2023/">MIT 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2023/Round%202.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The Davis Lab at MIT is studying the mechanisms governing the formation of biological complexes found in cells, one of which is the autophagosome. Which organelle is responsible for fusing with the autophagosome during autophagy to promote the breakdown and recycling of intracellular molecules?</div><div>ANSWER: Lysosome</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers at the Lourido Lab at MIT are studying the parasite-host interactions of protist pathogens like Plasmodium falciparum, the infectious agent of malaria. After being bitten by a mosquito infected with P. falciparum, the cells of what human organ are first infected by the sporozoites?</div><div>ANSWER: Liver</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following structures is NOT a modified stem?</div><div>W) Pneumatophores<br>X) Rhizomes<br>Y) Stolons<br>Z) Tubers</div><div>ANSWER: W) Pneumatophores</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following four choices that describe a process in the innate immune system.
+1) B cells release antibodies that neutralize a foreign bacterial toxin
+2) Natural killer cells destroy viral-infected cells by detecting abnormal surface proteins
+3) Helper T cells release cytokines to activate immune cells
+4) Mast cells release histamine to cause local inflammation</div><div>ANSWER: 2 and 4</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Kaden sold his car to a collector for 150% more than its original price of $1,000,000. What percent of the selling price is the original price?</div><div>W) 40<br>X) 50<br>Y) 60<br>Z) 70</div><div>ANSWER: W) 40</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The parabola y = x<sup>2</sup> + 9x intersects the line y = 36 at two points. What is the sum of the x-coordinates of those two points?</div><div>ANSWER: −9</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The velocity of a shallow wave is proportional to which of the following functions of depth, d?</div><div>W) 1/d<br>X) d<br>Y) 1 / √d<br>Z) √d</div><div>ANSWER: Z) √d</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+What hypothesis proposed the correct mechanism for the magnetization of earth’s crust around mid ocean ridges?</div><div>W) Vine Matthew Morley hypothesis<br>X) Hess hypothesis<br>Y) Continental drift<br>Z) Dana’s hypothesis</div><div>ANSWER: W) Vine Matthew Morley hypothesis</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following is the VSEPR predicted molecular geometry of xenon tetrafluoride?</div><div>W) Tetrahedral<br>X) Octahedral<br>Y) Square pyramidal<br>Z) Square planar</div><div>ANSWER: Z) Square planar</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+During the reaction between excess oxygen and 5.8 grams of butane, how many grams of water vapor are produced to the nearest whole number?</div><div>ANSWER: 9</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+An electron is traveling in a circle inside a uniform magnetic field. If the speed of the electron doubles, by what factor does the radius of its path increase?</div><div>W) 1/4<br>X) 1/2<br>Y) 2<br>Z) 4</div><div>ANSWER: Y) 2</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Three identical particles are placed in the coordinate plane, at the points (−1, 0), (1, 0), and (0, 1). They start from rest, and gradually fall together under the influence of gravity. Eventually, the particles all collide perfectly inelastically and come to rest. What is the distance from the origin to their final resting point?</div><div>ANSWER: 1/3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+The base-3 representation of a number is 100210. When written in base-9, what is its final digit?</div><div>W) 0<br>X) 1<br>Y) 2<br>Z) 3</div><div>ANSWER: Z) 3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many positive five-digit integers contain the three digit block ‘513’?</div><div>ANSWER: 280</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers in the Gilliard Lab at MIT are researching analogues of Pepto-Bismol. What group 15 element is present as the metal center in Pepto-Bismol?</div><div>ANSWER: Bismuth</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers at the Cummins group at MIT have synthesized a stabilized form of P2. This however, is not the most stable allotrope of phosphorus. The standard enthalpy of formation of phosphorus is defined with respect to what other allotrope of phosphorus?</div><div>ANSWER: White phosphorus <span class="also-accept">(also accept: P<sub>4</sub>)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Rank the following three elements in terms of increasing first ionization energy
+1) Carbon
+2) Nitrogen
+3) Oxygen</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following three triatomic molecules by increasing bond angle
+1) Sulfur dioxide
+2) Xenon difluoride
+3) Oxygen difluoride</div><div>ANSWER: 3, 1, 2</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Hematite and magnetite are both oxides of what metal?</div><div>ANSWER: Iron</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+What type of water body is characterized by steep inclines and high loads of coarse grained sediment that lead to rapidly shifting, interconnected channels?</div><div>W) Anastamosing river<br>X) Yazoo tributary<br>Y) Braided stream<br>Z) Meandering river</div><div>ANSWER: Y) Braided stream</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Based on the island equilibrium model, which of the following would have the greatest species biodiversity?</div><div>W) A large island far from the mainland<br>X) A large island close to the mainland<br>Y) A small island far from the mainland<br>Z) A small island close to the mainland</div><div>ANSWER: X) A large island close to the mainland</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following immunoglobulin types can cross the placenta and is thus implicated in hemolytic disease of the newborn?</div><div>W) IgA<br>X) IgD<br>Y) IgG<br>Z) IgM</div><div>ANSWER: Y) IgG</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Andy pushes a ball of radius 0.25 meters, across the floor to the right. The ball’s center of mass gains a velocity of 3 meters per second rightwards, while the ball simultaneously rotates with a clockwise angular velocity of 10 radians per second. Which of the following best describes the friction experienced by the ball?</div><div>W) Leftwards and static<br>X) Leftwards and kinetic<br>Y) Rightwards and static<br>Z) Rightwards and kinetic</div><div>ANSWER: X) Leftwards and kinetic</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A cup is shaped like a cylinder with base area 20 square centimeters, and is partly filled with water. An ice cube with side length 2 centimeters is dropped into the cup, and eventually reaches equilibrium. Assuming the density of ice is 0.9 grams per cubic centimeter, what is the distance, in centimeters to two significant figures, that the water level has risen in the cup?</div><div>ANSWER: 0.36</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Scientists in the Gedik group at MIT have discovered a strange composite quasiparticle inside nickel phosphorous trisulfide. This quasiparticle consists of an electron paired with what other quasiparticle, which describes a collective excitation of the solid lattice?</div><div>ANSWER: Phonon</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Scientists at the MIT Lincoln Laboratory are investigating superconducting materials for their use in quantum computers. One characteristic feature of superconducting materials is the complete expulsion of external magnetic fields from the interior of the material. What is the name of this effect?</div><div>ANSWER: Meissner effect</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+An object’s position as a function of time is given by x(t) = −t<sup>2</sup> + 6t + 3. At what time is the object stationary?</div><div>ANSWER: 3 <span class="also-accept">(also accept: t = 3)</span></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Alice launches a projectile from ground level. She wishes for the projectile to land at least 5 meters away. In meters per second, what is the minimum speed required for the projectile to do this?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is the current most commonly accepted hypothesis for the origin of the Moon?</div><div>W) The Moon was captured by Earth’s gravitational field<br>X) The Moon condensed from the same cloud of matter as the Earth<br>Y) The Moon broke off from a rapidly spinning Earth<br>Z) The Moon formed from ejected debris after a collision with the Earth</div><div>ANSWER: Z) The Moon formed from ejected debris after a collision with the Earth</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Stellar atmospheres rich in free carbon would also most likely be rich in what spectroscopic signature?</div><div>W) Carbon monoxide<br>X) Ammonia<br>Y) Calcium I<br>Z) He III</div><div>ANSWER: W) Carbon monoxide</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Rank the following three elements in terms of increasing ionic radius of their most common ion
+1) Fluorine
+2) Sodium
+3) Magnesium</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+The enthalpy of vaporization of water is 40.7 kilojoules per mole. To two significant figures and in joules per mole per kelvin, what is the entropy of vaporization of water?</div><div>ANSWER: +110 <span class="also-accept">(also accept: 110)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following statements is NOT true regarding differences between arteries and veins?</div><div>W) Veins have thicker walls than arteries<br>X) Blood pressure is higher in arteries than in veins<br>Y) Arteries bring blood away from the heart whereas veins bring blood towards the heart<br>Z) Veins have valves and arteries do not</div><div>ANSWER: W) Veins have thicker walls than arteries</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three cells that are considered haploid
+1) Primary oocyte
+2) Secondary oocyte
+3) Egg cell prior to fertilization</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the largest integer multiple of 22 less than 2023?</div><div>ANSWER: 2002</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+One farmer plows 5 acres of land in 10 minutes. Assuming all farmers work at the same rate, how many minutes does it take for 5 farmers to plow 50 acres of land?</div><div>ANSWER: 20</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following telescopes would be able to detect the Cosmic Microwave Background Radiation?</div><div>W) ALMA<br>X) Swift<br>Y) Chandra<br>Z) Hubble</div><div>ANSWER: W) ALMA</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three quantities that are greater for the moon Enceladus compared to the moon Titan
+1) Albedo
+2) Atmospheric density
+3) Radius</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the recombination frequency between two genes that are located on different chromosomes?</div><div>ANSWER: 50% <span class="also-accept">(also accept: 0.5)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following elements of an HIV virus is NOT encoded by its genome?</div><div>W) Reverse transcriptase<br>X) Viral capsid<br>Y) Viral envelope<br>Z) Viral glycoproteins</div><div>ANSWER: Y) Viral envelope</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Two resistors with resistances 2 ohms and 4 ohms are connected in parallel to a 6 volt battery. In amperes, what is the current across the 2 ohm resistor?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Water is being pumped from the basement to the second floor of a building. If the pressure at the outlet of the pump is 150 kilopascals, what is the pressure in kilopascals at the second floor which is 10 meters higher?</div><div>ANSWER: 52</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following conditions on a real gas leads to behavior that is closest to that of ideal gases?</div><div>W) Low temperature, low pressure<br>X) Low temperature, high pressure<br>Y) High temperature, low pressure<br>Z) High temperature, high pressure</div><div>ANSWER: Y) High temperature, low pressure</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following atoms’ ground state electron configuration violates the Aufbau principle?</div><div>W) Chlorine<br>X) Iron<br>Y) Copper<br>Z) Zinc</div><div>ANSWER: Y) Copper</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+A faucet supplies water at a rate of three cubic inches per second. In seconds, how long does it take to fill half of a fish tank with volume one cubic foot?</div><div>W) 144<br>X) 288<br>Y) 432<br>Z) 576</div><div>ANSWER: X) 288</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many positive integers have a cube root that is strictly between 3 and 4?</div><div>ANSWER: 36</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

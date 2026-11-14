@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MOSFET 2024 Round 3</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mosfet-2024/3" />
+<meta name="description" content="MOSFET 2024 Round 3: 47 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mosfet-2024" data-packet="3">
+<div class="float-row mb-3"><span class="float-start">Packet 3 (Round 3) of <a href="sets/mosfet-2024/">MOSFET 2024</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1M9j1Zyppve85_fniVTzrnWKuFnzqtAdt/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+What phase of mitosis is characterized by the separation of sister chromatids to opposite sides of the cell?</div><div>W) Prophase<br>X) Metaphase<br>Y) Anaphase<br>Z) Telophase</div><div>ANSWER: Y) Anaphase</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three statements that are true regarding meiosis in animals
+1) Crossing over occurs during prophase 1
+2) Sister chromatids separate during anaphase 1
+3) Homologous pairs separate during anaphase 2</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the chemical formula of phosphoric acid’s conjugate base?</div><div>ANSWER: H<sub>2</sub>PO<sub>4</sub><sup>-</sup></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three changes which can change the equilibrium constant Kc
+1) Increased amount of solid product
+2) Increased pressure of gaseous reactants
+3) Increased temperature.</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following fronts is represented on a weather map as a series of alternating red semicircles and blue triangles?</div><div>W) Warm<br>X) Cold<br>Y) Occluded<br>Z) Stationary</div><div>ANSWER: Z) Stationary</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Oceanic crust is primarily composed of which of the following rocks, which is considered mafic in composition?</div><div>W) Basalt<br>X) Rhyolite<br>Y) Andesite<br>Z) Diorite</div><div>ANSWER: W) Basalt</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+The average on the last chem test was a 74, and the standard deviation was 8.0. If Alice got a 62, which of the following is Alice’s z-score?</div><div>W) -1.5<br>X) -0.5<br>Y) 0.5<br>Z) 1.5</div><div>ANSWER: W) -1.5</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the area of a rhombus with side length four that has a shorter diagonal with length four?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following thermodynamic properties is not a state variable?</div><div>W) Pressure<br>X) Temperature<br>Y) Entropy<br>Z) Heat</div><div>ANSWER: Z) Heat</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Stephen shoots a cannonball out of a ground-level cannon angled at 45 degrees. If the initial velocity of the cannonball is 90 meters per second, then how far away from Stephen does the cannonball land? Treat g as 10 meters per second squared.</div><div>ANSWER: 810</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Researchers at UNR are studying the role of volcanic volatiles in the explosivity of eruptions. Which of the following compounds is NOT a common volcanic volatile?</div><div>W) Water<br>X) Carbon dioxide<br>Y) Ethane<br>Z) Sulfur dioxide</div><div>ANSWER: Y) Ethane</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers at UW Madison are studying the underlying mechanisms of electron transfer during redox reactions. Identify all of the following three statements regarding these reactions that are true
+1) The species reduced gains electrons
+2) A single species cannot be both oxidized and reduced in the same reaction
+3) Combustion is a type of redox reaction</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following macromolecules is not correctly paired with the type of bond that holds together its components?</div><div>W) Protein, peptide bond<br>X) Polysaccharide, glycosidic linkage<br>Y) Triglyceride, ester linkage<br>Z) Nucleic acid, phosphoramide bond</div><div>ANSWER: Z) Nucleic acid, phosphoramide bond</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Place the following 4 taxonomic ranks in order of decreasing scope
+1) Phylum
+2) Kingdom
+3) Genus
+4) Class</div><div>ANSWER: 2, 1, 4, 3</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Identify all of the following three elements which have multiple common nonzero oxidation states
+1) Sodium
+2) Iron
+3) Fluorine</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Place the following three acids in order of increasing strength
+1) HBr
+2) HF
+3) HI</div><div>ANSWER: 2, 1, 3</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What type of volcano has gentle, low-grade slopes composed primarily of solidified basaltic lava?</div><div>ANSWER: SHIELD</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What is the name given to a rapidly rotating neutron star that emits large quantities of electromagnetic radiation?</div><div>ANSWER: PULSAR</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+A twin prime is a prime which differs by two from another prime number. Which of the following is NOT a twin prime?</div><div>W) 3<br>X) 13<br>Y) 23<br>Z) 43</div><div>ANSWER: Y) 23</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Owen is on vacation in Oregon and finds an unused $20 gift card in his hotel room. He goes to the store and finds 50% off and $2 off coupons left in his cart. Given that a MOSFET Science Bowl T-shirt costs $15 and Oregon doesn’t have sales tax, what is the minimum amount of money Owen will have left over after buying the shirt, assuming he uses both coupons?</div><div>W) $5.50<br>X) $6.50<br>Y) $13.50<br>Z) $14.50</div><div>ANSWER: Y) $13.50</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The speed of water in a pipe at a certain point with radius 1 m is 36 m/s. At a different point in the pipe, the radius increases to 3 m. What is the speed of water at this second point in the pipe, in meters per second?</div><div>ANSWER: 4 m/s</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Two charges are fixed along a number line. One has a charge of 2 C and is at a position of 2, while the other has a charge of 4 C and is at a position of 8. Where along this number line could a charge be placed such that it experiences no net force?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at UW-Madison are studying the effects of iron on the enzyme aconitase, which plays a role in the citric acid cycle. In what organelle would you most likely find aconitase?</div><div>ANSWER: MITOCHONDRIA</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at UW Madison are studying high energy theory and the particles and forces that constitute matter and radiation. They are specifically studying electromagnetic radiation. Order the following three types of electromagnetic radiation in order of increasing frequency
+1) Ultraviolet
+2) Gamma rays
+3) X rays</div><div>ANSWER: 1, 3, 2</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following best describes the difference between a flaccid cell and a turgid cell?</div><div>W) A flaccid cell has a higher internal pressure than a turgid cell<br>X) A flaccid cell has a lower internal pressure than a turgid cell<br>Y) A flaccid cell has a larger central vacuole than a turgid cell<br>Z) A flaccid cell has a larger protoplast volume than a turgid cell</div><div>ANSWER: X) A flaccid cell has a lower internal pressure than a turgid cell</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+What chamber of the heart contains the sinoatrial node, also called the pacemaker, which is responsible for initiating the rhythmic contractions of the heart?</div><div>W) Right atrium<br>X) Right ventricle<br>Y) Left atrium<br>Z) Left ventricle</div><div>ANSWER: W) Right atrium</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following terms best describes a thermodynamic system which exchanges neither energy nor matter with its surroundings?</div><div>W) Adiabatic<br>X) Closed<br>Y) Diathermic<br>Z) Isolated</div><div>ANSWER: Z) Isolated</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Combustion reactions always have which of the following species as a reactant?</div><div>W) Carbon<br>X) Hydrogen<br>Y) Oxygen<br>Z) Water</div><div>ANSWER: Y) Oxygen</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Pulsars may have very high frequencies, despite their progenitor stars spinning relatively slowly, due to the conservation of what physical quantity during stellar collapse?</div><div>ANSWER: ANGULAR MOMENTUM</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Along a stream meander, which of the following areas erodes the fastest?</div><div>W) Inner bank<br>X) Outer bank<br>Y) Both banks are roughly equal<br>Z) All erosion occurs on the stream bed</div><div>ANSWER: X) Outer bank</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+According to Descartes’ Rule of Signs, what is the maximum number of positive roots that the polynomial x<sup>3</sup> + x<sup>2</sup>-x + 1 could have?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is two times log base ten of forty plus log base ten of five minus three times the log base ten of two?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+The slope of a potential energy vs time graph yields what physical quantity?</div><div>W) Power<br>X) Impulse<br>Y) Kinetic Energy<br>Z) Work</div><div>ANSWER: W) Power</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Two electrons only may occupy the same orbital if they have different values for which quantum number, which is an integer for bosons and a half-integer for fermions?</div><div>ANSWER: SPIN</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Scientists at Argonne National Labs are collaborating with UChicago and Northwestern University researchers to develop new methods of creating multi-element crystal structures for superconductors, similar to how impurities are added to semiconductors to modify their electrical properties. What is the name for this process?</div><div>ANSWER: DOPING</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at Hanford Laboratory are using LIGO to study the fusion of black holes. These large scale collisions produce what ripples in spacetime that travel at the speed of light?</div><div>ANSWER: GRAVITATIONAL WAVES</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three hormones that are secreted by the pancreas
+1) Insulin
+2) Epinephrine
+3) Glucagon</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+During the Calvin cycle what molecule eventually leaves the cycle and is the product of carbon fixation?</div><div>W) Malate<br>X) G3P<br>Y) Oxaloacetate<br>Z) 3PGA</div><div>ANSWER: X) G3P</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Identify all of the following four elements that are metalloids
+1) Boron
+2) Carbon
+3) Aluminum
+4) Silicon</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three molecules that are polar
+1) Ammonia
+2) Carbon monoxide
+3) Carbon dioxide</div><div>ANSWER: 1 AND 2 (AMMONIA, CARBON MONOXIDE)</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following planets of our solar system experiences retrograde rotation?</div><div>W) Mercury<br>X) Venus<br>Y) Jupiter<br>Z) Neptune</div><div>ANSWER: X) Venus</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+A theoretical “Planet 4.5” is hypothesized to exist at 16 AU from the sun. In terms of Earth years, how long is a year on Planet 4.5?</div><div>ANSWER: 64</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+The area of a certain polygon is 24 cm<sup>2</sup>. What is the volume of a pyramid with that polygon as its base and a height of 5cm?</div><div>ANSWER: 40cm<sup>3</sup></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Emmy needs to bake some cookies for a holiday party but has a very packed schedule. On Friday, she has a one half chance of being free, and on Saturday, she has a three quarters chance of being free. What are the odds that she has time to bake cookies on exactly one of the two days?</div><div>W) 1/4<br>X) 3/8<br>Y) 1/2<br>Z) 5/8</div><div>ANSWER: Y) 1/2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Often in fluid dynamics, fluids do not move in parallel lines, but flow chaotically, generating vortices and uneven pressures. What is the term for this kind of flow, often contrasted with laminar flow?</div><div>ANSWER: TURBULENT <span class="also-accept">(also accept: TURBULENT FLOW; TURBULENCE)</span></div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Michael is inside a spacecraft moving at a constant velocity v relative to an observer. He throws an apple out the front window in the direction of the spacecraft’s motion. Neglecting the effects of gravity, which of the following is definitely true?</div><div>W) The spacecraft will eventually collide with the apple<br>X) The spacecraft is accelerating relative to the apple<br>Y) The apple is moving at a speed more than the magnitude of v relative to the observer<br>Z) The apple is moving at a speed less than the magnitude of v relative to the observer</div><div>ANSWER: Y) The apple is moving at a speed more than the magnitude of v relative to the observer</div></div><hr><div class="packet-question"><div class="q-text">47. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is 2log<sub>10</sub>(40)+log<sub>10</sub>(5)-3log<sub>10</sub>(2)?</div><div>ANSWER: 3</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

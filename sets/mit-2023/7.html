@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2023 Round 7</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2023/7" />
+<meta name="description" content="MIT 2023 Round 7: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2023" data-packet="7">
+<div class="float-row mb-3"><span class="float-start">Packet 7 (Round 7) of <a href="sets/mit-2023/">MIT 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2023/Round%207.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Hollow spheres A and B are constructed with the same uniform surface density, but sphere A has twice the radius of sphere B. What is the ratio of the moment of inertia about the central axis of sphere A to that of sphere B?</div><div>ANSWER: 16</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Two identical trains start at the same location on Earth and have the same speed, with the first train traveling east and the second train traveling west. Which of the following statements best describes the apparent weights of the two trains?</div><div>W) The first train has a higher apparent weight than the second train<br>X) The first train has a lower apparent weight than the second train<br>Y) Both trains have the same apparent weight<br>Z) The relationship between the apparent weights of the trains depends on which hemisphere they are in</div><div>ANSWER: X) The first train has a lower apparent weight than the second train</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Identify all of the following 3 variables which remain constant during any single step in the Carnot cycle for an ideal gas
+1) Internal energy
+2) Volume
+3) Entropy</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Order the following three cations by increasing wavelength of the color produced by their flame tests
+1) Li<sup>+</sup>
+2) Na<sup>+</sup>
+3) K<sup>+</sup></div><div>ANSWER: 3, 2, 1</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Scientists at the Chen Lab at MIT are studying African Swine Fever Virus genome in hopes of developing an mRNA vaccine for the disease. Because the genome is so short, they can do restriction fragment length polymorphism analysis of different strains of the virus. To visualize the DNA in this process, which of the following compounds are they likely using?</div><div>W) Coomassie Blue<br>X) Sodium Dodecyl Sulfate<br>Y) Ethidium Bromide<br>Z) Eosin</div><div>ANSWER: Y) Ethidium Bromide</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+MIT Scientists at the Edgerton Lab have been studying certain viral causes of Burkitt’s lymphoma and mononucleosis. What family of viruses were they likely studying?</div><div>W) Papillomaviridae<br>X) Retroviridae<br>Y) Poxviridae<br>Z) Herpesviridae</div><div>ANSWER: Z) Herpesviridae</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The synergids in the ovule of a flowering plant each contain 11 chromosomes. How many chromosomes will the mature endosperm contain?</div><div>ANSWER: 33</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three statements that are true regarding mimicry
+1) Batesian mimicry involves a harmless species mimicking a harmful one
+2) Mullerian mimicry is positively frequency dependent
+3) Batesian mimicry is positively frequency dependent</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+A squall line is most closely associated with what type of front?</div><div>W) Cold<br>X) Warm<br>Y) Occluded<br>Z) Stationary</div><div>ANSWER: W) Cold</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Order the following three mid-ocean ridges from fastest to slowest spreading
+1) East Pacific Rise
+2) Mid-Atlantic Ridge
+3) Juan de Fuca Ridge</div><div>ANSWER: 1, 3, 2</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Three of the side lengths of a quadrilateral are 3, 4, and 5. How many possible integer side lengths are there for the fourth side?</div><div>W) 10<br>X) 11<br>Y) 12<br>Z) 13</div><div>ANSWER: X) 11</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The vector (a, a<sup>2</sup>, 2) is orthogonal to the vector (a, a<sup>2</sup>, −3). What is the largest possible real value of a?</div><div>ANSWER: √2</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+As rain falls from a thunderstorm, it often cools down the surrounding air. What best explains this phenomenon?</div><div>W) Condensation of raindrops absorbs latent heat<br>X) Evaporation of raindrops absorbs latent heat<br>Y) Rain from thunderstorms tend to be cool and absorb sensible heat<br>Z) Water radiates heat more efficiemtly than air</div><div>ANSWER: X) Evaporation of raindrops absorbs latent heat</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+When organic matter is squeezed, it may become coal. In certain circumstances, the organic matter leaves behind what type of fossil that leaves behind a dark outline of the compressed matter?</div><div>ANSWER: Carbon Film <span class="also-accept">(also accept: Carbonaceous film; carbonized film)</span></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A small mass is attached to one end of a massless spring with rest length zero, while the other end of the spring is attached to a fixed ceiling so that the spring hangs vertically. The equilibrium length of the spring is proportional to what power of the spring’s resonant frequency?</div><div>ANSWER: −2</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Let f(v) = v<sup>2</sup> e<sup>−v<sup>2</sup></sup>, which represents the general shape of the velocity distribution of a gas in a container. If a small hole is poked in the side of the container and the gas is allowed to escape, the velocity profile of the escaping gas can be represented by f(v) multiplied by v to what power?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Bawendi group at MIT are studying methods to precisely synthesize quantum dots. Which of the following quantum models best describes a quantum dot?</div><div>W) 2-dimensional particle in a box<br>X) 3-dimensional particle in a box<br>Y) Rigid rotor<br>Z) Quantum harmonic oscillator</div><div>ANSWER: X) 3-dimensional particle in a box</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Willard group at MIT are researching the dynamics of excited electrons trapped in conjugated molecular systems. Which of the following three materials are examples of conjugated molecular systems?
+1) Graphene
+2) Polystyrene
+3) Polyaniline</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+For what value of a are the vectors aî + 2ĵ − 9k̂ and 3î − 4k̂ orthogonal?</div><div>ANSWER: −12</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the volume formed when the area between the function f(x) = x<sup>2</sup> and the x-axis from x = 0 to x = 4 is revolved about the y-axis?</div><div>ANSWER: 128π</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following ligands is most likely to lead to the formation of a high-spin complex?</div><div>W) Cyanide<br>X) Fluoride<br>Y) Ammonia<br>Z) Phosphine</div><div>ANSWER: X) Fluoride</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following three gases in terms of increasing root mean square speed according to the Maxwell-Boltzmann distribution
+1) Hydrogen at 200 kelvin
+2) Helium at 200 kelvin
+3) Nitrogen at 400 kelvin</div><div>ANSWER: 3, 2, 1</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Right before fertilization, what stage of meiosis are oocytes arrested in?</div><div>ANSWER: Metaphase II</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+In addition to lignin, what other main constituent of the Casparian strip helps ensure that water and minerals take the symplastic route to the vascular cylinder?</div><div>ANSWER: Suberin</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Researchers at MIT’s Lincoln Laboratory are investigating Josephson junction-based superconducting circuits. Which of the following is NOT a property of a superconductor?</div><div>W) Zero resistance<br>X) Paramagnetism<br>Y) Meissner effect<br>Z) Critical temperature</div><div>ANSWER: X) Paramagnetism</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers at MIT’s Coley Group are applying computational methods to predict the mass spectra of various metabolites. Mass spectra plot relative abundance against what ratio?</div><div>ANSWER: Mass to charge ratio</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Rank the following three elements in terms of increasing binding energy per nucleon
+1) Helium-4
+2) Lithium-6
+3) Carbon-12</div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following is closest to the packing efficiency of a body-centered cubic lattice?</div><div>W) 0.52<br>X) 0.61<br>Y) 0.68<br>Z) 0.74</div><div>ANSWER: Y) 0.68</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+If the base ten logarithm of 2 is 0.301 and the base ten logarithm of 3 is 0.477, then which of the following whole numbers is closest to the base ten logarithm of 6<sup>1000</sup>?</div><div>W) 770<br>X) 780<br>Y) 790<br>Z) 800</div><div>ANSWER: X) 780</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Amazon has small boxes and large boxes. The small boxes have dimensions of 5 inches by 6 inches by 7 inches. The large boxes have dimensions of 11 inches by 13 inches by 15 inches. What is the maximum number of small boxes that can fit in a large box?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Jupiter’s clouds are commonly classified into three layers. Which of the following molecules is the primary constiuent of the uppermost, visible layer?</div><div>W) Ammonia<br>X) Methane<br>Y) Nitrogen<br>Z) Water</div><div>ANSWER: W) Ammonia</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following best explains what molecule is commonly used to map molecular clouds and why?</div><div>W) Hydrogen gas is used because it is the most common<br>X) Hydrogen gas is used because it radiates radio wavelengths well<br>Y) Carbon monoxide is used because it is the second most common<br>Z) Carbon monoxide is used because it radiates radio wavelengths well</div><div>ANSWER: Z) Carbon monoxide is used because it radiates radio wavelengths well</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following missense mutations would you expect to have the least impact on a protein’s function?</div><div>W) Methionine to Valine<br>X) Leucine to Lysine<br>Y) Serine to Tyrosine<br>Z) Histidine to Tryptophan</div><div>ANSWER: W) Methionine to Valine</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following four mechanisms that could enable a proto-oncogene to turn into an oncogene
+1) Histone acetylation surrounding the proto-oncogene
+2) Translocation of the proto-oncogene under a new promoter
+3) Duplication of the proto-oncogene
+4) Point mutation within the proto-oncogene</div><div>ANSWER: 1, 2, 3, and 4 <span class="also-accept">(also accept: All)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The orbital angular momentum of an electron around a nucleus is always a multiple of what fundamental physical constant?</div><div>ANSWER: Reduced Planck’s constant <span class="also-accept">(also accept: h-bar)</span> <span class="do-not-accept">(do not accept: Planck’s constant; h)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A toy pig with mass 1 kilogram is attached to the ceiling via a string, and given a velocity of 12 meters per second such that it undergoes uniform circular motion with a radius of 6 meters. Taking g to be 10 meters per second squared, in newtons, what is the tension in the string?</div><div>ANSWER: 26</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which cosmological distance is equivalent to the proper distance at the present time?</div><div>W) Relativistic Distance<br>X) Luminosity Distance<br>Y) Angular Distance<br>Z) Comoving Distance</div><div>ANSWER: Z) Comoving Distance</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+The magnetic fields of black holes can be best studied via what type of observations?</div><div>W) Polarization of light emitted from the accretion disk<br>X) Polarization of light emitted from G objects<br>Y) Slight differences in detected neutrino flavors from the blackhole<br>Z) Observed deflection and acceleration of broadline regions</div><div>ANSWER: W) Polarization of light emitted from the accretion disk</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following compounds is closest to having a covalent bond?</div><div>W) LiF<br>X) LiCl<br>Y) AlF<sub>3</sub><br>Z) AlCl<sub>3</sub></div><div>ANSWER: Z) AlCl<sub>3</sub></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following pairs of systems would have the same total entropy as a 2 liter box with 2 moles of gas?</div><div>W) 2 boxes of volume 1 liter, each with 1 mole of gas<br>X) 2 boxes of volume 1 liter, each with ln(2) moles of gas<br>Y) 2 boxes of volume ln(2), each with 1 mole of gas<br>Z) 2 boxes of volume 1 liter, each with 2 moles of gas</div><div>ANSWER: X) 2 boxes of volume 1 liter, each with ln(2) moles of gas</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+How many natural numbers have two digits in both base 4 and base 5?</div><div>ANSWER: 11</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+In a particular sequence a<sub>i</sub>, every term is the sum of the previous two terms. Let a<sub>2</sub> equal 5 and a<sub>6</sub> equal 1. What is the value of a<sub>1</sub>?</div><div>ANSWER: −8</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A skydiver is falling directly downwards, reaching a terminal velocity of 40 meters per second. In meters per second, if the density of air were quadrupled, what would be the new terminal velocity of the skydiver?</div><div>W) 2.5<br>X) 10<br>Y) 20<br>Z) 40</div><div>ANSWER: Y) 20</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An ideal diatomic gas has an average energy of 3000 joules per mole. In joules per mole, what is the average translational energy of the gas?</div><div>ANSWER: 1800</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+When auxin causes protons to be pumped into the cell wall, hydrogen bonds between cellulose microfibrils and other cell wall components are broken by which group of proteins?</div><div>ANSWER: Expansins</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+You survey an area and find 10 oak trees, 5 pine trees, and 5 fir trees. Identify all of the following three changes that would increase the Shannon diversity index of this area
+1) Planting five birch trees
+2) Cutting down five pine trees
+3) Cutting down five oak trees</div><div>ANSWER: 1 and 3</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

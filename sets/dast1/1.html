@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - DAST1 DAST Round 1</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/dast1/1" />
+<meta name="description" content="DAST1 DAST Round 1: 45 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="dast1" data-packet="1">
+<div class="float-row mb-3"><span class="float-start">Packet 1 (DAST Round 1) of <a href="sets/dast1/">DAST1</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/DAST1/DAST%20Round%201.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What name is given to the small, bean-shaped structures that can capture circulating cancer cells and help fight infections?</div><div>ANSWER: LYMPH NODES</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Microtubules are composed of repeating units of what protein?</div><div>ANSWER: TUBULIN</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Order the following three compounds by decreasing covalent character
+1) Beryllium chloride
+2) Rubidium fluoride
+3) Potassium fluoride.</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Order the following molecules in terms of increasing bond angle
+1) NH<sub>3</sub>
+2) CO<sub>3</sub><sup>2–</sup>
+3) SF<sub>6</sub>
+4) H<sub>2</sub>O.</div><div>ANSWER: 3,4,1,2</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following planets has an atmosphere that is primarily composed of carbon dioxide?</div><div>W) Mercury<br>X) Venus<br>Y) Uranus<br>Z) Neptune</div><div>ANSWER: X) Venus</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following correctly matches a layer of the atmosphere with how the temperature changes there?</div><div>W) Troposphere; increasing<br>X) Stratosphere; increasing<br>Y) Mesosphere; increasing<br>Z) Thermosphere; decreasing</div><div>ANSWER: X) Stratosphere; increasing</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Two rocks are thrown from a building at the same velocity, but one is shot upward while the other is thrown downward. Ignoring air resistance, which of the following best describes their velocities when they hit the ground?</div><div>W) The rock thrown up has a smaller velocity when it reaches the ground.<br>X) The rock thrown up has a larger velocity when it reaches the ground.<br>Y) Both rocks have the same velocity when they reach the ground.<br>Z) The masses of the rocks must be known in order to make a conclusion.</div><div>ANSWER: Y) Both rocks have the same velocity when they reach the ground.</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Dylan walks 3 miles north, 4 miles east, and 1 mile south. To the nearest whole number of miles, how far is he from his original location?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The number of diagonals in a regular polygon is equal to five times the number of sides. How many sides does this polygon have?</div><div>ANSWER: 13</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Scientists at Fermilab are studying the effects of superoxides in mice. Which of the following is equal to the oxidation state of oxygen in its superoxide form?</div><div>W) –4<br>X) –2<br>Y) –1<br>Z) –1/2</div><div>ANSWER: Z) –1/2</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Energy <i>Multiple Choice</i>
+Scientists at Oak Ridge National Lab are isolating Thorium-288 and Actinium-227 as potential treatments to what general group of diseases?</div><div>W) Meningitis<br>X) Pneumonia<br>Y) Cancer<br>Z) Common cold</div><div>ANSWER: Y) Cancer</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Order the following winds in terms of increasing distance from the equator
+1) Trade winds
+2) Polar winds
+3) Westerlies.</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+In which of the following atmospheric circulation cells, with latitudes between 30 and 60 degrees, are westerlies found?</div><div>W) Polar cell<br>X) Ferrel cell<br>Y) Hadley cell<br>Z) Phillip cell</div><div>ANSWER: X) Ferrel cell</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following hydroxides is most soluble in water?</div><div>W) Calcium hydroxide<br>X) Copper (II) hydroxide<br>Y) Ammonium hydroxide<br>Z) Barium hydroxide</div><div>ANSWER: Y) Ammonium hydroxide</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Order the following four elements by increasing electron affinity
+1) Oxygen
+2) Chlorine
+3) Sodium
+4) Phosphorus.</div><div>ANSWER: 3,4,1,2</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The force between two charges is 27 Newtons. The distance between the charges is tripled, and one of the charges is doubled. What is the new force between the charges?</div><div>ANSWER: 6 NEWTONS</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A particle moves from a potential of 34 Volts to 62 Volts. If the charge on the particle is 13 coulombs, what is the magnitude of the change in the kinetic energy of the particle in joules?</div><div>ANSWER: 364 <span class="do-not-accept">(do not accept: –364)</span></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+A white cow mates with a red cow to produce a cow with both red and white spots. What is the name given to this inheritance pattern?</div><div>ANSWER: CODOMINANCE</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Often being grasses or lichens, what species is defined as a hardy species that is the first to colonize an ecosystem?</div><div>ANSWER: PIONEER SPECIES</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the molecular geometry of xenon tetrafluoride?</div><div>ANSWER: SQUARE PLANAR</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following three compounds by decreasing mass percentage of carbon
+1) hexane
+2) cyclopentadiene
+3) propanal.</div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A sphere has a radius of 12, and another sphere has a radius of 18. What is the ratio of the volume of the smaller sphere that of the larger sphere?</div><div>ANSWER: 8 TO 27 <span class="also-accept">(also accept: 8/27)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The area between two concentric circles is 13π. If both circles have integer radii, find the area of the smaller circle.</div><div>ANSWER: 36π <span class="also-accept">(also accept: 36PI)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Scientists at Oak Ridge National Lab are working hard on developing new, efficient methods to create energy for nuclear fission reactors. What isotope of uranium are they looking for that is necessary in small quantities for nuclear fission reactors?</div><div>ANSWER: URANIUM-235</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Scientists at Brookhaven National Lab are working toward optimizing energy storage devices by determining how certain substances respond to an applied voltage. One example of an energy storage device is a capacitor. Identify all of the following three statements that are true regarding capacitors
+1) Capacitors store electrical energy
+2) The capacitance of a capacitor only depends on its physical properties
+3) Capacitors add linearly in series.</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What law states that the change in internal energy of a gas is equal to the sum of the heat added to the gas and the work done on the gas?</div><div>ANSWER: FIRST LAW OF THERMODYNAMICS <span class="do-not-accept">(do not accept: LAW OF THERMODYNAMICS)</span></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A gas has a constant pressure heat capacity of 22 R over 7. What is the adiabatic index of this gas?</div><div>ANSWER: 22/15</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the name for the ball-shaped mixture of food and saliva formed in the mouth that is ultimately pushed down the esophagus?</div><div>ANSWER: BOLUS</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+In the Cori cycle, lactate produced by the muscles is converted into what molecule in the liver, which is later converted back into lactate by the muscles?</div><div>ANSWER: GLUCOSE</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Where on the Hertzsprung-Russell diagram are white dwarf stars found?</div><div>W) Top right<br>X) Top left<br>Y) Bottom right<br>Z) Bottom left</div><div>ANSWER: Z) Bottom left</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is a metamorphic rock?</div><div>W) Dacite<br>X) Schist<br>Y) Chert<br>Z) Coquina</div><div>ANSWER: X) Schist</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Rushil flips a coin 10 times and gets all heads. What is the probability that he gets another 10 heads in a row?</div><div>ANSWER: 1/1024</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Find the number of positive integers less than 168 that are divisible by 6 and 7 but not 8.</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A force of 12 Newtons acts on a 3-kilogram mass at an angle of 60 degrees from the horizontal. If the force pulls the mass a distance of 8 meters horizontally, what is the work applied on the mass?</div><div>ANSWER: 48 JOULES</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A rock of mass 1 kilogram is sliding on a smooth surface when it starts sliding on a rough patch of grass with a coefficient of kinetic friction of 0.4. Taking g as 10 meters per seconds squared, if the rock enters the patch of grass with a velocity of 12 meters per second, what distance does it travel before it stops?</div><div>ANSWER: 18 METERS</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following reactions will produce a precipitate?</div><div>W) Calcium chloride reacted with potassium chlorate<br>X) Potassium bromide reacted with barium chloride<br>Y) Aluminum nitrate reacted with sodium carbonate<br>Z) Hydrogen fluoride reacted with potassium hydroxide</div><div>ANSWER: Y) Aluminum nitrate reacted with sodium carbonate</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following sets of quantum numbers is impossible for an electron to possess?</div><div>W) n = 1, L = 0, m sub s = –1<br>X) n = 3, L = 2<br>Y) n = 4, L = 2, m sub L = –2<br>Z) L = 0, m sub L = 0</div><div>ANSWER: W) n = 1, L = 0, m sub s = –1</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+The DOE’s Summit supercomputer at Oak Ridge National Lab was recently used to model protein binding interactions. Which of the following statements regarding protein binding is false?</div><div>W) In most cases, only a specific enantiomer of a molecule can bind to a protein<br>X) Some proteins have stretches of amino acids responsible for protein binding<br>Y) Muscle contraction relies largely on successful protein binding<br>Z) Water molecules are ignored because they do not play a role in protein binding</div><div>ANSWER: Z) Water molecules are ignored because they do not play a role in protein binding</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers at Sandia National Labs are studying enzymatic responses to enantiomers of their substrates. If a substrate molecule has 5 chiral centers, how many stereoisomers does it have?</div><div>ANSWER: 32</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Two prime numbers add to 25. What is the product of these two numbers?</div><div>ANSWER: 46</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The midpoints of the sides of a triangle are all connected to each other so that they form a smaller, similar triangle inside the original triangle. If the area of the original triangle is 72, what is the area of the smaller triangle?</div><div>ANSWER: 18</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the final electron acceptor in the electron transport chain?</div><div>ANSWER: OXYGEN <span class="also-accept">(also accept: O<sub>2</sub>)</span></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three amino acids that are chiral
+1) Lysine
+2) Valine
+3) Phenylalanine.</div><div>ANSWER: ALL OF THEM</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+At which type of tectonic plate boundary is the most damage from a future earthquake expected to occur?</div><div>ANSWER: TRANSFORM BOUNDARY</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Naveen takes a visit down under to Nullarbor Plain in Australia as part of a geology trip. While he is there, he notices a substantial amount of limestone, with many sinkholes and caves. What kind of topography is he likely viewing?</div><div>ANSWER: KARST</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

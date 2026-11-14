@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2022 Round 11</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2022/21" />
+<meta name="description" content="MIT 2022 Round 11: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2022" data-packet="21">
+<div class="float-row mb-3"><span class="float-start">Packet 21 (Round 11) of <a href="sets/mit-2022/">MIT 2022</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2022/Round_11.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+How many independent types of gluons exist?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Deep water waves have a phase velocity proportional to the square root of their wavelength. What is the ratio of the group velocity to the phase velocity for such waves?</div><div>ANSWER: 1/2 <span class="also-accept">(also accept: 0.5)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+A binary string is a string of 0’s and 1’s. What is the closest power of 10 to the number of binary strings of length 100 that contain five 1’s?</div><div>W) 10<sup>6</sup><br>X) 10<sup>7</sup><br>Y) 10<sup>8</sup><br>Z) 10<sup>9</sup></div><div>ANSWER: Y) 10<sup>8</sup></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+By name or number, order the following three unit Platonic solids by increasing volume
+1) Unit tetrahedron
+2) Unit cube
+3) Unit octahedron</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following compounds has the lowest oxidation state of carbon?</div><div>W) Benzene<br>X) Methanol<br>Y) Graphite<br>Z) Formaldehyde</div><div>ANSWER: X) Methanol</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following four compounds which form an alcohol upon vigorous treatment with aqueous hydroiodic acid
+1) Dimethyl ether
+2) Ethoxybenzene
+3) n-propyl formate
+4) Acetonitrile</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following types of microscopy uses lasers to reduce out-of-focus light?</div><div>W) Confocal<br>X) Fluorescence<br>Y) Phase contrast<br>Z) Nomarski</div><div>ANSWER: W) Confocal</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three forms of electron microscopy that can be used to create a 3D image
+1) Scanning
+2) Transmission
+3) Cryo</div><div>ANSWER: 1 and 3 <span class="also-accept">(also accept: All but 2)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The Hrvatin Lab at MIT studies neuronal regulation in torpor and hibernation. What is the general term for the group of birds classified under the family Trochilidae that undergo daily torpor and who also have the highest mass-specific metabolic rate of the homeotherms?</div><div>ANSWER: Hummingbirds</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers in the Fraenkel Lab at MIT use data from all kinds of sequencing techniques. Which of the following techniques associated with transcription factor binding is unique for its use of antibodies?</div><div>W) ATAC-seq<br>X) MNase-seq<br>Y) FAIRE-seq<br>Z) ChIP-seq</div><div>ANSWER: Z) ChIP-seq</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following parts of a well developed cumulonimbus cloud commonly intrudes into the stratosphere?</div><div>W) Anvil<br>X) Mammatus region<br>Y) Tuba<br>Z) Overshooting top</div><div>ANSWER: Z) Overshooting top</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true regarding secondary rainbows
+1) They are generally dimmer than primary rainbows.
+2) They have inverted colors compared to a primary rainbow
+3) They are formed by double internal reflections within a water droplet</div><div>ANSWER: 1,2,3 <span class="also-accept">(also accept: All)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Amphidromic points are locations which have zero tide amplitude for a harmonic constituent of a tide. Which of the following factors contributes most to the circular rotation of tides in a basin around an amphidromic point?</div><div>W) Water temperature<br>X) Basin depth<br>Y) Height of tidal crests<br>Z) Coriolis effect</div><div>ANSWER: Z) Coriolis effect</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three minerals that are cyclosilicates
+1) Beryl
+2) Tourmaline
+3) Topaz</div><div>ANSWER: 1 and 2 <span class="also-accept">(also accept: All but 3)</span></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What is the x-value of the vertex of the parabola x = 4y<sup>2</sup> + 16y − 26?</div><div>W) −42<br>X) −38<br>Y) −34<br>Z) −30</div><div>ANSWER: W) −42</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Solve the following equation over the real numbers: 4<sup>x+1</sup> = 9 · 2<sup>x</sup> − 2.</div><div>ANSWER: x = −2, 1</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following four reactions that are syn additions
+1) Oxymercuration
+2) Hydroboration-oxidation
+3) Halohydrin formation
+4) Palladium-catalyzed hydrogenation</div><div>ANSWER: 2 and 4</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+A chemist dissolves a ketone in diethyl ether and adds K-selectride, followed by the addition of dimethyl sulfate. The chemist notices that a significant amount of the enol ether is formed. By name or number, identify all of the following three changes that will disfavor the O-alkylation that forms the enol ether
+1) Switching the base to LDA
+2) Changing the solvent to DMSO
+3) Changing the electrophile to methyl iodide</div><div>ANSWER: 1 and 3 <span class="also-accept">(also accept: All but 2)</span></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Scientists in the MIT Department of Physics are studying unconventional superconductivity which depends on the angle between two stacked layers of graphene. Unconventional superconductivity is distinguished from conventional superconductivity by NOT conforming to which theory, which was proposed in 1957 and was the first microscopic explanation for superconductivity?</div><div>ANSWER: BCS theory <span class="also-accept">(also accept: Bardeen-Cooper-Schrieffer)</span></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Scientists in the MIT Department of Physics are studying unconventional superconductivity which depends on the angle between two stacked layers of graphene. What is the magnetic susceptibility of an ideal superconductor which expels all external magnetic fields?</div><div>ANSWER: −1</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the general term for the secretory group of white blood cells consisting only of neutrophils, eosinophils, and basophils?</div><div>ANSWER: Granulocytes <span class="also-accept">(also accept: Polymorphonuclear leukocytes; polymorphonuclear granulocytes; PMN; PML; PMNL)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three characteristics that are derived traits of vascular plants
+1) Heterospory
+2) Possessing megaphylls
+3) Possessing tracheids</div><div>ANSWER: 3 only</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following statements best describes the relationship between commutators and slip rings in an electric generator?</div><div>W) Commutators convert mechanical power to DC current, while slip rings convert mechanical power to AC current<br>X) Commutators convert mechanical power to AC current, while slip rings convert mechanical power to DC current<br>Y) Both commutators and slip rings convert mechanical power to AC current<br>Z) Both components are interchangeable and serve identical functions in an electric generator</div><div>ANSWER: W) Commutators convert mechanical power to DC current, while slip rings convert mechanical power to AC current</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A grounded spherical conducting shell has a radius of 1 meter. A positive 3 coulomb charge is placed 2 meters from the center of the sphere. In coulombs, how much total charge is induced on the sphere?</div><div>ANSWER: −1.5 <span class="also-accept">(also accept: −3 / 2)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three transformations which are oxidations
+1) Alcohol to aldehyde
+2) Alcohol to ketone
+3) Carboxylic acid to aldehyde</div><div>ANSWER: 1 and 2 <span class="also-accept">(also accept: All but 3)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three reagents that would convert an alcohol to a better leaving group
+1) TMSCl
+2) TsCl
+3) MsCl</div><div>ANSWER: 2 and 3 <span class="also-accept">(also accept: All but 1)</span></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following events is NOT theorized to happen during magnetic breaking in a stellar system?</div><div>W) Material escapes from the star due to its solar wind<br>X) The star’s spin slows<br>Y) Escaping material rotates close to the star’s surface<br>Z) Escaping material will rotate with the same angular frequency as the star temporarily</div><div>ANSWER: Y) Escaping material rotates close to the star’s surface</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following types of particles are emitted in the Urca process, which is thought to play a role in supernovae through the heating of the gain region?</div><div>W) Neutrinos and antineutrinos<br>X) Neutrinos only<br>Y) Antineutrinos only<br>Z) Photons</div><div>ANSWER: W) Neutrinos and antineutrinos</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Suppose f(x) = sin(x) + sin(x + 90°). What is the maximum value of f(x)?</div><div>ANSWER: √2</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the sum of the squares of the eigenvalues of the 2 × 2 matrix with first row 11, 12 and second row 20, 22?</div><div>ANSWER: 1085</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following is NOT an antigen-presenting cell?</div><div>W) B cell<br>X) Neutrophil<br>Y) Macrophage<br>Z) Dendritic cell</div><div>ANSWER: X) Neutrophil</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What channels in pacemaker cells are unusual for opening at negative membrane potentials, and what type of ion do they regulate?</div><div>ANSWER: F-type channels, Na<sup>+</sup> <span class="also-accept">(also accept: HCN channels, sodium)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Suess group at MIT are studying the properties of iron sulfur clusters in biology. In biology, 4 iron, 4 sulfur clusters are divided into two groups: ferredoxin-like clusters have an iron(II)/iron(I) redox couple, and HiPIP clusters have an iron(III)/iron(II) redox couple. Which of the following statements is true?</div><div>W) Ferredoxin-like clusters are redox active at low potentials, but HiPIP clusters are redox active at high potentials<br>X) Ferredoxin-like clusters are redox active at high potentials, but HiPIP clusters are redox active at low potentials<br>Y) Both clusters are redox active at low potentials<br>Z) Both clusters are redox active at high potentials</div><div>ANSWER: W) Ferredoxin-like clusters are redox active at low potentials, but HiPIP clusters are redox active at high potentials</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Suess group at MIT are studying the properties of iron sulfur clusters in biology. In biology, 4 iron, 4 sulfur clusters are arranged in a cube structure. By name or number, identify all of the following three statements which are true of 4 iron, 4 sulfur clusters
+1) The iron centers are low spin
+2) Increased amount of hydrogen bonding to the sulfur atoms from amino acid residues increases the potential of the active redox couple
+3) The oxidation state of sulfur in these clusters is 0</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The SI unit of temperature, the kelvin, is defined using a fixed numerical value of what fundamental constant?</div><div>ANSWER: Boltzmann constant</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A 7 volt AC source with a frequency of 100 radians per second is connected in series with a 100 ohm resistor and a 100 microfarad capacitor. To one significant digit and in amperes, what is the maximum current in this circuit?</div><div>ANSWER: 0.05 <span class="also-accept">(also accept: 5 × 10<sup>-2</sup>)</span></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Max is examining the spectral radiance of electromagnetic radiation from a stellar object emitting at low frequencies. Which of the following physical laws should Max use to most accurately approximate the experimental results from observations?</div><div>W) Kirchhoff’s law of thermal radiation<br>X) Wien approximation<br>Y) Rayleigh-Jeans law<br>Z) Stefan-Boltzmann law</div><div>ANSWER: Y) Rayleigh-Jeans law</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three objects that would be relatively absent from elliptical galaxies
+1) RR Lyrae variables
+2) Giant molecular clouds
+3) Herbig-Haro objects</div><div>ANSWER: 2 and 3 <span class="also-accept">(also accept: All but 1)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Various plants contain reductases that are able to reduce carbonyl compounds. In particular, carrots often give good results; they contain NADH that can act as a chiral reductant and selectively reduce ketones to a specific enantiomer of the alcohol product. By name or number, identify all of the following four molecules that could be reduced by carrots to afford a chiral alcohol
+1) Acetone
+2) Ethyl acetate
+3) Acetophenone
+4) Acetaldehyde</div><div>ANSWER: 3 only</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Aromatic compounds can be treated with a mixture of nitric acid and sulfuric acid to install a nitro group. By name or number, identify all of the following three statements that are true regarding this reaction
+1) The sulfuric acid acts as a catalyst
+2) Replacing the sulfuric acid with trifluoroacetic acid would speed up the reaction
+3) The reaction is exothermic</div><div>ANSWER: 1 and 3 <span class="also-accept">(also accept: All but 2)</span></div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+By name or number, order the following three speeds in a Maxwell-Boltzmann distribution from slowest to fastest
+1) Average speed
+2) RMS speed
+3) Most probable speed</div><div>ANSWER: 3,1,2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Water flows through a pipe with radius 1 centimeter at a speed of 0.2 meters per second. Given that the dynamic viscosity of water is 10<sup>-3</sup> kilograms per meter per second, the drag force will be proportional to what power of the speed?</div><div>ANSWER: 2 <span class="also-accept">(also accept: Squared)</span></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Oversecretion of growth hormone in childhood often leads to gigantism. What is the term for this condition in adults, which may also be associated with pituitary tumors?</div><div>ANSWER: Acromegaly</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three types of enzyme inhibition which result in a decreased V max
+1) Competitive
+2) Noncompetitive
+3) Uncompetitive</div><div>ANSWER: 2 and 3 <span class="also-accept">(also accept: All but 1)</span></div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+The Tribonacci sequence begins with the numbers 1, 1, and 2, and every subsequent number is the sum of the three numbers before it. What is the eighth number in this sequence?</div><div>ANSWER: 44</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the only two-digit positive integer equal to twice the product of its digits?</div><div>ANSWER: 36</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

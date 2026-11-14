@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2020 round 5</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2020/5" />
+<meta name="description" content="MIT 2020 round 5: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2020" data-packet="5">
+<div class="float-row mb-3"><span class="float-start">Packet 5 (round 5) of <a href="sets/mit-2020/">MIT 2020</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2020/round5.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Barbara McClintock’s famous experiments in corn plants led to the discovery of what type of genetic element?</div><div>W) Telomere<br>X) Transposon<br>Y) Centromere<br>Z) Transcription factor</div><div>ANSWER: X) Transposon</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What is the term for a cue that triggers a fixed action pattern?</div><div>ANSWER: Sign stimulus</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Cummins group at MIT are studying complex compounds containing phosphate chains. For the phosphate-containing ionic compound sodium phosphate, which of the following values is closest to the value of the van’t Hoff factor?</div><div>W) 2<br>X) 3<br>Y) 4<br>Z) 5</div><div>ANSWER: Y) 4</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Ceyer group at MIT are exploring the atomic level dynamics of the interactions of molecules with catalysts. By name or number, identify all of the following that occur when a catalyst is added to a reaction mixture
+1) The rate of formation of product increases
+2) The change in Gibbs free energy increases
+3) The activation energy increases</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Rank the following four hydrohalic acids in terms of increasing acidity
+1) HBr
+2) HF
+3) HI
+4) HCl</div><div>ANSWER: 2,4,1,3</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following molecules has the lowest bond order?</div><div>W) N<sub>2</sub><sup>+</sup><br>X) N<sub>2</sub><br>Y) O<sub>2</sub><sup>-</sup><br>Z) N<sub>2</sub><sup>-</sup></div><div>ANSWER: Y) O<sub>2</sub><sup>-</sup></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is 66 × 32?</div><div>ANSWER: 2112</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is 91 × 143 × 17?</div><div>ANSWER: 221221</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following is a process that is not permitted by the second law of thermodynamics?</div><div>W) Water freezing at 50 degrees Celsius and 1 atmosphere<br>X) An ideal gas increases in temperature as it expands<br>Y) The internal energy of a system decreases as its temperature increases<br>Z) Water and oil forming two separate layers when mixed together</div><div>ANSWER: W) Water freezing at 50 degrees Celsius and 1 atmosphere</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A large plastic water bottle of height 85 centimeters is completely filled with water. A hole is poked 5 centimeters from the bottom. To two significant figures and assuming that g is 10 meters per second squared, at what initial speed does the water come out from the hole?</div><div>ANSWER: 4.0 meters per second</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, arrange the following four sediments in order of increasing permeability.
+1) Silt
+2) Clay
+3) Gravel
+4) Sand</div><div>ANSWER: 2,1,4,3</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following soil horizons is characterized as having significant amounts of accumulated oxide minerals and organic matter due to leaching from overlying horizons?</div><div>W) A<br>X) B<br>Y) C<br>Z) O</div><div>ANSWER: X) B</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Albert is jogging with components of velocity of 2 meters per second to the east and 3 meters per second to the north. Anka is running towards him with velocity components of 3 meters per second to the west and 9 meters per second to the south. What does Albert observe Anka’s speed to be, in meters per second?</div><div>ANSWER: 13 meters per second</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A parallel plate capacitor with plate area of A and a plate separation d has a capacitance of C. If the plate area is doubled to 2 A and the plate separation is halved to d/2, what is the new capacitance?</div><div>W) C/4<br>X) C<br>Y) 2 C<br>Z) 4 C</div><div>ANSWER: Z) 4 C</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+When Jenny tried distributing her Halloween candies to 5 people, she had 3 candies left. When she distributed to 9 people, she had 6 candies left. In an attempt to resolve Jenny’s sharing trouble, James gave her 2 candies so that she could evenly distribute her candies to 8 people. If Jenny had tried to distribute her candies to 10 people, before James’ help, how many candies would she have left?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Two evenly matched basketball teams play a 7-game series. Each team has a 1 / 2 probability of winning each game, and the games are all independent of each other. The series ends as soon as one team wins 4 games. What is the probability that the series ends in exactly 6 games?</div><div>ANSWER: 5 / 16</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers in the Baker group at MIT are studying protein denaturation by the protease ClpXP at single amino-acid resolution. ClpXP binds to a seven-residue protein core, and is also known to grip large hydrophobic and aromatic side chains strongly. Which of the following residues would you most likely see in the protein core?</div><div>W) Glutamine<br>X) Alanine<br>Y) Phenylalanine<br>Z) Isoleucine</div><div>ANSWER: Y) Phenylalanine</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers in the Bartel group are also investigating the untranslated regions of mRNAs. Which of the following statements is FALSE of UTRs?</div><div>W) The 5’ UTR is longer in eukaryotes than in prokaryotes<br>X) The eukaryotic Kozak consensus sequence may be considered analogous to the Shine-Dalgarno sequence in prokaryotes<br>Y) Mutations in UTRs are associated with various types of cancers<br>Z) UTRs play a role in both post-transcriptional and post-translational modification</div><div>ANSWER: Z) UTRs play a role in both post-transcriptional and post-translational modification</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Given that the heats of formation of water and hydrogen peroxide under standard conditions are −285 kilojoules per mole and −188 kilojoules per mole respectively, what is the heat of formation of oxygen gas under standard conditions, in kilojoules per mole to the nearest integer?</div><div>ANSWER: 0 kilojoules per mole</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following four choices is NOT an example of a colloid?</div><div>W) Emulsion<br>X) Gel<br>Y) Aerosol<br>Z) Suspension</div><div>ANSWER: Z) Suspension</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following factors accounts for the extremely low relief of the abyssal plains?</div><div>W) Accumulation of sediment levels out any abnormalities in underlying bedrock<br>X) Smooth basaltic lava flows result in a nearly-level seafloor<br>Y) Erosion caused by thermohaline currents smooths out any irregularities in the seafloor<br>Z) Extreme water pressure at depth flattens out irregularities in the seafloor</div><div>ANSWER: W) Accumulation of sediment levels out any abnormalities in underlying bedrock</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+To an observer on Earth, the full moon approximately has an apparent magnitude of −13 and a distance of 4 × 10<sup>5</sup> kilometers. An observer on Venus in inferior conjunction sees Earth at a distance of about 4 × 10<sup>7</sup> kilometers. To the nearest integer, what is the apparent magnitude of the moon to the observer on Venus? Ignore any atmospheric effects.</div><div>ANSWER: −3</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the name for the functional unit in the kidney?</div><div>ANSWER: Nephron</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true about enzymatic competitive inhibition.
+1) Competitive inhibitors can be overcome by increasing substrate concentration.
+2) A competitive inhibitor binds to the allosteric site of an enzyme.
+3) The maximum possible rate of reaction, or V<sub>max</sub>, changes when a competitive inhibitor is added.</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Two point charges, one with charge +4q and one with charge −1q, are positioned on the x-axis such that the former is at the origin and the latter is at +6. At what point on the x-axis can a charge of +2q be placed such that it is subject to zero net force?</div><div>W) −6<br>X) −3<br>Y) +4<br>Z) +12</div><div>ANSWER: Z) +12</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A ball is dropped from a height of 20 meters. Every time it bounces, it loses 75% of its kinetic energy. To the nearest whole number, how long, in seconds, will it take for the ball to come to rest?</div><div>ANSWER: 6 seconds</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at MIT are involved in the Mars Oxygen In- Situ Resource Utilization Experiment, or MOXIE, aboard the Perserverance Rover, which explores the feasbility of generating oxygen from the Martian atmosphere. What gas is the most common component of Mars’s atmosphere?</div><div>ANSWER: Carbon dioxide</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Researchers at MIT are involved in the Perseverance Rover, which is designed to explore the Jezero crater on Mars. An important objective of this mission is to explore potential sources of water on Mars. Where is the largest mass of water found on Mars?</div><div>W) Martian permafrost<br>X) North polar ice cap<br>Y) South polar ice cap<br>Z) Martian glaciers</div><div>ANSWER: X) North polar ice cap</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements is NOT true about vapor pressure?</div><div>W) Vapor pressure increases with atmospheric pressure<br>X) The Clausius-Clapeyron equation describes the temperature dependence of the vapor pressure<br>Y) The vapor pressure of a liquid at the boiling point is equal to the atmospheric pressure<br>Z) The vapor pressure decreases with increasing strength of intermolecular forces</div><div>ANSWER: W) Vapor pressure increases with atmospheric pressure</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following orbitals has 2 angular nodes?</div><div>W) 4s<br>X) 4p<br>Y) 4d<br>Z) 4f</div><div>ANSWER: Y) 4d</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following sedimentary rocks would most likely form in a high-energy stream environment close to the stream head?</div><div>W) Shale<br>X) Sandstone<br>Y) Breccia<br>Z) Conglomerate</div><div>ANSWER: Y) Breccia</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is not a common product of feldspar weathering processes?</div><div>W) Calcite<br>X) Kaolinite<br>Y) Bicarbonate<br>Z) Soluble cations</div><div>ANSWER: W) Calcite</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A jar is filled with 100 M&amp;M’s of 3 colors: red, yellow, and blue. There are 3 yellow M&amp;M’s for every red M&amp;M and 2 blue M&amp;M’s for every yellow M&amp;M. If you draw an M&amp;M from the jar at random, what is the probability that it is yellow?</div><div>ANSWER: 3 / 10</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+How many points with integer coordinates are in the interior of the circle whose equation is given by x<sup>2</sup> + y<sup>2</sup> = 13?</div><div>W) 33<br>X) 35<br>Y) 37<br>Z) 39</div><div>ANSWER: Y) 37</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following organs is part of the female reproductive system in a flower?</div><div>W) Anther<br>X) Filament<br>Y) Sepal<br>Z) Style</div><div>ANSWER: Z) Style</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four amino acids whose side chains contain an aromatic ring
+1) Lysine
+2) Histidine
+3) Phenylalanine
+4) Arginine</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following quantities is NOT a state function?</div><div>W) Internal energy<br>X) Temperature<br>Y) Work<br>Z) Moles of substance</div><div>ANSWER: Y) Work</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, arrange the following three diatomic molecules in increasing order of bond strength
+1) O<sub>2</sub>
+2) F<sub>2</sub>
+3) Cl<sub>2</sub></div><div>ANSWER: 2,3,1</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The state of the working substance in a heat engine traces out some closed path on a P V diagram. What quantity is represented by the area enclosed by the path?</div><div>ANSWER: Work</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A block has a weight of 30 newtons in a vacuum and 20 newtons when submerged completely in water. To the nearest hundred, in kilograms per cubic meter, what is the density of the block?</div><div>ANSWER: 3000 kilograms per cubic meter</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following four features that are indicators of convergent plate action
+1) Rift valley
+2) Volcanic island arc
+3) Fault-block mountain range
+4) Oceanic trench</div><div>ANSWER: 2 and 4</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three factors which do NOT contribute to streamflow turbulence
+1) Stream velocity
+2) Distance from streambank
+3) Sediment load</div><div>ANSWER: 3 only</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+By name or number, identify which of the following three features of a set of integers must also be an integer
+1) Mean
+2) Median
+3) Range</div><div>ANSWER: 3 only</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Suppose that 9 integers between 1 and 10, inclusive, are chosen. What is the maximum possible difference between the values of the median and the mean of these numbers?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+How many chambers does the heart of a frog have?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four statements that are true of glycosidic linkages
+1) Alpha linkages have a hydroxyl above the first carbon
+2) Beta linkages have a hydroxyl below the first carbon
+3) Cellulose is composed of beta linkages
+4) Chitin is composed of beta linkages</div><div>ANSWER: 3 and 4</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

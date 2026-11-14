@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2021 round 7</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2021/7" />
+<meta name="description" content="MIT 2021 round 7: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2021" data-packet="7">
+<div class="float-row mb-3"><span class="float-start">Packet 7 (round 7) of <a href="sets/mit-2021/">MIT 2021</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2021/round7.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers in the Lippard group at MIT are studying the potential use of difluoromethyl groups as substitutes for hydroxyl groups due to their ability to participate in what type of interaction?</div><div>ANSWER: Hydrogen bonding</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Dinca group at MIT are studying the reaction of copper metal organic frameworks with nitric oxide, leading to a disproportionation. What two nitrogen compounds are formed as a result of this reaction?</div><div>ANSWER: Nitrogen dioxide and nitrous oxide <span class="also-accept">(also accept: NO<sub>2</sub> and N<sub>2</sub>O)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Given that an individual has a normal blood pressure of 120 mmHg for systole and 80 mmHg for diastole, which of the following best approximates the mean arterial pressure in terms of mmHg?</div><div>W) 80<br>X) 90<br>Y) 100<br>Z) 120</div><div>ANSWER: X) 90</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following terms best describes a muscle contraction where the load on the muscle remains constant?</div><div>W) Isotonic<br>X) Isometric<br>Y) Isoferulic<br>Z) Isomeric</div><div>ANSWER: W) Isotonic</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Limb Darkening is an optical effect that is caused by the absorption of light by what layer of the sun?</div><div>ANSWER: Photosphere</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+A galaxy is observed to have a redshift of 0.6. At what fraction of the speed of light is the galaxy moving away from the observer?</div><div>ANSWER: 39/89</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+A Daniel cell is a galvanic cell in which copper (II) is reduced by zinc. In a Daniel cell with a salt bridge composed of potassium nitrate, what pair of ions accumulate at the anode as the cell generates electricity?</div><div>W) Zn<sup>2+</sup>, K<sup>+</sup><br>X) Zn<sup>2+</sup>, NO<sub>3</sub><sup>-</sup><br>Y) Cu<sup>2+</sup>, K<sup>+</sup><br>Z) Cu<sup>2+</sup>, NO<sub>3</sub><sup>-</sup></div><div>ANSWER: X) Zn<sup>2+</sup>, NO<sub>3</sub><sup>-</sup></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+How many sigma bonds are in a molecule of butane?</div><div>ANSWER: 13</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+In a double slit experiment, which of the following changes will cause the interference pattern to become more spread out?</div><div>W) Increasing the wavelength of the light<br>X) Polarizing the light parallel to the direction of the slits instead of using unpolarized light<br>Y) Decreasing the width of each slit<br>Z) Increasing the distance between the slits</div><div>ANSWER: W) Increasing the wavelength of the light</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A double slit experiment is set up with two slits with a width 1 micron each and distance of 10 microns between them. The distance to the screen on which a pattern forms is much larger than the distance between the slits. When one of the slits is covered, which of the following statements is true about the new intensity pattern, compared to the old one?</div><div>W) It has a single peak in the location of an old minimum<br>X) It has a single peak in the location of an old maximum<br>Y) It has several peaks, and the closest minimum to the center is at the location of an old minimum<br>Z) It has several peaks, and the closest minimum to the center is at the location of an old maximum</div><div>ANSWER: Z) It has several peaks, and the closest minimum to the center is at the location of an old maximum</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the largest possible determinant of a 2 × 2 matrix with all entries being single digit positive integers?</div><div>ANSWER: 80</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many 2 × 2 nonsingular matrices satisfy the property that each of their entries are distinct integers between 1 through 6 inclusive?</div><div>ANSWER: 344</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following three layers of the ophiolite complex from top to bottom
+1) Gabbro
+2) Pillow basalts
+3) Sheeted dike complexes</div><div>ANSWER: 2,3,1</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What device is associated with the process by which microwave spectral lines are generated by a comet via stimulated emission?</div><div>ANSWER: Masers</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The Niles group at MIT is studying malaria. What genus of mosquito is responsible for transmitting the malaria pathogen?</div><div>ANSWER: Anopheles</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+The Niles group at MIT specifically studies heme metabolism by the malaria parasite. What is the name of the ringed structures which surround the iron atom in heme?</div><div>ANSWER: Porphyrin <span class="also-accept">(also accept: POR-ferr-in)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+If the current half-life of a zeroth-order reaction is 10 seconds, how many seconds are required for the reaction to go to completion?</div><div>ANSWER: 20</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Giving your answer as a decimal to the nearest tenth, what is the ratio of the rate of effusion of hydrogen gas at 150 kelvin to that of water vapor at 600 kelvin?</div><div>ANSWER: 1.5</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+As a fraction in simplest form, how many degrees does an hour hand travel in the time it takes for the second hand on a clock to travel halfway around the clock?</div><div>ANSWER: 1 / 4 degree</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Two of the side lengths of a triangle are 10 units and 10 units. How many possible values are there for the third side length if the area of the triangle is an integer number of square units?</div><div>ANSWER: 99</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Untranslated regions, or UTRs, of mRNAs are important in which of the following processes?</div><div>W) Transcript stabilization<br>X) Exon splicing<br>Y) Intron splicing<br>Z) Recognition by tRNA</div><div>ANSWER: W) Transcript stabilization</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Poly-A capture is used in single-cell RNA-sequencing to primarily remove what type of RNA?</div><div>ANSWER: Ribosomal RNA <span class="also-accept">(also accept: rRNA)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+In terms of c, the speed of light in a vacuum, what is the speed of light in a nonmagnetic material with dielectric constant k = 4?</div><div>ANSWER: c/2</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Albert is ice skating on a strange rink with a banked turn banked at an angle of 45 degrees. If this turn has a radius of 2 meters, and using g equals 10 meters per second squared, at what speed in meters per second should 80-kilogram Albert go through the turn so he does not slide up or down the rink?</div><div>ANSWER: 2√5 meters per seccond</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers at MIT have experimentally confirmed Hawking’s theorem that the surface area of a black hole cannot decrease. According to the Bekenstein-Hawking formula, what thermodynamic quantity of black holes is proportional to their surface area?</div><div>ANSWER: Entropy</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Scientists at MIT used the Wallace Observatory to observe the transit of Mercury. Mercury has the unique property that it is in a spin-orbit resonance with the sun. Which of the following equals the ratio of Mercury’s rotational period to its period of revolution?</div><div>W) 1 to 2<br>X) 2 to 3<br>Y) 3 to 4<br>Z) 3 to 5</div><div>ANSWER: X) 2 to 3</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following numbers does not divide 3<sup>12</sup> −2<sup>12</sup>?</div><div>W) 5<br>X) 7<br>Y) 11<br>Z) 13</div><div>ANSWER: Y) 11</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+In 2006, what conjecture in topology was proven by Grigori Perelman, who later declined the 1 million dollar prize from the Clay Institute?</div><div>ANSWER: Poincaré conjecture</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What term describes a hormone that leads to the release of another hormone?</div><div>ANSWER: Tropic</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true regarding GFR, or glomerular filtration rate
+1) The renal clearance rate is equivalent to the GFR for inulin, a polysaccharide that’s only filtered and not excreted nor secreted
+2) Constricting the afferent arteriole leads to an increased GFR
+3) Dilating the efferent arteriole leads to increased GFR</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three elements that will be present in absorption spectra of a Type 1c supernova
+1) Hydrogen
+2) Helium
+3) Oxygen</div><div>ANSWER: 3 only</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What is the name for the process that involves metamorphism with substantial chemical change by hydrothermal fluids?</div><div>ANSWER: Metasomatism</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+The magnetic field is commonly written as the curl of another quantity, known as the magnetic vector potential. Which of Maxwell’s equations mathematically guarantees that this is possible?</div><div>W) Gauss’s law for electricity<br>X) Faraday’s law<br>Y) Gauss’s law for magnetism<br>Z) Ampere-Maxwell law</div><div>ANSWER: Y) Gauss’s law for magnetism</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following four musical instruments that would emit a different range of pitches of sound on Mars than from what they would emit on Earth
+1) Flute
+2) Harp
+3) Saxophone
+4) Xylophone</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the average oxidation state of the sulfur atoms in Na<sub>2</sub>S<sub>4</sub>O<sub>6</sub>?</div><div>ANSWER: 5/2</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What is the molecular geometry of the central iodine atom in I<sub>3</sub><sup>-</sup>?</div><div>ANSWER: Linear</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+If a force is exerted on an object along the positive x-axis, then which of the following could be the torque vector about a pivot that lies on the negative z-axis?</div><div>W) 8ĵ<br>X) −5ĵ<br>Y) 4î<br>Z) −9î</div><div>ANSWER: W) 8ĵ</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A mass on a spring undergoing simple harmonic oscillation has a maximum displacement of 1.6 meters from equilibrium and a period of 4 seconds. To the nearest meter per second squared, what is the maximum magnitude of the acceleration experienced by the mass?</div><div>ANSWER: 4 meters per second squared</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following types of ground tissue cells is most likely to contain lignin?</div><div>W) Parenchyma<br>X) Collenchyma<br>Y) Epidermal<br>Z) Sclerenchyma</div><div>ANSWER: Z) Sclerenchyma</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What is the effective population size of a population with 600 females and 400 males?</div><div>ANSWER: 960</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Silver does not dissolve in aqua regia due to passivation from what compound?</div><div>ANSWER: Silver chloride <span class="also-accept">(also accept: AgCl)</span></div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Leah is titrating permanganate solution of unknown concentration by adding excess potassium iodide, followed by backtitration of the liberated iodine with thiosulfate. By name or number, identify all of the following three statements which would lead to the measured concentration of permanganate being lower than the actual concentration
+1) Leah forgets to acidify the permanganate solution
+2) Leah accidentally doubles the amount of potassium iodide added
+3) Leah rinses her buret with water instead of thiosulfate solution before the back titration</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the product of the greatest common divisor and least common multiple of 12 and 16?</div><div>ANSWER: 192</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Three latitude and three longitude lines are drawn on a globe. How many points on the globe lie on the intersection of two or more of these lines?</div><div>ANSWER: 20</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What word, German for “desert mountains,” describes the remnants of a mountain after erosion in a late stage desert landscape?</div><div>ANSWER: Inselbergs</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following three rock layers from top to bottom in a typical transgression sequence
+1) Limestone
+2) Sandstone
+3) Shale</div><div>ANSWER: 1,3,2</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

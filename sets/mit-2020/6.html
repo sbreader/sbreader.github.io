@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2020 round 6</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2020/6" />
+<meta name="description" content="MIT 2020 round 6: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2020" data-packet="6">
+<div class="float-row mb-3"><span class="float-start">Packet 6 (round 6) of <a href="sets/mit-2020/">MIT 2020</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2020/round6.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true of emission nebulae
+1) They are star formation regions
+2) Their spectra are composed of scattered starlight
+3) They are primarily composed of hydrogen</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Rank the following three detrital sedimentary rocks in order of increasing sediment size
+1) Mudstone
+2) Arkose
+3) Siltstone</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+If the surface area of a cube is 96, what is the length of its longest diagonal?</div><div>ANSWER: 4√3</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+A large conference hall is shaped like a rectangle with a length of 200 feet and a width of 100 feet. Which of the following is closest to the maximum number of people who can stand in the conference hall while abiding by the social distancing guideline that any two people are at least 6 feet apart from each other?</div><div>W) 100<br>X) 300<br>Y) 500<br>Z) 700</div><div>ANSWER: Z) 700</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A pendulum is made up of a string of length L connected to a mass m. If the mass is released from rest at an angle of 45 degrees from the vertical, which of the following is true concerning the period of the resulting oscillation?</div><div>W) The period is equal to 2π√(L/g)<br>X) The period is less than 2π√(L/g)<br>Y) The period is greater than 2π√(L/g)<br>Z) The period is infinite</div><div>ANSWER: Y) The period is greater than 2π√(L/g)</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Two events are connected by a spacelike interval. By name or number, identify all of the following three statements that are true
+1) It is impossible for any information to be transmitted between the two events
+2) It is always possible to find a reference frame in which the two events are colocated
+3) It is always possible to find a reference frame in which the two events are simultaneous</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers in the Regev group at MIT are developing novel computational and experimental approaches for analyzing complex biological networks, including gene expression networks. Which of the following is not a tool used to study the expression of a gene?</div><div>W) qRT-PCR<br>X) RNA-seq<br>Y) Luciferase reporters<br>Z) Southern blotting</div><div>ANSWER: Z) Southern blotting</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers in the Langer group at MIT are developing new methods for drug delivery. One particularly desirable type of transport is transport across the blood-brain barrier. Some small molecules are able to enter the endothelial cells that make up the blood-brain barrier from one side and exit through another. What is the name for this type of transport?</div><div>ANSWER: Transcytosis</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following amino acids is least likely to be found in an alpha helix?</div><div>W) Alanine<br>X) Leucine<br>Y) Lysine<br>Z) Glycine</div><div>ANSWER: Z) Glycine</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+An increase in which of the following parameters will decrease the maximum rate of an enzymatic reaction?</div><div>W) k cat<br>X) K M<br>Y) Substrate concentration<br>Z) Enzyme concentration</div><div>ANSWER: X) K M</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Which two state variables must be held constant for the change in Gibbs free energy to be proportional to the universal change in entropy?</div><div>ANSWER: Temperature and pressure</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+How many unpaired electrons are there in the ground state electron configuration of chromium metal?</div><div>W) 3<br>X) 4<br>Y) 5<br>Z) 6</div><div>ANSWER: Z) 6</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+In standard form, what the equation of the line tangent to the circle x<sup>2</sup> + y<sup>2</sup> = 5 at the point (1, 2)?</div><div>ANSWER: x + 2 y = 5 <span class="also-accept">(also accept: 2 y + x = 5)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Consider the quadrilateral formed by the tangent lines to the circle x<sup>2</sup> + y<sup>2</sup> = 5 at the points (1, 2), (−1, 2), (−1, −2), and (1, −2). What is the perimeter of this quadrilateral?</div><div>ANSWER: 10√5</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following hormones does NOT play a role in regulation of fluids through the RAA system?</div><div>W) Renin<br>X) Antidiuretic hormone<br>Y) Aldosterone<br>Z) Angiotensin</div><div>ANSWER: X) Antidiuretic hormone</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+What type of mimicry do moths that can make themselves resemble snakes exhibit?</div><div>W) Cryptic<br>X) Aposematic<br>Y) Batesian<br>Z) Müllerian</div><div>ANSWER: Y) Batesian</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following terms best describes the telescope focus that uses a concave primary mirror and a convex secondary mirror to focus light through a space in the primary mirror?</div><div>W) Newtonian<br>X) Galilean<br>Y) Dobsonian<br>Z) Cassegrain</div><div>ANSWER: Z) Cassegrain</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+A certain exoplanet on an edge-on orbit has high albedo and low temperature. At which of the following positions in its orbit would the star-exoplanet system appear brightest?</div><div>W) Just before transit in front of the star<br>X) During transit in front of the star<br>Y) Just before transit behind the star<br>Z) During transit behind the star</div><div>ANSWER: Y) Just before transit behind the star</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Griffin group at MIT have developed a way to dramatically enhance the sensitivity of NMR spectroscopy. Which of the following proton environments would produce the most downfield peak on an H-NMR spectrum?</div><div>W) A carboxylic acid acidic hydrogen<br>X) An aldehyde hydrogen<br>Y) An ester alpha hydrogen<br>Z) A ketone alpha hydrogen</div><div>ANSWER: W) A carboxylic acid acidic hydrogen</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Hong group at MIT are using NMR spectroscopy to study the structure of glucagon fibrils. On an H-NMR spectrum, which of the following compounds would have only one peak?</div><div>W) Chloroethane<br>X) Acetaldehyde<br>Y) Dimethyl ether<br>Z) Acetic acid</div><div>ANSWER: Y) Dimethyl ether</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+An insulating sphere has a uniform charge density ρ. Which of the following best describes the dependence of electric field on distance from the center, within the sphere?</div><div>W) Linear<br>X) Quadratic<br>Y) Hyperbolic<br>Z) Inverse square</div><div>ANSWER: W) Linear</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An AC source is connected to a resistor and a capacitor in series. Indicate, by name or number, all of the following three statements that are true of this system
+1) The current through the circuit lags the voltage by 90 degrees
+2) For large frequencies, the impedance is approximately equal to the resistance of the resistor
+3) The net power dissipated in the capacitor is zero</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+How many nearest neighbors does an atom in a body centered cubic lattice have?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following bonds is not IR-active?</div><div>W) The carbon-carbon bond in ethene<br>X) The carbon-chlorine bond in chloroethane<br>Y) The carbon-oxygen bond in formaldehyde<br>Z) The carbon-oxygen bond in carbon dioxide</div><div>ANSWER: W) The carbon-carbon bond in ethene</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+How many planes of reflection symmetry does a right regular hexagonal prism have?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+An ant is at vertex A of a regular tetrahedron. During every hour, he randomly jumps to another vertex of the tetrahedron. What is the probability that, after 3 hours, the ant will not be at vertex A?</div><div>ANSWER: 7 / 9</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+For an exothermic reaction, which of the following statements is true as temperature increases?</div><div>W) Both the rate constant and equilibrium constant increase<br>X) The rate constant increases, but the equilibrium constant decreases<br>Y) The rate constant decreases, but the equilibrium constant increases<br>Z) Both the rate constant and the equilibrium constant decrease</div><div>ANSWER: X) The rate constant increases, but the equilibrium constant decreases</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+When 1-methylcyclohexene is treated with HCl, the product of this reaction will be which of the following?</div><div>W) Achiral but not meso<br>X) A mixture of diastereomers<br>Y) A meso compound<br>Z) A racemic mixture</div><div>ANSWER: W) Achiral but not meso</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the name of a device that uses a sandwich of two superconductive materials around an insulator, uses quantum tunneling to allow a current through, and can be paired with another of the same device to form a SQUID?</div><div>ANSWER: Josephson junction</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Allen is waiting for the bus as he suddenly hears a sonic boom from a plane flying. The sonic boom arrives from an angle of approximately 37 degrees above the ground. Given that the speed of sound is 343 meters per second, what is the approximate speed of the plane, in meters per second?</div><div>W) 340<br>X) 430<br>Y) 570<br>Z) 660</div><div>ANSWER: X) 430</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Researchers at MIT’s Center for Theoretical Physics recently used Lattice Quantum Chromodynamics to make predictions about certain systems that sharpen theory predictions for dark matter direct detection experiments. Which of the following best describes the system that the researchers studied?</div><div>W) The structure of strange gluons in the proton<br>X) The frequency of neutrino oscillations<br>Y) Rates of CP violation in B meson decays<br>Z) Decay rates of W and Z bosons</div><div>ANSWER: W) The structure of strange gluons in the proton</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at MIT’s Center for High Energy Physics have recently been involved in the construction of KATRIN, a next-generation experiment geared at directly measuring the neutrino mass down to fractions of an electron volt by measuring the beta decay of tritium. By name or number, identify all of the following three statements that are true of KATRIN
+1) The KATRIN experiment is directly measuring the mass of the electron antineutrino
+2) In most beta decay events, the electron and neutrino carry away roughly equal amounts of energy
+3) The researchers have produced an upper bound of 1.1 kiloelectronvolts for the mass of the neutrino</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Clouds of neutral atomic hydrogen in the interstellar medium are more commonly known as which of the following?</div><div>W) Bok globule<br>X) Molecular cloud<br>Y) H I region<br>Z) H II region</div><div>ANSWER: Y) H I region</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, indicate all of the following three stars that are in the Winter Triangle
+1) Altair
+2) Deneb
+3) Vega</div><div>ANSWER: None of them</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Which male reproductive cells produce testosterone?</div><div>ANSWER: Leydig cells</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+The protein that blocks myosin binding to actin in relaxed muscle is</div><div>W) Titin<br>X) Tropomyosin<br>Y) Troponin C<br>Z) Calmodulin</div><div>ANSWER: X) Tropomyosin</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following molecules will have sp<sup>3</sup>d hybridization?</div><div>W) H<sub>2</sub>SO<sub>4</sub><br>X) BF<sub>3</sub><br>Y) SF<sub>4</sub><br>Z) CO<sub>2</sub></div><div>ANSWER: Y) SF<sub>4</sub></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, arrange the following 3 measurements of an ideal gas in increasing order
+1) Root mean square velocity
+2) Average speed
+3) Most probable speed</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+A commonly cited benefit of the seximal, or base 6, number system is that it provides convenient decimal representations of many simple fractions. Which of the following fractions terminates in seximal but not in decimal?</div><div>W) 1 / 4<br>X) 1 / 8<br>Y) 1 / 9<br>Z) 1 / 11</div><div>ANSWER: Y) 1 / 9</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+When the seximal number 1344255 is converted to decimal, what is its last digit?</div><div>ANSWER: 9</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Three resistors, each with resistance 1 ohm, are connected together to form a triangle. What is the equivalent resistance between two vertices of this triangle in ohms?</div><div>ANSWER: 2 / 3</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following particles which have a nonzero baryon number
+1) Pion
+2) Delta particle
+3) Tau quark
+4) Graviton</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Although the genetic code is relatively universal, there are some differences between diverse organisms. In prokaryotes, what amino acid does the codon AUG code for?</div><div>ANSWER: Formylmethionine <span class="also-accept">(also accept: N-formylmethionine)</span> <span class="do-not-accept">(do not accept: methionine)</span></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following plant components have even ploidy?</div><div>W) Synergid<br>X) Megaspore<br>Y) Endosperm<br>Z) Integument</div><div>ANSWER: Z) Integument</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following three metamorphic facies in the order they would appear in a prograde metamorphic series
+1) Eclogite
+2) Zeolite
+3) Greenschist</div><div>ANSWER: 2,3,1</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+A new Solar System planet is discovered to have a circular orbit and a period of 512 years. In astronomical units, how distant is the planet from the Sun?</div><div>ANSWER: 64 astronomical units</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

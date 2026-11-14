@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Tycho Practice Rounds Medium Round 2017</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/tycho-practice-rounds/12" />
+<meta name="description" content="Tycho Practice Rounds Medium Round 2017: 50 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="tycho-practice-rounds" data-packet="12">
+<div class="float-row mb-3"><span class="float-start">Packet 12 (Medium Round 2017) of <a href="sets/tycho-practice-rounds/">Tycho Practice Rounds</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://github.com/OutplayedApps/tychoDB/blob/master/docx%20files%20input/Medium%20Round%202017.docx" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE concerning Southern blots
+1. They are used for the detection of specific DNA sequences
+2. The gel electrophoretic technique used is SDS-PAGE
+3. A nitrocellulose membrane is used to transfer extract material from the gel</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following orbitals is the LUMO of the carbonyl functional group?</div><div>W) C-O sigma<br>X) C-O sigma-star<br>Y) C-O pi<br>Z) C-O pi-star</div><div>ANSWER: Z) C-O pi-star</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+An inhibitor added to a enzyme results in an increase in its Michaelis constant K-sub-M, but V-max is discovered to remain constant. Indicate all of the following three statements that are TRUE
+1. The y-intercept of the Lineweaver-Burk plot does not change
+2. The slope of the Lineweaver-Burk plot increases
+3. The inhibitor is likely noncompetitive</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following three compounds in terms of increase rate of E1 elimination: t-Butyl triflate Isopropyl chloride Isopropyl triflate</div><div>ANSWER: 2, 3, 1</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Consider an object placed in front of a concave mirror, at a distance less than the focal length of the mirror. Which of the following statements is TRUE of the image?</div><div>W) It is real and upright<br>X) It is real and inverted<br>Y) It is virtual and upright<br>Z) It is virtual and inverted</div><div>ANSWER: Y) It is virtual and upright</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Consider a region of electric charge which has potential in volts V = x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> for x,y,z in position units. Which of the following charge configurations would produce this electric potential?</div><div>W) Constant negative charge density<br>X) Negative charge density that decreases with increasing distance from the origin<br>Y) Constant positive charge density<br>Z) Positive charge density that decreases with increasing distance from the origin</div><div>ANSWER: W) Constant negative charge density</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following equations has the most number of real solutions?</div><div>W) x<sup>2</sup> + 4x –15 = 0<br>X) 7x + 5 = 1 + 3x<br>Y) e<sup>x</sup> = x<br>Z) ln(|x|) = 2x</div><div>ANSWER: W) x<sup>2</sup> + 4x –15 = 0</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Suppose that the equation: 3x<sup>5</sup> + 96 = the integral from c to x of g(t) dt, is true for all real values of x for some function g(t). What must be the value of c?</div><div>ANSWER: -2</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What class of variable stars are commonly found in globular clusters but have shorter periods and are older than type I Cepheids and of lower mass and less luminosity than type II Cepheids?</div><div>ANSWER: RR LYRAE VARIABLES</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE of the year-averaged atmospheric pressure in different locations on Earth
+1. The equator is a site of a low-pressure trough
+2. The polar regions both harbor wet, low-pressure systems year-round
+3. Westerlies diminish in the winters and intensify in the summers in both hemispheres</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE of coal gasification
+1. The end product of the reaction is a mixture of mostly CO<sub>2</sub> and steam
+2. Sulfur must be removed in the process
+3. Natural gas has a higher energy density than syngas</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+DOE researchers at Berkeley lab recently used X-ray crystallography to solve the crystal structure of the soluble NS<sub>5</sub> guanine methyltransferase enzyme in the Zika virus. Indicate all of the following three statements that are TRUE concerning this study
+1. Zika is an RNA-virus
+2. NS<sub>5</sub> is likely to be a transmembrane protein
+3. NS<sub>5</sub> is important in forming the 5&#39;-cap needed in viral mRNA processing</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three elements that are matched correctly with their flame test
+1. Barium – red
+2. Lithium – lilac
+3. Sodium – yellow</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE of minimum-boiling azeotropes
+1. Minimum-boiling azeotropes have a negative enthalpy of mixing between liquids
+2. Water and ethanol form a minimum-boiling azeotrope
+3. Minimum-boiling azeotropes show a negative deviation from Raoult&#39;s law</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE of monocots
+1. Sporadic arrangement of vascular tissue
+2. Flowers in groups of four or five
+3. Pollen with three furrows</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Indicate all of the following three statements that are true about the human endocrine system
+1. IGF-1 is produced mainly by the pituitary and pancreas
+2. The enzyme aromatase converts testosterone to estradiol
+3. T4 is more potent at the periphery than is T3</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Assume that a string is wrapped around a hollow sphere with moment of inertia equal to 2/3 MR<sup>2</sup>, and then the sphere is allowed to roll vertically down, unraveling the string like a yo-yo. In terms of g, what is the acceleration of the hollow sphere?</div><div>W) 2g/5<br>X) 2g/3<br>Y) 3g/5<br>Z) g</div><div>ANSWER: Y) 3g/5</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Indicate all of the following three changes that would increase the physical separation between intensity peaks on the screen in a double-slit diffraction setup
+1. Increasing the wavelength of light
+2. Increasing the distance between the occluding slits and the screen
+3. Increasing the distance between the slits</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Consider the 2-by-2 matrix that describes rotation of 2-dimensional vectors by exactly 1 radian counterclockwise. Which of the following statements is TRUE of this matrix?</div><div>W) It is not invertible<br>X) It has a real eigenvalue of 1<br>Y) It has no real eigenvalues<br>Z) It has a determinant of √2</div><div>ANSWER: Y) It has no real eigenvalues</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Suppose that f(x) is a continuous, and differentiable function defined on the open interval (-1,4) such that f(3) = 5 and f&#39;(x) is greater than or equal to -1 for all x in this region. What is the greatest possible value of f(0)?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following minerals does not have basal cleavage?</div><div>W) Fluorite<br>X) Graphite<br>Y) Biotite<br>Z) Lepidolite</div><div>ANSWER: W) Fluorite</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What is the name of structures in space hundreds of light-years across surrounding O and B-type stars, bombarded by stellar winds, and filled with gas at a temperature of 10<sup>6</sup> K?</div><div>ANSWER: SUPERBUBBLE <span class="also-accept">(also accept: SUPERSHELL)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Rank the following four sources of renewable energy in terms of increasing portion of the US energy budget
+1. Solar
+2. Geothermal
+3. Hydroelectric
+4. Biomass</div><div>ANSWER: 2, 1, 4, 3</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following four crude-oil derivatives in order of increasing quantity produced from one barrel of crude oil
+1. Jet fuel
+2. Gasoline
+3. Diesel
+4. Heating fuel</div><div>ANSWER: 4, 1, 3, 2</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following reactions is most likely to have zero-order kinetics?</div><div>W) Radioactive decay, in the limit of a small number of nuclei<br>X) Catalytic hydrogenation of ethylene by platinum, in the limit of high hydrogen pressure<br>Y) The harpoon mechanism reaction of potassium and iodine to form potassium iodide<br>Z) The termination step of two methyl radicals combining to form ethane</div><div>ANSWER: X) Catalytic hydrogenation of ethylene by platinum, in the limit of high hydrogen pressure</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three molecules or ions that MO theory predicts to be diamagnetic
+1. NO<sup>+</sup>
+2. O<sub>2</sub>
+3. F<sub>2</sub></div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Indicate all of the following three processes for an ideal gas which have a positive change in entropy
+1. Free expansion
+2. Reversible isothermal expansion
+3. Reversible adiabatic expansion</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Suppose that gravitational force decays as 1/r<sup>3</sup> rather than 1/r<sup>2</sup>. Indicate all of the following three statements that would still be TRUE
+1. Objects would orbit the sun in conic sections
+2. Angular momentum of the sun-planet system would be conserved
+3. The square of an object&#39;s period would be proportional to the cube of its semi-major axis.</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following best explains the mechanism by which testosterone elicits a cellular response?</div><div>W) Testosterone binds to a cell surface tyrosine kinase and elicits a signaling cascade<br>X) Testosterone binds to a GPCR and activates Protein Kinase A<br>Y) Testosterone diffuses across the plasma membrane and binds to a transcription factor<br>Z) Testosterone diffuses across the membrane and binds to adenylyl cyclase</div><div>ANSWER: Y) Testosterone diffuses across the plasma membrane and binds to a transcription factor</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE concerning microtubules
+1. Microtubule growth occurs through nucleation at the plus-end
+2. Colchicine results in the stabilization of microtubules
+3. Dynein molecular motors transport vesicles from the minus-end to the plus-end</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Consider the equation (x+3)<sup>2</sup> + 2(y-2)<sup>2</sup> = (x-3)<sup>2</sup> + y<sup>2</sup>. If this equation is plotted on an xy-grid, which of the following best describes the resultant curve?</div><div>W) A line<br>X) A parabola opening towards the negative x-direction<br>Y) A parabola opening towards the negative y-direction<br>Z) An ellipse</div><div>ANSWER: X) A parabola opening towards the negative x-direction</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the limit as x approaches 0 of the fraction with numerator cos(3x) –1 and denominator x<sup>2</sup>?</div><div>ANSWER: -9/2</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE of aeolian processes
+1. Deflation refers to the sandblasting of rocks by particles in the air
+2. Barchan dunes are most likely to form if the wind is directionally constant
+3. Loess deposits usually originate from glacial outwash plains</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE of Europa
+1. Europa&#39;s orbit intersects that of Io
+2. Europa is larger than mercury
+3. Tidal flexing drives ice movement in Europa in a manner similar to tectonism</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+DOE scientists at the National Energy Technology Laboratory are pressurizing hydrogen sulfide to pressures of 150 GPa at temperatures of -70 degrees Celsius for which of the following reasons?</div><div>W) Trying to induce ferromagnetic behavior<br>X) Trying to produce degenerate matter<br>Y) Investigating a potential avenue for high-temperature superconductivity<br>Z) Trying to change the shapes of molecular orbitals</div><div>ANSWER: Y) Investigating a potential avenue for high-temperature superconductivity</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+DOE researches at LBNL working on ultracold atoms in Bose-Einstein condensates have generated temperatures in atomic gases as low as 30 nanokelvin in the last decade. To the nearest power of ten and in meters, what is the wavelength peak of the blackbody spectrum of these atoms?</div><div>ANSWER: 10<sup>5</sup></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following groups, when substituted on a benzene ring, directs electrophilic substitution meta to its position?</div><div>W) Methyl<br>X) Methoxy<br>Y) Bromo<br>Z) Cyano</div><div>ANSWER: Z) Cyano</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE of the Diels-Alder reaction: Substituting a methyl group for a hydrogen on the dienophile would accelerate the reaction Groups that are cis on the dienophile are cis are on the product The product of the reaction is a cyclohexene ring</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A dielectric is inserted into a capacitor while the charge on it is kept constant. What happens to the potential difference and the stored energy?</div><div>W) The potential difference decreases and the stored energy increases<br>X) Both the potential difference and the stored energy increase<br>Y) The potential difference increases and the stored energy decreases<br>Z) Both the potential difference and the stored energy decrease</div><div>ANSWER: Z) Both the potential difference and the stored energy decrease</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Indicate all of the following three particle interactions that obey the conservation laws of baryon number, lepton number, and charge
+1. A neutron spontaneously emits a pair of photons, but is still present after the interaction
+2. A proton and antiproton annihilate, resulting in the pair-production of tau and anti-tau leptons
+3. A proton decays into a positron, neutron, and electron-neutrino</div><div>ANSWER: ALL OF THEM</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Indicate all of the following three barriers to reproduction that are post-zygotic barriers
+1. Behavioral isolation
+2. Temporal isolation
+3. Hybrid zygote inviability</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Indicate, by name or number, all of the following three statements that are true regarding sensory perception
+1. Receptor potentials are &quot;all-or-none&quot;
+2. Sensory units with smaller receptive fields result in greater acuity of perception
+3. Adaptation results in the frequency of action potentials decreasing as long as the stimulus is constant</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+For a positive integer n, a divisor is defined as a positive integer that divides n, and always includes both 1 and n. What is the smallest positive integer with exactly 5 positive divisors?</div><div>ANSWER: 16</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Consider an equilateral triangle whose inscribed circle has radius 2. What is the area of this triangle?</div><div>ANSWER: 12√3</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which scale refers to the motion of high and low pressure systems in the troposphere?</div><div>W) Microscale<br>X) Mesoscale<br>Y) Tropospheric scale<br>Z) Synoptic scale</div><div>ANSWER: Z) Synoptic scale</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+The aborted Reelfoot Rift and associated New Madrid Seismic Zone in the American Southeast is a remnant of what past geologic event?</div><div>W) Basin and Range extension<br>X) Breakup of Rodinia<br>Y) Grenville Orogeny<br>Z) Closing of the Western Continental Seaway</div><div>ANSWER: X) Breakup of Rodinia</div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">TOSS-UP</span> Energy <i>Multiple Choice</i>
+What was the primary reason that the US and European markets adopted E85 as the maximum blend to be used in flexible fuel vehicles?</div><div>W) Higher ethanol blends are too expensive<br>X) Higher ethanol blends are unable to ignite in cold weather<br>Y) Higher ethanol blends cannot be safely stored<br>Z) Higher ethanol blends release more CO<sub>2</sub> into the atmosphere through deforestation than they conserve</div><div>ANSWER: X) Higher ethanol blends are unable to ignite in cold weather</div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Indicate all of the following three statements concerning DOE-funded experiments are studying neutrino flavor oscillation
+1. The vast majority of neutrinos passing through the Earth are solar in origin
+2. The number of electron neutrinos detected at the Earth is equal to the number produced by the Sun
+3. The sun produces an equal number of electron, muon, and tau neutrinos</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">25. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three phosphate salts that are soluble: Aluminum phosphate Iron(III) phosphate Calcium phosphate</div><div>ANSWER: NONE OF THEM</div></div><hr><div class="packet-question"><div class="q-text">25. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Consider a reaction which has a change in internal energy equal to -70 kJ, and at a temperature of 27 degrees Celsius has a change in entropy of -100 J/K. What is the change in Helmholtz free energy of this reaction, to the nearest kJ?</div><div>ANSWER: -40</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

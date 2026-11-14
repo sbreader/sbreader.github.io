@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MOSFET 2024 Round 1</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mosfet-2024/1" />
+<meta name="description" content="MOSFET 2024 Round 1: 47 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mosfet-2024" data-packet="1">
+<div class="float-row mb-3"><span class="float-start">Packet 1 (Round 1) of <a href="sets/mosfet-2024/">MOSFET 2024</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1vqOfgPOh2BDEpxpylFuQssT4WpzmYDZP/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+In which part of the mitochondrion could one find ATP synthase?</div><div>W) Mitochondrial matrix<br>X) Outer mitochondrial membrane<br>Y) Inner mitochondrial membrane<br>Z) Intermembrane space</div><div>ANSWER: Y) Inner mitochondrial membrane</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Beta mercaptoethanol is a reducing agent used in gel electrophoresis to remove disulfide bonds. What level of protein structure does beta mercaptoethanol mainly affect?</div><div>ANSWER: TERTIARY</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+The kinetics of a reversible reaction can be described by decay towards a state where the rates of the forward and reverse reactions are equal. What is the name of this state?</div><div>ANSWER: EQUILIBRIUM</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Rutherford’s gold foil experiment disproved which of the following models of the atom, which consists of negative point charges suspended in a positively-charged matrix?</div><div>W) Plum-Pudding<br>X) Dalton<br>Y) Planetary<br>Z) Quantum</div><div>ANSWER: W) Plum-Pudding</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following types of seismic waves travels the fastest?</div><div>W) S<br>X) P<br>Y) Love<br>Z) Rayleigh</div><div>ANSWER: X) P</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Order the following three stellar spectral classes from coolest to hottest
+1) G
+2) M
+3) A</div><div>ANSWER: 2, 1, 3</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is fifteen factorial divided by thirteen factorial?</div><div>ANSWER: 210</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Harry has 6 white socks, 5 black socks, and 4 red socks. If he wants to end up with two pairs of different colors, what is the maximum number of individual socks he must select?</div><div>ANSWER: 9</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A block is initially moving at a constant speed. If its speed is doubled, by what factor is its kinetic energy multiplied?</div><div>W) 1<br>X) 2<br>Y) 4<br>Z) 8</div><div>ANSWER: Y) 4</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The attractive force felt between a pair of oppositely charged particles with the same magnitude of charge is F. If the distance between the charges is tripled, and the magnitude of each of the charges is doubled, what is the new attractive force felt, in terms of F?</div><div>ANSWER: 4F/9</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at UW-Madison are studying the breakdown of organic polymers in the body. What is the term for the process involving the use of a water molecule that breaks the bonds between monomers in the polypeptides?</div><div>ANSWER: HYDROLYSIS</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Scientists at the US Geological Survey are continuing to monitor active volcanoes in order to track eruptions and better assess potential volcanic hazards. What is the name given to the fast-moving masses of hot volcanic gas and tephra?</div><div>ANSWER: PYROCLASTIC FLOW</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+What enzyme secreted by the chief cells of the stomach is responsible for beginning protein digestion and cleaving peptide bonds?</div><div>W) Lipase<br>X) Pepsin<br>Y) Chyme<br>Z) Amylase</div><div>ANSWER: X) Pepsin</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Seed color and seed shape are each controlled by a single gene on different chromosomes in pea plants. If two parent pea plants are heterozygous for both traits, what proportion of their offspring will express both recessive traits.</div><div>ANSWER: 1/16</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following isotopes is formed when Uranium-238 emits two alpha particles?</div><div>W) Radium-230<br>X) Radium-228<br>Y) Polonium-210<br>Z) Polonium-218</div><div>ANSWER: W) Radium-230</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+The hypothetical reaction AB + CD yields AD + CB is an example of what type of reaction, where two chemical species exchange atoms?</div><div>ANSWER: DOUBLE REPLACEMENT <span class="also-accept">(also accept: DOUBLE DISPLACEMENT; METATHESIS)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+During what phase of the moon do lunar eclipses occur?</div><div>ANSWER: FULL MOON</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Place the following three geologic time divisions from longest to shortest
+1) Era
+2) Epoch
+3) Period</div><div>ANSWER: 1, 3, 2</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Point P has coordinates (-5, 15) and is the corner of a square. This square is then dilated about the origin by a factor of one fifth, reflected across the Y axis, and translated two units to the left. What are the final coordinates of point P?</div><div>ANSWER: (-1, 3)</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many zeros are found at the end of 30 factorial when written out in base 10?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What fundamental particle, discovered in 2012, is thought to give mass to all matter?</div><div>ANSWER: HIGGS BOSON</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Block A has a mass of 1 kg and is moving at 3 m/s to the right. Block B also has a mass of 1 kg, and is moving at 5 m/s to the left, such that the two blocks will eventually collide head-on. Assuming the two blocks collide elastically, after the collision, in meters per second, what is block A’s speed and in what direction is it moving?</div><div>ANSWER: 5 m/s TO THE LEFT</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at UW-Madison are studying the evolution of wings in dinosaurs. They hypothesize that flight evolved separately in two different groups of dinosaurs. This is an example of what type of evolution, in which two evolutionarily distinct groups evolve similar features?</div><div>ANSWER: CONVERGENT EVOLUTION</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Technicians at the University of Nevada Reno are inspecting electrical wiring after an unexpected outage. A particular circuit has voltage 120 Volts and a breaker set to trip at 40 amps. What is the maximum number of lightbulbs with resistance 30 ohms each that can be placed in parallel without triggering the breaker?</div><div>W) 7<br>X) 8<br>Y) 9<br>Z) 10</div><div>ANSWER: Z) 10</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What type of photosynthesis, common in desert plants like cacti, is characterized by stomata opening only at night to reduce transpiration?</div><div>ANSWER: CAM</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+When mast cells detect tissue damage or an allergen, they release what molecule, which causes vasodilation, itching, and swelling?</div><div>ANSWER: HISTAMINE</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following particles is most involved in the reactivity of a chemical species?</div><div>W) Proton<br>X) Neutron<br>Y) Electron<br>Z) Photon</div><div>ANSWER: Y) Electron</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three intermolecular forces that are present between molecules of CH<sub>4</sub>
+1) London Dispersion
+2) Hydrogen Bonding
+3) Dipole-Dipole</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Place the following three elements from most to least abundant in Earth’s crust
+1) Iron
+2) Oxygen
+3) Silicon</div><div>ANSWER: 2, 3, 1</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The upcoming solar maximum will occur in 2025. In what year did the previous solar maximum occur?</div><div>ANSWER: 2014</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Identify all of the following three numbers that have an odd number of factors
+1) 27
+2) 64
+3) 196</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The mean of 2x, x, and 4 is equal to 1. What is x?</div><div>ANSWER: -1</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the equivalent capacitance, in millifarads, of two thirty millifarad capacitors in parallel with each other and in series with a third sixty millifarad capacitor?</div><div>ANSWER: 30</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following particles is made of three quarks, two down and one up?</div><div>W) Neutron<br>X) Electron<br>Y) Gluon<br>Z) Proton</div><div>ANSWER: W) Neutron</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Researchers at UW-Madison are studying radiative balance in the atmosphere. Which of the following types of electromagnetic radiation is absorbed by ozone in the stratosphere?</div><div>W) X-Ray<br>X) Ultraviolet<br>Y) Infrared<br>Z) Microwave</div><div>ANSWER: X) Ultraviolet</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers at the University of Edinburgh are studying the upcycling of plastics, which involves the use of transition metal catalysts. Identify all of the following three elements which are transition metals
+1) Nickel
+2) Cesium
+3) Tungsten</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Extremophiles are single celled organisms that live in very harsh environments including temperatures over 100 degrees Celsius. What domain of life are most extremophiles classified under?</div><div>ANSWER: ARCHAEA</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+During periods of high intensity muscle use, muscle cells may not receive enough oxygen and most undergo anaerobic respiration. Anaerobic respiration in human cells produces what molecule, which is later broken down by the liver?</div><div>ANSWER: LACTIC ACID <span class="also-accept">(also accept: LACTATE)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What point on a pressure-temperature phase diagram describes conditions at which three phases of a substance coexist?</div><div>ANSWER: TRIPLE POINT</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+At small atomic numbers, which of the following ratios of atomic number to atomic mass is the most stable?</div><div>W) 1 to 1<br>X) 1 to 1.5<br>Y) 1 to 2<br>Z) 1 to 2.5</div><div>ANSWER: Y) 1 to 2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+The melting of Siberian permafrost leads to the release of what potent greenhouse gas formed by the anoxic decomposition of biomass?</div><div>ANSWER: METHANE</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements regarding Earth’s orbit is true?</div><div>W) Earth’s orbit is circular<br>X) Perihelion occurs during northern hemisphere winter<br>Y) The Earth’s orbital velocity throughout the year is constant<br>Z) The Earth’s orbital eccentricity is constant</div><div>ANSWER: X) Perihelion occurs during northern hemisphere winter</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+David rolls two fair, six-sided dice. What is the probability that both showed multiples of 3?</div><div>ANSWER: 1/9</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The radius of a right circular cone is increased from 2 cm to 7 cm and the height is decreased from 8 cm to 2 cm. What is the ratio of the new volume to the old volume?</div><div>ANSWER: 49/16</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The attractive or repulsive forces between two charged particles are numerically defined by what law?</div><div>ANSWER: COULOMB&#39;S LAW</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+At time t = 0, Emmy is walking at a velocity of 2 m/s. She then begins accelerating at a constant rate of 4 m/s<sup>2</sup>. At t = 4, in meters, how far has she travelled?</div><div>ANSWER: 40 m</div></div><hr><div class="packet-question"><div class="q-text">47. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Milikan’s oil drop experiment was used to deduce the negative charge of what subatomic particles?</div><div>ANSWER: Electrons</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

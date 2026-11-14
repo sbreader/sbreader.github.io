@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2022 Round 4</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2022/7" />
+<meta name="description" content="MIT 2022 Round 4: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2022" data-packet="7">
+<div class="float-row mb-3"><span class="float-start">Packet 7 (Round 4) of <a href="sets/mit-2022/">MIT 2022</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2022/Round_4.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Emily has a bag of marbles, with 4 each of 3 different colors. She draws two marbles randomly out of the bag without replacement. What is the probability that they are different colors?</div><div>ANSWER: 8/11</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the maximum possible area of a triangle with perimeter 18?</div><div>ANSWER: 9√3</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The Fraenkel Lab at MIT works with large biological datasets, one of which is phosphoproteomics, the characterization of proteins with phosphate groups attached. Enzymes that attach phosphate groups to proteins belong to what class of enzymes?</div><div>ANSWER: Kinases</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers in the Hrvatin Lab at MIT have discovered that initiation of mouse torpor relies on regulation by neurons in a certain area of the brain called the preoptic area, which is housed in which of the following structures of the brain?</div><div>W) Hypothalamus<br>X) Thalamus<br>Y) Pons<br>Z) Medulla oblongata</div><div>ANSWER: W) Hypothalamus</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A simple screw has a radius of 1 centimeter and a distance of 1 millimeter between its threads. To the nearest integer, what is the mechanical advantage of this screw?</div><div>ANSWER: 63</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A car is turning in a circle of radius 5 meters, while moving at a speed of 7 meters per second. A beaker full of water sits inside the car. In degrees, what angle does the surface of the water make with the horizontal?</div><div>ANSWER: 45</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following cellular structures does NOT possess a double membrane?</div><div>W) Chloroplasts<br>X) Golgi bodies<br>Y) Nuclei<br>Z) Mitochondria</div><div>ANSWER: X) Golgi bodies</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Lynette the zoologist likes animals. She finds a sample containing malpighian tubules. By name or number, identify all of the following three animals that this sample CANNOT be from
+1) Dragonfly
+2) Leech
+3) Sea urchin</div><div>ANSWER: 2 and 3 <span class="also-accept">(also accept: All but 1)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Titus finds a glacier and decides to drill a hole straight down to the bottom of the glacier. After a year, which of the following best describes the shape and location of this hole?</div><div>W) The hole’s shape and location have not changed<br>X) The hole’s shape is the same, but its location has moved several meters<br>Y) The base of the hole has not moved, but the top has moved several meters<br>Z) The base of the hole has moved a few meters, and the top of the hole has moved several meters</div><div>ANSWER: Z) The base of the hole has moved a few meters, and the top of the hole has moved several meters</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is characteristic of regions of the ocean under the calcite compensation depth, or CCD?</div><div>W) An abundance of foraminiferal ooze<br>X) Decreased pressure with increased depth<br>Y) Low carbon dioxide levels<br>Z) Low pH levels</div><div>ANSWER: Z) Low pH levels</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Gideon is investigating the decomposition of hydrogen peroxide and finds that the reaction has a constant half-life. Which of the following is the order of the reaction?</div><div>W) −1<br>X) 0<br>Y) 1<br>Z) 2</div><div>ANSWER: Y) 1</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Hydrogen gas and bromine gas are allowed to react in a rigid vessel according to the reaction H<sub>2</sub> + Br<sub>2</sub> ⇌ 2 HBr. If the initial concentrations of H<sub>2</sub> and Br<sub>2</sub> are both 0.5 molar and K<sub>c</sub> for this reaction is equal to 4, calculate, to one significant figure, the final molar concentration of HBr once equilibrium has been reached.</div><div>ANSWER: 0.5 <span class="also-accept">(also accept: 5 × 10<sup>-1</sup>)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at MIT have used observations of gravitational waves to confirm a theorem of Stephen Hawking, which states that the surface areas of what astronomical objects should never decrease?</div><div>ANSWER: Black hole <span class="also-accept">(also accept: Event horizon)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Astronomers at MIT were recently part of a team which detected a fast radio burst in which a series of periodic radio signals persisted for a few seconds. Of the following options, which is the most likely source for such an event?</div><div>W) Supermassive black hole<br>X) Magnetar<br>Y) Solar flare<br>Z) Supernova</div><div>ANSWER: X) Magnetar</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+By name or number, identify all of the following four properties that the set of integers possess
+1) Additive inverses
+2) Multiplicative inverses
+3) Additive identity
+4) Multiplicative identity</div><div>ANSWER: 1,3,4 <span class="also-accept">(also accept: All but 2)</span></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A piece of paper in the shape of an equilateral triangle is folded once. What is the maximum number of sides in the outline of the folded figure?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What term describes the standing waves or oscillations that form in normally still bodies of water when seismic activity occurs?</div><div>ANSWER: Seiche</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following layers of the atmosphere contains the region of the atmosphere with the lowest temperature?</div><div>W) Thermosphere<br>X) Mesosphere<br>Y) Stratosphere<br>Z) Troposphere</div><div>ANSWER: X) Mesosphere</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+In recent years, the need for more specific biochemical tools has been met by a new technique, where new variants of enzymes are developed through multiple rounds of artificial selection rather than being designed from scratch. What is the name of this method?</div><div>ANSWER: Directed evolution</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following is NOT a limitation of directed evolution?</div><div>W) A related protein with similar function must first exist to be used as a base<br>X) The number of generations needed may result in overly long waiting times<br>Y) The mechanism of action must be already known<br>Z) Badly designed test criteria may cause other aspects of the protein to suffer</div><div>ANSWER: Y) The mechanism of action must be already known</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following substances has the lowest vapor pressure?</div><div>W) Methane<br>X) Ammonia<br>Y) Water<br>Z) Hydrogen chloride</div><div>ANSWER: Y) Water</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following three diatomic molecules by increasing bond strength
+1) Carbon monoxide
+2) Nitrogen gas
+3) Nitric oxide</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+To one significant digit and in atmospheres, what is the total pressure at the bottom of a 30 meter deep lake?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Water flows through a horizontal pipe of radius 2 centimeters at a velocity of 2 meters per second. The pipe narrows to a radius of 1 centimeter. Given that the density of water is 1000 kilograms per meter cubed, what is the difference in water pressure between the two sections of the pipe in pascals and to one significant figure?</div><div>ANSWER: 30,000 <span class="also-accept">(also accept: 3 × 10<sup>4</sup>)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+A biochemical reaction, when carried out in the presence of varying amounts of carbon monoxide and an excess of other reactants over multiple trials, is found to have a rate constant with units moles squared per liter squared per second. What is the order of the reaction with respect to carbon monoxide?</div><div>ANSWER: −1 <span class="also-accept">(also accept: Inverse first order)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three elements that are paramagnetic in their most abundant allotrope
+1) Carbon
+2) Oxygen
+3) Fluorine</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A regular polygon has perimeter 120. What is the smallest possible area of the polygon?</div><div>ANSWER: 400√3</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A group of hungry hippos plans to share 500 gumballs. If all hippos share equally, to the nearest tenth, each hippo eats 29.4 gumballs. How many hippos are in the group?</div><div>ANSWER: 17</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers in the Swager group at MIT have synthesized a macrocyclic polyamide cage that has high affinity for the dihydrogen arsenate ion, H<sub>2</sub>AsO<sub>4</sub><sup>-</sup>. What is the oxidation state of the arsenic atom in the dihydrogen arsenate ion?</div><div>ANSWER: +5</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Ceyer group at MIT are developing catalysts to convert natural gas directly into methanol. Methanol is currently produced by reacting syngas, a mixture of carbon monoxide and hydrogen gas. Assuming that all methanol produced is in the gas phase, if 4 liters of carbon monoxide gas and 4 liters of hydrogen gas are reacted completely to produce methanol, what is the final volume of the reaction mixture in liters?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What form of transport involves the movement of substances without the use of plasmodesmata and thus is blocked by the Casparian strip?</div><div>ANSWER: Apoplastic transport <span class="also-accept">(also accept: Apoplast)</span></div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+2 newly discovered plants on neighboring islands are found to both have spiky leaves, despite being genetically isolated for 2 million years. While they both inherited this trait from a common ancestor, other plants in the same clade have evolved rounded leaves instead. What kind of trait are the spiky leaves?</div><div>ANSWER: Plesiomorphy <span class="also-accept">(also accept: Symplesiomorphy)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following pairs of quantities do NOT have the same units?</div><div>W) Torque and work<br>X) Angular momentum and Planck’s constant<br>Y) Conductivity and permittivity<br>Z) Spring constant and surface tension</div><div>ANSWER: Y) Conductivity and permittivity</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, rank the following three circuit arrangements by increasing equivalent capacitance
+1) Two 10 microfarad capacitors in series
+2) A 12 microfarad capacitor in series with two 3 microfarad capacitors
+3) Three 2 microfarad capacitors in parallel</div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following series of reactions occurs in asymptotic giant branch stars, and has a neutron-capture time scale which allows for radioactive decay to occur?</div><div>W) P-process<br>X) R-process<br>Y) S-process<br>Z) T-process</div><div>ANSWER: Y) S-process</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three particles that do NOT fit dark matter as described by the Lambda-CDM model
+1) Axion
+2) Proton
+3) Neutralino</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following elements has a red flame test?</div><div>W) Lithium<br>X) Sodium<br>Y) Potassium<br>Z) Cesium</div><div>ANSWER: W) Lithium</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following three compounds by increasing solubility in water
+1) Magnesium hydroxide
+2) Calcium hydroxide
+3) Strontium hydroxide</div><div>ANSWER: 1,2,3</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The superphylums Ecdysozoa and Lophotrochozoa both belong to what clade of animals, whose derived characteristics include being triploblastic and possessing a left and right side?</div><div>ANSWER: Bilateria <span class="also-accept">(also accept: Bilateral)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+There is current controversy over whether sponges are the most basal metazoans. Which of the following clades is believed by some to be a sister group to all other animals?</div><div>W) Acoela<br>X) Cnidaria<br>Y) Ctenophora<br>Z) Placozoa</div><div>ANSWER: Y) Ctenophora</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the name of the protoplanetary body that is theorized to have collided with a proto-Earth to form the Moon in the giant impact hypothesis?</div><div>ANSWER: Theia</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+The Fermi Bubbles found above and below the plane of the Milky Way are thought to be the result of gas excited and pushed aside by which of the following features formed by Sagittarius A* during a previous active phase?</div><div>W) Astrophysical jets<br>X) Accretion disk<br>Y) Obscuring torus<br>Z) Narrow line regions</div><div>ANSWER: W) Astrophysical jets</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+In base-11, what is the product of the base-11 values 11 and 11?</div><div>ANSWER: 121</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the remainder when 5x<sup>5</sup> + 4x<sup>4</sup> + 3x<sup>3</sup> + 2x<sup>2</sup> + x is divided by x − 2?</div><div>ANSWER: 258</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Katherine throws a ball off of a 2000 meter tall cliff, with a velocity of 1 meter per second. Which of the following is closest to the maximum distance away from the cliff the ball can land, in meters?</div><div>W) 14<br>X) 20<br>Y) 28<br>Z) 40</div><div>ANSWER: X) 20</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An organ pipe of length 3 meters is closed at one end and open at the other. In meters, what is the wavelength of the first overtone of the pipe?</div><div>ANSWER: 4</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

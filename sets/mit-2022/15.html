@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2022 Round 8</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2022/15" />
+<meta name="description" content="MIT 2022 Round 8: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2022" data-packet="15">
+<div class="float-row mb-3"><span class="float-start">Packet 15 (Round 8) of <a href="sets/mit-2022/">MIT 2022</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2022/Round_8.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following statements best describes how the sound level in decibels varies with distance from a point source?</div><div>W) Linear<br>X) Exponential<br>Y) Inverse square<br>Z) Logarithmic</div><div>ANSWER: Z) Logarithmic</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Two moles of an ideal monatomic gas are heated at constant volume from 300 to 400 kelvin. To two significant figures, how much heat, in joules, is transferred to the gas in this process?</div><div>ANSWER: 2500 <span class="also-accept">(also accept: 2.5 × 10<sup>3</sup>)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+In the quantum-harmonic oscillator approximation for a bond between two identical atoms, the predicted bond dissociation energy is proportional to what power of the atomic mass?</div><div>ANSWER: −1/2 <span class="also-accept">(also accept: −0.5)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+A metal oxide crystallizes in a unit cell structure where the oxide ions form an FCC lattice and the metal cations occupy all of the tetrahedral holes. Which of the following is most likely the identity of the metal cation?</div><div>W) Na<sup>+</sup><br>X) Mg<sup>2+</sup><br>Y) Al<sup>3+</sup><br>Z) Ti<sup>4+</sup></div><div>ANSWER: W) Na<sup>+</sup></div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four interspecific interactions that have a neutral effect on at least one individual engaged in the interaction
+1) Mutualism
+2) Commensalism
+3) Herbivory
+4) Parasitism</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, rank the following three communities of 100 individuals by increasing Shannon diversity index
+1) 25 species A, 50 species B, 25 species C
+2) 33 species A, 33 species B, 34 species C
+3) 70 species A, 15 species B, 15 species C</div><div>ANSWER: 3,1,2</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+An ellipse has a semimajor axis of length 10 and a semiminor axis of length 7. To the nearest integer, what is the distance between its two focal points?</div><div>W) 11<br>X) 12<br>Y) 13<br>Z) 14</div><div>ANSWER: Z) 14</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+In base-2, how many zeros does the least common multiple of the first 1000 positive integers end with?</div><div>ANSWER: 9</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+In order to genetically engineer their cells, researchers in the Lamason Lab at MIT used a technique in which an electrical pulse is applied to create temporary holes in the plasma membrane. What is this technique called?</div><div>ANSWER: Electroporation</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+The Lamason Lab at MIT studies the intracellular life cycles of Rickettsia parkeri and Listeria monocytogenes. These two bacteria both invade the host cytosol and hijack which important cytoskeletal element to initiate cell-to-cell spread?</div><div>W) Actin<br>X) Keratin<br>Y) Vimentin<br>Z) Microtubules</div><div>ANSWER: W) Actin</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following three ices in a glacier from youngest to oldest
+1) Coarse-grained ice
+2) Névé
+3) Firn</div><div>ANSWER: 2,3,1</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+In a system of half-grabens, the individual faults in the system are typically curved and point back up towards the surface. What term describes this type of fault?</div><div>ANSWER: Listric fault</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Astronomers at MIT were part of the TESS team which recently discovered two Earth-sized planets around a star 10 parsecs away. To the nearest lightyear, what is the distance to this star?</div><div>ANSWER: 33</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Scientists in the MIT Department of Physics are studying materials which undergo phase transitions not at a fixed temperature but rather at a temperature which depends on the past conditions of the material, for instance whether the temperature is increasing or decreasing. What is the general term for such phenomena, which is also used to describe ferromagnetic materials retaining magnetization as an external magnetic field is turned off?</div><div>ANSWER: Hysteresis <span class="also-accept">(also accept: Hysteresis loop)</span></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+A certain ionic salt is insoluble in distilled water, but dissolves upon the addition of aqueous hydrochloric acid. A flame test of the resulting solution produces a green flame. Which of the following is most likely the identity of the salt?</div><div>W) Barium hydroxide<br>X) Copper (II) carbonate<br>Y) Calcium fluoride<br>Z) Magnesium chloride</div><div>ANSWER: X) Copper (II) carbonate</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Several concentrated solutions of a weak monoprotic acid were prepared, and their pH values were recorded. When a graph of pH versus the base-10 logarithm of initial concentration was constructed, it was found to be linear. By name or number, identify all of the following three statements that are true regarding this graph
+1) The slope is −1/2
+2) The intercept is the pKa of the acid
+3) Except for having an intercept of 0, this graph would be the same for a strong monoprotic acid</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A 5 volt battery, a 4 millihenry inductor, and a 20 ohm resistor are connected in series. What is the current, in amperes, in the circuit a long time after all elements are connected?</div><div>ANSWER: 0.25 <span class="also-accept">(also accept: 1/4)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A circuit consists of a resistor, an inductor, and a capacitor all connected in series. A new identical capacitor is added in parallel to just the original capacitor and in series to the other circuit elements. This is analogous to which of the following changes in a damped spring-mass system?</div><div>W) An identical spring is added in parallel<br>X) An identical spring is added in series<br>Y) The mass is cut in half<br>Z) The mass is doubled</div><div>ANSWER: X) An identical spring is added in series</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Point A is at the origin and point C is at (1, 0). What is the area of the region of all points B such that angle ABC is obtuse?</div><div>W) π/4<br>X) π/2<br>Y) π<br>Z) 2π</div><div>ANSWER: W) π/4</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many ways are there to fill a 3 × 3 grid with the numbers 1, 2, and 3 such that every row and column has exactly one of each number?</div><div>ANSWER: 12</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The speed of a tsunami in open water is most limited by which of the following quantities?</div><div>W) Depth of the ocean<br>X) Wavelength of initial disturbing force<br>Y) Speed of sound in water<br>Z) Energy released by disturbing force</div><div>ANSWER: W) Depth of the ocean</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three pairs of minerals that are considered polymorphs by geologists
+1) Calcite and aragonite
+2) Plagioclase and orthoclase
+3) Andalusite and kyanite</div><div>ANSWER: 1 and 3 <span class="also-accept">(also accept: All but 2)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Ella is observing an isolated tank of guppers. Guppers are known to avoid shadows as a response to predation, but after living in Ella’s tank for a week, she notices that they have stopped responding to her shadow. What kind of behavior is being expressed?</div><div>ANSWER: Habituation</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, rank the following four mammals by increasing heart rate
+1) Human
+2) Elephant
+3) Mouse
+4) Bat</div><div>ANSWER: 2,1,3,4</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Isaac rolls three objects down from the top of the same ramp and observes that all of them roll down the ramp without slipping. By name or number, rank the following three objects by increasing time taken to reach the bottom
+1) A uniform solid cylinder of radius 1 centimeter
+2) A uniform ring of radius 2 centimeters
+3) A uniform spherical shell with radius 1 centimeter</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The moment of inertia of a uniform solid tetrahedron about an axis passing through a vertex and the center of mass is ms<sup>2</sup> / 20, where m is the mass and s is the side length. The moment of inertia about an axis parallel to the initial axis but passing through a different vertex is xms<sup>2</sup>, where x is a dimensionless factor. Expressed as a fraction, what is the value of x?</div><div>ANSWER: 23 / 60</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Swager group at MIT are researching intrinsically porous polymers which provide spaces for small molecules to diffuse through. Which of the following is likely a common characteristic of all of these porous polymers?</div><div>W) High selectivity of binding pocket<br>X) Low density<br>Y) High shear resistance<br>Z) Low melting point</div><div>ANSWER: X) Low density</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Swager group at MIT are studying reactions at graphene surfaces. Graphene is susceptible to oxidation by oxygen to form which of the following functional groups at the surface?</div><div>W) Alcohol<br>X) Aldehyde<br>Y) Carboxylic acid<br>Z) Ether</div><div>ANSWER: W) Alcohol</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three physiological responses that can result from signal transduction pathways downstream of epinephrine binding to a cellular receptor
+1) Blood vessel dilation
+2) Blood vessel contraction
+3) Blood glucose level increase</div><div>ANSWER: 1,2,3 <span class="also-accept">(also accept: All)</span></div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following best describes how slowtwitch oxidative skeletal muscle fibers differ from fast-twitch glycolytic skeletal muscle fibers?</div><div>W) Higher myoglobin content, more sarcoplasmic reticulum<br>X) Higher myoglobin content, less sarcoplasmic reticulum<br>Y) Lower myoglobin content, more sarcoplasmic reticulum<br>Z) Lower myoglobin content, less sarcoplasmic content</div><div>ANSWER: X) Higher myoglobin content, less sarcoplasmic reticulum</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+If a gas has a molar heat capacity of 25 joules per mole-kelvin at constant volume, to the nearest joule per mole-kelvin, what is its constant pressure molar heat capacity at the same temperature?</div><div>ANSWER: 33</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+A student adds 100 grams of boiling water to 100 grams of water at 20 degrees celsius in a styrofoam cup at atmospheric pressure. She measures the final temperature of the water to be 50 degrees celsius. To one significant figure in joules per kelvin, what is the specific heat capacity of the styrofoam cup?</div><div>ANSWER: 8000 <span class="also-accept">(also accept: 8 × 10<sup>3</sup>)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+A polynomial has three local maxima. What is the sum of all possible numbers of local minima it can have?</div><div>W) 7<br>X) 8<br>Y) 9<br>Z) 10</div><div>ANSWER: Y) 9</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many binary strings of length five do NOT contain a substring of three consecutive 0’s?</div><div>ANSWER: 24</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+A spacecraft is orbiting around Planet X in an elliptical orbit. If its periapsis is 1 AU and its apoapsis is 5 AU, what is the eccentricity of the spacecraft’s orbit?</div><div>ANSWER: 2/3</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three variable stars that are matched correctly with their stage of evolution on the HR diagram
+1) RR Lyrae and horizontal branch
+2) T Tauri and Henyey track
+3) Mira and asymptotic giant branch</div><div>ANSWER: 1 and 3 <span class="also-accept">(also accept: All but 2)</span></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the largest possible base b for which the base-10 number 611 has 3 digits in base b?</div><div>ANSWER: 24</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+A regular polygon with integer side lengths has perimeter 120. Which of the following could NOT be the degree measure of one of its interior angles?</div><div>W) 144<br>X) 160<br>Y) 171<br>Z) 177</div><div>ANSWER: X) 160</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+The Curie temperature determines the thermal transition between ferromagnetism and what other type of magnetism?</div><div>W) Antiferromagnetism<br>X) Metamagnetism<br>Y) Diamagnetism<br>Z) Paramagnetism</div><div>ANSWER: Z) Paramagnetism</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A point mass undergoes simple harmonic motion about the origin, with an amplitude of 1 meter. At the point in time where the power being delivered to the mass is greatest, what is the distance of the object from the origin in meters?</div><div>ANSWER: √2 / 2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following molecules can exhibit cis-trans isomerism?</div><div>W) C<sub>2</sub>H<sub>2</sub><br>X) C<sub>2</sub>H<sub>4</sub><br>Y) N<sub>2</sub>H<sub>2</sub><br>Z) N<sub>2</sub>H<sub>4</sub></div><div>ANSWER: Y) N<sub>2</sub>H<sub>2</sub></div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Carbon monoxide gas can be oxidized to carbon dioxide gas by oxygen gas according to the reaction 2 CO + O<sub>2</sub> → 2 CO<sub>2</sub>. A 2:1 mixture of carbon monoxide and oxygen gases is allowed to react in a rigid vessel at constant temperature. If the total pressure of the gas mixture before and after reacting is 12 atmospheres and 9 atmospheres, respectively, what is the percent yield of this reaction?</div><div>ANSWER: 75% <span class="also-accept">(also accept: 0.75)</span></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following three brown dwarfs from warmest to coolest
+1) M-type brown dwarf
+2) T-type brown dwarf
+3) L-type brown dwarf</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Gravitational waves are theorized to have formed during which of the following time periods of the early universe?</div><div>W) Planck epoch<br>X) Cosmic inflation<br>Y) Big Bang nucleosynthesis<br>Z) Reionization</div><div>ANSWER: X) Cosmic inflation</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following best describes how an uncompetitive inhibitor affects the properties of an enzyme substrate combination?</div><div>W) K m reduced, V max unchanged<br>X) K m unchanged, V max reduced<br>Y) K m reduced, V max reduced<br>Z) K m unchanged, V max unchanged</div><div>ANSWER: Y) K m reduced, V max reduced</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+If there are 70 males and 30 females in a population of beavers, then what is the effective population size of the beavers?</div><div>ANSWER: 84</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

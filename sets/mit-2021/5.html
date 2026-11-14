@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2021 round 5</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2021/5" />
+<meta name="description" content="MIT 2021 round 5: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2021" data-packet="5">
+<div class="float-row mb-3"><span class="float-start">Packet 5 (round 5) of <a href="sets/mit-2021/">MIT 2021</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2021/round5.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What phenomenon causes the blue glow observed in underwater nuclear reactors?</div><div>ANSWER: Cherenkov Radiation</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+What particle is the carrier particle for the electromagnetic force?</div><div>W) Gluon<br>X) Photon<br>Y) W boson<br>Z) Z boson</div><div>ANSWER: X) Photon</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+The reaction of carbon monoxide gas with oxygen gas to produce carbon dioxide takes place in a closed container with a moveable piston. By name or number, identify all of the following three changes to the system that would lead to a greater yield of carbon dioxide
+1) Increasing the temperature
+2) Increasing the volume
+3) Adding nitrogen gas under constant volume</div><div>ANSWER: None of them</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Given that the pKa of HCN is 11, then to one significant figure, what is the pH of a solution formed when 0.1 moles of HCN is dissolved in 1 liter of water?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What is the term used to describe the relationship between non-adjacent angles formed by the intersection of a single pair of lines?</div><div>W) Alternate<br>X) Vertical<br>Y) Complementary<br>Z) Conjugate</div><div>ANSWER: X) Vertical</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+You are playing a game where you roll a fair six-sided die. If the die lands on the numbers 1 through 5, you earn the same number of points as the number the die lands on and can roll again. The game ends when the die lands on 6. What is the expected number of points you will earn from playing this game?</div><div>ANSWER: 15</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three ecosystem components which are classified as abiotic
+1) Tree
+2) River
+3) Cicada shell</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Carbon cycles through reservoirs, or sinks, where a large amount of carbon is stored. Which of the following reservoirs contains the largest percent of the world’s carbon?</div><div>W) Fossil fuels<br>X) Oceans<br>Y) Atmosphere<br>Z) Living organisms</div><div>ANSWER: X) Oceans</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers in MIT’s Center for Theoretical Physics have been studying the axial charges of tritons. To accomplish this, they are utilizing what theory that relates to quarks and gluons?</div><div>ANSWER: Quantum chromodynamics</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at MIT’s Center for Theoretical Physics have been studying open quantum systems in heavy ion collisions. They are attempting to simulate what specific phase of matter, in which matter is subjected to intense heat and pressure?</div><div>ANSWER: Quark-gluon plasma <span class="do-not-accept">(do not accept: plasma)</span></div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What term refers to the process by which large chunks of ice break off of a glacier?</div><div>ANSWER: Calving <span class="also-accept">(also accept: Ice Calving; Glacial Calving)</span></div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+The cosmic background radiation which originated from the epoch of recombination has a peak wavelength closest to which of the following values?</div><div>W) 10<sup>-7</sup> m<br>X) 10<sup>-5</sup> m<br>Y) 10<sup>-3</sup> m<br>Z) 10<sup>-1</sup> m</div><div>ANSWER: Y) 10<sup>-3</sup> m</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the largest dollar amount that cannot be formed using bills of size 18 dollars, 9 dollars, and 5 dollars?</div><div>ANSWER: 31</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+In the expansion the polynomial (x + 2y)<sup>4</sup>, what is the sum of all the coefficients?</div><div>ANSWER: 81</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+An observer is listening to a sound coming from a car at a fixed frequency. By name or number, rank the following three scenarios in order of smallest to largest frequency heard by the observer
+1) Stationary observer with a car moving away from observer at velocity v.
+2) Stationary car with an observer moving towards car at velocity v.
+3) Observer moving away from car at velocity v with a car moving away from observer at velocity v ′.</div><div>ANSWER: 3,1,2</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A cube and a hollow ring are placed at the top of a 45-degree incline. The two are released simultaneously, with the cube sliding down the incline, and the ring rolling without slipping. For the cube and the ring to reach the bottom of the incline simultaneously, the coefficient of friction between the cube and the incline must be closest to which of the following?</div><div>W) 0.1<br>X) 0.3<br>Y) 0.5<br>Z) 0.7</div><div>ANSWER: X) 0.3</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The Bawendi group has previously investigated fluorescent imaging with the dye indocyanine green. The dye emits light at 950 nm. Where does the emitted light lie on the electromagnetic spectrum?</div><div>ANSWER: Infrared</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+The McGuire group has recently detected benzonitrile in the interstellar medium. Another name for this compound is cyanobenzene. Calculate, to the nearest whole number, the molecular weight of benzonitrile.</div><div>ANSWER: 103</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the term describing the sliding movement of the lower parts of glaciers?</div><div>ANSWER: Basal slip</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Hubble’s Law relates which of the following two factors?</div><div>W) Recessional velocity and galaxy size<br>X) Recessional velocity and distance<br>Y) Galaxy size and distance<br>Z) Galaxy size and rate of star formation</div><div>ANSWER: X) Recessional velocity and distance</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Emily mixes together a solution of copper (II) nitrate and potassium iodide, and notices a solid forming. What is the chemical formula of this solid?</div><div>ANSWER: CuI</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Emily now mixes together a solution of copper (II) nitrate and potassium iodide. She notices a solid forming along with the solution turning brown. What is the stoichiometric ratio between the solid and the species responsible for the brown color?</div><div>ANSWER: 2:1</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following cell types is not a part of the adaptive immune system?</div><div>W) CD4+ T cell<br>X) CD8+ T cell<br>Y) CD19+ B cell<br>Z) CD15+ neutrophils</div><div>ANSWER: Z) CD15+ neutrophils</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+How many heavy chains does the most common multimeric form of an IgM antibody possess?</div><div>ANSWER: 10</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+In an AC circuit, which of the following best describes the voltage-current relationship in an inductor?</div><div>W) Voltage leads current<br>X) Voltage lags current<br>Y) Voltage is in phase with current<br>Z) Voltage oscillates at a different frequency than current</div><div>ANSWER: W) Voltage leads current</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Hannah is standing in front of a concave, spherical mirror with a radius of curvature of 10 meters. If he is 6 meters along the axis of the mirror, which of the following best describes the image formed?</div><div>W) Real and larger than Hannah<br>X) Real and smaller than Hannah<br>Y) Virtual and larger than Hannah<br>Z) Virtual and smaller than Hannah</div><div>ANSWER: W) Real and larger than Hannah</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What term describes the distance that wind blows over the water to form a wave?</div><div>ANSWER: Fetch</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following three dwarf planets in our solar system from closest to farthest from the sun
+1) Pluto
+2) Makemake
+3) Ceres</div><div>ANSWER: 3,1,2</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following processes best describes how species fill diverse ecological niches?</div><div>W) Predation<br>X) Adaptive radiation<br>Y) Sexual selection<br>Z) Artificial selection</div><div>ANSWER: X) Adaptive radiation</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three situations in which speciation can occur
+1) A mountain range physically splits a population in half, resulting in no contact between the two resulting subpopulations
+2) Individuals in a population which are heterozygous for a particular trait die more frequently than individuals which are homozygous for that trait
+3) A new prey animal that moves quickly is introduced to an area with predators adapted for stalking</div><div>ANSWER: 1,2,3 <span class="also-accept">(also accept: all)</span></div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+By name or number, identify all of the following three shapes whose diagonals must be perpendicular
+1) Isosceles trapezoid
+2) Rhombus
+3) Rectangle</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Which of the following values is closest to the perimeter of an ellipse with major axis 10 and minor axis 4?</div><div>W) 12<br>X) 18<br>Y) 24<br>Z) 30</div><div>ANSWER: Y) 24</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+The Boyer group at MIT is studying heart regeneration at the gene level. In embryonic heart development, cardiomyocytes primarily utilize which metabolic pathway that does not require the mitochondria to generate energy?</div><div>W) Glycolysis<br>X) Oxidative phosphorylation<br>Y) Alcoholic fermentation<br>Z) Pentose phosphate pathway</div><div>ANSWER: W) Glycolysis</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+The Boyer group also researches the transition to oxidative metabolism in cardiomyocytes, which is functionally equivalent to the loss of regenerative potential. A feature of differentiation in these cells is characterized by the development of rigid sarcomeres. Within the sarcomere, what large protein extends from the Z-line and interacts with myosin?</div><div>ANSWER: Titin <span class="also-accept">(also accept: connectin)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+What is the orbital angular momentum quantum number, ℓ, of the electron that is removed when ground state gallium is ionized?</div><div>W) 0<br>X) 1<br>Y) 2<br>Z) 3</div><div>ANSWER: X) 1</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Cobalt-60 is a common radioactive isotope used in radiation therapy. It is most commonly made by bombarding nonradioactive cobalt-59 with neutrons. What is the most likely decay mode of cobalt-60?</div><div>W) Neutron emission<br>X) Alpha decay<br>Y) Beta-minus decay<br>Z) Beta-plus decay</div><div>ANSWER: Y) Beta-minus decay</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the name for the process for the gravitational accumulation of particles around a massive object such as a black hole, forming a disk?</div><div>ANSWER: Accretion</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is true concerning lunar cycles?</div><div>W) The sidereal month is how long the moon takes to orbit the earth with respect to the background stars<br>X) The synodic month is how long the moon takes to orbit the earth with respect to the background stars<br>Y) The sidereal month is roughly 29.5 days long<br>Z) The synodic month is roughly 27.33 days long</div><div>ANSWER: W) The sidereal month is how long the moon takes to orbit the earth with respect to the background stars</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following molecules has a dipole moment of zero?</div><div>W) CHCl<sub>3</sub><br>X) PF<sub>5</sub><br>Y) NH<sub>3</sub><br>Z) SO<sub>2</sub></div><div>ANSWER: X) PF<sub>5</sub></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+For a hydrogen atom, which transition between principal energy levels requires the greatest input of energy?</div><div>W) n = 1 to n = 2<br>X) n = 2 to n = 4<br>Y) n = 3 to n = 7<br>Z) n = 4 to n = 6</div><div>ANSWER: W) n = 1 to n = 2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Tyler places his finger in the middle of a violin string of length L to create a node at a distance of L/2 from either of its fixed ends. If the fundamental frequency of the string is 440 hertz, at what frequency in hertz will the string sound now?</div><div>ANSWER: 880 hertz</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A particle of mass m moving to the right at speed v collides with a particle of mass m moving to the left at speed v. The two particles fuse into a single stationary particle of mass 3m. In terms of the speed of light c, what is v?</div><div>ANSWER: (√5/3)c <span class="also-accept">(also accept: √5/3)</span></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following cells in a plant ovule functions has the primary function of guiding the pollen tube?</div><div>W) Antipodal cells<br>X) Egg cells<br>Y) Polar nuclei<br>Z) Synergids</div><div>ANSWER: Z) Synergids</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+In the development of angiosperm zygotes, the large basal cell divides to form what stalklike structure that anchors the embryo along with supporting its early development?</div><div>ANSWER: Suspensor</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+An ant on the 2D plane crawls from the origin to the point P and then to (4, 4), only moving one unit in the positive x or positive y direction each turn. Which of the following points P maximizes the number of distinct paths the ant could take from the origin?</div><div>W) (1, 1)<br>X) (1, 2)<br>Y) (1, 3)<br>Z) (2, 2)</div><div>ANSWER: W) (1, 1)</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Equilateral triangle ABC with side length 10 is drawn on its circumcircle. Point D is chosen on minor arc BC. What is the largest possible integer perimeter of the quadrilateral ABDC?</div><div>ANSWER: 31</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

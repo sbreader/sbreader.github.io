@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Fall 2023 Round 2</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/fall-2023/2" />
+<meta name="description" content="Fall 2023 Round 2: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="fall-2023" data-packet="2">
+<div class="float-row mb-3"><span class="float-start">Packet 2 (Round 2) of <a href="sets/fall-2023/">Fall 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1bKz61-5ftfWAIOFYxmhTXda3nEf5353w/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following is NOT true regarding coelacanths?</div><div>W) They possess lobed fins<br>X) They give birth to live young<br>Y) They have a hollow, fluid-filled notochord<br>Z) They have a skeleton made of cartilage</div><div>ANSWER: Z) They have a skeleton made of cartilage</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three plant physiological processes that are a direct result of ethylene gas exposure
+1) Triple response
+2) Leaf abscission
+3) Fruit ripening.</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at the Joint Genomics Institute have recently discovered a group of archaea species that steal and take advantage of resources of other species of archaea. This is best characterized as what symbiotic relationship?</div><div>ANSWER: PARASITISM</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Researchers at Lawrence Berkeley National Lab have been looking into identifying green alternatives to current commercial jet fuels. Which of the following techniques allows researchers to analyze properties of possible alternative fuels by probing their vibrational modes?</div><div>W) Infrared spectroscopy<br>X) X-ray crystallography<br>Y) NMR spectroscopy<br>Z) Mass spectrometry</div><div>ANSWER: W) Infrared spectroscopy</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is 72 times 27?</div><div>ANSWER: 1944</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Consider an isosceles triangle with vertices A, B, and C where the angle at vertex A is 40 degrees. In degrees, what are all the possible angles at vertex B?</div><div>ANSWER: 40, 70, 100 <span class="also-accept">(also accept: in any order)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A football is thrown directly upward into the air at a speed of 35 meters per second. Assuming that g is 10 meters per second squared, how long in seconds would it take for the football to hit the ground?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Curie’s law states that the magnetization of a solid is inversely proportional to what quantity?</div><div>ANSWER: TEMPERATURE</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What type of biogenous sediment is made from the shells of diatoms and radiolaria?</div><div>ANSWER: SILICEOUS OOZE</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Astronomers at UC Berkeley recently discovered that variation in the gaseous composition of Saturn’s atmosphere may cause planetary-scale storm events. Which of the following best characterizes Saturn’s primary atmospheric composition?</div><div>W) Ammonia and Hydrogen<br>X) Nitrogen and Oxygen<br>Y) Hydrogen and Helium<br>Z) Methane and Ammonia</div><div>ANSWER: Y) Hydrogen and Helium</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following is NOT a strong acid?</div><div>W) Hydrogen iodide<br>X) Hydrogen bromide<br>Y) Hydrogen chloride<br>Z) Hydrogen fluoride</div><div>ANSWER: Z) Hydrogen fluoride</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three molecules that are exceptions to the octet rule
+1) Acetic acid
+2) Borane
+3) Sulfuric acid.</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the kinetic energy, in joules, of a cart with a mass of 15 kilograms that is traveling in a straight line at a speed of 2 meters per second?</div><div>ANSWER: 30</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The equipotential surfaces surrounding a point charge most closely resemble what 3D shape?</div><div>ANSWER: SPHERE</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Eukaryotic cells are defined by the presence of membrane-bound organelles. Which of the following organelles has a double membrane?</div><div>W) Golgi apparatus<br>X) Smooth endoplasmic reticulum<br>Y) Rough endoplasmic reticulum<br>Z) Chloroplast</div><div>ANSWER: Z) Chloroplast</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following best describes the primary function of stomata in plants?</div><div>W) Regulation of gas exchange<br>X) Synthesis of carotenoids<br>Y) Transport of sugars<br>Z) Transport of water</div><div>ANSWER: W) Regulation of gas exchange</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following minerals is higher on the Mohs hardness scale than quartz?</div><div>W) Talc<br>X) Topaz<br>Y) Calcite<br>Z) Apatite</div><div>ANSWER: X) Topaz</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three processes that are main causes of sea level rise
+1) Thermal expansion of seawater
+2) Melting of land ice
+3) Melting of oceanic ice.</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following molecules is nonpolar?</div><div>W) NH<sub>3</sub><br>X) SF<sub>6</sub><br>Y) CH<sub>3</sub>F<br>Z) HCN</div><div>ANSWER: X) SF<sub>6</sub></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following three acids in terms of increasing pKa
+1) Acetic acid
+2) Sulfuric acid
+3) Boric acid.</div><div>ANSWER: 2, 1, 3</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A right triangle has a hypotenuse of length 16 and an area of 64. If a similar triangle has a hypotenuse of length 6, then what is its area?</div><div>ANSWER: 9</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the y–intercept of the graph of y = the fraction with numerator x<sup>2</sup> + 3x – 4 and denominator x – 1?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers in the Doudna lab have recently identified similar adaptations across various strains of SARS–CoV–2 that developed independently of each other. What evolutionary pattern best describes this development?</div><div>ANSWER: CONVERGENT EVOLUTION</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at the Lawrence Berkeley National Lab are building a high-speed quantum computing network based on the concept that interacting with one particle can influence the quantum state of a different particle arbitrarily far away. What is the name of this phenomenon?</div><div>ANSWER: ENTANGLEMENT</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Find all roots of the following parabola: y = 2x<sup>2</sup> + 5x + 2.</div><div>ANSWER: x = –1/2 AND x = –2</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Let f of x be a differentiable function such that f of –2 equals –4 and f of 2 equals 8. The Mean Value Theorem guarantees that the derivative of f obtains what value between –2 and 2?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Angela analyzed a biological compound in a mass spectrometer and found that it contained carbon, hydrogen, oxygen, nitrogen, and phosphorus. Which of the following macromolecules would this compound most likely be classified as?</div><div>W) Carbohydrate<br>X) Lipid<br>Y) Nucleic acid<br>Z) Protein</div><div>ANSWER: Y) Nucleic acid</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following epithelial cell types is best suited for organs that require expansion of surface area, such as the bladder or urethra?</div><div>W) Simple squamous<br>X) Pseudostratified columnar<br>Y) Stratified cuboidal<br>Z) Transitional</div><div>ANSWER: Z) Transitional</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three fault classifications which correctly describe the San Andreas Fault
+1) Transform
+2) Strike-slip
+3) Normal.</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What is the term for the areas of the lunar surface which contain large amounts of basalt, believed to have been formed by the surfacing of molten rock from the Moon’s mantle?</div><div>ANSWER: MARIA <span class="also-accept">(also accept: MARE)</span></div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the work, in joules, required to move a 1-coulomb charge from the surface of a 20-volt sphere to a 10-volt sheet?</div><div>ANSWER: –10</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following systems has the greatest gravitational potential energy?</div><div>W) 500-gram ball held at 10 meters above Earth’s surface<br>X) 1-kilogram ball held at 10 meters above the Moon’s surface<br>Y) 5-kilogram ball held at 10 meters above Earth’s surface<br>Z) 5-kilogram ball held at 10 meters above the Moon’s surface</div><div>ANSWER: Y) 5-kilogram ball held at 10 meters above Earth’s surface</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+If the pH of an NaOH solution at 25 degrees Celsius is 12, then what is the pOH?</div><div>W) 2<br>X) 3<br>Y) 5<br>Z) 14</div><div>ANSWER: W) 2</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Peptide bonds are formed between what two functional groups?</div><div>ANSWER: CARBOXYL AND AMINO <span class="also-accept">(also accept: CARBOXYLIC ACID AND AMINE)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What moon is known as the most volcanically active object in the Solar System?</div><div>ANSWER: IO</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Antares is approximately 170 parsecs from the Earth. To the nearest thousandth of an arcsecond, what is the parallax angle of Antares as viewed from the Earth?</div><div>ANSWER: 0.006</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Scientists at the Lawrence Livermore National Lab are studying the growth of crystals in deuterium and tritium isotopes, which are used as fuel in fusion ignition experiments. Deuterium and tritium are isotopes of what element?</div><div>ANSWER: HYDROGEN</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The UC Berkeley Ultracold Atomic Physics Lab has been exploring the capabilities of a state of matter which can form below a critical temperature in some materials, in which a large fraction of the bosons all occupy the same quantum state. What is the name for this state of matter?</div><div>ANSWER: BOSE–EINSTEIN CONDENSATE <span class="also-accept">(also accept: BEC)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A circuit consists of two 3-ohm resistors in parallel connected in series with a 1-ohm resistor. In ohms and to two significant figures, what is the equivalent resistance of this circuit?</div><div>ANSWER: 2.5</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A block is placed with zero initial velocity at the top of a 10-meter long frictionless inclined plane and has a velocity of 10 meters per second when it reaches the bottom. Assuming g equals 10 meters per second squared, what angle in degrees does the ramp form with the ground?</div><div>ANSWER: 30</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+If f of x equals 2x<sup>2</sup> – 5 and g of x equals 3x, what is f of g of 2?</div><div>ANSWER: 67</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Consider the following set of integers: 3, 5, 11, 6, and x. If this set has a range of 12, then what is the maximum value for its mean?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements explains why zinc is used in the galvanization of iron?</div><div>W) Zinc is cheaper than iron<br>X) Zinc is more easily oxidized than iron<br>Y) Zinc increases the conductivity of iron<br>Z) Zinc is lighter than iron</div><div>ANSWER: X) Zinc is more easily oxidized than iron</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Nickel is industrially refined via the Mond process, in which solid nickel is reacted with carbon monoxide in a sealed container to form nickel tetracarbonyl. In scientific notation and to one significant figure, what is the equilibrium constant of this reaction at 300 kelvins if the partial pressure of CO in the container is 4 atmospheres?</div><div>ANSWER: 4 × 10<sup>-3</sup></div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following statements is NOT true regarding the phospholipid bilayer?</div><div>W) The phosphate head is hydrophilic and the lipid tail is hydrophobic<br>X) Nonpolar molecules like carbon dioxide must use a transmembrane protein<br>Y) Large polar molecules such as glucose cannot perform simple diffusion<br>Z) Large nonpolar molecules such as glycerides must perform facilitated diffusion</div><div>ANSWER: X) Nonpolar molecules like carbon dioxide must use a transmembrane protein</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+What is the only type of selection that does not lead to descent with modification?</div><div>W) Directional selection<br>X) Disruptive selection<br>Y) Sexual selection<br>Z) Stabilizing selection</div><div>ANSWER: Z) Stabilizing selection</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

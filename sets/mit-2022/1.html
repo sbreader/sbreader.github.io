@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2022 Round 1</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2022/1" />
+<meta name="description" content="MIT 2022 Round 1: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2022" data-packet="1">
+<div class="float-row mb-3"><span class="float-start">Packet 1 (Round 1) of <a href="sets/mit-2022/">MIT 2022</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2022/Round_1.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements is true when the pH of a solution increases by 1?</div><div>W) The concentration of H<sup>+</sup> doubles<br>X) The concentration of H<sup>+</sup> increases tenfold<br>Y) The concentration of OH<sup>-</sup> doubles<br>Z) The concentration of OH<sup>-</sup> increases tenfold</div><div>ANSWER: Z) The concentration of OH<sup>-</sup> increases tenfold</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following acidic solutions has the greatest percentage dissociation of the acid?</div><div>W) 0.1 molar acetic acid solution<br>X) 1 molar acetic acid solution<br>Y) 0.1 molar trifluoroacetic acid solution<br>Z) 1 molar trifluoroacetic acid solution</div><div>ANSWER: Y) 0.1 molar trifluoroacetic acid solution</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What quadrant would contain the angle measuring 1300 degrees in standard position?</div><div>ANSWER: Quadrant III <span class="also-accept">(also accept: 3)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+If log<sub>2</sub> log<sub>3</sub> log<sub>4</sub> x = 0, then what is the value of x?</div><div>ANSWER: 64</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+The Gehring Lab at MIT is studying gene imprinting in the endosperm, a plant structure that typically has which of the following polyploidys?</div><div>W) n<br>X) 2n<br>Y) 3n<br>Z) 4n</div><div>ANSWER: Y) 3n</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+The Jaenisch Lab at MIT was one of the pioneers of reprogramming iPSCs, and even used iPSCs to treat a disease in mice. What is the term for this disease characterized by abnormal hemoglobin, and whose effect is protective against malaria?</div><div>ANSWER: Sickle-cell anemia</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following interactions found in the tertiary structure of proteins is the strongest?</div><div>W) Van der Waals interactions<br>X) Hydrogen bonding<br>Y) Disulfide bridges<br>Z) Ionic interactions</div><div>ANSWER: Y) Disulfide bridges</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following can be classified as a fibrous protein?</div><div>W) Collagen<br>X) Hemoglobin<br>Y) Albumin<br>Z) Oxytocin</div><div>ANSWER: W) Collagen</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following types of dunes is formed when wind direction is variable?</div><div>W) Barchan<br>X) Longitudinal<br>Y) Transverse<br>Z) Star</div><div>ANSWER: Z) Star</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following three igneous rocks from fastest to slowest cooling time during formation
+1) Obsidian
+2) Granite
+3) Rhyolite</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Galileo drops a ball from the top of a tower, and it takes 2 seconds for the ball to reach the ground. If the Earth’s gravity were suddenly doubled, how many seconds would it take the ball to reach the ground if Galileo repeated his experiment?</div><div>ANSWER: √2</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Two cylinders are similar with a 1 to 2 ratio; the dimensions of one cylinder are exactly twice the dimensions of the other. Anka pours the same amount of water into each cylinder, and neither overflows. What is the ratio of the water pressure at the bottom of the larger cylinder to the water pressure at the bottom of the smaller cylinder?</div><div>ANSWER: 1/4 <span class="also-accept">(also accept: 0.25)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following factors most commonly leads to speciation?</div><div>W) Geographic barriers<br>X) Polyploidy<br>Y) Sexual selection<br>Z) Infertility</div><div>ANSWER: W) Geographic barriers</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following conditions is present in Hardy- Weinberg equilibrium?</div><div>W) Migration<br>X) Nonrandom mating<br>Y) Large population<br>Z) Random mutations</div><div>ANSWER: Y) Large population</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following functions does NOT have an inverse?</div><div>W) y = x<sup>3</sup><br>X) y = arctan x<br>Y) y = arcsin x<br>Z) y = ⌊x⌋</div><div>ANSWER: Z) y = ⌊x⌋</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many sets of single-digit positive integers contain at least one odd and at least one even number?</div><div>ANSWER: 465</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+MIT physicists at the LIGO Lab have used black holes to search for ultralight bosons such as the hypothetical axion. If these particles existed, they would make up what hypothetical substance, whose existence is inferred from its gravitational effects?</div><div>ANSWER: Dark matter</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Scientists at MIT’s Plasma Science and Fusion Center are studying the usage of tokamak devices to magnetically confine plasma composed of deuterium and tritium for fusion. In addition to energy, the fusion of deuterium and tritium produces helium-4 and what other nuclear product?</div><div>ANSWER: Neutron</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following molecules is nonpolar?</div><div>W) NH<sub>3</sub><br>X) PBr<sub>5</sub><br>Y) SO<sub>2</sub><br>Z) ClF<sub>5</sub></div><div>ANSWER: X) PBr<sub>5</sub></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three statements which are true about fluorine
+1) Fluorine’s elemental form is the strongest oxidizing agent compared to other elements
+2) Fluorine is the element with the greatest electronegativity
+3) Fluorine is the element with the most negative electron affinity</div><div>ANSWER: 1 and 2 <span class="also-accept">(also accept: All but 3)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A solenoid inductor has 100 coils over a length of 1 centimeter. The solenoid is then stretched to a length of 2 centimeters, without changing its cross-sectional area. By what factor does the inductance of the solenoid change?</div><div>ANSWER: 1/2 <span class="also-accept">(also accept: 0.5)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Suppose the xy-plane has a uniform, nonzero charge density. What is the ratio of the magnitude of the electric field at z = 3 meters to that at z = 1 meter?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three types of moraines that run parallel to the direction of movement of glaciers
+1) Lateral moraine
+2) Medial moraine
+3) Terminal moraine</div><div>ANSWER: 1 and 2 <span class="also-accept">(also accept: All but 3)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following processes is NOT a way which air can be forced to rise?</div><div>W) Orographic lifting<br>X) Frontal wedging<br>Y) Evaporative cooling<br>Z) Convergence of air</div><div>ANSWER: Y) Evaporative cooling</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+By name or number, identify all the following three groups of animals that have limbs with digits
+1) Frogs
+2) Turtles
+3) Mammals</div><div>ANSWER: 1,2,3 <span class="also-accept">(also accept: All)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What taxonomic class does the sand cat, Felis margarita, appear in?</div><div>ANSWER: Mammalia <span class="also-accept">(also accept: Mammals)</span></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Valley networks on the surface of Mars are thought to have been formed by which of the following?</div><div>W) Wind<br>X) Tectonic activity<br>Y) Flowing water<br>Z) Volcanism</div><div>ANSWER: Y) Flowing water</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What is the name of the region on the HR diagram where a combination of size and temperature causes stars to become unstable and pulsate?</div><div>ANSWER: Instability strip</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following is the SI unit of capacitance?</div><div>W) Ohm<br>X) Farad<br>Y) Henry<br>Z) Maxwell</div><div>ANSWER: X) Farad</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+In a driven series RLC circuit, the voltage across the inductor is proportional to which of the following?</div><div>W) Current squared<br>X) Inverse of inductance<br>Y) Second derivative of charge on the capacitor<br>Z) Voltage across the battery</div><div>ANSWER: Y) Second derivative of charge on the capacitor</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers in the Lippard group at MIT have developed a fluorescent sensor to detect minute concentrations of NO, nitric oxide, and HNO, nitroxyl, in living cells. What is the molecular geometry of the nitroxyl molecule?</div><div>ANSWER: Bent</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Schrock group at MIT have discovered a method of catalytically reducing dinitrogen to ammonia at room temperature and pressure using molybdenum complexes. In the half-reaction for the reduction of dinitrogen to ammonia, how many electrons are transferred per molecule of dinitrogen?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+If four friends of different heights are arranged randomly in a line, what is the probability that they are in order of either increasing or decreasing height?</div><div>ANSWER: 1/12</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+A real-valued polynomial with degree 5 has no repeated real roots. What is the sum of the possible numbers of real roots that it can have?</div><div>W) 6<br>X) 9<br>Y) 12<br>Z) 15</div><div>ANSWER: X) 9</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following nuclear decay modes is plutonium-242 most likely to undergo?</div><div>W) Alpha decay<br>X) Beta minus decay<br>Y) Beta plus decay<br>Z) Electron capture</div><div>ANSWER: W) Alpha decay</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+The nuclear decay pathway of plutonium-242 to lead-206 involves a mix of alpha and beta decays. How many alpha decays occur during this decay process?</div><div>ANSWER: 9</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What type of galaxy does the Faber-Jackson relation apply to, setting the luminosity of the galaxy proportional to the fourth power of the central stellar velocity dispersion?</div><div>ANSWER: Elliptical galaxy</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What is the apparent magnitude of a star that has 100 times the flux of Vega?</div><div>ANSWER: −5</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Consider the sequence of 10 numbers where the n-th number represents the number of positive integer factors of n. What is the mode of this sequence?</div><div>W) 1<br>X) 2<br>Y) 3<br>Z) 4</div><div>ANSWER: X) 2</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The math, science, and history classes at a school each have 35 students. Every pair of classes has exactly 9 students in common, and there are 3 students in all three classes. How many students are in at least one of the three classes?</div><div>ANSWER: 81</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A cannonball is launched from ground level at a 60 degree angle to the ground, with velocity of 6 meters per second. In meters per second, what is the maximum speed that the cannonball will take during its journey?</div><div>W) 4<br>X) 5<br>Y) 6<br>Z) 7</div><div>ANSWER: Y) 6</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An ideal, frictionless pulley consists of a massless string connecting two masses of 3 and 4 kilograms. What is the magnitude of the acceleration of the 4-kilogram mass in meters per second squared?</div><div>ANSWER: 7 / 5 <span class="also-accept">(also accept: 1.4)</span></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following three emissions from a hydrogen atom by increasing wavelength
+1) n = 4 to n = 2
+2) n = 4 to n = 1
+3) n = 6 to n = 5</div><div>ANSWER: 2, 1, 3</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following sets of quantum numbers is NOT possible?</div><div>W) n = 2, l = 0, m<sub>l</sub> = 0<br>X) n = 2, l = 1, m<sub>l</sub> = −1<br>Y) n = 3, l = 2, m<sub>l</sub> = 3<br>Z) n = 5, l = 3, m<sub>l</sub> = 3</div><div>ANSWER: Y) n = 3, l = 2, m<sub>l</sub> = 3</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following traits is NOT a derived trait of chordates?</div><div>W) Notochord<br>X) Pharyngeal slits<br>Y) Post-anal tail<br>Z) Limb buds</div><div>ANSWER: Z) Limb buds</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following five organisms that are deuterostomes
+1) Humans
+2) Snails
+3) Nematodes
+4) Earthworms
+5) Jellyfish</div><div>ANSWER: 1 only</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

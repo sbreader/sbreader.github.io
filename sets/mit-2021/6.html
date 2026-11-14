@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2021 round 6</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2021/6" />
+<meta name="description" content="MIT 2021 round 6: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2021" data-packet="6">
+<div class="float-row mb-3"><span class="float-start">Packet 6 (round 6) of <a href="sets/mit-2021/">MIT 2021</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2021/round6.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+In the most common form of glycolysis, the final step involves the synthesis of pyruvate from the dephosphorylation of what compound, which is also involved in carbon fixation of C4 plants?</div><div>ANSWER: PEP <span class="also-accept">(also accept: Phosphoenolpyruvate)</span></div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four compounds that would result in increased rates of glycolysis at concentrations higher than normal
+1) AMP
+2) Fructose-2,6-bisphosphate
+3) Glucagon
+4) Glucose-6-phosphate</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The Bartel group studies microRNAs which contribute to gene silencing by base-pairing to mRNA. What is the analogous RNA component involved in RNA interference?</div><div>ANSWER: siRNAs <span class="also-accept">(also accept: small interfering RNAs)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+The Bartel group produced a model for how microRNAs can act cooperatively to enhance gene silencing. Cooperative binding between proteins is often quantified using a Hill Coefficient. What values for a Hill coefficient indicate cooperative binding?</div><div>W) Less than 0<br>X) Between 0 and 0.5<br>Y) Between 0.5 and 1<br>Z) Greater than 1</div><div>ANSWER: Z) Greater than 1</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+When you add zinc to concentrated sulfuric acid, you notice the evolution of a pungent gas from the solution. Which of the following is the most likely identity of the pungent gas?</div><div>W) H<sub>2</sub>S<br>X) H<sub>2</sub><br>Y) SO<sub>2</sub><br>Z) SO<sub>3</sub></div><div>ANSWER: Y) SO<sub>2</sub></div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Fuming sulfuric acid consists of a concentrated solution of sulfur trioxide gas in sulfuric acid. What is the chemical formula of the predominant sulfur containing species in fuming sulfuric acid?</div><div>ANSWER: H<sub>2</sub>S<sub>2</sub>O<sub>7</sub></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+How many real roots does the polynomial x<sup>3</sup> + 7x + 2 have?</div><div>W) 0<br>X) 1<br>Y) 2<br>Z) 3</div><div>ANSWER: X) 1</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the average value of the function f(x) = sin<sup>2</sup>(x) cos<sup>2</sup>(x) on the interval between x = 0 and x = π?</div><div>ANSWER: 1/8</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is not an ore of copper?</div><div>W) Bornite<br>X) Chalcopyrite<br>Y) Chalcocite<br>Z) Bauxite</div><div>ANSWER: Z) Bauxite</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What term describes the degree of flattening of celestial objects, generally due to rotation?</div><div>ANSWER: Oblateness</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+To one significant figure, in meters, what is the maximum height attained by a ball thrown directly upward from the ground at 14 meters per second?</div><div>ANSWER: 10 meters</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+When the cosmic microwave background, or CMB, is measured, one finds a relative difference on the order of 0.01% between the frequency of the radiation in one direction and the frequency of the radiation in the opposite direction. This difference can be explained by which of the following?</div><div>W) Small fluctuations in energy density in the early universe<br>X) Emissions from a distant quasar<br>Y) The Local Group having nonzero velocity relative to the CMB<br>Z) Interference from interstellar gas and dust</div><div>ANSWER: Y) The Local Group having nonzero velocity relative to the CMB</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+A nickel-63 nucleus would most likely undergo which of the following decay modes?</div><div>W) Alpha decay<br>X) Electron capture<br>Y) Beta-plus decay<br>Z) Beta-minus decay</div><div>ANSWER: Z) Beta-minus decay</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following 3 ligands in order of increasing denticity
+1) EDTA
+2) Porphine
+3) Oxalate</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What term describes the majority of animals that are not able to tolerate changes in surrounding osmolarity?</div><div>ANSWER: Stenohaline</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true regarding human sensory mechanisms
+1) Hearing is perceived via the bending of the cupula, leading to the hyperpolarization of mechanoreceptors
+2) The semicircular canals are partially responsible for balance
+3) Humans are well known for the use of a lateral line system</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+A strange calculator has two buttons which either allow you to double the current number or add 1 to the current number. Starting from an input of 1, what is the minimum number of button presses required to arrive at a value of 20?</div><div>W) 5<br>X) 6<br>Y) 7<br>Z) 8</div><div>ANSWER: W) 5</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+On another strange calculator, there are two buttons which either allow you to multiply the current input by −2 or subtract 1 from the current input. From a starting input of 1, what is the largest possible number that you can generate in at most 7 button presses?</div><div>ANSWER: 96</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following is NOT a condition of mechanical equilibrium?</div><div>W) Acceleration is 0<br>X) Net force is 0<br>Y) Angular momentum is 0<br>Z) Net torque is 0</div><div>ANSWER: Y) Angular momentum is 0</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Consider a tube closed at one end and open at the other. A standing pressure wave is set up inside of that tube. By name or number, identify all of the four boundary conditions which must be satisfied to create this situation
+1) The absolute pressure at the open end of the pipe is zero
+2) The gauge pressure at the open end of the pipe is zero
+3) The gauge pressure at the closed end of the pipe is zero
+4) The pressure at the closed end must equal the pressure at the open end</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+A decrease of 1 in a star’s absolute magnitude corresponds to an increase in flux by approximately what factor?</div><div>W) 1.5<br>X) 2<br>Y) 2.5<br>Z) 5</div><div>ANSWER: Y) 2.5</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The Barbados Ridge has resulted from South American Plate is subducting beneath Caribbean Plate and sediments accumulating in the space between them. What is the name of this type of structure?</div><div>ANSWER: Accretionary wedge <span class="also-accept">(also accept: accretionary prism)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+The Swager group at MIT has developed a device to detect peroxides in materials. Hydrogen peroxide decomposes in air to release what two molecules?</div><div>ANSWER: Water and oxygen gas</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+The Swager group at MIT has recently published research on a chemiresistive methane sensor based on the formation of high-valent platinum. In the sensor, methane undergoes a two electron oxidation. What is the product of methane oxidation in this reaction?</div><div>ANSWER: CH<sub>3</sub>OH <span class="also-accept">(also accept: methanol)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What mathematician developed a notation of calculus that uses dy and dx independently of the work of Isaac Newton?</div><div>ANSWER: Gottfried Wilhelm Leibniz <span class="also-accept">(also accept: Leibniz)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+What is the maximum r such that nine spheres of radius r can be packed inside a cube of side length 4?</div><div>W) 3√3 − 5<br>X) 4√3 − 6<br>Y) 2√3 − √6<br>Z) 2√3 − 1</div><div>ANSWER: X) 4√3 − 6</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Researchers in the Fault Mechanics group at MIT are studying how magmatic intrusions can cause extensional strain in the Earth’s crust. They are specifically studying the affects of intrusions that vertically cut through many layers of rock. What are the names of these intrusions?</div><div>ANSWER: Dikes</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Researchers in the Fault Mechanics group at MIT the moment magnitude scale to measure the intensity of foreshocks and aftershocks of earthquakes. Which of the following statements best describes the difference between the Richter scale and the moment magnitude scale?</div><div>W) The Richter scale is based on energy released whereas the moment magnitude scale is based on damage done<br>X) The moment magnitude scale considers factors such as fault displacement whereas the Richter scale does not<br>Y) The Richter scale is a quadratic scale whereas the moment magnitude scale is a logarithmic scale<br>Z) A high scoring earthquake on the Richter scale will have a low score on the moment magnitude scale</div><div>ANSWER: X) The moment magnitude scale considers factors such as fault displacement whereas the Richter scale does not</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following statements is true regarding plant transport?</div><div>W) Sucrose is typically transported through sieve-tubes<br>X) Bulk flow in plants functions through negative pressure<br>Y) Under normal conditions, proteins may pass through plant plasmodesmata<br>Z) The Casparian strip is only permeable to water</div><div>ANSWER: W) Sucrose is typically transported through sieve-tubes</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Suppose there are three groups with 100 organisms each with 3 different species W, X, and Y: Group 1 contains 25 W, 50 X and 25 Y, Group 2 contains 50 W and 50 X while Group 3 contains 33 W, 34 X, and 33 Y, which of the three groups has the highest diversity, according to the Shannon Diversity Index?</div><div>W) Group 1<br>X) Group 2<br>Y) Group 3<br>Z) Two groups have equal diversity</div><div>ANSWER: Y) Group 3</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What term describes streamlined asymmetrical hills formed by retreating glaciers that point in the opposite direction of a glacier’s retreat?</div><div>ANSWER: Drumlin</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three elements that are present in the Fraunhofer spectral line series
+1) Hydrogen
+2) Calcium
+3) Iron</div><div>ANSWER: 1, 2, and 3 <span class="also-accept">(also accept: all)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+In kilogram meters squared, what is the moment of inertia about the central axis perpendicular to the plane of a square with sides of length 3 meters and a mass of 10 kilograms?</div><div>ANSWER: 15 kilogram meters squared</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A 1-centimeter long projectile is shot through a wheel at 100 meters per second. There are 8 evenly spaced spokes on the wheel. What is the minimum angular velocity, in revolutions per second, that is needed to ensure the projectile hits a spoke?</div><div>ANSWER: 1250 revolutions per second</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+In electroplating, the pure metal deposits on which electrode?</div><div>W) Positive cathode<br>X) Positive anode<br>Y) Negative cathode<br>Z) Negative anode</div><div>ANSWER: Y) Negative cathode</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three pairs of compounds which have the same molecular geometry
+1) ICl<sub>3</sub> and NH<sub>3</sub>
+2) SF<sub>4</sub> and XeF<sub>4</sub>
+3) SO<sub>3</sub> and BF<sub>3</sub></div><div>ANSWER: 3 only</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Jessica is performing colorimetry on a compound, so she plots the transmittance versus the concentration of the compound. Which of the following best describes the graph that results?</div><div>W) Linear<br>X) Quadratic<br>Y) Exponential<br>Z) Logarithmic</div><div>ANSWER: Y) Exponential</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following numbers is closest to the maximal molar extinction coefficient in the visible light range of the permanganate anion?</div><div>W) 10<sup>2</sup> liters per mole per centimeter<br>X) 10<sup>4</sup> liters per mole per centimeter<br>Y) 10<sup>6</sup> liters per mole per centimeter<br>Z) 10<sup>8</sup> liters per mole per centimeter</div><div>ANSWER: X) 10<sup>4</sup> liters per mole per centimeter</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+In relativity, the combination of space and time allows the construction of what vectors with timelike and spacelike components?</div><div>ANSWER: Four-vectors</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, arrange the following three materials in order of increasing thermal conductivity
+1) Diamond
+2) Brass
+3) Fiberglass</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following mutagens is the most common cause of a thymine dimer?</div><div>W) Benzo[a]pyrene<br>X) Radium<br>Y) UV light<br>Z) Mustard gas</div><div>ANSWER: Y) UV light</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Quantum tunneling is thought to be a possible source of some mutations in DNA. Ions of what element in DNA are susceptible to moving via quantum tunneling?</div><div>ANSWER: Hydrogen</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+How many 100-digit positive integers have digit sum 898?</div><div>W) 4950<br>X) 5050<br>Y) 5150<br>Z) 5250</div><div>ANSWER: X) 5050</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+For real values of x, what is the maximum possible value of sin x + 2 cos x?</div><div>ANSWER: √5</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the name given to the stage of our universe during which protons captured free electrons to form neutral hydrogen, resulting in the universe becoming transparent?</div><div>ANSWER: Recombination</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following minerals is the principle ore for lead?</div><div>W) Sphaelerite<br>X) Galena<br>Y) Cinnabar<br>Z) Chalcopyrite</div><div>ANSWER: X) Galena</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

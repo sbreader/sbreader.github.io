@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2023 Round 1</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2023/1" />
+<meta name="description" content="MIT 2023 Round 1: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2023" data-packet="1">
+<div class="float-row mb-3"><span class="float-start">Packet 1 (Round 1) of <a href="sets/mit-2023/">MIT 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2023/Round%201.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Fossilized remains are not the only available types of fossils. What term encompasses all fossils that record movements of animals, preserving evidence of their existence, while not necessarily requiring fossilization of organic tissues?</div><div>ANSWER: Trace fossils</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following features which emit nutrients at the bottom of the ocean would most likely be found close to the axis of a mid-ocean ridge?</div><div>W) Cold seep<br>X) Black smoker<br>Y) White smoker<br>Z) Brine pool</div><div>ANSWER: X) Black smoker</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Every Halloween, MIT students drop pumpkins off the roof of the Green Building. An observing student measures that it takes 4 seconds for a pumpkin to fall all the way down. Assuming that the pumpkins are dropped starting from rest, to the nearest 10 meters, how tall is the Green Building?</div><div>W) 60<br>X) 70<br>Y) 80<br>Z) 90</div><div>ANSWER: Y) 80</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A block of mass 5 kilograms is traveling at 2 meters per second, and another block of mass 7 kilograms is traveling at 4 meters per second in the opposite direction. Given that the two blocks collide and stick together, in joules, what is the combined kinetic energy of the blocks after the collision?</div><div>ANSWER: 13.5</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+If x is quadrupled and then increased by 13, the result is −5. What is the value of x?</div><div>ANSWER: −9/2</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A clock has an hour hand that is 6 inches long, and a minute hand that is 8 inches long. What is the ratio of the distance in inches traveled by the tip of the hour hand to the distance in inches traveled by the tip of the minute hand between noon and 3 PM on a given day?</div><div>ANSWER: 1/16</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Gram staining is a common biological technique that differentiates bacteria based on the structure of what cellular organelle?</div><div>ANSWER: Cell wall <span class="do-not-accept">(do not accept: Cell membrane)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Prior to bacterial conjugation, a hairlike appendage from the donor cell attaches to the recipient cell and then retracts, pulling the two cells together. What is the term for this appendage?</div><div>ANSWER: Pilus <span class="also-accept">(also accept: Sex pilus)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following molecules is polar?</div><div>W) CO<sub>2</sub><br>X) SF<sub>4</sub><br>Y) SF<sub>6</sub><br>Z) Cl<sub>2</sub></div><div>ANSWER: X) SF<sub>4</sub></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What is the hybridization of nitrogen in hydrazine, N<sub>2</sub>H<sub>4</sub>?</div><div>ANSWER: sp<sup>3</sup></div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at the Weinberg Lab at MIT are studying the epithelial-mesenchymal transition, or EMT, of cancer cells. Specifically, they discovered that cells undergoing the EMT are most likely to spread to other parts of the body. What term refers to this process, in which cancer cells migrate and grow in areas of the body far from the initial tumor?</div><div>ANSWER: Metastasis</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers at the Jaenisch Lab of MIT are studying ways to modify the CRISPR/Cas9 gene editing system for epigenomic editing. In particular, they have fused dCas9 with DNMT3A to allow for the targeted silencing of genes via the addition of a functional group to DNA. What functional group is added to DNA to accomplish this task?</div><div>ANSWER: Methyl</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Ocean acidification is caused by small changes to the concentration of hydronium ions in ocean water. If the concentration of hydronium ions in ocean water were doubled, how would the pH of ocean water change?</div><div>W) Increase by 0.3<br>X) Increase by 0.7<br>Y) Decrease by 0.3<br>Z) Decrease by 0.7</div><div>ANSWER: Y) Decrease by 0.3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three statements that are true about helium
+1) It is the most reactive noble gas
+2) It is the element with the highest ionization energy
+3) It naturally occurs as a diatomic gas</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+To the nearest ten millibars, what is the average sea level pressure on Earth?</div><div>ANSWER: 1010</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following three rocks from smallest to largest grain size
+1) Breccia
+2) Shale
+3) Siltstone
+4) Sandstone</div><div>ANSWER: 2,3,4,1</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+The majority of the mass of atomic nuclei in transuranium elements is from which of the following subatomic particles?</div><div>W) Protons<br>X) Electrons<br>Y) Muons<br>Z) Neutrons</div><div>ANSWER: Z) Neutrons</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A disk starts from rest and begins rotating with constant angular acceleration. If after 18 seconds the disk has made 9 revolutions, how long in seconds did it take for the disk to make its first revolution?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the sum of the divisors of 1024?</div><div>ANSWER: 2047</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+If cos(x) = 3/5, what is cos(2x)?</div><div>ANSWER: −7/25</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers at the Suess lab at MIT are studying nitrogen fixation. The reduction of dinitrogen into ammonia requires how many electrons per atom of nitrogen?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Gilliard lab at MIT are working on redox chemistry of alkaline earth metals. Identify all of the following three elements that are considered alkaline earth metals
+1) Sodium
+2) Magnesium
+3) Strontium</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Currently, one of the leading theories for the origin of COVID-19 involves its transmission from bats to humans in China. If this is true, what adjective can be used to describe COVID-19, referring to pathogens that jump from animals to humans?</div><div>ANSWER: Zoonotic</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following statements is TRUE about the Calvin Cycle?</div><div>W) The Calvin cycle produces glucose as its product<br>X) The Calvin cycle occurs in the thylakoid space<br>Y) The first step of the Calvin cycle reacts CO<sub>2</sub> with a 5-carbon sugar<br>Z) C4 and CAM plants avoid photorespiration by modifying the Calvin cycle</div><div>ANSWER: Y) The first step of the Calvin cycle reacts CO<sub>2</sub> with a 5-carbon sugar</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+The reaction between one molecule of solid iodine and five molecules of gaseous fluorine to produce two molecules of gaseous iodine pentafluoride has a reaction quotient Q. If the amount of each species present is doubled, what is the new reaction quotient in terms of Q?</div><div>ANSWER: Q/8</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What is the molar mass of mercury (I) chloride to the nearest ten grams per mole, given that the molar mass of mercury is 200 grams per mole and that the molar mass of chlorine is 35 grams per mole?</div><div>ANSWER: 470</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+When expressed in base 10, what is the largest five-digit base-3 number?</div><div>ANSWER: 242</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Identify all of the following three types of functions that are guaranteed to have a horizontal asymptote
+1) Exponential
+2) Logistic
+3) Sinusoidal</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+One way of approximating the magnetic field of the Sun is to observe changes in emission spectra compared to equivalent gases not in a magnetic field. This is due to what effect where a magnetic field causes a splitting of spectral lines?</div><div>ANSWER: Zeeman effect</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+To the nearest order of magnitude and in kelvin, what temperature is the Sun’s core?</div><div>ANSWER: 10 million</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Lateral roots of plants originate from what structure?</div><div>W) Phelloderm<br>X) Pericycle<br>Y) Cortex<br>Z) Epidermis</div><div>ANSWER: X) Pericycle</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Rank the following three molecules by increasing rate at which they will cross a phospholipid bilayer without transporters
+1) Carbon dioxide
+2) Chloride ion
+3) Water</div><div>ANSWER: 2, 3, 1</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers in the Moodera group at MIT have made a superconducting device which allows more current in one direction than the other direction. This makes it a superconducting version of what usual circuit element, which has a preferential direction of current?</div><div>ANSWER: Diode</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Scientists in MIT’s Research Laboratory of Electronics have photographed cold neutral atoms forming pairs, similar to the pairs of electrons in superconductors. Which of the following neutral atoms did they photograph?</div><div>W) Sodium-23<br>X) Magnesium-24<br>Y) Potassium-39<br>Z) Potassium-40</div><div>ANSWER: Z) Potassium-40</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A lever of length 10 meters has its fulcrum 2 meters from one of the ends of the lever. If a 400 newton point mass is placed on the closer end of the lever to the fulcrum, what is the minimum force, in newtons, required on the other end of the lever to lift the mass?</div><div>ANSWER: 100</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A capacitor with capacitance C is placed in series with 2 identical capacitors in parallel with each other, and then in series with 3 identical capacitors in parallel with each other, and then in series with 4 identical capacitors in parallel with each other. In terms of C, what is the equivalent capacitance of the system?</div><div>ANSWER: 12C/25 <span class="also-accept">(also accept: 0.48 C)</span></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Let f(x) be the cubic function x<sup>3</sup> − 6x<sup>2</sup> + 11x − 6. If two of its roots are 2 and 3, what is the other root?</div><div>W) −2<br>X) −1<br>Y) 1<br>Z) 2</div><div>ANSWER: Y) 1</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Andrew and Grace both have a sequence of five numbers starting with the numbers one and three. Andrew’s sequence is arithmetic, and Grace’s sequence is geometric. What is the positive difference between the sum of Grace’s sequence and the sum of Andrew’s sequence?</div><div>ANSWER: 96</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Dust in the circumstellar region causes excess emissions in what range?</div><div>W) X-Rays<br>X) Ultraviolet<br>Y) Infrared<br>Z) Radio</div><div>ANSWER: Y) Infrared</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, rank the following three events during the typical formation of a star in chronological order
+1) Crossing the birth line
+2) Free-fall collapse
+3) Shock wave hits a molecular cloud</div><div>ANSWER: 3, 2, 1</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+A chemist is studying the kinetics of a second order reaction by collecting the absorbance of the reactant at different times. Which of the following graphs could the chemist use to directly derive the rate constant for the disappearance of the reactant?</div><div>W) Absorbance versus time<br>X) Logarithm of absorbance versus time<br>Y) Inverse of absorbance versus time<br>Z) Square of absorbance versus time</div><div>ANSWER: Y) Inverse of absorbance versus time</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following quantum numbers cannot be assigned to any orbital?</div><div>W) n = 3, l = 2, m<sub>l</sub> = 0<br>X) n = 3, l = 3, m<sub>l</sub> = 2<br>Y) n = 4, l = 1, m<sub>l</sub> = 1<br>Z) n = 4, l = 3, m<sub>l</sub> = 3</div><div>ANSWER: X) n = 3, l = 3, m<sub>l</sub> = 2</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Hypervitaminosis is the condition of ingesting too many vitamins. Which of the following vitamins is MOST likely to cause hypervitaminosis?</div><div>W) Vitamin A<br>X) Vitamin C<br>Y) Vitamin B1<br>Z) Vitamin B2</div><div>ANSWER: W) Vitamin A</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+A scientist crosses two strains of yeast, each of which are heterozygous for 4 distinct traits. How many different genotypes are possible for the offspring of this cross?</div><div>ANSWER: 81</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A car is driving forwards at 25 meters per second. If the wheels of the car have radius 0.25 meters, then in radians per second, what is the angular velocity of a wheel on this car?</div><div>ANSWER: 100</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Consider a damped spring-mass system with some nonzero initial displacement. If a phase diagram is constructed with position on the horizontal axis and velocity on the vertical axis, which of the following best describes the path that the system takes?</div><div>W) Clockwise around an ellipse<br>X) Counterclockwise around an ellipse<br>Y) Clockwise in a spiral<br>Z) Counterclockwise in a spiral</div><div>ANSWER: Y) Clockwise in a spiral</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

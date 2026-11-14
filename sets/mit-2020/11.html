@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2020 round 11</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2020/11" />
+<meta name="description" content="MIT 2020 round 11: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2020" data-packet="11">
+<div class="float-row mb-3"><span class="float-start">Packet 11 (round 11) of <a href="sets/mit-2020/">MIT 2020</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2020/round11.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which histone subunit is NOT part of the core histone?</div><div>W) H1<br>X) H2A<br>Y) H3<br>Z) H4</div><div>ANSWER: W) H1</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four hormones that are amines
+1) Epinephrine
+2) Melatonin
+3) Thyroxine
+4) Calcitonin</div><div>ANSWER: 1,2,3</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the value of N if a regular polygon with N sides has an interior angle of 175 degrees?</div><div>ANSWER: 72</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+What is the remainder when 2020<sup>200</sup> is divided by 19?</div><div>W) 4<br>X) 6<br>Y) 14<br>Z) 17</div><div>ANSWER: Z) 17</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers in the Buchwald group at MIT are interested in developing next-generation ligands. To this end, they are employing organometallic coupling chemistry in order to generate ligands that are constrained in rotation about single bonds by steric effects. What form of isomerism does this cause?</div><div>ANSWER: Atropisomerism</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Wendlandt group at MIT are developing new selective, catalytic reactions. One example of a stereoselective reaction is the electrocyclic ring closure reaction. By name or number, identify each of the following electrocyclic ring-closing reactions that use a disrotatory stereochemical course
+1) Thermal ring closure of a six-pi electron system
+2) Photochemical ring closure of a four-pi electron system
+3) Photochemical ring closure of a six-pi electron system</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three statements that are TRUE of type 1a supernovae
+1) They are typically more luminous than type II supernovae
+2) Their luminosity peaks are primarily due to the decay of nickel-56
+3) They are typically seen near regions of active star formation</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What common metamorphic index mineral forms from clay minerals as a result of contact metamorphism?</div><div>ANSWER: Chlorite</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Acetone, a volatile liquid, is placed in a sealed container with a movable piston at room temperature. After letting the pressure in the container rise to acetone’s vapor pressure, the piston is pushed down and the volume of the container is decreased. By name or number, identify all of the following three statements that are true about the container after the volume is decreased
+1) The amount of liquid inside the container remains the same
+2) The pressure inside the container has decreased
+3) The pressure inside the container has increased</div><div>ANSWER: None of them</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following diagrams depicts how the standard free energy of formation for compounds varies with temperature?</div><div>W) Frost-Ebsworth Diagram<br>X) Latimer Diagram<br>Y) Ellingham Diagram<br>Z) Slater Diagram</div><div>ANSWER: Y) Ellingham Diagram</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following gives the ratio between the energy density of the electric field of an electromagnetic wave to the energy density of the magnetic field energy density?</div><div>W) 1/2<br>X) 1<br>Y) 2<br>Z) 4</div><div>ANSWER: X) 1</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Indicate, by name or number, all of the following three statements that are true of the electric field of an ideal dipole
+1) The divergence is zero everywhere but the origin
+2) The strength of the electric field falls off as 1/r<sup>2</sup>
+3) The electric field points radially outward</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following best explains the 21 centimeter line commonly used in radio astronomy to detect the galactic interstellar medium?</div><div>W) In neutral hydrogen, very high electron energy levels are close together, so a low-energy photon is emitted in a transition between levels<br>X) In molecular hydrogen, rotational energy is quantized with small differences between levels, so a low-energy photon is emitted when the rotation changes<br>Y) In neutral hydrogen, ground state electrons have a slightly higher energy when the spin is anti-aligned with that of the proton than when it is aligned, so a low-energy photon is emitted when the spin flips<br>Z) In neutral hydrogen, ground state electrons have a slightly higher energy when the spin is aligned with that of the proton than when it is anti-aligned, so a low-energy photon is emitted when the spin flips</div><div>ANSWER: Z) In neutral hydrogen, ground state electrons have a slightly higher energy when the spin is aligned with that of the proton than when it is anti-aligned, so a low-energy photon is emitted when the spin flips</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Bob the Boulder is studying the local geology of MIT, and notices that as he walks in any direction away from campus, he encounters the same series of rock strata. Taking a sample of each, he determines that the one furthest from MIT has crystals containing the isotopes Uranium-238 and Lead-206 in equal proportions, while the rocks closest to MIT have the isotopes Uranium-235 and Lead-207 in equal proportions. Which of the following structures could MIT be sitting in the middle of?</div><div>W) Anticline<br>X) Syncline<br>Y) Dome<br>Z) Basin</div><div>ANSWER: Z) Basin</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+If Albert flips a fair coin 8 times, what is the probability he flips more heads than tails?</div><div>W) 43 / 128<br>X) 93 / 256<br>Y) 1 / 2<br>Z) 93 / 128</div><div>ANSWER: X) 93 / 256</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Which of the following is closest to the probability of getting more than 55 heads when flipping a fair coin 100 times?</div><div>W) 5%<br>X) 10%<br>Y) 15%<br>Z) 20%</div><div>ANSWER: Y) 15%</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+An infinitely long charged cylindrical shell rotates with constant angular velocity. Which of the following best describes the magnetic field generated by the shell?</div><div>W) Linear with r inside the shell, zero outside the shell<br>X) Linear with r inside the shell, decays as 1/r<sup>2</sup> outside the shell<br>Y) Constant inside the shell, zero outside the shell<br>Z) Constant inside the shell, decays as 1/r<sup>2</sup> outside the shell</div><div>ANSWER: Y) Constant inside the shell, zero outside the shell</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following three statements which must be true regarding wavefunctions
+1) Wavefunctions must be continuous
+2) The derivative of wavefunctions must be continuous
+3) The wavefunction for an even potential must be even</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+At what stage of mitosis do microtubules start connecting to chromosome kinetochores?</div><div>W) Prophase<br>X) Prometaphase<br>Y) Metaphase<br>Z) Anaphase</div><div>ANSWER: X) Prometaphase</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following 4 viruses that have double stranded genetic material
+1) Adenovirus
+2) Influenza virus
+3) Parvovirus
+4) Rotavirus</div><div>ANSWER: 1 and 4</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, arrange the following three radicals in increasing stability
+1) Vinyl radical
+2) Allyl radical
+3) Tertbutyl radical</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+According to Bent’s rule, the distribution of s and p character in nitrogen’s hybrid orbitals in NH<sub>3</sub> is not an even sp<sup>3</sup> for all orbitals. Which of the following statements best describes how the hybrid orbital containing the lone pair changes to stabilize the molecule?</div><div>W) It has increased s character, and the energy of the bonds are lowered.<br>X) It has increased s character, and the energy of the lone pair is lowered.<br>Y) It has increased p character, and the energy of the bonds are lowered.<br>Z) It has increased p character, and the energy of the lone pair is lowered.</div><div>ANSWER: X) It has increased s character, and the energy of the lone pair is lowered.</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers in the Gore group at MIT are studying theoretical ecology, using mathematical tools to model populations. Some populations exhibit a minimal critical population size, under which they will not survive. This is an example of what type of effect?</div><div>ANSWER: Allee effect <span class="also-accept">(also accept: strong Allee effect)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers in the Yaffe group at MIT are stugying signaling pathways, especially in the context of cancer. Which of the following signal pathways is unlikely to be used for communication between two spatially separated cell populations?</div><div>W) RTK signaling<br>X) Notch signaling<br>Y) JAK-STAT signaling<br>Z) Wnt signaling</div><div>ANSWER: X) Notch signaling</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What is the largest possible real domain of the following function: f(x) = sin(x)/ln(x)?</div><div>W) (−∞, ∞)<br>X) (0, ∞)<br>Y) (1, ∞)<br>Z) (0, 1) ∪ (1, ∞)</div><div>ANSWER: Z) (0, 1) ∪ (1, ∞)</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+An ant on the coordinate plane is at the origin and wishes to reach the point (4, 0). However, there is a solid disk blocking its path. This disk is centered at the point (2, 0) and has radius 1. What is the shortest possible distance the ant can walk to reach its destination without entering the interior of the disk?</div><div>ANSWER: 2√3 + π/3</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Energy <i>Multiple Choice</i>
+Researchers in the Plasma Science and Fusion Center at MIT have recently received renewed funding for stellarator fusion experiments in Germany at the Max Planck Institute of Plasma Physics. Which of the following choices provides accurate reasoning for why stellarators may sometimes prove to be more useful than tokamaks in fusion experiments?</div><div>W) Stellarators do not require a current to be driven through the plasma itself to generate the magnetic field containing the plasma<br>X) More particles in tokamaks are in unconfined orbits than in stellarators, and thus overall lose more energy to diffusion<br>Y) The effective plasma volume in stellarators is much larger than those of tokamaks, on average<br>Z) Stellarators in the trapped-electron mode routinely results in inwards transport flux, while it is stabilized for tokamaks</div><div>ANSWER: W) Stellarators do not require a current to be driven through the plasma itself to generate the magnetic field containing the plasma</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at the MIT Atomic, Molecular, and Optical Physics Group are looking into ways of using Bose-Einstein Condensate as coolants to establish superfluidity in certain materials by forcing them into a state in which their atoms are non-interacting and occupy a nonzero degeneracy pressure, even at 0 Kelvin. What is the name for this state of matter?</div><div>ANSWER: Fermi gas</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Physicists use the small angle approximation to simplify many calculations. The small angle approximation is NOT useful for analyzing which of the following systems?</div><div>W) Simple pendulum<br>X) Spherical mirrors<br>Y) Fresnel diffraction<br>Z) Fraunhofer diffraction</div><div>ANSWER: Y) Fresnel diffraction</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true of paramagnetic materials
+1) They have negative magnetic susceptibility
+2) The induced magnetization is directly proportional to magnetic field strength
+3) They exhibit hysteresis loops</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Radio observations of the Crab Nebula show that the gas in the nebula is emitting radiation, thought to be caused by high speed electrons spiralling through the magnetic field produced by the central neutron star. What is the term for this radiation?</div><div>ANSWER: Sychrotron radiation</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+An array of radio telescopes has an effective diameter of 12 kilometers. When observing at a wavelength of 12 centimeters, what is its angular resolution, in arcseconds to the nearest tenth?</div><div>ANSWER: 2.5 arcseconds</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+What polymer primarily strengthens xylem in vascular plants?</div><div>W) Cellulose<br>X) Amylopectin<br>Y) Amylose<br>Z) Lignin</div><div>ANSWER: Z) Lignin</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Order the following five cells of the retina from ventral to dorsal.
+1) Horizontal cells
+2) Amacrine cells
+3) Rods and cones
+4) Ganglion cells
+5) Pigmented retinal epithelium</div><div>ANSWER: 4,2,1,3,5</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+How many nodal planes does the LUMO of hexatriene have?</div><div>W) 2<br>X) 3<br>Y) 4<br>Z) 5</div><div>ANSWER: Y) 4</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following 3 statements which are true about the Diels-Alder reaction
+1) The more nucleophilic end of the diene will interact with the most electrophilic end of the dienophile
+2) The endo product is the more thermodynamically favorable product
+3) If there are no stereogenic centers on the diene, the reaction will always produce a pair of enantiomers as the major product</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+A protein with which of the following pI values would elute last in a cation-exchange column with a buffer pH of 6?</div><div>W) 4.8<br>X) 5.2<br>Y) 7.0<br>Z) 7.4</div><div>ANSWER: W) 4.8</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Name all of the four following hormones that could raise blood glucose
+1) Cortisol
+2) Epinephrine
+3) Inulin
+4) Glucagon</div><div>ANSWER: 1,2,4</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the name of the failed arm of a triple junction?</div><div>ANSWER: Aulacogen</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Within regions in stars where hydrogen and helium are partially ionized, the opacity can increase with temperature, causing the stellar atmosphere to become unstable against radial pulsations. What is the term for this mechanism?</div><div>ANSWER: Kappa mechanism <span class="also-accept">(also accept: Eddington valve)</span></div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What is the largest possible number of local maxima that a real-valued polynomial of degree 9 can have?</div><div>W) 4<br>X) 5<br>Y) 8<br>Z) 9</div><div>ANSWER: W) 4</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+How many ways are there to tile a 4 by 3 board with identical 2 by 1 tiles?</div><div>W) 3<br>X) 7<br>Y) 11<br>Z) 19</div><div>ANSWER: Y) 11</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following BEST approximates how resistivity changes as temperature increases for a classical conductor?</div><div>W) Decreases at all temperatures<br>X) Increases quadratically at all temperatures<br>Y) Zero at low temperatures; increases linearly at high temperatures<br>Z) Nonzero constant at low temperatures; increases linearly at high temperatures</div><div>ANSWER: Z) Nonzero constant at low temperatures; increases linearly at high temperatures</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Yash creates a solar system model consisting of a massless spring with rest length zero fixed at one end and attached to a marble on the other end. The marble moves without friction. Due to the difference between the spring force and gravity, this is not a perfect simulation of the solar system. By name or number, identify all of the following four statements about this system which are generally true
+1) The marble moves in an ellipse
+2) The spring sweeps out area at a constant rate
+3) The square of the marble’s orbital period is proportional to the cube of the semi-major axis of the ellipse</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+The addition reaction of HBr to isobutylene has an inverse kinetic isotope effect. Which of the following statements is true?</div><div>W) The difference in zero point energies bewteen a C-H bond and a C-D bond is smaller in sp<sup>2</sup> hybridized carbons compared to sp<sup>3</sup> hybridized carbons<br>X) The difference in zero point energies bewteen a C-H bond and a C-D bond is larger in sp<sup>2</sup> hybridized carbons compared to sp<sup>3</sup> hybridized carbons<br>Y) The difference in zero point energies of the C-H bond and the C-D bond in the transition state is smaller than the difference in the zero point energies in the reactant<br>Z) The difference in zero point energies of the C-H bond and the C-D bond in the transition state is larger than the difference in the zero point energies in the product</div><div>ANSWER: W) The difference in zero point energies bewteen a C-H bond and a C-D bond is smaller in sp<sup>2</sup> hybridized carbons compared to sp<sup>3</sup> hybridized carbons</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+You discover a square planar complex ML4, where M is a transition metal and L is a ligand. You find that the degeneracy of the d orbitals in increasing energy in the complex is 2, 1, 1, 1. Identify all of the following 3 classifications the ligand L can fall under
+1) sigma donor
+2) pi donor
+3) pi acceptor</div><div>ANSWER: 2 only</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

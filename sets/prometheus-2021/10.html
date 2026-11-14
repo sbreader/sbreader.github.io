@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Prometheus 2021 DE 3</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/prometheus-2021/10" />
+<meta name="description" content="Prometheus 2021 DE 3: 48 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="prometheus-2021" data-packet="10">
+<div class="float-row mb-3"><span class="float-start">Packet 10 (DE 3) of <a href="sets/prometheus-2021/">Prometheus 2021</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/Prometheus%202021/Prometheus_DE3.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the most virulent disease caused by a filovirus?</div><div>ANSWER: Ebola virus disease</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which factor regarding the spread of viruses did NOT present an obstacle to containing the 2014 Ebola virus disease outbreak?</div><div>W) Located in West Africa, rather than equatorial Africa<br>X) Located in large cities, rather than rural villages<br>Y) Spread amongst migrant workers, rather than native-born workers<br>Z) Spread across porous borders, rather than secured borders</div><div>ANSWER: Y) Spread amongst migrant workers, rather than native-born workers</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+To two significant figures and in radians, compute arcsec 10000.</div><div>ANSWER: 1.6</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A square with side length 1 lies with a flat side on a plane. It is rolled along the plane without slipping until it makes one full rotation. What is the area of the shape made by tracing out the path of vertex originally in the square’s lower left corner?</div><div>ANSWER: π + 1</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+12-crown-4, 15-crown-5, and 18-crown-6 are cyclic oligomers of what 2 carbon organic compound?</div><div>ANSWER: Ethylene oxide <span class="also-accept">(also accept: Oxirane)</span></div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three molecules that can studied via EPR spectroscopy
+1) Nitric oxide
+2) Oxygen gas
+3) Titanium dioxide.</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+A sand dune forms in a semiarid coastal region where moisture anchors it to the ground. What type of dune is this most likely to be?</div><div>W) Barchan<br>X) Transverse<br>Y) Parabolic<br>Z) Star</div><div>ANSWER: Y) Parabolic</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following conditions would create the most positive gravity anomaly?</div><div>W) Deep oceanic trench<br>X) Subsurface mantle plume<br>Y) Strong monsoon season<br>Z) Thick ice sheet cover</div><div>ANSWER: Z) Thick ice sheet cover</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Immune exclusion describes the phenomenon where immunoglobulins block the translocation of bacteria across the gut epithelium and promote their clearance from the gut lumen. This is mediated by the secretory form of what class of immunoglobulin, which is also the most common immunoglobulin in the gut?</div><div>ANSWER: IgA</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following statements is not true about hormonal and neural control of digestion?</div><div>W) Secretin inhibits the release of gastrin from G cells<br>X) Acetylcholine activates H+/K+ ATPases on parietal cells<br>Y) Cholecystokinin triggers contraciton of the gallbladder<br>Z) Secretin binds to Acinar cells in the pancreas to trigger release of bicarbonate ions</div><div>ANSWER: Z) Secretin binds to Acinar cells in the pancreas to trigger release of bicarbonate ions</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Planet A has triple the mass of planet B and both orbit around their common center of mass. Identify all of the following that are true of this system
+1) The reduced mass of the system is 2/3 of the mass of planet B
+2) Both planets have the same angular momentum
+3) Both planets have the same energy in orbit.</div><div>ANSWER: None</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The wavefunctions of bosons have what special property that maximizes degeneracy in the lowest energy state?</div><div>ANSWER: Symmetry</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Some Cold-War era aircraft used vacuum tube avionics to increase resilience to what specific effect of nuclear weapons?</div><div>ANSWER: Nuclear electromagnetic pulse <span class="also-accept">(also accept: electromagnetic pulse; EMP)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The effect of a nuclear electromagnetic pulse would be similar to the effect of which large-scale solar phenomenon?</div><div>ANSWER: Coronal mass ejection</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Given the following two statements: p =⇒ q and q =⇒ r, then what law allows for the conclusion p =⇒ r?</div><div>W) Contrapositive<br>X) Detachment<br>Y) Syllogism<br>Z) De Morgan’s</div><div>ANSWER: Y) Syllogism</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+An inverted cone with base radius 18 cm and height 30 cm is full of water. The water is poured into a tall cylinder whose horizontal base has radius of 36 cm. What is the height in centimeters of the water in the cylinder?</div><div>W) 1.5<br>X) 2<br>Y) 2.5<br>Z) 3</div><div>ANSWER: Y) 2.5</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+The isocyanate anion is isoelectronic to what nitrogen oxide?</div><div>ANSWER: Nitrous oxide <span class="also-accept">(also accept: N<sub>2</sub>O)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following allotropes of phosphorus has the most negative enthalpy of formation?</div><div>W) White phosphorus<br>X) Red phosphorus<br>Y) Violet phosphorus<br>Z) Black phosphorus</div><div>ANSWER: Z) Black phosphorus</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three stellar populations that contain classical Wolf-Rayet stars
+1) Population I
+2) Population II
+3) Population III.</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following could not be used to distinguish galactic spiral arms from the rest of the galaxy?</div><div>W) OB associations<br>X) Emission nebulae<br>Y) Globular clusters<br>Z) Young open clusters</div><div>ANSWER: Y) Globular clusters</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three sugars which contain 4-carbon atoms
+1) Erythrose
+2) Threose
+3) Arabinose.</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What chromosomal abnormality is present in the majority of patients with chronic myelogenous leukemia, and results from the fusion of the BCR and ABL genes?</div><div>ANSWER: Philadelphia Chromosome</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The Debye model built the concept of what quasiparticle’s effect on solid heat capacity rather than using the quantum harmonic oscillator estimation?</div><div>ANSWER: Phonon</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An electron gas is cooled to absolute zero. The electrons will occupy all the energy states up until what threshold?</div><div>ANSWER: Fermi energy <span class="also-accept">(also accept: Fermi level)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Many people may delay having children to give them a better life and more financial security. However, this decision leads different children to come into existence, which means that different people are benefitted or harmed in this situation. What is this an example of?</div><div>W) The utility monster<br>X) The repugnant conclusion<br>Y) The future moral status problem<br>Z) The nonidentity problem</div><div>ANSWER: Z) The nonidentity problem</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Energy <i>Short Answer</i>
+Some solutions to the nonidentity problem suggest that all acts of procreation are harmful. What is this philosophical position called?</div><div>ANSWER: Antinatalism</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+The number of holes in a topological surface is called the:</div><div>W) Degree<br>X) Toral index<br>Y) Genus<br>Z) Torus number</div><div>ANSWER: Y) Genus</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A small sudoku is played where a 3 by 3 array is filled in with all columns and rows including a 1, 2, and 3. How many possible arrays satisfying these rules are possible?</div><div>ANSWER: 12</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following molecules does not contain an inversion center?</div><div>W) Allene<br>X) Xenon tetrafluoride<br>Y) Acetylene<br>Z) Ferricyanide</div><div>ANSWER: W) Allene</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What is the name of the organic compound formed when 2-butene is treated with ozone, followed by triphenylphosphine?</div><div>ANSWER: Acetaldehyde <span class="also-accept">(also accept: Ethanal)</span></div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What group of porous minerals is currently being studied because it should have millions of possible structures, but only a few hundred have been observed or synthesized?</div><div>ANSWER: Zeolites</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+The presence of layers with alternating directions of cross-bedding typically indicates formation in which of the following depositional environments?</div><div>W) Aeolian<br>X) Fluvial<br>Y) Lacustrine<br>Z) Tidal</div><div>ANSWER: Z) Tidal</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+The JAK-STAT signaling pathway has come under recent interest due to its potential involvement in autoimmune diseases. Which of the following best describes the identity of JAK proteins?</div><div>W) G proteins<br>X) Serine/threonine kinases<br>Y) Tyrosine kinases<br>Z) Phosphoinositide 3-kinases</div><div>ANSWER: Y) Tyrosine kinases</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What is the term given to a fruit that develops without fertilization, and includes many commercial seedless fruits?</div><div>ANSWER: Parthenocarpic</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following particles couples most strongly to photons via the electromagnetic force?</div><div>W) Neutrino<br>X) Bottom quark<br>Y) Top quark<br>Z) Strange quark</div><div>ANSWER: Y) Top quark</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+According to the Ising model, a crystal can have net zero magnetization due to electron spins aligning opposite to that of their neighbors over long range at low temperature. What is the name given to the threshhold temperature above which this phenomenon disappears?</div><div>ANSWER: Néel temperature</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Alan Turing’s concept of a learning machine led to what type of optimization algorithm that includes a systematic representation of solutions, a means of modifying solutions, and an objective function for evaluating solutions?</div><div>ANSWER: Genetic algorithm</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Energy <i>Multiple Choice</i>
+Which of the following features is NOT a major detraction of genetic algorithms?</div><div>W) Ignoring global optima in favor of local optima<br>X) Computationally intensive fitness function<br>Y) Exponentially increasing runtime for more mutated elements<br>Z) Difficulty in being parallelized</div><div>ANSWER: Z) Difficulty in being parallelized</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+By name or number, identify all of the following three properties that classify the function f(x) = sin(x) for all real numbers
+1) Bijective
+2) Injective
+3) Surjective.</div><div>ANSWER: None</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The number 1,000,001 is called quadly because it only has four factors. What is the second smallest of those factors?</div><div>ANSWER: 101</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+What method describes the separation of a biomolecule from a mixture by utilizing the highly specific macromolecular binding interaction between the biomolecule and the ligand?</div><div>W) Ion exchange chromatography<br>X) Hydrophobic interaction chromatography<br>Y) Gel filtration chromatography<br>Z) Affinity chromatography</div><div>ANSWER: Z) Affinity chromatography</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three molecules that contain a chiral center
+1) Ferric oxalate
+2) 2-butene
+3) 2-butanol.</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Because massive protostars are not driven by nuclear fusion, their luminosity most directly depends on which of the following properties?</div><div>W) Age<br>X) Composition<br>Y) Mass<br>Z) Temperature</div><div>ANSWER: Y) Mass</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Order the following three star populations in order of increasing average mass
+1) Population I
+2) Population II
+3) Population III.</div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Because it is inherited uniparentally and can’t shed mutations by recombination, the mitochondrial genome is expected to accumulate deletrious mutations through what mechanism?</div><div>ANSWER: Muller’s ratchet</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three statements that are true about cell junctions
+1) Adherens junctions connect to actin filaments
+2) Connexins form invertebrate gap junctions
+3) Desmins are found in epithelial cells.</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+At which point during a satellite’s orbit should its engines fire to maximize the final velocity?</div><div>W) Perigee<br>X) Apogee<br>Y) Covertex<br>Z) Focus</div><div>ANSWER: W) Perigee</div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+In terms of the ideal gas constant R, what is the entropy of mixing three separate, identical samples of 1 mole of an ideal gas at constant pressure?</div><div>ANSWER: 3R ln 3</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

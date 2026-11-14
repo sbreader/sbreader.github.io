@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Fall 2023 Round 6</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/fall-2023/6" />
+<meta name="description" content="Fall 2023 Round 6: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="fall-2023" data-packet="6">
+<div class="float-row mb-3"><span class="float-start">Packet 6 (Round 6) of <a href="sets/fall-2023/">Fall 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/12AS4s9tqRwD5I7SK7seatkpDlu4aXgwr/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+In the light reaction of photosynthesis, what role does plastocyanin play in chloroplasts?</div><div>W) Photooxidation of water<br>X) Splitting of water<br>Y) Transporting electrons to P680<br>Z) Transporting electrons to P700</div><div>ANSWER: Z) Transporting electrons to P700</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Unlike mosses and most ferns, spermatophytes have morphically distinctive spores. What phenomenon describes this evolution to dimorphic spores?</div><div>ANSWER: HETEROSPORY</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+For incompressible, laminar flow in a circular pipe of constant radius, the dynamic pressure drop through a section of the pipe is inversely proportional to the radius to what power?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+If the moment of inertia of a uniform sphere rotating on its axis is I, then what is the moment of inertia of a spherical shell of the same mass in terms of I?</div><div>ANSWER: 5I/3</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following solvents is most suitable for an SN1 reaction?</div><div>W) Acetone<br>X) Ethanol<br>Y) THF<br>Z) DMSO</div><div>ANSWER: X) Ethanol</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three statements that are true about elements in the d-block
+1) Elements in the first row reach higher oxidation states than rows two and three
+2) Ionization energy increases from left to right
+3) Atomic radii generally differ greatly across the d-block.</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+The graph of the equation y = sine x + x lies in what two quadrants of the Cartesian plane?</div><div>ANSWER: FIRST AND THIRD <span class="also-accept">(also accept: in any order)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Two six-sided dice are randomly stacked on top of each other. What is the probability that the sum of numbers on the ten remaining faces is greater than 32?</div><div>ANSWER: 5/6</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers working with Professor Hitoshi Murayama have been studying high-energy events in particle accelerators. They found that electrons and positrons annihilate to form what fundamental particles?</div><div>ANSWER: PHOTONS</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers at the Joint Genome Institute at Lawrence Berkeley National Lab are studying shiitake mushrooms, which are white rot fungi that can decompose many of wood’s components. What component of wood is a polymer made of phenol groups?</div><div>ANSWER: LIGNIN</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What X-ray telescope has an extremely eccentric orbit around the Earth, with an apogee about a third of the distance from the Earth to the Moon?</div><div>ANSWER: CHANDRA OBSERVATORY</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three attributes that lead to a smaller annual temperature range
+1) Being farther inland
+2) Having less cloud cover
+3) Being on a leeward coast instead of a windward coast.</div><div>ANSWER: NONE</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Identify all of the following three intermolecular forces that can be found in pure methylamine
+1) Ion-dipole
+2) London dispersion forces
+3) Hydrogen bonding.</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three statements that are true regarding atomic orbitals
+1) 3p orbitals possess zero angular momentum
+2) The 2s and 2p orbitals of hydrogen are different in energy
+3) 3d orbitals have two radial nodes.</div><div>ANSWER: NONE</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is 165 squared?</div><div>ANSWER: 27225</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The top of an hourglass filled with sand has the shape of an upside-down cone with a height of 3 centimeters and a radius of 1 centimeter. If sand is draining at a rate of 2 cubic centimeters per minute, how long, to the nearest minute, will it take for the top of the hourglass to be completely empty?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The position of a particle traveling in one dimension is given by x(t) = 3t<sup>3</sup> + t<sup>2</sup> – 2t + 2. What is the acceleration of the particle at t = 2?</div><div>ANSWER: 38</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A 500-gram block slides horizontally at 4 meters per second into a spring fixed to a wall. The block compresses the spring by 20 centimeters before momentarily coming to rest. Assuming there is no friction, what is the spring constant of the spring, in newtons per meter?</div><div>ANSWER: 200</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+A scientist is trying to determine whether a segment of DNA is an enhancer. They conduct a reporter assay using GFP as a reporter gene. Which of the following types of visualization methods should they use to see the expression of GFP?</div><div>W) X-ray crystallography<br>X) Light microscope<br>Y) Fluorescence microscope<br>Z) Electron microscope</div><div>ANSWER: Y) Fluorescence microscope</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+CRISPR originally evolved as a defense mechanism against what type of pathogen?</div><div>ANSWER: BACTERIOPHAGE <span class="also-accept">(also accept: PHAGE)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is an example of a divergent plate boundary between two continental plates?</div><div>W) Chile Ridge<br>X) East African Rift Valley<br>Y) San Andreas Fault<br>Z) Himalayas Mountains</div><div>ANSWER: X) East African Rift Valley</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements is NOT true regarding the planet Uranus?</div><div>W) Greater than 80% of Uranus’ mass is accounted for by water, methane, and ammonia<br>X) Uranus has the second lowest density of the solar system’s planets<br>Y) Uranus’ magnetic axis is offset from its axis of rotation by about a third of the planet’s radius<br>Z) Uranus is warmer than Neptune</div><div>ANSWER: Z) Uranus is warmer than Neptune</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Scientists in the Yaghi Lab at UC Berkeley study a particular class of semi-organic materials that are great at adsorbing gases such as carbon dioxide and methane. What is the name for the general class of materials they are studying?</div><div>ANSWER: METAL–ORGANIC FRAMEWORKS <span class="also-accept">(also accept: MOFs)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Energy <i>Short Answer</i>
+Researchers in the Accelerator Technology and Applied Physics division of Lawrence Berkeley National Lab are working on various solutions to fusion energy. One approach involves tokamaks, machines which use a powerful magnetic field to confine plasma in what shape?</div><div>ANSWER: TORUS</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three processes that are examples of chemical weathering
+1) Frost wedging
+2) Root wedging
+3) Salt wedging.</div><div>ANSWER: NONE</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Daniel digs a deep hole in his backyard and observes five different layers in the soil. Order the following three soil horizons from top to bottom
+1) O
+2) C
+3) B.</div><div>ANSWER: 1, 3, 2</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements primarily explains why the rate of effusion in gases is much slower than the velocity of individual molecules?</div><div>W) Random collisions constantly shift the paths of gaseous molecules during diffusion<br>X) Small container volumes create a bottleneck for particles<br>Y) Gravity causes particles to move downwards rather than laterally<br>Z) Intermolecular forces slow the rate of effusion</div><div>ANSWER: W) Random collisions constantly shift the paths of gaseous molecules during diffusion</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+According to the standard quantum mechanical model of an atom, what is the maximum number of electrons that could occupy the n = 4 energy level?</div><div>ANSWER: 32</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following intermolecular forces maintain beta pleated sheets in secondary protein structures?</div><div>W) Hydrogen bonds<br>X) Disulfide bonds<br>Y) Peptide bonds<br>Z) Van der Waals Interactions</div><div>ANSWER: W) Hydrogen bonds</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What toxic compound is created when amino acids are metabolized prior to entering cellular respiration?</div><div>ANSWER: AMMONIA</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Identify all of the following three statements that must be true for a body in mechanical equilibrium
+1) Net force is zero
+2) Net momentum is zero
+3) Net torque is zero.</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Eric is conducting an experiment in which he shoots particles one-by-one through a double slit. After firing 1000 particles through his apparatus, which of the following particles should he expect to produce the most obvious wave-like diffraction pattern?</div><div>W) Electrons<br>X) Water molecules<br>Y) Alpha particles<br>Z) Protons</div><div>ANSWER: W) Electrons</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the area of an ellipse with width 10 and height 8?</div><div>ANSWER: 20π</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Juan is analyzing a certain function f consisting of a numerator and denominator. When he plugs in zero for x, he finds that the numerator goes to zero. In order to use L’Hopital’s rule to evaluate the overall limit as x approaches zero, the denominator must approach which of the following?</div><div>W) 0<br>X) 1<br>Y) Positive infinity<br>Z) Negative infinity</div><div>ANSWER: W) 0</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers at the Liquid Sunlight Alliance of Lawrence Berkeley National Lab are designing new semiconductor materials for more efficient solar panels. What property of semiconductors is most closely related to the wavelengths of light that will be absorbed by the photovoltaic cell?</div><div>ANSWER: BAND GAP</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Researchers at the Nuclear Science Division of Lawrence Berkeley National Lab make heavy elements using the 88-inch cyclotron. Which of the following explains why the high velocities generated by cyclotrons are essential to the discovery of superheavy elements?</div><div>W) High speeds generate strong interactions between nuclei<br>X) High speeds increase temperature, allowing for fusion<br>Y) High speeds are required to overcome repulsive forces between nuclei<br>Z) High speeds allow for studies to be performed at reasonable timescales</div><div>ANSWER: Y) High speeds are required to overcome repulsive forces between nuclei</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following is NOT an example of a chemoautotroph?</div><div>W) Sulfur-oxidizing Bacteria<br>X) Methanogens<br>Y) Thermoacidophilic archaea<br>Z) Enterobacteria</div><div>ANSWER: Z) Enterobacteria</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three blood types that could occur in a cross between a type AB individual and a type O individual
+1) Type AB
+2) Type A
+3) Type B.</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following ions is least easily reduced to its elemental form?</div><div>W) Iron 3+<br>X) Lithium +<br>Y) Zinc 2+<br>Z) Copper 2+</div><div>ANSWER: X) Lithium +</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+A zeroth order reaction A forms B has a half-life of 5 seconds when the concentration of A is 1 mole per liter. Assuming the reaction starts with 1 mole per liter of A and can go to completion, what is the concentration of A after 5 seconds, in moles per liter?</div><div>ANSWER: 0.5</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is closest to the mass of Sagittarius A, the supermassive black hole at the center of the Milky Way Galaxy?</div><div>W) 400 solar masses<br>X) 4,000 solar masses<br>Y) 40,000 solar masses<br>Z) 4 million solar masses</div><div>ANSWER: Z) 4 million solar masses</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following four elements that would comprise greater than 1 percent of the mass of a Population II star
+1) Hydrogen
+2) Helium
+3) Beryllium
+4) Carbon.</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the resultant matrix dimension when you multiply three matrices from left to right with dimensions 4 by 2, 2 by 3, and 3 by 2, respectively?</div><div>ANSWER: 4 BY 2</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A cube of side length 2 is inscribed in a sphere. To the nearest integer, what is the surface area of the sphere?</div><div>ANSWER: 38</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The magnetic field near the center of a long solenoid is proportional to the number of turns per unit length to what power?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The electric field due to an isolated, infinite conducting sheet is proportional to its surface charge density divided by what fundamental constant?</div><div>ANSWER: PERMITTIVITY OF FREE SPACE <span class="also-accept">(also accept: EPSILON NAUGHT)</span></div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

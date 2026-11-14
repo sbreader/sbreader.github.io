@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2021 round 12</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2021/12" />
+<meta name="description" content="MIT 2021 round 12: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2021" data-packet="12">
+<div class="float-row mb-3"><span class="float-start">Packet 12 (round 12) of <a href="sets/mit-2021/">MIT 2021</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2021/round12.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Multiparticle systems have composite states that are specified using what operation between each individual particle’s wavefunction?</div><div>ANSWER: Tensor product</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+What quasiparticles are sometimes described as atoms without nuclei, and are bound states of an electron and positron?</div><div>ANSWER: Positronium</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Researchers in the Kavli Institute at MIT are studying metal-poor halo stars in ultra faint dwarf galaxies. In particular, they are approximating the amount of metal-poor halo stars formed from what type of high energy neutron capture responsible for roughly fifty percent of heavy element formation?</div><div>ANSWER: r -process <span class="also-accept">(also accept: rapid neutron capture)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Researchers in the Kavli Institute at MIT are studying X- Ray Fluorescence in accreting Black Holes. In particular, they are looking at what variation of accretion which has characteristic thick disks and extreme radiation pressure?</div><div>ANSWER: Super-Eddington accretion</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+In the intestine, the mucus-secreting goblet cells are found in what specific depressions of the epithelium which are located between villi?</div><div>ANSWER: Crypts of Lieberkuhn <span class="also-accept">(also accept: Intestinal Crypts)</span></div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three sensory processes that are known to involve G-protein coupled receptors
+1) Hearing along the basilar membrane
+2) Tasting spicy food in the tongue
+3) Vision mediated by the pigment rhodopsin</div><div>ANSWER: 3 only</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Suppose that the eccentricity of a conic section with equation y<sup>2</sup> = ax<sup>2</sup> + bx + c is 0.75. Which of the following inequalities must be true?</div><div>W) a &lt; 0<br>X) b &lt; 2a + c<br>Y) c &gt; √a/b<br>Z) a<sup>2</sup> &gt; 2bc</div><div>ANSWER: W) a &lt; 0</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+The solutions to the equation x<sup>4</sup> + x<sup>3</sup> + x + 1 = 0 are graphed on the complex plane. What is the area of the convex polygon bounded by those points?</div><div>W) √3/4<br>X) √3/2<br>Y) 3√3/4<br>Z) √3</div><div>ANSWER: Y) 3√3/4</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+In organosilanes, the silicon group is very good at stabilizing a positive charge on a beta carbon atom. Which of the following statements best explains this phenomenon?</div><div>W) There is three center two electron bonding between the silicon atom, alpha carbon, and beta carbon<br>X) The carbon-silicon sigma bonding orbital can interact with the empty carbo-cation p orbital in a hyperconjugation interaction<br>Y) The carbocation is resonance stabilized<br>Z) The empty orbital on the carbocation gains bonding character</div><div>ANSWER: X) The carbon-silicon sigma bonding orbital can interact with the empty carbo-cation p orbital in a hyperconjugation interaction</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Consider the reaction that occurs when tertbutyl bromide is placed in aqueous solutions of varying pH from 0 to 14. By name or number, identify all of the following three statements that are true
+1) The ratio of tertbutyl alcohol to isobutylene in the products is largest at pH 0
+2) The reaction has a primary kinetic isotope effect only at low pH
+3) The plot of the logarithm of the observed rate constant as a function of pH in the range from 0 to 14 is linear</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following locations is most likely to have a semidiurnal tidal pattern?</div><div>W) Gulf of Mexico<br>X) Atlantic coast of North America<br>Y) Pacific coast of North America<br>Z) Southeast Asia</div><div>ANSWER: X) Atlantic coast of North America</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What erosional feature forms in deserts when abrasion and deflation streamline bedrock?</div><div>ANSWER: Yardang</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the sum of all single digit integers n such that the product of their factors is n<sup>2</sup>?</div><div>ANSWER: 15</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A function is convex if what matrix, which contains mixed second order partial derivatives, is positive semi-definite?</div><div>ANSWER: Hessian</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+In the nucleus of an atom, the strong force which that holds the nucleons together is mediated by what meson?</div><div>ANSWER: Pion</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following three interactions that are accounted for in the fine structure of a hydrogen atom
+1) Relativistic correction
+2) Spin-orbit coupling
+3) Darwin term</div><div>ANSWER: 1,2,3 <span class="also-accept">(also accept: all)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the term for the intermediate, partially folded protein state that is in between the unfolded and native states?</div><div>ANSWER: Molten globule</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By nme or number, identify all of the following three statements that are true regarding efficiency, data collection, and population modeling for different species?
+1) Ecological efficiency may be given as the product of production efficiency, assimilation efficiency, and exploitation efficiency
+2) The release and wait method of sampling is an alternative to the mark and recapture method
+3) The Lotka-Volterra Equations may be used to represent relationships between two different species</div><div>ANSWER: 1,2,3 <span class="also-accept">(also accept: all)</span></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers in the Lourido group are investigating calcium-dependent protein kinases, or CDPKs, in parasites. Specifically, the group studies the role of these CDPKs in the lytic cycle of Toxoplasma gondii. What is the phylum of Toxoplasma gondii?</div><div>ANSWER: Apicomplexa</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+The Lourido group is also involved in engineering the genome of Toxoplasma gondii with CRISPR/Cas9 technology, which recognizes a PAM site in the genome. What is the 3-letter nucleotide sequence from 5’ to 3’ that the most commonly used Cas9, derived from Streptococcus pyogenes, recognizes?</div><div>ANSWER: NGG</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+A halogen bond forms when there is a net attractive interaction between an electrophilic region of a halogen atom on a molecule with a nucleophilic species. Which of the following compounds is most likely to form the strongest halogen bond?</div><div>W) Methyl iodide<br>X) Methyl bromide<br>Y) 1-iodo-2-phenyl acetylene<br>Z) Phenyl iodide</div><div>ANSWER: Y) 1-iodo-2-phenyl acetylene</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three statements which are true of carbenes.
+1) Singlet carbenes have a larger bond angle compared to triplet carbenes.
+2) The presence of electron donating groups adjacent to the carbene will cause the carbene to favor the singlet state
+3) The diphenyl carbene favors the singlet state over the triplet state</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What rare type of galaxy is thought to have formed from the impact of a smaller galaxy at its center, pushing most of its material to the outer edges?</div><div>ANSWER: Ring galaxy</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three locations where one could observe Lindblad Resonances
+1) Spiral arms of the Milky Way
+2) Rings of Saturn
+3) Kuiper belt</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following test statistics would be most appropriate for a small experiment that tracks changes in student performance by comparing their scores on two exams before and after a treatment?</div><div>W) Chi-square statistic<br>X) F-statistic<br>Y) T-score<br>Z) Z-score</div><div>ANSWER: Y) T-score</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Triangle ABC has a right angle at C, and a square CDEF is inscribed inside the triangle so that D lies on side AC, E lies on side AB, and F lies on side BC. If AC = 5 and BC = 12, then what is the length of AD?</div><div>ANSWER: 25/17</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What idealized thermodynamic cycle, which is used to model combustion engines, consists of two isochoric and two adiabatic steps?</div><div>ANSWER: Otto cycle</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A regular pendulum can be modified to swivel freely about two degrees of freedom, and is often used by artists to paint. The kinetic energy slowly shifts from one axis to another in a sinusoidal pattern. What is the name of the curve that such systems trace out?</div><div>ANSWER: Lissajous Curve</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Scientists at MIT are studying synthetic analogues for the fixation of dinitrogen with iron-sulfur complexes using IR spectroscopy. By name or number, order the following three bonds in order from least to greatest vibrational frequency in the IR spectrum.
+1) Iron-nitrogen single bond
+2) Iron-sulfur single bond
+3) Iron-iron single bond</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers at MIT are studying the binding of dinitrogen to iron-sulfur clusters. The mechanism of the fixation of dinitrogen proceeds first by the nitrogen molecule bonding to the iron sulfur complex. By name or number, identify all of the following three statements about such clusters that are true
+1) The dinitrogen bond is weakened due an orbital interaction with the nitrogen-nitrogen sigma-star orbital
+2) The iron d<sub>z<sup>2</sup></sub> orbital engages in pi bonding with dinitrogen
+3) Electron poor iron sulfur clusters are more effective at nitrogen fixation</div><div>ANSWER: None of them</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following is the main reason why 13C NMR peaks cannot be reliably integrated?</div><div>W) 13C is present in too low abundance<br>X) The relaxation rate of 13C is too slow<br>Y) The coupling constants from nearby atoms are too large for a consistent integration<br>Z) The signal to noise ratio is too low</div><div>ANSWER: X) The relaxation rate of 13C is too slow</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Victoria is studying the proton NMR spectrum of trans-1-bromo-1-butene. Which of the following should she expect to observe in the region with ppm shift from 5 to 7?</div><div>W) One symmetric doublet upfield of a symmetric doublet of triplets<br>X) One asymmetric doublet upfield of an asymmetric doublet of triplets<br>Y) One symmetric doublet downfield of a symmetric doublet of triplets<br>Z) One asymmetric doublet downfield of an asymmetric doublet of triplets</div><div>ANSWER: Z) One asymmetric doublet downfield of an asymmetric doublet of triplets</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following metrics of humidity does not depend on the air pressure?</div><div>W) mixing ratio<br>X) relative humidity<br>Y) dew-point temperature<br>Z) wet-bulb temperature</div><div>ANSWER: W) mixing ratio</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What hypothesis, an alternative to dark matter, resolves discrepancies in the observed properties of galaxies by proposing that the gravitational force of outer regions of a galaxy are proportional to the centripetal acceleration squared?</div><div>ANSWER: Modified Newtonian dynamics <span class="also-accept">(also accept: MOND)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+At what timepoint in transcription is the 5’ cap added onto mRNA?</div><div>W) Approximately 25 bp into transcription<br>X) Approximately 25 bp before termination<br>Y) After RNA polymerase releases the DNA<br>Z) After introns are spliced out</div><div>ANSWER: W) Approximately 25 bp into transcription</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four snRNAs that make up the triple snRNP formed in RNA splicing
+1) U3
+2) U4
+3) U5
+4) U6</div><div>ANSWER: 2,3,4</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+At which of the following locations on the H-R diagram would one find a Mira variable star?</div><div>W) Horizontal Branch<br>X) Asymptotic Giant Branch<br>Y) Instability Strip<br>Z) Subgiant Branch</div><div>ANSWER: X) Asymptotic Giant Branch</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What mechanism encompasses the changing opacities in variable stars which contribute to their pulsating effect?</div><div>ANSWER: Kappa-mechanism</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+The nitrate of a metal ion is dissolved in water to give a pink solution. The addition of hydrochloric acid turns the solution blue. What is the most likely identity of the metal ion?</div><div>W) Manganese (II)<br>X) Copper (II)<br>Y) Cobalt (II)<br>Z) Iron (II)</div><div>ANSWER: Y) Cobalt (II)</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following three chemicals from least to greatest oxygen-oxygen bond length
+1) Sodium peroxide
+2) Hydrogen peroxide
+3) Dioxygen difluoride</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the transpose of the following matrix product: AT B T C</div><div>ANSWER: C T BA</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+What is the definite integral of the fraction with numerator sin(x) dx and denominator 1 + cos(x) from 0 to π/2?</div><div>W) 1<br>X) ln(2)<br>Y) ln(3)<br>Z) 2 ln(2)</div><div>ANSWER: X) ln(2)</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What drug against HIV acts as a thymine analog by inhibiting reverse transcriptase?</div><div>ANSWER: AZT <span class="also-accept">(also accept: azidothymidine)</span></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following cell receptors that the HIV protein gp120 directly or indirectly binds to
+1) CCR5
+2) CD4
+3) CXCR4</div><div>ANSWER: 1,2,3 <span class="also-accept">(also accept: all)</span></div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following regions of a field effect transistor is analogous to the base of a bipolar junction transistor?</div><div>W) Emitter<br>X) Gate<br>Y) Source<br>Z) Drain</div><div>ANSWER: X) Gate</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Wendy is determining the critical temperature for superconductivity in various isotopes of an element. She plots the log of the critical temperature on the y-axis and the log of the isotope’s mass on the x-axis. According to the isotope effect, as a decimal to the nearest tenth, what is the expected slope of this plot?</div><div>ANSWER: −0.5</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Fall 2023 Round 9</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/fall-2023/9" />
+<meta name="description" content="Fall 2023 Round 9: 45 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="fall-2023" data-packet="9">
+<div class="float-row mb-3"><span class="float-start">Packet 9 (Round 9) of <a href="sets/fall-2023/">Fall 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1JWO7d2gTBZ_Gl_EZAY3F-DK0KD38wUft/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following is closest to the ratio of the root mean square velocity of a sulfur dioxide molecule to that of a helium molecule at the same temperature?</div><div>W) 1/4<br>X) 1/2<br>Y) 2<br>Z) 4</div><div>ANSWER: W) 1/4</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Rank the following four media in terms of increasing index of refraction
+1) Water
+2) Vacuum
+3) Glass
+4) Diamond.</div><div>ANSWER: 2, 1, 3, 4</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the term for points in space at which the gravitational forces from two large bodies balance to produce an equilibrium position for objects with much smaller mass?</div><div>ANSWER: LAGRANGE POINTS <span class="also-accept">(also accept: LAGRANGIAN POINTS)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following accurately contrasts glacial valleys and river valleys?</div><div>W) Rivers tend to form U-shaped valleys, while glaciers form V-shaped valleys.<br>X) River valleys tend to be much larger than glacial valleys.<br>Y) River valleys tend to occur at higher elevations than glacial valleys.<br>Z) River valleys tend to accumulate smaller sediment than glacial valleys.</div><div>ANSWER: Z) River valleys tend to accumulate smaller sediment than glacial valleys.</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+The Born-Mayer equation is best used to calculate the minimum potential energy of what type of solids?</div><div>ANSWER: IONIC</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three statements that must be true of a cell with a standard reduction potential of 0
+1) Its equilibrium constant is equal to one
+2) It forms hydrogen as one of its half-reactions
+3) Change in Gibbs free energy is negative.</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Yeast spend the majority of their life cycles as which of the following types of organisms?</div><div>W) Single-celled haploids<br>X) Single-celled diploids<br>Y) Multicellular haploids<br>Z) Multicellular diploids</div><div>ANSWER: W) Single-celled haploids</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following amino acids is most likely to have phi and psi angles found in the forbidden regions of a Ramachandran plot?</div><div>W) Glycine<br>X) Lysine<br>Y) Proline<br>Z) Valine</div><div>ANSWER: W) Glycine</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers at the Rittle Lab of UC Berkeley are studying chemical transformations involving Grignard reagents. Grignard reagents contain what alkaline earth metal?</div><div>ANSWER: MAGNESIUM</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers at the He Lab at UC Berkeley are interested in studying the evolutionary implications of transposable elements in the human genome. Which of the following mutations can NOT be linked to transposable elements?</div><div>W) Single nucleotide substitution<br>X) Exon shuffling<br>Y) Chromosomal duplication<br>Z) Translocation of genome sequences</div><div>ANSWER: W) Single nucleotide substitution</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+The function f(x) = x<sup>3</sup> + 6 is reflected across the x-axis and rotated 180 degrees about the origin. What is the y-value of the new function when x is 3?</div><div>ANSWER: -21</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What are the two eigenvalues of the 2-by-2 matrix with first row 2, 1 and second row 2, 3?</div><div>ANSWER: 1 AND 4</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at the Space Sciences Laboratory at UC Berkeley are observing ultraviolet light patterns emitted from the luminous part of the Earth’s exosphere, most of which is scattered radiation from the Sun. What is the term for this part of the exosphere, which is hypothesized to extend out almost 6 million kilometers from Earth?</div><div>ANSWER: GEOCORONA</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Reimer group utilize solid-state nuclear magnetic resonance spectroscopy to study minerals with paramagnetic properties. Minerals with such properties would likely contain which of the following metal ions?</div><div>W) Gallium 3+<br>X) Aluminum 3+<br>Y) Zinc 2+<br>Z) Iron 3+</div><div>ANSWER: Z) Iron 3+</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+FOP is a rare disease that leads to the ossification of muscle tissue. What ion is transported out of muscle tissues in this process?</div><div>ANSWER: CALCIUM <span class="also-accept">(also accept: Ca<sup>2+</sup>)</span></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Appressoria are specialized structures formed during fungal pathogenesis that penetrate thick cell walls using what type of pressure?</div><div>W) Gravitational Pressure<br>X) Turgor Pressure<br>Y) Selective Pressure<br>Z) Osmotic Pressure</div><div>ANSWER: Z) Osmotic Pressure</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following correctly describes the relationship between the pressures and volumes of real gases compared to ideal gases?</div><div>W) Both are higher<br>X) Both are lower<br>Y) Pressure is higher and volume is lower<br>Z) Pressure is lower and volume is higher</div><div>ANSWER: Z) Pressure is lower and volume is higher</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following ligands, when forming a transition metal complex with Co<sup>2+</sup>, will appear the highest wavelength color?</div><div>W) Br<sup>-</sup><br>X) Cl<sup>-</sup><br>Y) NH<sub>3</sub><br>Z) CO</div><div>ANSWER: Z) CO</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following materials has the greatest Young’s Modulus?</div><div>W) Steel<br>X) Vulcanized rubber<br>Y) Polyethylene terephthalate<br>Z) Silicon carbide</div><div>ANSWER: Z) Silicon carbide</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Suppose a very long cylindrical resistor loses heat proportional to its surface area and power dissipated. Assuming the voltage across the resistor stays constant, if the radius of the resistor is doubled, by what factor is the amount of lost heat multiplied?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three image defects which would be present when using a refracting telescope with a spherical lens
+1) Spherical aberration
+2) Chromatic aberration
+3) Field curvature.</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is closest to the difference in amplitudes and energies for two earthquakes that differ by 2 units of magnitude on the Richter scale?</div><div>W) 10-fold difference in both amplitude and energy<br>X) 10-fold difference in amplitude, 32-fold difference in energy<br>Y) 100-fold difference in both amplitude and energy<br>Z) 100-fold difference in amplitude, 1000-fold difference in energy</div><div>ANSWER: Z) 100-fold difference in amplitude, 1000-fold difference in energy</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the partial derivative with respect to y of the expression xy<sup>2</sup> + x<sup>3</sup>y?</div><div>ANSWER: 2xy + x<sup>3</sup></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many strings of two ones, three twos, and three threes can be made such that neither of the ones are adjacent?</div><div>ANSWER: 420</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Researchers in the UC Berkeley Fluid Mechanics Lab are investigating the effects of different propeller configurations on the resulting wake turbulence. Which of the following vector operations would most likely be performed on a velocity field to quantify the severity of the wake turbulence?</div><div>W) Gradient<br>X) Divergence<br>Y) Advective derivative<br>Z) Curl</div><div>ANSWER: Z) Curl</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers at Berkeley Lab’s CAMERA Center use mathematical models to approximate the Schrodinger equation to model the state of electrons. What computational method models electron behavior based on electron cloud density?</div><div>ANSWER: DENSITY FUNCTIONAL THEORY</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is NOT a rock associated with meteorite impacts?</div><div>W) Tektites<br>X) Lechatelierite<br>Y) Breccias<br>Z) Migmatites</div><div>ANSWER: Z) Migmatites</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Rank the following three Milankovitch cycles in terms of increasing period
+1) Eccentricity
+2) Precession
+3) Obliquity.</div><div>ANSWER: 2, 3, 1</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following are NOT considered stereoisomers?</div><div>W) Diastereomers<br>X) Cis-trans isomers<br>Y) Enantiomers<br>Z) Constitutional isomers</div><div>ANSWER: Z) Constitutional isomers</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following pairs of products would result from a disproportionation reaction involving phosphorus acid?</div><div>W) Diphosphorus and phosphite<br>X) Hydrogen ions and phosphate<br>Y) Phosphoric acid and phosphine<br>Z) Tetraphosphorus and phosphorus monoxide</div><div>ANSWER: Y) Phosphoric acid and phosphine</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following wavelengths of light, in nanometers, is absorbed best by photosystem II?</div><div>W) 670<br>X) 680<br>Y) 690<br>Z) 700</div><div>ANSWER: X) 680</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+In insect populations, many harmless pollinators mimic the coloration of bees and wasps to deter predation. What is the name of this defensive technique?</div><div>ANSWER: BATESIAN MIMICRY <span class="do-not-accept">(do not accept: MULLERIAN MIMICRY)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+The nth roots of unity are the complex solutions to the equation x<sup>n</sup> = 1. How many of the 13th roots of unity have a positive real part?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the perimeter of a 30-60-90 triangle whose incircle has area pi?</div><div>ANSWER: 6 + 4√3 <span class="also-accept">(also accept: 6 + 4 TIMES THE SQUARE ROOT OF 3)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A hollow cylinder slides down a frictionless inclined plane and acquires linear velocity of 2 meters per second. In meters per second and to two significant figures, what is the final velocity of the same cylinder rolling without slipping down the inclined plane?</div><div>ANSWER: 1.4</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Bob, who weighs 50 kilograms, is standing on a 100-kilogram sled on a frictionless surface. If he walks 1 meter from the center of the sled to its edge, how far does the sled travel in the opposite direction, to the nearest tenth of a meter?</div><div>ANSWER: 0.3</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which part of the male reproductive system is responsible for transporting sperm to the urethra?</div><div>W) Epididymis<br>X) Seminal vesicle<br>Y) Vas deferens<br>Z) Prostate</div><div>ANSWER: Y) Vas deferens</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+In order to extract necessary nutrients from the soil, plants acidify and participate in cation exchange in the soil. Which of the following gasses is excreted by the plant to facilitate cation exchange?</div><div>W) CO<sub>2</sub><br>X) N<sub>2</sub><br>Y) O<sub>2</sub><br>Z) CH<sub>4</sub></div><div>ANSWER: W) CO<sub>2</sub></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+When calculating the pH of highly diluted weak acids, the dissociation of water must be taken into account. What is the term for this reaction?</div><div>ANSWER: AUTOPROTOLYSIS <span class="also-accept">(also accept: SELF-IONIZATION; AUTOIONIZATION)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Consider the reversible, isothermal expansion of 1 mole of gas in a closed piston at 300 kelvins. To the nearest joule per kelvin, what is the change in entropy of the system as it expands from 3 to 6 liters?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Consider the function f(x) = the square root of the absolute value of the quantity x + 5. Which of the following statements is true regarding this function?</div><div>W) It is differentiable at x = –5<br>X) It is twice differentiable at x = –5<br>Y) It is continuous at x = –5<br>Z) It has a vertical asymptote at x = –5</div><div>ANSWER: Y) It is continuous at x = –5</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What type of atmospheric instability is exhibited when the lapse rate is 7 degrees Celsius per 1000 meters?</div><div>ANSWER: CONDITIONAL INSTABILITY</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What type of supernova does not show hydrogen, silicon, or helium spectral features?</div><div>ANSWER: IC <span class="also-accept">(also accept: TYPE IC)</span></div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following is NOT true about leptons?</div><div>W) They have half-integer spin<br>X) They have nonzero charge<br>Y) They participate in weak force interactions<br>Z) They participate in strong force interactions</div><div>ANSWER: Z) They participate in strong force interactions</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+John is singing a 100-hertz note while driving towards Dylan at 50 meters per second. Dylan sings what he hears back at John. Assuming the speed of sound is 300 meters per second, what frequency note, in hertz, does John hear?</div><div>ANSWER: 140</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

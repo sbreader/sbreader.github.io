@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2020 round 12</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2020/12" />
+<meta name="description" content="MIT 2020 round 12: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2020" data-packet="12">
+<div class="float-row mb-3"><span class="float-start">Packet 12 (round 12) of <a href="sets/mit-2020/">MIT 2020</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2020/round12.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following best describes the quantum mechanic wavefunction of a particle with definite position?</div><div>W) Dirac delta function<br>X) Oscillating complex exponential<br>Y) Bessel function<br>Z) Hermite polynomial</div><div>ANSWER: W) Dirac delta function</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A laser beam with wavelength 500 nanometers is directed at a hair, producing a diffraction pattern on a screen located 2 meters behind the hair. If the width of the central maximum of the diffraction pattern is 2 centimeters, what is the width of the hair in meters?</div><div>ANSWER: 1 × 10<sup>-4</sup> meters</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers in the Reddien group at MIT are investigating regeneration in the planarian visual system. Planarians are often used in regeneration studies, in part due to their ability to reproduce both asexually and sexually. Which of the following observations about mode of reproduction are seen in lowered pH?</div><div>W) Sexual reproduction is increased<br>X) Sexual reproduction is decreased<br>Y) Asexual reproduction is increased<br>Z) Asexual reproduction is decreased</div><div>ANSWER: Z) Asexual reproduction is decreased</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers in the Reddien group at MIT deployed singlecell RNA sequencing while investigating planarian regeneration. By name or number, identify all of the following four choices that explain why single-cell RNA sequencing in bacteria is more difficult than in mammals
+1) High coverage in RNA contigs
+2) Lack of polyadenylated mRNA
+3) Scarcity of total RNA
+4) Low sensitivity with rRNA</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the expected distance along the surface between two points chosen uniformly and independently at random on a sphere of radius 1?</div><div>ANSWER: π/2</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the maximum possible volume of a polyhedron formed by 5 points on a unit sphere?</div><div>ANSWER: √3 / 2</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the name for the cup-like sac that surrounds a glomerulus in the kidney?</div><div>ANSWER: Bowman’s capsule</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following methods of self-tolerance prevent an autoimmune response to the thyroid protein thyroglobulin?</div><div>W) Clonal deletion<br>X) Antigen sequestering<br>Y) Clonal anergy<br>Z) Active suppression by regulatory T-cells</div><div>ANSWER: X) Antigen sequestering</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, arrange the following three species in order of increasing chemical shift in proton NMR
+1) Aldehyde proton
+2) Vinyl proton
+3) Methyl proton</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following statements which are true of azulene, a hydrocarbon consisting of seven and five-membered fused rings
+1) Azulene has a permanent dipole moment
+2) Azulene is antiaromatic
+3) Azulene is intensely blue colored</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+As a white dwarf cools, in which of the following directions on the HR diagram does it move?</div><div>W) Down and left<br>X) Down and right<br>Y) Up and right<br>Z) Up and left</div><div>ANSWER: X) Down and right</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What term refers to the matrix of smaller crystals found in porphyritic rocks in which phenocrysts reside?</div><div>ANSWER: Groundmass</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Water travels through a strange elliptical pipe with a semi-major axis of 6 centimeters and a semi-minor axis of 4 centimeters at a speed of 15 meters per second. It exits through a hose with a circular opening of radius 3 centimeters. Assuming laminar flow, what is the speed at which it exits, in meters per second?</div><div>ANSWER: 40 meters per second</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Eight charges, each with charge +q, are placed at the corners of a cube. Consider the electric potential V (x, y, z) within this cube. Which of the following best describes the potential at the center of the cube?</div><div>W) Local minimum<br>X) Local maximum<br>Y) Saddle point<br>Z) Singularity</div><div>ANSWER: Y) Saddle point</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following genes is an example of a proto-oncogene?</div><div>W) BRCA1<br>X) p53<br>Y) Ras<br>Z) RB1</div><div>ANSWER: Y) Ras</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Protein import into which of the following organelles does NOT require the protein to be unfolded?</div><div>W) Endoplasmic reticulum<br>X) Mitochondria<br>Y) Chloroplast<br>Z) Peroxisome</div><div>ANSWER: Z) Peroxisome</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+In linear algebra, what is the term used to describe a collection of vectors for which no nonzero linear combination is equal to zero?</div><div>ANSWER: Linearly independent <span class="also-accept">(also accept: independent)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A polyhedron has 9 vertices and 16 edges. What is the minimum possible number of its faces which can be triangles?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+In order to synthesize ketones directly from acid derivatives, organolithiums and Grignard reagents are often employed. Which of the following acid derivatives would be least likely to generate good yields of ketone when reacted with an organolithium reagent?</div><div>W) Carboxylic acid<br>X) Ester<br>Y) N -methoxy-N -methylamide<br>Z) Nitrile</div><div>ANSWER: X) Ester</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+In NMR, the behavior of aromatic systems is dictated by the circulation of electrons in the π system in response to the magnetic field. What is this circulation known as?</div><div>ANSWER: Ring current</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following three metamorphic index minerals from least to greatest metamorphic grade
+1) Biotite
+2) Garnet
+3) Sillimanite</div><div>ANSWER: 1,2,3</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+A star of approximately 5 solar masses would likely have:</div><div>W) A convective core and a radiative envelope<br>X) A radiative core and a convective envelope<br>Y) Convection throughout the stellar body<br>Z) Radiation throughout the stellar body</div><div>ANSWER: W) A convective core and a radiative envelope</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Surendranath group at MIT are working on catalysts for oxygen reduction. Which of the following statements is true about oxygen reduction?</div><div>W) The oxygen to water reduction potential has a greater pH dependence than the reduction potential of the reduction of water to hydrogen gas<br>X) At higher pHs, oxygen reduction can occur at a higher potential<br>Y) Water lies below oxygen in the Pourbaix diagram of water<br>Z) In a pH 1 aqueous solution at 0 volt potential, water is not thermodynamically stable</div><div>ANSWER: Y) Water lies below oxygen in the Pourbaix diagram of water</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Dinca group at MIT have discovered that copper-exchanged zeolites can catalyze partial oxidation of methane to methanol. A spectroscopic technique used to characterize the copper zeolite is xray absorption spectroscopy. By name or number, identify all of the following three statements which are true about x-ray absorption spectroscopy
+1) X-ray near-edge absorption spectroscopy measures energies of electronic transitions.
+2) For a set of complexes of a given metal, a higher oxidation state of the metal will correspond to an edge of higher energy.
+3) Compared to the corresponding tetrahedral complex, transition metal octahedral complexes will have a larger K-edge, where the K-edge corresponds to a 1s to valence d-orbital absorption.</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following cannot be the last digit of a perfect square in base 7?</div><div>W) 1<br>X) 2<br>Y) 3<br>Z) 4</div><div>ANSWER: Y) 3</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+For four vectors u1, u2, v1, and v2 in the first quadrant of the plane, even if u1 has a smaller slope than v1 and u2 has a smaller slope than v2, it is possible for the vector u1 + u2 to have a larger slope than the vector v1 + v2 . This innocent fact about vectors manifests in what real-world phenomenon?</div><div>W) Simpson’s paradox<br>X) Berkson’s paradox<br>Y) Friendship paradox<br>Z) Lindley’s paradox</div><div>ANSWER: W) Simpson’s paradox</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following electron carriers does NOT take part in cyclic electron flow in photosynthesis?</div><div>W) Plastoquinone<br>X) Plastocyanin<br>Y) Ferredoxin<br>Z) Cytochrome b6f</div><div>ANSWER: W) Plastoquinone</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Name all of the following three situations that would result in an increase in stomatal conductance
+1) K<sup>+</sup> ion entry into guard cells
+2) H<sup>+</sup> -ATPase activity in guard cells
+3) Administration of abscisic acid</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers at MIT and Caltech have shown that two blackjack players, playing cooperatively against a dealer, can better coordinate their strategies using a quantumly entangled pair of systems. What theorem in quantum mechanics, introduced as an extension of the EPR paradox, shows that the predictions of a hidden variable theory are incompatible with the predictions of quantum mechanics?</div><div>ANSWER: Bell’s theorem <span class="also-accept">(also accept: Bell inequality)</span></div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at MIT have recently found that when two sheets of graphene are stacked on top of one another and one is rotated to a special orientation relative to the other, the resulting system can become either an insulator or a superconductor with the application of a strong electric field. It is thought that the exotic electric properties arise from what patterns that form when the sheets of graphene are rotated at a small angle relative to one another?</div><div>ANSWER: Moire patterns</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following represents the most work done by a gas which expands in volume, while the initial and final temperatures are the same?</div><div>W) Isovolumetric cooling followed by isobaric expansion<br>X) Adiabatic expansion followed by isovolumetric heating<br>Y) Isobaric expansion followed by isovolumetric cooling<br>Z) Isothermal expansion</div><div>ANSWER: Y) Isobaric expansion followed by isovolumetric cooling</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements is true regarding the band structure of a semiconductor?</div><div>W) The Fermi level lies within a band<br>X) In a p-type semiconductor, the Fermi level lies closer to the valence band<br>Y) The middle of a band is more densely populated with energy levels than the edges for any band<br>Z) The band gap is generally greater than 6 electronvolts</div><div>ANSWER: X) In a p-type semiconductor, the Fermi level lies closer to the valence band</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+How many different types of gluons exist?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Two non-interacting identical fermions are trapped in an infinite square well of length L. Given that a single fermion in the well has ground state energy E, indicate, by name or number, all of the following three statements that are true of this system if spin is ignored
+1) The first excited state has energy 10 E
+2) There exist exactly three energy eigenstates with energy less than 12 E
+3) The ground state is degenerate</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following cosmological problems is NOT solved by inflation?</div><div>W) The zero or near-zero curvature of the universe<br>X) The lack of observed magnetic monopoles<br>Y) The observed energy scale of dark energy<br>Z) The nearly uniform temperature of the cosmic microwave background</div><div>ANSWER: Y) The observed energy scale of dark energy</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The Sun has an effective surface temperature of approximately 6,000 kelvin. A B-type star was observed with an effective surface temperature of approximately 30,000 kelvin and a radius approximately 10 times that of the Sun. In units of solar luminosities, what is the star’s luminosity?</div><div>ANSWER: 62500 solar luminosities</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Tony stands on a train with rest length 30 meters moving at 1/2 c with respect to Joe and synchronizes two clocks at the front and back of the train. In Joe’s frame, which of the following statements is true of the readings on the clocks?</div><div>W) The rear clock is 5 microseconds ahead of the front clock<br>X) The rear clock is 5 microseconds behind the front clock<br>Y) The rear clock is 5 nanoseconds ahead of the front clock<br>Z) The rear clock is 5 nanoseconds behind the front clock</div><div>ANSWER: W) The rear clock is 5 microseconds ahead of the front clock</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Given that the Compton wavelength of an electron is 2.43 picometers, then what is the shift in wavelength, in picometers to two significant figures, of a photon that scatters off the electron by an angle of 53 degrees?</div><div>ANSWER: 0.97 picometers <span class="also-accept">(also accept: 9.7 × 10<sup>-1</sup> picometers)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Glia are cells that play a supporting role in the nervous system. Which of the following are NOT glia found in the brain?</div><div>W) Astrocytes<br>X) Microglia<br>Y) Schwann cells<br>Z) Ependymal cells</div><div>ANSWER: Y) Schwann cells</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What maternal effect gene in Drosophila is localized to the anterior part of the developing embryo, and is used to establish the A-P axis during development?</div><div>ANSWER: Bicoid</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements is true of plunging folds?</div><div>W) The hinge line of a plunging fold penetrates the earth’s surface<br>X) The axial plane of a plunging fold lies parallel to the earth’s surface<br>Y) A plunging anticline that has been eroded points away from the direction of the plunge<br>Z) The oldest rock in a plunging anticline is found on the edges of the fold</div><div>ANSWER: W) The hinge line of a plunging fold penetrates the earth’s surface</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three outer solar system storms which are cyclonic or low pressure storms
+1) Jupiter’s Great Red Spot
+2) Saturn’s Great White Spot
+3) Neptune’s Great Dark Spot</div><div>ANSWER: None of them</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Expressing your answer in hexadecimal, what is the square of the hexadecimal number 23?</div><div>ANSWER: 4C9</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+For how many positive integers N from 1 to 2020 inclusive does N<sup>2</sup> end in the digits 49?</div><div>ANSWER: 81</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Dichromate will oxidize ethanol to what compound?</div><div>ANSWER: Acetic acid</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three statements which are true of partition functions
+1) The partition function of a monatomic ideal gas is temperature independent
+2) The average energy of a system is the negative derivative of the partition function with respect to temperature
+3) For indistinguishable particles, the partition function of two systems together is the product of the partition functions of each</div><div>ANSWER: None of them</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

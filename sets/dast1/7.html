@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - DAST1 DAST Round 7</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/dast1/7" />
+<meta name="description" content="DAST1 DAST Round 7: 45 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="dast1" data-packet="7">
+<div class="float-row mb-3"><span class="float-start">Packet 7 (DAST Round 7) of <a href="sets/dast1/">DAST1</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/DAST1/DAST%20Round%207.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A triangle with vertices on lattice points has 10 lattice points on its boundary and 8 lattice points contained strictly within the triangle. Find the area of the triangle.</div><div>ANSWER: 12</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Given that x squared minus x minus 4 equals 0, compute x cubed plus 3 x squared minus 8 x plus 4.</div><div>ANSWER: 20</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers at the Joint Genome Institute’s DNA Synthesis Science Program elucidated the biosynthetic pathways of terpenoids. Terpenoids are built off of terpenes, which are polymers of what 5-carbon molecule?</div><div>ANSWER: ISOPRENE</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers at the Joint Genome Institute are investigating causes of cell death. What term is given to the number of times cells can divide in their lifetime, largely attributed to the shortening of telomeres after each division?</div><div>ANSWER: HAYFLICK LIMIT</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following cells has the lowest surface area to volume ratio?</div><div>W) Streptococcus<br>X) Simple cuboidal epithelial cell<br>Y) Neuron<br>Z) Pseudostratified columnar cell</div><div>ANSWER: W) Streptococcus</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three statements that are true regarding bacteria
+1) Proteobacteria have lipopolysaccharides attached to an outer membrane
+2) Spirochetes move using many cilia that beat at different phases
+3) Filamentous cyanobacterial units have special Nitrogen-fixing cells called hemocytes.</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+In terms of the reduced Planck constant, h-bar, what is the angular momentum of a 5s-electron?</div><div>ANSWER: 0 <span class="also-accept">(also accept: 0 H-BAR)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+According to MO theory, identify all of the following three molecules that are predicted to be paramagnetic
+1) CN minus
+2) NO
+3) S2.</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A parabolic mirror is located in the xy-plane, and light is shone on the mirror parallel to the y-axis. If the mirror is given by the equation y equals one-eighth times (x minus 6) squared plus 4, find the distance from the point where all the light meets to the x-axis.</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A 5-inch tall object is placed on the principal axis 10 centimeters away from a convex lens with a focal length of 15 centimeters. Find the height of the image in feet.</div><div>ANSWER: 1.25</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the fifth term in the Look-and-Say Sequence, which has the first four terms as follows: 1, 11, 21, and 1211?</div><div>ANSWER: 111221</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of these currents of the South Atlantic Gyre is likely to be the strongest current of the system?</div><div>W) Brazil Current<br>X) Antarctic Circumpolar Current<br>Y) Benguela Current<br>Z) South Equatorial Current</div><div>ANSWER: W) Brazil Current</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What effect, predicted by Einstein’s general theory of relativity, explains why objects within the ergosphere cannot appear stationary when observed externally due to the twisting of spacetime?</div><div>ANSWER: LENSE-THIRRING EFFECT <span class="also-accept">(also accept: FRAME-DRAGGING)</span></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Providing your answer as a percentage of V max, what is the velocity of a reaction when the substrate concentration is three times the Michaelis constant?</div><div>ANSWER: 75% <span class="do-not-accept">(do not accept: 3/4)</span></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Ms. Allen is attempting to design an enzyme inhibitor that will help treat breast cancer. Which enzyme should she target?</div><div>W) Catalase<br>X) Phosphofructokinase<br>Y) Aromatase<br>Z) DNA Polymerase</div><div>ANSWER: Y) Aromatase</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+At which of the following quantum numbers is the quantum harmonic oscillator the most similar to a classical harmonic oscillator?</div><div>W) 1<br>X) 4<br>Y) 9<br>Z) 16</div><div>ANSWER: Z) 16</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A positively charged ball is bouncing down an infinitely long ramp angled 30 degrees from the horizontal. An electric field parallel to the plane of the ramp that is directed down the ramp is then turned on. How do the time and distance between consecutive bounces change, respectively?</div><div>ANSWER: STAYS THE SAME, INCREASES</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+According to the Lewis model, boron trifluoride has a bond order of 1. However, this is not true, and different approaches, including MO theory, have shown that BF<sub>3</sub> has what bond order?</div><div>W) 1/3<br>X) 2/3<br>Y) 4/3<br>Z) 5/3</div><div>ANSWER: Y) 4/3</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following statements that are true concerning the relative acidity of organic molecules
+1) Protons on double bonds are more acidic than protons on triple bonds
+2) A proton bonded to oxygen is more acidic than a proton bonded to sulfur
+3) The proton in acetic acid is more acidic than the proton in ethanol.</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Olympus Mons is the tallest planetary mountain discovered. Which of the following mechanisms is thought to have allowed Olympus Mons to attain its height?</div><div>W) Tectonic uplift over millions of years combined with a lack of erosion by water<br>X) An impact by a foreign celestial body, forcing the crust upward<br>Y) A lack of mobile tectonic plates, allowing a volcano to sit over a hot spot<br>Z) A lack of sufficient gravity to flatten Olympus Mons since the planets formed</div><div>ANSWER: Y) A lack of mobile tectonic plates, allowing a volcano to sit over a hot spot</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+The Tolman-Oppenheimer-Volkoff limit, or TOV limit, denotes the maximum mass a cold, non-rotating neutron star can have. One of the steps in calculating the TOV limit is finding the pressure needed to resist gravity. What theorem relates the average total kinetic energy of a system of particles bound by gravity to its potential energy, which finds the pressure needed to resist gravity?</div><div>ANSWER: VIRIAL THEOREM</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Scientists at Lawrence Livermore National Lab are using superconducting sensors to detect the results of the electron capture decay of beryllium-7. It is theorized to decay into lithium-7 and what other hypothetical lepton that only interacts with matter via gravity?</div><div>ANSWER: STERILE NEUTRINO <span class="also-accept">(also accept: INERT NEUTRINO)</span> <span class="do-not-accept">(do not accept: NEUTRINO)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Scientists at Johns Hopkins University in partnership with the Department of Energy have discovered an electronic polymer composed of ringed molecules attached to a backbone that allows for electron flow. What phenomenon occurs in aromatic molecules such as benzene when a magnetic field is applied perpendicular to the plane, creating an induced field due to delocalized electrons and resulting in large H1-NMR shifts?</div><div>ANSWER: RING CURRENT <span class="also-accept">(also accept: DIATROPIC CURRENT)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+How many distinct two-letter words can be formed by choosing two of the letters in N-A-V-E-E-N?</div><div>ANSWER: 14</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Which of the following statements regarding binomial distributions is TRUE?</div><div>W) They can be approximated by normal curves in certain conditions<br>X) A binomial random variable can have 3 possible values<br>Y) Binomial distributions are always symmetric<br>Z) Binomial distributions occur when each trial has an effect on all subsequent trials</div><div>ANSWER: W) They can be approximated by normal curves in certain conditions</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A parallel plate capacitor is in series with a battery. The distance between its plates is then doubled, and it disconnects from the battery. The distance between the plates now goes back to what it was originally. Which of the following best describes how the charge on the plates changes?</div><div>W) It doubles and then halves<br>X) It doubles and then stays the same<br>Y) It halves and then doubles<br>Z) It halves and then stays the same</div><div>ANSWER: Z) It halves and then stays the same</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A series AC circuit is made of a resistor, a capacitor, and an inductor. Identify all of the following four quantities in which an increase will always result in the maximum current through the circuit being increased
+1) Resistance
+2) Capacitance
+3) Inductance
+4) Resonant frequency.</div><div>ANSWER: NONE</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Atomic orbitals are described by wavefunctions, which themselves can be described by the products of radial and angular wavefunctions. Identify all of the following four quantum numbers that are needed to describe an angular wavefunction
+1) principal quantum number
+2) orbital angular momentum quantum number
+3) magnetic quantum number
+4) spin magnetic quantum number.</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three statements that are true regarding crystal field theory
+1) The d-orbital splitting energy in octahedral complexes is higher than in tetrahedral complexes
+2) In an octahedral complex, there are 3 e<sub>g</sub> orbitals and 3 t<sub>2g</sub> orbitals
+3) Tetrahedral complexes are always diamagnetic.</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What type of cells in the kidney release renin as a result of decreased blood pressure?</div><div>ANSWER: JUXTAGLOMERULAR CELLS</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What is the name of the enzyme known for its role in converting Angiotensin I to Angiotensin II?</div><div>ANSWER: ANGIOTENSIN-CONVERTING ENZYME <span class="also-accept">(also accept: ACE)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements regarding kilonovae is NOT true?</div><div>W) They produce gamma ray bursts<br>X) They are formed from mergers between neutron stars or black holes<br>Y) They result in the formation of heavy metals like gold and platinum<br>Z) Their gravitational waves are outside the range of frequencies LIGO can detect</div><div>ANSWER: Z) Their gravitational waves are outside the range of frequencies LIGO can detect</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following best explains the formation of Hirayama families, which are groups of asteroids with similar orbital and compositional properties?</div><div>W) Geologic overactivity causes a parent asteroid to form internal cracks that split apart over time<br>X) Orbital resonance locks the asteroid family into a particular orbit<br>Y) A catastrophic collision causes the fragmentation of a parent asteroid<br>Z) Gravitational perturbation from Jupiter drags objects from the Kuiper belt into different orbits</div><div>ANSWER: Y) A catastrophic collision causes the fragmentation of a parent asteroid</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers at Brookhaven National Lab have been researching hydrogen fuel cells. One type of hydride used as a storage method for hydrogen to be used in fuel cells is an interstitial hydride. Which of the following elements can form an interstitial hydride?</div><div>W) Lanthanum<br>X) Sodium<br>Y) Carbon<br>Z) Nitrogen</div><div>ANSWER: W) Lanthanum</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Scientists at Los Alamos National Lab have been looking to the sky and investigating near-earth objects for use in asteroid mining. Order the following three near-earth objects by increasing distance from the earth
+1) Apollo objects
+2) Aten objects
+3) Amor objects.</div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The amount of possible microstates of a system is increased from 81 to 729. By what factor is the entropy of the system multiplied?</div><div>ANSWER: 1.5</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+One mole of a gas with an adiabatic index of 1.4 expands isobarically from a volume of 10 liters to 20 liters. Approximating ln(2) as 0.7, find the change in entropy of the gas as it expands in terms of R, the ideal gas constant.</div><div>ANSWER: 7R/4</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the remainder when x cubed minus x squared minus x minus one is divided by x minus one?</div><div>ANSWER: –2</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Let a, b, and c be positive numbers such that the cube of the quantity a divided by b plus the cube of the quantity b divided by c plus the cube of the quantity c divided by a equals 3. Compute the fraction with numerator a cubed plus b cubed plus c cubed and denominator abc.</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+The following is the chemical equation for the reduction reaction happening at the cathode in a galvanic cell: 8H<sup>+</sup> + MnO<sub>4</sub><sup>–</sup> + 5e<sup>–</sup> yields Mn<sup>2+</sup> + 4H<sub>2</sub>O. If the pH of the cathode were to increase by 2, how would the reduction potential change?</div><div>W) It would decrease<br>X) It would increase<br>Y) It would stay the same<br>Z) Not enough information is given</div><div>ANSWER: W) It would decrease</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three compounds that will give only 2 signals in their Carbon-13 NMR spectra
+1) Isopropyl cyanide
+2) 1,3,5-trinitrobenzene
+3) tetrahydrofuran.</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What enzyme is responsible for cohesin cleavage during anaphase?</div><div>ANSWER: SEPARASE</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Hashimoto’s disease targets which major organ?</div><div>ANSWER: THYROID</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following rocks is not a form of chert?</div><div>W) Limestone<br>X) Agate<br>Y) Radiolarite<br>Z) Flint</div><div>ANSWER: W) Limestone</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What period 4 element is commonly found to replace the aluminum in bauxite, leading the world’s largest source of the element to be bauxite itself?</div><div>ANSWER: GALLIUM</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

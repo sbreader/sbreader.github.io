@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2022 Round 6</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2022/11" />
+<meta name="description" content="MIT 2022 Round 6: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2022" data-packet="11">
+<div class="float-row mb-3"><span class="float-start">Packet 11 (Round 6) of <a href="sets/mit-2022/">MIT 2022</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2022/Round_6.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The bacteria causing botulism and tetanus belong to what genus?</div><div>ANSWER: Clostridium</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four plant phyla that are NOT vascular plants
+1) Cycadophyta
+2) Angiosperms
+3) Bryophyta
+4) Hepatophyta</div><div>ANSWER: 3 and 4</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following three statements which are true of constant-volume thermodynamic processes in closed systems of ideal gases
+1) No expansion work is done to the system
+2) On a T-S diagram, these processes are depicted as horizontal lines
+3) On a P-V diagram, these processes are depicted as vertical lines</div><div>ANSWER: 1 and 3 <span class="also-accept">(also accept: All but 2)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+What phenomenon, in which two plane mirrors in empty space are observed to attract one another, gives evidence to support the existence of electromagnetic waves within a vacuum?</div><div>ANSWER: Casimir effect</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A function f satisfies the property that f ′ is a strictly increasing function, f(0) = 0, and f(1) = 1. What is the smallest possible integer value of f(10)?</div><div>ANSWER: 11</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the value of cot 75° sin 75°?</div><div>ANSWER: (√6 − √2)/4</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The Calo Lab at MIT is studying high-order assemblies in the nucleolus and how its organization contributes to function. What organelle made from protein and RNA is assembled in the nucleolus?</div><div>ANSWER: Ribosome</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers in the Wilson Lab at MIT utilize local field potential, or LFP recordings, which are generated not by action potentials, but rather the same currents that generate the postsynaptic potential. What term describes a neuron receiving multiple excitatory postsynaptic potentials in a short period of time, causing membrane depolarization of the postsynaptic cell?</div><div>ANSWER: Temporal summation</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Dihydrogen bonding is a special type of hydrogen bonding that involves attraction between a partially positive hydrogen and a partially negative hydrogen. Which of the following molecules would have the strongest degree of dihydrogen bonding?</div><div>W) NH<sub>3</sub>BH<sub>3</sub><br>X) CH<sub>3</sub>NH<sub>2</sub><br>Y) N<sub>2</sub>H<sub>4</sub><br>Z) C<sub>2</sub>H<sub>6</sub></div><div>ANSWER: W) NH<sub>3</sub>BH<sub>3</sub></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Given that iron is a group 8 transition metal, in terms of Δ, the crystal field splitting energy, what is the crystal field stabilization energy for the Fe(CN)<sub>6</sub><sup>3-</sup> ion?</div><div>ANSWER: −2Δ <span class="also-accept">(also accept: 2Δ)</span></div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following types of volcanic hazards forms when an eruption column collapses and rushes down the flanks of a volcano?</div><div>W) Volcanic outflow<br>X) Lahar<br>Y) Volcanic ash fall<br>Z) Pyroclastic flow</div><div>ANSWER: Z) Pyroclastic flow</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three values that increase as you move from the headwaters to the mouth of a stream
+1) Gradient
+2) Discharge
+3) Flow velocity</div><div>ANSWER: 2 and 3 <span class="also-accept">(also accept: All but 1)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A spinning ping-pong ball travels forwards through air, with an angular velocity which points directly upwards. The spin generates differences in air pressure, deflecting the ball’s path in which of the following directions?</div><div>W) Left<br>X) Right<br>Y) Up<br>Z) Down</div><div>ANSWER: W) Left</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A particle with mass 10 kilo-electronvolts per c squared is moving with a velocity of 98% the speed of light. To the nearest kilo-electronvolt, what is the kinetic energy of this particle?</div><div>ANSWER: 50</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Scientists at MIT’s Kavli Institute for Astrophysics have been examining the behavior and composition of late-stage stars such as neutron stars and white dwarves. By name or number, rank the following three types of degeneracy pressure experienced by these stars by increasing magnitude
+1) Neutron degeneracy pressure
+2) Electron degeneracy pressure
+3) Proton degeneracy pressure</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Astronomers at MIT were part of the TESS team which recently discovered a planet with a radius of 1.5 times that of the Earth orbiting a star with a radius of 0.44 times that of the Sun at a distance of 0.05 astronomical units. Which of the following is closest to the fraction of light which is blocked when the planet transits the star?</div><div>W) 10<sup>-7</sup><br>X) 10<sup>-5</sup><br>Y) 10<sup>-3</sup><br>Z) 10<sup>-1</sup></div><div>ANSWER: Y) 10<sup>-3</sup></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Over all positive real values of x and y, what is the minimum possible value of log<sub>x</sub>(y) + log<sub>y</sub>(x)?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the sum of the positive integer factors of 2022?</div><div>ANSWER: 4056</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Sodium chloride is slowly dissolved in a beaker of distilled water. By name or number, identify all of the following three properties of the solution that are expected to increase
+1) Vapor pressure
+2) Boiling point
+3) Freezing point</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+A solution of 0.1 molar sulfuric acid is added to a beaker, and two wires connected to a lightbulb are inserted in the beaker. A 0.1 molar solution of barium hydroxide is slowly dripped in using a buret. Which of the following statements is true regarding this experiment?</div><div>W) The lightbulb is initially lit, but dims and eventually goes out<br>X) The lightbulb is initially unlit, but starts glowing and gets brighter<br>Y) The lightbulb is initially lit, dims and goes out, then starts glowing again<br>Z) The lightbulb is initially unlit, reaches a maximum brightness, starts dimming, and eventually goes out</div><div>ANSWER: Y) The lightbulb is initially lit, dims and goes out, then starts glowing again</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Absolute stability in clouds occurs under which of the following conditions?</div><div>W) Environmental lapse rate is less than the dry adiabatic rate<br>X) Environmental lapse rate is greater than the dry adiabatic rate<br>Y) Environmental lapse rate is less than the wet adiabatic rate<br>Z) Environmental lapse rate is greater than the wet adiabatic rate</div><div>ANSWER: Y) Environmental lapse rate is less than the wet adiabatic rate</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+The breakup of Pangaea occurred during the end of which of the following geologic periods?</div><div>W) Cambrian<br>X) Carboniferous<br>Y) Triassic<br>Z) Cretaceous</div><div>ANSWER: Y) Triassic</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following cell types is incorrectly paired with its function?</div><div>W) Podocyte and selective filtration<br>X) Osteoclast and bone decomposition<br>Y) Fibroblast and keratin generation<br>Z) Megakaryocyte and platelet formation</div><div>ANSWER: Y) Fibroblast and keratin generation</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following types of cell death is NOT correctly paired with its mechanism?</div><div>W) Necrosis and unplanned cell death<br>X) Autophagy and consumption by immune cells<br>Y) Apoptosis and disintegration into blebs<br>Z) Entosis and invasion by another cell</div><div>ANSWER: X) Autophagy and consumption by immune cells</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers in the Raines group at MIT have synthesized a disulfide reducing agent from L-aspartic acid that is superior to standard reagents. Upon reduction of a disulfide bond, what functional group is formed?</div><div>ANSWER: Thiol <span class="also-accept">(also accept: Sulfhydryl; mercaptan)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the McGuire group at MIT have used high-resolution rotational spectroscopy to discover the first chiral molecule in space, propylene oxide. If a 1 molar solution of pure (R)-propylene oxide rotates plane-polarized light by 15 degrees, what percent (R)-propylene oxide is a 1 molar solution of propylene oxide that rotates plane-polarized light by 9 degrees?</div><div>ANSWER: 80% <span class="also-accept">(also accept: 0.8; 4/5)</span></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following disorders of the thyroid gland is representative of a hyperthyroid condition?</div><div>W) Hashimoto disease<br>X) Grave disease<br>Y) Iodine deficiency<br>Z) Myxedema</div><div>ANSWER: X) Grave disease</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Tyler’s guppers, after many generations of tank life, have developed a genetic, instinctual love for Tyler. Since pineapples are one of his natural predators, they have started attacking anything that is colored yellow. What is the color yellow an example of for these guppers?</div><div>ANSWER: Sign stimulus</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three branches of the HR diagram that burn both helium and hydrogen
+1) Red giant branch
+2) Horizontal branch
+3) Asymptotic giant branch</div><div>ANSWER: 2 and 3 <span class="also-accept">(also accept: All but 1)</span></div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following supernova types most likely resulted from a Wolf-Rayet progenitor?</div><div>W) Type Ia<br>X) Type Ib<br>Y) Type II-P<br>Z) Type IIn</div><div>ANSWER: X) Type Ib</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following compounds has the smallest bond angles?</div><div>W) NH<sub>3</sub><br>X) NF<sub>3</sub><br>Y) NCl<sub>3</sub><br>Z) NBr<sub>3</sub></div><div>ANSWER: X) NF<sub>3</sub></div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following three gases by increasing average speed
+1) Chlorine at 800 kelvin
+2) Oxygen at 400 kelvin
+3) Helium at 200 kelvin</div><div>ANSWER: 1,2,3</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+By name or number, identify all of the following three types of quadrilaterals such that connecting the midpoints of the quadrilateral must form a rhombus
+1) Parallelogram
+2) Rectangle
+3) Trapezoid</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+To the nearest power of 10, how many primes are less than one million?</div><div>W) 10<sup>2</sup><br>X) 10<sup>3</sup><br>Y) 10<sup>4</sup><br>Z) 10<sup>5</sup></div><div>ANSWER: Z) 10<sup>5</sup></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A mass connected to a spring undergoes simple harmonic motion with a period of 2 seconds and a maximum displacement of 2 meters. In meters per second, what is the maximum speed attained by the mass?</div><div>ANSWER: 2π</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A 2 kilogram mass traveling at 7 meters per second elastically collides with a stationary 5 kilogram mass and rebounds in the opposite direction. In meters per second, what is the final speed of the 2 kilogram mass?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following four ions by increasing size
+1) H<sup>–</sup>
+2) F<sup>–</sup>
+3) Cl<sup>–</sup>
+4) Br<sup>–</sup></div><div>ANSWER: 2,1,3,4</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Given that hydrogen cyanide can exist in four orientations, calculate the residual entropy of a crystal lattice of 1 mole of hydrogen cyanide, in joules per kelvin and to one significant figure.</div><div>ANSWER: 10</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+By name or number, order the following bacterial structures from innermost to outermost
+1) Plasma membrane
+2) Cell wall
+3) Capsule</div><div>ANSWER: 1,2,3</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following cell structures can be found in both animal cells and mature plant cells?</div><div>W) Glyoxysomes<br>X) Centrioles<br>Y) Flagella<br>Z) Nucleoli</div><div>ANSWER: Z) Nucleoli</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+The perimeters of the faces of a tetrahedron are 5, 6, 7, and 8. What is the sum of the lengths of all edges of the tetrahedron?</div><div>ANSWER: 13</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the smallest number k such that the product of the first k primes is at least 1 million?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What radioactive isotope of beryllium is the intermediate nuclei in the triple alpha process?</div><div>ANSWER: Beryllium-8 <span class="also-accept">(also accept: Be-8)</span></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Most outflow channels on Mars were formed during which of the three periods of Martian history?</div><div>ANSWER: Hesperian period <span class="also-accept">(also accept: Hesperian)</span></div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A ceiling fan motor exerts a torque of 4.0 newton meters, while a person keeps the blades from spinning by pressing upwards against the end of a 0.75 meter blade with a force of 4.0 newtons. To the nearest tenth, what is the minimum coefficient of static friction between the person’s hand and the ceiling fan blade required to prevent the blades from spinning?</div><div>ANSWER: 1.3</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An ideal electrical dipole is placed at the origin, such that the magnitude of the electric field on the x axis at x = 2 meters is 4 newtons per coulomb. In newtons per coulomb, what is the magnitude of the electric field on the x -axis at x = 4 meters?</div><div>ANSWER: 1/2 <span class="also-accept">(also accept: 0.5)</span></div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

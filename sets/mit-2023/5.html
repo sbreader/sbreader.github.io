@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2023 Round 5</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2023/5" />
+<meta name="description" content="MIT 2023 Round 5: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2023" data-packet="5">
+<div class="float-row mb-3"><span class="float-start">Packet 5 (Round 5) of <a href="sets/mit-2023/">MIT 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2023/Round%205.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the smallest positive integer that is equivalent to 1 / 9 mod 13?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+The product of all prime numbers less than 100 is P. What is the remainder when P is divided by 60?</div><div>W) 20<br>X) 30<br>Y) 40<br>Z) 50</div><div>ANSWER: X) 30</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+At what height in kilometers in the atmosphere would ozone concentrations be expected to be the highest?</div><div>W) 5<br>X) 10<br>Y) 15<br>Z) 20</div><div>ANSWER: Z) 20</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Order the following currents in the North Pacific Gyre from fastest to slowest
+1) California current
+2) North Equatorial Current
+3) Kuroshio Current</div><div>ANSWER: 3, 2, 1</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at the Horvitz lab at MIT are using C. elegans to investigate how the expression of genes affects animal development. A focus of this lab is seeing how the activation of proteases leads to apoptosis at different stages of development. What is the name given to these proteases?</div><div>ANSWER: Caspases</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+The Chen Lab at MIT is investigating the mechanisms governing host-pathogen interactions, which MHC proteins are highly involved in. Which of the following incorrectly matches cell type to MHC class?</div><div>W) B-cells and MHC class II<br>X) Dendritic cells and MHC class II<br>Y) Erythrocytes and MHC class I<br>Z) Hepatocytes and MHC class I</div><div>ANSWER: Y) Erythrocytes and MHC class I</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+To the nearest whole number, what is the pH of a 1 molar solution of a monoprotic acid with a pKa of 6?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+To the nearest integer, what is the pH of a 0.1 molar solution of sodium acetate, given that the pKa of acetic acid is approximately 5?</div><div>ANSWER: 9</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Two linear polarizers are placed 45 degrees from each other, and unpolarized light is passed through the polarizers. By what factor does the intensity of the light change?</div><div>ANSWER: 1/4 <span class="also-accept">(also accept: 0.25)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+An AC voltage source is connected in series to a capacitor and an inductor. Which of the following best describes how the impedances of the capacitor and inductor will change if the frequency of the voltage source is doubled?</div><div>W) The impedences of the capacitor and inductor will both double<br>X) The impedance of the capacitor will double, while the impedance of the inductor will halve<br>Y) The impedence of the capacitor will halve, while the impedence of the inductor will double<br>Z) The impedences of the capacitor and inductor will both halve</div><div>ANSWER: Y) The impedence of the capacitor will halve, while the impedence of the inductor will double</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+At the end of the light-dependent reactions of photosynthesis, the electrons derived from the splitting of water are ultimately found in what molecule?</div><div>ANSWER: NADPH</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+In which phylum would one find the Portuguese man o’ war, which possesses nematocysts that kill its prey?</div><div>ANSWER: Cnidaria</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Mauna Loa, the second largest volcano in the world, is located in Hawaii and would be classified as which of the following types of volcanoes?</div><div>W) Shield<br>X) Cinder cone<br>Y) Composite<br>Z) Complex</div><div>ANSWER: W) Shield</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What line separates a floating ice shelf from the land-based ice sheet that feeds into it?</div><div>ANSWER: Grounding line</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following gases deviates the most from the ideal gas law at low temperatures?</div><div>W) Helium<br>X) Methane<br>Y) Ammonia<br>Z) Neon</div><div>ANSWER: Y) Ammonia</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+How many normal modes of vibration does dinitrogen have?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Gilliard Lab at MIT are doping polycyclic aromatic hydrocarbons with boron to improve their energy storage. Which of the following vacant atomic orbitals in boron facilitates the observed improvements?</div><div>W) s<br>X) p<br>Y) d<br>Z) f</div><div>ANSWER: X) p</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Kulik group at MIT are using machine learning to study the structure of complex materials formed by the linking of metal clusters to organic ligands. What is the general name for this class of materials?</div><div>ANSWER: Metal organic frameworks <span class="also-accept">(also accept: MOFs)</span></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Which second messenger created by the activity of phospholipase C diffuses into the cytoplasm and activates calcium ion channels in the ER?</div><div>ANSWER: IP<sub>3</sub> <span class="also-accept">(also accept: Inositol trisphosphate; Inositol 1,4,5-trisphosphate)</span></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following is true about the lagging strand in DNA replication?</div><div>W) It is synthesized in a 5’ to 3’ direction and is discontinuous<br>X) It is synthesized in a 5’ to 3’ direction and is continuous<br>Y) It is synthesized in a 3’ to 5’ direction and is discontinuous<br>Z) It is synthesized in a 3’ to 5’ direction and is continuous</div><div>ANSWER: W) It is synthesized in a 5’ to 3’ direction and is discontinuous</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+In a calculus class, 30 out of 36 students got an average of 72% on the exam. The rest of the students got an average of 78% on the exam. What is the average of the entire class?</div><div>ANSWER: 73</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The largest real root to the quadratic equation x<sup>2</sup> − 20x = 2023 can be written as a + √b for positive integers a and b. What is the value of a + b?</div><div>ANSWER: 2133</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The proton consists of quarks bound together by the exchange of what virtual particles?</div><div>ANSWER: Gluons</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Water is flowing through a pipe. The velocity of the water suddenly doubles while temperature remains the same. Which of the following values of the water must necessarily increase?</div><div>W) Molar heat capacity<br>X) Density<br>Y) Reynolds number<br>Z) Speed of sound</div><div>ANSWER: Y) Reynolds number</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+What type of ecological dispersion pattern do starfish found in tide pools typically follow?</div><div>W) Clumped<br>X) Uniform<br>Y) Radial<br>Z) Random</div><div>ANSWER: W) Clumped</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three descriptions that is a true difference between animal and plant development
+1) Plants primarily grow in height by elongation of cells while animals primarily grow by cell division
+2) Juvenile and adult forms can be found within one plant while animals grow from juvenile to adult forms
+3) Plants undergo determinate growth while animals undergo indeterminate growth.</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following is always true of matrix multiplication?</div><div>W) Commutative and associative<br>X) Commutative but not associative<br>Y) Associative but not commutative<br>Z) Not Commutative and not associative</div><div>ANSWER: Y) Associative but not commutative</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many non-congruent triangles are there with sides of integer length having at least one side of length 5 units and having no side longer than 5 units?</div><div>ANSWER: 9</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+At what point on the phase diagram of water are ice, liquid water, and water vapor in equilibrium inside a closed container?</div><div>ANSWER: Triple point</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following acids is the strongest?</div><div>W) Acetic acid<br>X) Fluoroacetic acid<br>Y) Difluoroacetic acid<br>Z) Trifluoroacetic acid</div><div>ANSWER: Z) Trifluoroacetic acid</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Order the following martian time periods from earliest to latest.
+1) Amazonian
+2) Noachian
+3) Hesperian</div><div>ANSWER: 2,3,1</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+What is the smallest constellation by area assigned by the International Astronomical Union on the celestial sphere?</div><div>W) Crux<br>X) Ursa Major<br>Y) Gemini<br>Z) Ursa Minor</div><div>ANSWER: W) Crux</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A carnot refrigerator connects two thermal reservoirs of temperatures 350 kelvin and 250 kelvin. If 50 joules of work are expended, what is the maximum energy, in joules, that the refrigerator can extract from the cold reservoir?</div><div>ANSWER: 125 joules</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+In joules per mole kelvin, which of the following values is closest to the molar specific heat of copper metal at room temperature?</div><div>W) 3<br>X) 8<br>Y) 15<br>Z) 25</div><div>ANSWER: Z) 25</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Researchers in the Oliver group at MIT are studying the effects of tunneling on quantum computers. Which of the following best describes the relationship between the probability of quantum tunneling through a tall potential barrier and the width of the barrier?</div><div>W) Linear<br>X) Quadratic<br>Y) Logarithmic<br>Z) Exponential</div><div>ANSWER: Z) Exponential</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers in the Taylor group at MIT are studying relativistic interactions between particles. Identify all of the following 3 quantities that are relativistically invariant
+1) Charge
+2) Electric field strength
+3) Magnetic field strength</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A triangle has side lengths that are all prime numbers and its perimeter is prime as well. What is the smallest possible perimeter of the triangle?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Maisy chooses 2 different integers without replacement from 1 through 20 inclusive at random. What is the probability that both numbers are prime?</div><div>ANSWER: 14/95</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+On Mount Jonah, the range of a particular pine tree species initially extends from the tree line to the base of the mountain. Over time, a new tree species outcompetes the pine until its range only encompasses the higher altitudes of the mountain. Assuming constant environmental conditions across time, which of the following statements is true regarding the original pine?</div><div>W) Its fundamental niche is smaller than its realized nich<br>X) Its fundamental niche is larger than its realized niche<br>Y) Its fundamental niche and its realized niche are the same<br>Z) No meaningful conclusion about its fundamental and realized niches can be drawn</div><div>ANSWER: X) Its fundamental niche is larger than its realized niche</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following four statements that are true of protostome development
+1) The blastopore develops into the mouth.
+2) All protostomes lack a coelom.
+3) Protostomes display radial cleavage.
+4) Starfish are examples of protostomes.</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the equilibrium constant for the reaction of hydronium with hydroxide to form two molecules of water?</div><div>ANSWER: 10<sup>14</sup></div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What is the ratio of the energy released by a photon undergoing a transition from n = 4 to n = 1 versus n = 5 to n = 1 in a hydrogen atom?</div><div>ANSWER: 125/128</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+An airplane is traveling through air at twice the speed of sound. What is the angle, in degrees, that the pressure wave of the airplane makes with the airplanes path?</div><div>ANSWER: 30 degrees</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A box is sitting on a horizontal table inside a car. The car is driving at 10 meters per second in a circle of radius 20 meters. To one significant figure, what is the minimum coefficient of static friction between the box and the table, so that the box does not slip on the table?</div><div>ANSWER: 0.5</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three exoplanet detection techniques that will have a bias toward gas giants compared to terrestrial planets
+1) Radial velocity
+2) Transit photometry
+3) Direct imaging</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+An observer on Earth’s surface sees an annular solar eclipse. What region of the moon’s shadow is the observer currently in?</div><div>ANSWER: Antumbra</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

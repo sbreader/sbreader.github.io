@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2020 round 10</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2020/10" />
+<meta name="description" content="MIT 2020 round 10: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2020" data-packet="10">
+<div class="float-row mb-3"><span class="float-start">Packet 10 (round 10) of <a href="sets/mit-2020/">MIT 2020</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2020/round10.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers in the Kaiser group at MIT are studying quality control in the ER, which can lead to degradation of misfolded proteins. What protein is commonly attached to proteins to mark them for destruction?</div><div>W) Viperin<br>X) Ubiquitin<br>Y) Trypsin<br>Z) P53</div><div>ANSWER: X) Ubiquitin</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Energy <i>Multiple Choice</i>
+Researchers in the Baker group at MIT are studying the mechanisms of proteins that catalyze protein unfolding, which often involves large conformational changes. Which technique can be used to actively monitor protein conformational changes?</div><div>W) Förster Resonance Energy Transfer<br>X) Fluorescence In Situ Hybridization<br>Y) Fluorescence Recovery After Photobleaching<br>Z) Mass Spectrometry</div><div>ANSWER: W) Förster Resonance Energy Transfer</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the common name for the brightest star in the constellation of Leo?</div><div>ANSWER: Regulus</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Star X has apparent magnitude 5 and is located 1000 parsecs from the earth. What is the absolute magnitude of star X?</div><div>ANSWER: −5</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following is a real number?</div><div>W) i<sup>i</sup><br>X) i<sup>3</sup><br>Y) 5 + 2i<br>Z) e<sup>iπ/2</sup></div><div>ANSWER: W) i<sup>i</sup></div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the largest integer less than cosine of i, where i is the square root of −1?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+A long-day plant is subjected to 200 flashes of red light after nightfall. How many flashes of far-red light after treatment with all of the red flashes are required to make the plant flower?</div><div>ANSWER: 0</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following 3 hormones which stimulate secretion by the pancreas.
+1) Secretin
+2) Cholecystokinin
+3) Gastric Inhibitory Peptide</div><div>ANSWER: 1,2,3</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following circuit elements, when placed in an AC circuit, has a low impedance at low frequencies and a high impedance at high frequencies?</div><div>W) Resistor<br>X) Inductor<br>Y) Capacitor<br>Z) Diode</div><div>ANSWER: X) Inductor</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A simple harmonic pendulum has a period of T when oscillating in the air. Ignoring drag, if the density of the pendulum is twice that of water, then when the pendulum is fully submerged in water, what is the period of oscillation?</div><div>W) T / 2<br>X) T / √2<br>Y) T √2<br>Z) 2 T</div><div>ANSWER: Y) T √2</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following is true about the position of the resulting double bond from reaction of LDA with 2-phenylcyclohexanone at low temperatures?</div><div>W) The double bond forms between the carbonyl carbon and then alpha carbon further away from the phenyl group<br>X) The double bond forms between the carbonyl carbon and the alpha carbon closer to the phenyl group<br>Y) The double bond forms between the alpha and beta carbons further away from the phenyl group<br>Z) The double bond forms between the alpha and beta carbons closer to the phenyl group</div><div>ANSWER: W) The double bond forms between the carbonyl carbon and then alpha carbon further away from the phenyl group</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+A 25 meter long tube is evacuated, and two cotton balls are placed on either end. One cotton ball was soaked in ammonia and the other in HCl. After some time, a white precipitate forms. Which of the following is closest to how far from the ammonia cotton ball the precipitate forms?</div><div>W) 5 meters<br>X) 10 meters<br>Y) 15 meters<br>Z) 20 meters</div><div>ANSWER: Y) 15 meters</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers at MIT and many other universities collaborated to construct LIGO, which detected the first gravitational waves and provided strong evidence for the theory of General Relativity. One of the fundamental ideas in general relativity is that gravity is nothing more than the curvature of spacetime described by the metric tensor. What is the name of the set of equations in general relativity that relate the metric tensor to the stress-energy tensor?</div><div>ANSWER: Einstein Field Equations</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Researchers at MIT’s Plasma Science and Fusion Center are using numerical simulations to study the phsyics of plasma to better understand the process of fusion in stars. Which of the following is not a property of plasma that needs to be considered?</div><div>W) Plasma behaves like a fluid and is governed by hydrodynamic equations such as Navier-Stokes<br>X) Plasma particles are charged and generate strong magnetic fields when they move<br>Y) Thermodynamic interactions between plasma particles cause most plasma flow to eventually become laminar<br>Z) The physical dynamics of plasmas are highly nonlinear making them computationally difficult</div><div>ANSWER: Y) Thermodynamic interactions between plasma particles cause most plasma flow to eventually become laminar</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the name of the vector which represents the directional energy flux due to electromagnetic radiation?</div><div>ANSWER: Poynting vector</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Planet X has density equal to that of Earth, but radius twice that of Earth. What is the ratio of the gravitational binding energy of planet X to that of Earth?</div><div>ANSWER: 32</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three statements that follow from the cosmological principle
+1) The universe is flat
+2) The universe is isotropic
+3) The universe is homogeneous</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, arrange the following three cosmological events from earliest to latest
+1) Big Bang nucleosynthesis
+2) Re-ionization
+3) Recombination</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following are essential amino acids for humans?</div><div>W) Alanine<br>X) Cysteine<br>Y) Serine<br>Z) Tryptophan</div><div>ANSWER: Z) Tryptophan</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Approximately what percentage of the human genome is comprised of LINE-1?</div><div>W) 10%<br>X) 20%<br>Y) 40%<br>Z) 80%</div><div>ANSWER: X) 20%</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Many metal-carbonyl complexes are known to be stable. Give the name or formula of the most stable neutral iron-carbonyl complex.</div><div>ANSWER: Fe(CO)<sub>5</sub> <span class="also-accept">(also accept: iron pentacarbonyl)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following 3 polymers that you would expect to find amide bonds in
+1) Nylon
+2) Latex
+3) Polystyrene</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the obtuse angle between the hour hand and minute hand of a clock at 3:40 PM?</div><div>ANSWER: 130</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Find the period of the function f(x) = sin<sup>4</sup>(x) + cos<sup>4</sup>(x).</div><div>ANSWER: π/2</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is true of interstellar reddening?</div><div>W) It causes spectral lines to shift towards longer wavelengths<br>X) It is caused by preferential scattering of shorter wavelengths of light<br>Y) It occurs only in dark nebulae<br>Z) It is responsible for the decrease in observed magnitude of faraway stars</div><div>ANSWER: X) It is caused by preferential scattering of shorter wavelengths of light</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What is the primary constituent of the atmosphere of Titan?</div><div>ANSWER: Nitrogen</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+In 3-dimensional space, a reflection about the x -axis followed by a reflection about the y -axis is equivalent to which of the following single operations?</div><div>W) A reflection about the z -axis<br>X) A reflection about the xy -plane<br>Y) A 90-degree clockwise rotation about the z -axis<br>Z) Doing nothing</div><div>ANSWER: W) A reflection about the z -axis</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Suppose you take a line in three-dimensional space and rotate it around another line. By name or number, identify all of the following four surfaces that can be swept out by the line that is being rotated
+1) plane
+2) cylinder
+3) double cone
+4) hyperboloid</div><div>ANSWER: 1,2,3,4 <span class="also-accept">(also accept: all)</span></div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Johnson group at MIT are creating biodegradable polymers to be used in drug delivery. One method that they have discovered involves the introduction of a silyl ether group, which is also often used to protect alcohol groups. Which of the following reagents would not be suitable for removing a silyl ether group?</div><div>W) OH<sup>-</sup><br>X) H<sub>3</sub>O<sup>+</sup><br>Y) TBAF<br>Z) HF</div><div>ANSWER: W) OH<sup>-</sup></div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Buchwald group at MIT are designing new methods for the formation of carbon-nitrogen bonds, such as those in amines. Typically, the Boc and Fmoc groups are used to protect amine groups by decreasing their reactivity. Under what conditions can the Boc and Fmoc groups be removed? Assume that everything is conducted under aqueous conditions.</div><div>W) Both protecting groups are removed under acidic conditions<br>X) Boc is removed under acidic conditions, while Fmoc is removed under basic conditions<br>Y) Boc is removed under basic conditions, while Fmoc is removed under acidic conditions<br>Z) Both protecting groups are removed under basic conditions</div><div>ANSWER: X) Boc is removed under acidic conditions, while Fmoc is removed under basic conditions</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Anton decides to make a solution of ammonium nitrate by dissolving some of the white solid in some water at room temperature. As the solid ammonium nitrate dissolves, Anton notices that the solution begins to grow very cold. Which of the following statements is true about the spontaneity of this reaction?</div><div>W) The dissolution is spontaneous only at high temperatures<br>X) The dissolution is spontaneous only at low temperatures<br>Y) The dissolution is always spontaneous<br>Z) The dissolution is never spontaneous</div><div>ANSWER: W) The dissolution is spontaneous only at high temperatures</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, arrange the following four carboxylic acid derivatives in order of increasing reactivity
+1) Acyl chloride
+2) Amide
+3) Ester
+4) Acid anhydride</div><div>ANSWER: 2,3,4,1</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Indicate, by name or number, all of the following three statements that are true of the quantum harmonic oscillator
+1) The energy levels are evenly spaced
+2) The energy eigenfunctions are symmetric about the origin
+3) The energy eigenfunctions are orthogonal and complete</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+For a column of air in a constant gravitational field, molecules of oxygen can be found at a height of zero with a probability density of 1 / 3 and at a height of h with a probability density of 1 / 6. What is the probability density of finding molecules of oxygen at a height of 2 h?</div><div>W) 1 / 12<br>X) 1 / 18<br>Y) 1 / 36<br>Z) 1 / 72</div><div>ANSWER: W) 1 / 12</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The strain of influenza virus that causes swine flu is also known by the moniker H1N1, where the H and N represent viral surface proteins. What are the names of these H and N proteins respectively?</div><div>ANSWER: Hemagglutinin, neuraminidase</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following is derived from the hindbrain in embryonic development?</div><div>W) Telencephalon<br>X) Myelencephalon<br>Y) Diencephalon<br>Z) Mesencephalon</div><div>ANSWER: X) Myelencephalon</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following gases is NOT a significant component of Pluto’s atmosphere?</div><div>W) H<sub>2</sub>O<br>X) N<sub>2</sub><br>Y) CH<sub>4</sub><br>Z) CO</div><div>ANSWER: W) H<sub>2</sub>O</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements about the factors affecting stream flow velocity is NOT true?</div><div>W) Flow velocity tends to decrease from the head to the mouth of the stream<br>X) An increase in channel size increases the flow velocity<br>Y) An increase in channel slope increases the flow velocity<br>Z) An increase in discharge increases the flow velocity</div><div>ANSWER: W) Flow velocity tends to decrease from the head to the mouth of the stream</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following is used as a Breathalyzer oxidant, due to the green color that results in the presence of alcohols?</div><div>W) Permanganate<br>X) Dichromate<br>Y) Ozone<br>Z) Persulfate</div><div>ANSWER: X) Dichromate</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Arrange the following four types of solid structures in increasing order of packing efficiency
+1) Diamond lattice
+2) Face centered cubic
+3) Body centered cubic
+4) Simple cubic</div><div>ANSWER: 1,4,3,2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following is a type of water-conducting cell?</div><div>W) Sieve cells<br>X) Companion cells<br>Y) Tracheids<br>Z) Sclereids</div><div>ANSWER: Y) Tracheids</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Transcription factors can often be split into DNAbinding and activation domains. Scientists exploit this fact to study protein interactions in which of the following assays?</div><div>W) ChIP-seq<br>X) Proximity ligation<br>Y) Yeast two-hybrid<br>Z) Phage display</div><div>ANSWER: Y) Yeast two-hybrid</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+In semiconductors, the application of an electric field penetrates deeply, resulting in an alteration in conductivity known as what effect?</div><div>ANSWER: Field effect</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A particle moving in the xy-plane has Lagrangian L = ẋ<sup>2</sup> + ẏ<sup>2</sup> − αx. By name or number, identify all of the following three quantities that are conserved for this particle
+1) Energy
+2) x component of momentum
+3) y component of momentum</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Giving your answer in simplest radical form, rationalize the denominator of the following expression: 1/(∛7 − ∛2)</div><div>ANSWER: (∛49 + ∛14 + ∛4)/5</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+What is the expected number of times one must toss a weighted coin with a 2 / 3 probability of coming up heads to get two consecutive heads?</div><div>W) 3 / 2<br>X) 9 / 4<br>Y) 8 / 3<br>Z) 15 / 4</div><div>ANSWER: Z) 15 / 4</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

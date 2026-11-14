@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Fall 2023 Round 5</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/fall-2023/5" />
+<meta name="description" content="Fall 2023 Round 5: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="fall-2023" data-packet="5">
+<div class="float-row mb-3"><span class="float-start">Packet 5 (Round 5) of <a href="sets/fall-2023/">Fall 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/16ttDG8DFbhI1R67tc0EAPIAAByGRCeHG/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Scientists measure the activity of radioactive samples using what SI derived unit?</div><div>ANSWER: BECQUEREL <span class="do-not-accept">(do not accept: CURIE)</span></div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following three diatomic compounds in order of increasing bond dissociation energy
+1) NF
+2) HF
+3) HCl.</div><div>ANSWER: 1, 3, 2</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following ocean currents is a cold current that flows northward?</div><div>W) California Current<br>X) Canary Current<br>Y) Kuroshio Current<br>Z) Benguela Current</div><div>ANSWER: Z) Benguela Current</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is used as evidence for the fact that Milankovitch cycles are the primary cause of global glacial–interglacial climate cycles?</div><div>W) Mesopelagic sediment<br>X) The Keeling curve<br>Y) Tree rings<br>Z) Antarctic ice cores</div><div>ANSWER: Z) Antarctic ice cores</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+If the natural log of x equals 2 and the natural log of y equals –3, what is the value of the natural log of the quantity x<sup>2</sup>/y?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The function f of x equals 3x<sup>3</sup> – 2x<sup>2</sup> – 9x + 6 has a single rational root. What is its value?</div><div>ANSWER: 2/3</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A bullet is shot directly horizontally at 200 meters per second from a height of 20 meters. To the nearest second, how much time does it take for the bullet to reach the ground?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Identify all of the following three statements that are true regarding the double-slit experiment
+1) The double-slit experiment demonstrates the wave nature of light
+2) The double-slit experiment relies on the refraction of light
+3) The double-slit experiment relies on the diffraction of light.</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at UC Berkeley’s Innovative Genomics Institute have been using CRISPR to develop therapies for sickle cell disease by altering the expression of what protein?</div><div>ANSWER: HEMOGLOBIN</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Militzer Group have been mapping phase diagrams for alkaline earth metal oxides at extremely high pressures using molecular simulation. What equation allows them to estimate enthalpies of fusion by calculating the slope of a phase boundary on a phase diagram?</div><div>ANSWER: CLAUSIUS–CLAPEYRON EQUATION</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following organs found in the ear contain fluids and transmits vibrations into electrical signals?</div><div>W) Incus<br>X) Ossicles<br>Y) Cochlea<br>Z) Pinna</div><div>ANSWER: Y) Cochlea</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following proteins is anchored to microtubules to create flagellum movement?</div><div>W) Myosin<br>X) Dynein<br>Y) Collagen<br>Z) Troponin</div><div>ANSWER: X) Dynein</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+After tossing 9 fair coins with heads on one side and tails on the other, what is the probability that one observes at least 5 heads face up?</div><div>ANSWER: 1/2 <span class="also-accept">(also accept: 0.5; 50%)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+If y varies directly with the square of x, and y = 13/8 when x = 1/4, then what is the sum of the squares of all possible POSITIVE values of x when y = 104?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A satellite follows a circular orbit with radius 10,000 kilometers around a planet with mass 5 times 10 to the power of 26 kilograms. How much work in joules is done by the planet on the satellite over a year?</div><div>ANSWER: ZERO</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Jordan attaches a 5-kilogram mass to the end of a massless 2-meter rope and swings it around in a horizontal plane such that it undergoes uniform circular motion. If Jordan is exerting 40 newtons of force on the rope, at what velocity, in meters per second, must the mass be traveling?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three polysaccharides that are present in fungi but not in plants
+1) Chitin
+2) Pectin
+3) Lignin.</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following enzymes is responsible for the elongation of DNA in polymerase chain reactions?</div><div>W) Taq polymerase<br>X) DNA polymerase II<br>Y) RNA polymerase III<br>Z) DNA ligase</div><div>ANSWER: W) Taq polymerase</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is NOT a stratovolcano?</div><div>W) Mauna Loa<br>X) Mount Saint Helens<br>Y) Mount Rainier<br>Z) Krakatoa</div><div>ANSWER: W) Mauna Loa</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Categorize each of the following rocks as igneous, sedimentary, or metamorphic, respectively
+1) Slate
+2) Andesite
+3) Phyllite.</div><div>ANSWER: 1 – METAMORPHIC, 2 – IGNEOUS, 3 – METAMORPHIC</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the formal charge of the central carbon atom in acetone?</div><div>ANSWER: ZERO</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+To one significant figure and in scientific notation, what is the hydrogen ion concentration in moles per liter of a 2-molar solution of formic acid with a Ka of 8 × 10<sup>-4</sup>?</div><div>ANSWER: 4 × 10<sup>-2</sup></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Robert Dudley, a UC Berkeley researcher, has investigated the effect and prevalence of ethanol consumption among certain spider monkey populations in Africa. What type of psychological drug is ethanol?</div><div>W) Accelerant<br>X) Depressant<br>Y) Inhalant<br>Z) Hallucinogen</div><div>ANSWER: X) Depressant</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Scientists in the Long Group at UC Berkeley have been synthesizing and characterizing rare-earth bimetallic hydride complexes to probe their exotic oxidation states. Identify all of the following three types of bonding that hydride ligands can partake in
+1) Sigma
+2) Pi
+3) Delta.</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Speciation occurs when groups of organisms stop interbreeding. Which of the following is a post-zygotic factor that can contribute to speciation?</div><div>W) Hybrid sterility<br>X) Temporal isolation<br>Y) Behavioral isolation<br>Z) Habitat isolation</div><div>ANSWER: W) Hybrid sterility</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+In forward genetic screens, what type of test is often done to determine whether two mutations are on the same gene?</div><div>ANSWER: COMPLEMENTATION TEST</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following elements is most abundant in the Earth’s crust?</div><div>W) Carbon<br>X) Oxygen<br>Y) Silicon<br>Z) Iron</div><div>ANSWER: X) Oxygen</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+In which of the following directions on the Hertzsprung–Russell diagram would a blue giant travel as it cools into a red giant?</div><div>W) Up<br>X) Down<br>Y) Left<br>Z) Right</div><div>ANSWER: Z) Right</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the name of the point on a phase diagram where the solid, liquid, and gas forms of a substance can exist at the same temperature and pressure?</div><div>ANSWER: TRIPLE POINT</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three materials that are denser than solid aluminum at 25 degrees Celsius
+1) Liquid mercury
+2) Liquid water
+3) Solid lithium.</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the sum from n = 1 to 5 of n cubed?</div><div>ANSWER: 225</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Identify all of the following three functions that are even with respect to the line x = 3
+1) Cosine of the quantity x – 3
+2) Cosine of the quantity x + 3
+3) Absolute value of the quantity x + 3.</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Scientists at the Lawrence Livermore National Lab’s National Ignition Facility often explore conditions of high pressures and temperatures similar to those found in stars and nuclear weapons. Substances with pressures and temperatures beyond their critical points are said to be in what state of matter?</div><div>ANSWER: SUPERCRITICAL FLUID</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers at the Joint Bioenergy Institute have looked into techniques to enrich plants with essential minerals. Identify all of the following three minerals that are considered essential
+1) Calcium
+2) Titanium
+3) Sodium.</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What quantity is defined as the derivative of angular momentum with respect to time?</div><div>ANSWER: TORQUE</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+The speed of sound of a material is most closely related to which of the following quantities?</div><div>W) Shear modulus<br>X) Bulk modulus<br>Y) Young’s modulus<br>Z) Relative permittivity</div><div>ANSWER: X) Bulk modulus</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What molecule is found in bacterial cell walls and is the target of gram staining?</div><div>ANSWER: PEPTIDOGLYCAN</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What is the term for organisms that feed on dead organic matter via extracellular digestion?</div><div>ANSWER: SAPROTROPHS</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Rank the three following compounds in order of increasing covalent character
+1) Lithium fluoride
+2) Water
+3) Hexane.</div><div>ANSWER: 1, 2, 3</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Heavy elements such as lead exhibit the inert-pair effect, in which the formation of lead(II) ions is favored over lead(IV) ions. Which of the following properties of heavy elements is most directly related to this phenomenon?</div><div>W) Lower electron affinities<br>X) Larger atom sizes<br>Y) Lower ionization energies<br>Z) Poor shielding from d-electrons</div><div>ANSWER: Z) Poor shielding from d-electrons</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Given that g is 10 meters per second squared, and that the density of water is 1 gram per cubic centimeter, what is the pressure, in pascals, exerted on a block that is submerged 2.5 meters under water?</div><div>ANSWER: 25,000</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following is NOT a unit of energy?</div><div>W) Kilowatt hour<br>X) Newton meter<br>Y) Ampere volt second<br>Z) Kilogram meter squared per second</div><div>ANSWER: Z) Kilogram meter squared per second</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following best defines the difference between meteoroids and meteorites?</div><div>W) Meteoroids are smaller than meteorites<br>X) Meteoroids are meteorites that enter Earth’s atmosphere<br>Y) Meteorites are meteoroids that collide with the Earth’s surface<br>Z) Meteoroids are roughly spherical while meteorites are irregularly shaped</div><div>ANSWER: Y) Meteorites are meteoroids that collide with the Earth’s surface</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What is the name of the chemical discontinuity between Earth’s outer core and mantle?</div><div>ANSWER: GUTENBERG DISCONTINUITY</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Simplify the following expression: the quantity 3 – i times the quantity 2 + i.</div><div>ANSWER: 7 + i <span class="do-not-accept">(do not accept: i + 7)</span></div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Which of the following functions f of x is NOT integrable from 0 to 1?</div><div>W) Tangent of x<br>X) Arctangent of x<br>Y) 1 over x<sup>2</sup><br>Z) Natural log of x</div><div>ANSWER: Y) 1 over x<sup>2</sup></div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

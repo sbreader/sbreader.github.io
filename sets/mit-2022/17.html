@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2022 Round 9</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2022/17" />
+<meta name="description" content="MIT 2022 Round 9: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2022" data-packet="17">
+<div class="float-row mb-3"><span class="float-start">Packet 17 (Round 9) of <a href="sets/mit-2022/">MIT 2022</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2022/Round_9.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+The Wilson Lab at MIT recently developed a protocol on the use of H mazes in investigating the spatial memory of animals. Spatial information is primarily stored in which of the following regions of the brain’s temporal lobe?</div><div>W) Amygdala<br>X) Hippocampus<br>Y) Cerebellum<br>Z) Pons</div><div>ANSWER: X) Hippocampus</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers in the Calo Lab at MIT recently showed that DNA-dependent protein kinase, or DNA-PK, plays an unexpected role in rRNA biogenesis, in addition to its canonical role as a factor in DNA repair. Which of the following repair pathways does DNA-PK participate in, which is known for its error-prone insertions and deletions?</div><div>W) Base excision repair<br>X) Mismatch repair<br>Y) Homologous recombination<br>Z) Non-homologous end joining</div><div>ANSWER: Z) Non-homologous end joining</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+5-Dehydro-m-xylylene, also known as DMX, is an aromatic organic triradical with three unpaired electrons in three singly occupied molecular orbitals. In the ground state of DMX, one of these electrons has a spin state opposed to the other two, resulting in a low spin state with only one net unopposed spin. Which of the following physical laws is violated by the ground state of DMX?</div><div>W) Aufbau principle<br>X) Pauli exclusion principle<br>Y) Hund’s rule<br>Z) Conservation of angular momentum</div><div>ANSWER: Y) Hund’s rule</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following three carboxylic acid derivatives by increasing carbonyl stretching frequency in infrared spectroscopy
+1) Thioester
+2) Acyl bromide
+3) Amide</div><div>ANSWER: 3,1,2</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The low-velocity zone in the mantle, which is generally more evident beneath oceanic crust, best translates to which of the following regions?</div><div>W) Mohorovičić discontinuity<br>X) Upper asthenosphere<br>Y) Mantle transition zone<br>Z) D” layer</div><div>ANSWER: X) Upper asthenosphere</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following four statements that are true of horst and graben topography
+1) Grabens are the foot-wall block
+2) Horsts are the hanging-wall block
+3) Normal faults are orientated in an antiparallel manner
+4) It is indicative of extensional regions</div><div>ANSWER: 3 and 4</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The Polar Express is traveling in the absence of friction at a constant velocity of 10 meters per second. Snow falls and sticks to the train at a rate of 2 kilograms per second. Assuming the initial momentum of the snow is negligible, what power in watts must be exerted by the train’s engines to maintain a constant velocity?</div><div>ANSWER: 200</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A violin string sounds at a frequency of 400 hertz. A cello string is twice as long, has twice the tension, and has twice as much mass per unit length. At what frequency in hertz does the cello string sound?</div><div>ANSWER: 200</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Tyler has recently been hit in the head with a coconut. While he suffered no nerve damage, he has lost the ability to detect acceleration in one axis and some of his bone has been forcibly distorted. What structure in the inner ear was most likely damaged?</div><div>ANSWER: Semicircular canal</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following structures is incorrectly paired with its function?</div><div>W) Semicircular canal and balance<br>X) Cochlea and sound detection<br>Y) Cupula and sound transmission<br>Z) Middle ear and sound amplification</div><div>ANSWER: Y) Cupula and sound transmission</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+A quadratic polynomial f(x) satisfies f(1) = 5, f(2) = 6, and f(3) = 10. What is the value of f(4)?</div><div>W) 17<br>X) 18<br>Y) 19<br>Z) 20</div><div>ANSWER: W) 17</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the probability that three vertices of an octagon chosen uniformly at random form an obtuse triangle?</div><div>ANSWER: 3/7</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Scientists in the MIT Department of Electrical Engineering and Computer Science are studying superconducting nanowires which have many potential uses, such as sensitive detection of magnetic fields. Underlying many of these superconductors is what type of junction, consisting of two superconductors separated by a thin insulator?</div><div>ANSWER: Josephson junction</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Scientists in MIT’s Research Laboratory of Electronics have found a way to store quantum information in qubits, which consist of vibrating pairs of atoms. Unlike classical bits, a qubit can exist in a superposition of two orthogonal states. These states of superposition can be represented as points on what two dimensional surface?</div><div>ANSWER: Bloch sphere</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A ball is launched at an angle of 15 degrees with respect to the horizontal towards a stationary vertical wall 40 meters away. It collides elastically with the wall and bounces back to its initial launch point. In meters per second, what must the initial launch velocity be?</div><div>ANSWER: 40</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following statements about color in quantum chromodynamics is NOT true?</div><div>W) If the quark in a meson has color red, the antiquark must have color antired<br>X) Two up quarks with color green cannot occupy the same quantum state<br>Y) Color in quantum chromodynamics is analogous to electric charge in quantum electrodynamics<br>Z) All hadrons have a color of either red, green, or blue</div><div>ANSWER: Z) All hadrons have a color of either red, green, or blue</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is NOT a polymorph of aluminum silicate?</div><div>W) Andalusite<br>X) Kyanite<br>Y) Sillimanite<br>Z) Pyrolusite</div><div>ANSWER: Z) Pyrolusite</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following three structures from most inland to most offshore
+1) Beach face
+2) Berm
+3) Sandbar</div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+For a chemical reaction which does expansion work, which of the following must be true?</div><div>W) Δ G is less than Δ H<br>X) Δ G is greater than Δ H<br>Y) Δ U is less than Δ H<br>Z) Δ U is greater than Δ H</div><div>ANSWER: Y) Δ U is less than Δ H</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following three pairs of isotopes by increasing expected primary kinetic isotope effect when substituted for one another in organic chemistry
+1) Hydrogen and deuterium
+2) Hydrogen and tritium
+3) Deuterium and tritium</div><div>ANSWER: 3,1,2</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+By name or number, rank the following three blood vessels by increasing flow velocity
+1) Capillaries
+2) Aorta
+3) Venules</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following forces is NOT one of the Starling forces?</div><div>W) Capillary hydrostatic pressure<br>X) Interstitial hydrostatic pressure<br>Y) Plasma protein osmotic force<br>Z) Plasma ion osmotic force</div><div>ANSWER: Z) Plasma ion osmotic force</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+For an integer x, how many possible remainders can x<sup>7</sup> − (x − 1)<sup>7</sup> have when divided by 7?</div><div>W) 1<br>X) 2<br>Y) 3<br>Z) 4</div><div>ANSWER: W) 1</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many lattice points are on the sphere centered at (1, 2, 0) with radius 3?</div><div>ANSWER: 30</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+An unknown metal chloride is dissolved in distilled water. When mixed with a concentrated solution of sodium hydroxide, a green solid precipitates out of solution. Upon standing, the precipitate turns brown. Which of the following is most likely the identity of the metal chloride?</div><div>W) FeCl<sub>2</sub><br>X) CoCl<sub>2</sub><br>Y) NiCl<sub>2</sub><br>Z) CuCl<sub>2</sub></div><div>ANSWER: W) FeCl<sub>2</sub></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+In a reaction where two gases A and B are in equilibrium with each other, the ground state energy of A is lower than the ground state energy of B. If the spacing between the energy levels in A and B is roughly the same, which of the following statements is true?</div><div>W) A is strongly favored at low temperatures, and B is favored at high temperatures<br>X) A is favored at both low and high temperatures<br>Y) At low temperatures, A is strongly favored, and the equilibrium constant approaches 1 at high temperatures<br>Z) The equilibrium constant approaches 1 at low temperatures, but A is favored at high temperatures</div><div>ANSWER: Y) At low temperatures, A is strongly favored, and the equilibrium constant approaches 1 at high temperatures</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What is the sum of the distinct prime factors of the sum of the first 40 positive square numbers?</div><div>W) 48<br>X) 49<br>Y) 50<br>Z) 51</div><div>ANSWER: Z) 51</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the volume of a cube which is inscribed in a sphere of radius 4?</div><div>ANSWER: 512√3 / 9</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A spherical conducting shell of radius 2 meters is centered at the origin. A 1 coulomb charge is placed on the x -axis at x = 1 meter. In newtons per coulomb to one significant figure, what is the magnitude of the electric field on the x -axis at x = 3 meters?</div><div>ANSWER: 1 × 10<sup>9</sup></div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Isaac has 128 resistors of resistances 1 ohm, 2 ohms, 3 ohms, and so on, all the way to 128 ohms. If he connects all 128 resistors in parallel, what is their equivalent resistance, to one significant figure and in ohms?</div><div>ANSWER: 0.2 <span class="also-accept">(also accept: 2 × 10<sup>-1</sup>)</span></div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Jamison group at MIT are studying epoxide-opening cascades, a mechanism which has been proposed as an explanation for the structural similarities found across the ladder polyether family of natural products. A common method of producing epoxides in organic synthesis is through oxidation of a carbon-carbon double bond. Which of the following reagents can be used to convert an alkene functionality into an epoxide?</div><div>W) Potassium permanganate<br>X) Ozone<br>Y) Meta-chloroperoxybenzoic acid<br>Z) Osmium tetroxide</div><div>ANSWER: Y) Meta-chloroperoxybenzoic acid</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Pentelute group at MIT are inventing new methods to modify naturally occurring proteins for medicinal use. One advantage of using naturally occurring compounds is that specific enantiomers are favored. By name or by number, identify which of the following 3 compounds are naturally occurring
+1) D-xylose
+2) D-valine
+3) L-glutamine</div><div>ANSWER: 1 and 3 <span class="also-accept">(also accept: All but 2)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following brain structures is most likely damaged if a patient has difficulty recalling emotional memories?</div><div>W) Amygdala<br>X) Corpus callosum<br>Y) Pons<br>Z) Suprachiasmatic nucleus</div><div>ANSWER: W) Amygdala</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What plot is used to visualize the energetically allowed dihedral angles between amino acid residues in a protein structure?</div><div>ANSWER: Ramachandran plot</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following was NOT a problem solved by the theory of inflation?</div><div>W) Symmetry problem<br>X) Horizon problem<br>Y) Monopole problem<br>Z) Flatness problem</div><div>ANSWER: W) Symmetry problem</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What objects, often associated with star formation regions, form from the interaction of axial jets from protostars with the interstellar medium?</div><div>ANSWER: Herbig-Haro object <span class="also-accept">(also accept: HH object)</span></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three hybrid outcomes that result in continued survival of the hybrid population in the long term
+1) Fusion
+2) Reinforcement
+3) Stability</div><div>ANSWER: 1 and 3 <span class="also-accept">(also accept: All but 2)</span></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Improper joining of gene segments during what process adds genetic diversity to the sequences for T cell receptors?</div><div>ANSWER: V J recombination <span class="also-accept">(also accept: D)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A ball moves at a constant velocity of c/2 from the leftmost edge of inside a space shuttle that is moving at a velocity of 3c/5 relative to the rest frame. For an observer at rest, in terms of c, what speed will the ball appear to move at?</div><div>ANSWER: 11c/13</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A battery is connected in series with a 12 ohm resistor and a 6 ohm resistor. A 0.5 farad capacitor is then connected in parallel across the 12 ohm resistor. In seconds, what is the value of the time constant associated with the charging of the capacitor?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following three organic compounds by increasing energy of the carbon-hydrogen bond
+1) C<sub>2</sub>H<sub>2</sub>
+2) C<sub>2</sub>H<sub>4</sub>
+3) C<sub>2</sub>H<sub>6</sub></div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+The diatomic molecule AB has a mass of 30 atomic mass units and a reduced mass of approximately 7.467 atomic mass units. What is the identity of AB?</div><div>ANSWER: Nitric oxide <span class="also-accept">(also accept: NO)</span></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What nuclide is the product of the radioactive decay tail observed in Type II supernovae?</div><div>ANSWER: Iron-56 <span class="also-accept">(also accept: Fe-56)</span></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What process explains a change in a main sequence star’s oblateness due to exposure of magnetic torque on the star’s outer layers?</div><div>ANSWER: Applegate mechanism</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+If 100 random dice are rolled, to the nearest percent, what is the probability that the sum of the numbers on the top face of the dice is a multiple of 20?</div><div>W) 3<br>X) 4<br>Y) 5<br>Z) 6</div><div>ANSWER: Y) 5</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Let R be the set of the reciprocals of all positive integers. How many elements of R have a hundredths digit of 1 when expressed as a decimal?</div><div>ANSWER: 51</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Tycho Practice Rounds Hard Round 2017</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/tycho-practice-rounds/10" />
+<meta name="description" content="Tycho Practice Rounds Hard Round 2017: 48 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="tycho-practice-rounds" data-packet="10">
+<div class="float-row mb-3"><span class="float-start">Packet 10 (Hard Round 2017) of <a href="sets/tycho-practice-rounds/">Tycho Practice Rounds</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://github.com/OutplayedApps/tychoDB/blob/master/docx%20files%20input/Hard%20Round%202017.docx" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Indicate all of the following three statements concerning photosynthesis that are TRUE
+1. Plastocyanin is a protein responsible for ferrying high-energy electrons within the thylakoid membrane
+2. Ferredoxin-NADP+ reductase contains an iron-sulfur cluster
+3. The pH of the thylakoid space is lower than that of the intermembrane space</div><div>ANSWER: ALL OF THEM</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements is TRUE about addition reactions to alkenes?</div><div>W) Hydroboration-oxidation follows Markovnikov&#39;s rule<br>X) Rearrangements are not possible in the addition of hydrohalic acids to alkenes<br>Y) The addition of ozone to alkenes generates a vicinal diol<br>Z) The hydration of an alkene by sulfuric acid in water proceeds via a carbocation intermediate</div><div>ANSWER: Z) The hydration of an alkene by sulfuric acid in water proceeds via a carbocation intermediate</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Indicate all of the following three changes that would increase the glomerular filtration rate of a nephron
+1. Constriction of efferent renal arterioles
+2. Increase in plasma ANP concentration
+3. Activation of the sympathetic nervous system</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three compounds that are predicted to be aromatic by MO theory: Phenyl-1,3-dication Cyclopropylidium cation Cyclopentadienyl cation</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following statements is NOT TRUE concerning the electric field surrounding a stationary, charged perfect conductor?</div><div>W) It is proportional to the radius of curvature of the conductor<br>X) It is zero inside the conductor<br>Y) Far away from the conductor, it decays as a monopole field with charge equal to the total charge on the conductor<br>Z) It is discontinuous at the surface of the conductor</div><div>ANSWER: W) It is proportional to the radius of curvature of the conductor</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following statements is NOT TRUE of the high-Reynolds number regime in fluid mechanics?</div><div>W) Flows are laminar<br>X) Inertial forces are much greater than viscous drag<br>Y) Momentum diffusivity is low, relative to flow velocity<br>Z) The Stokes approximation for the drag on a small sphere is not applicable</div><div>ANSWER: W) Flows are laminar</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following complex numbers in polar form is equal to 1+i?</div><div>W) e<sup>i*pi/4</sup><br>X) √2e<sup>i*pi/4</sup><br>Y) e<sup>i*pi/2</sup><br>Z) √2*e<sup>i*pi/2</sup></div><div>ANSWER: X) √2e<sup>i*pi/4</sup></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Consider the function f(x) = (x-1)/e<sup>x</sup>. What is the nineteenth derivative of f(x), evaluated at x=1, in terms of e?</div><div>ANSWER: 19/e</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE concerning globular clusters
+1. They are usually found outside the galactic plane
+2. They are mostly composed of Population I stars
+3. They often display active star formation</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE concerning glacial erosion
+1. Kames are composed of unsorted glacial deposits
+2. Drumlins in the American Midwest point have an East-West directionality
+3. The basal layer of a glacier flows more slowly than the internal, plastic-flow dominated layer</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+In July of 2015, DOE researchers, working with European colleagues at the LHCb collaboration, reported the discovery of what QCD bound state with 15-sigma significance as an intermediate in the decay of bottom Lambda baryons?</div><div>ANSWER: PENTAQUARK</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE of the pentaquark bound state discovered at the LHCb collaboration
+1. It has a baryon-number equal to five-thirds
+2. The net color charge of a pentaquark bound state is zero
+3. The bound state contained a charm quark</div><div>ANSWER: 2 AND 3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three salts that have 1 molar solutions with a pH less than 7
+1. Aluminum chloride
+2. Sodium acetate
+3. Potassium hydrogen sulfate</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three functional groups that have a pKa less than 20
+1. Alcohols
+2. Terminal alkyne
+3. Secondary amine</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Rank the following three types of muscle fibers in terms of increasing rate of fatigue development, from the least fatigued to the most fatigued after a given period of exercise
+1. Slow oxidative
+2. Fast glycolytic
+3. Fast oxidative-glycolytic</div><div>ANSWER: 1. SLOW OXIDATIVE, 3. FAST OXIDATIVE-GLYCOLYTIC, 2. FAST GLYCOLYTIC <span class="also-accept">(also accept: 1, 3, 2)</span></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What peptide inflammatory mediator, whose degradation is inhibited by ACE inhibitors, lowers blood pressure by dilating blood vessels via the release of NO, prostacyclins, and EDHF?</div><div>ANSWER: BRADYKININ</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Consider a long, straight, hollow wire with a cross-section the shape of an annulus with inner radius a and outer radius 2a. If the current density in this wire is constant, which of the following describes the magnitude of the circulating B field as a function of radius r in the wire?</div><div>W) Zero until a, then constant from a to 2a<br>X) Zero until a, then linearly increasing from a to 2a<br>Y) Constant but nonzero until a, then a different constant from a to 2a<br>Z) Constant but nonzero until a, then linearly increasing from a to 2a</div><div>ANSWER: X) Zero until a, then linearly increasing from a to 2a</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An electron has total energy equal to four times its rest energy. In units where c=1, what is the momentum of the electron divided by its rest energy?</div><div>ANSWER: √15</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+When only positive values of x are considered, how many intersection points are there between the curve y = cos(97x) and y = x?</div><div>W) 15<br>X) 31<br>Y) 49<br>Z) 96</div><div>ANSWER: X) 31</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Suppose that f(x) = sum from n=1 to infinity of x<sup>n</sup>/n, a power series with a radius of convergence of at least 1. What is f&#39;(1/2)?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Why are Type 1a supernovae thought to have different progenitors from other kinds of supernovae?</div><div>W) They have very different light curves from other supernovae<br>X) They are 100 times more luminous than all other kinds of supernovae<br>Y) The lack of hydrogen lines in their spectra means that the progenitor must have lost its envelope<br>Z) They are seen in all galaxies, whereas other kinds of supernovae are only seen in star-forming regions of spiral galaxies</div><div>ANSWER: Z) They are seen in all galaxies, whereas other kinds of supernovae are only seen in star-forming regions of spiral galaxies</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+DOE researchers at Fermilab are studying flavor-changing decays as part of an effort to understand physics beyond the Standard Model. What force is the only known force that mediates flavor-changing decays?</div><div>ANSWER: WEAK FORCE</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Scientists over the past decades at the DOE&#39;s Fermilab were instrumental in better constraining the masses of quarks. Rank the following four quarks by increasing rest mass
+1. Up
+2. Down
+3. Charm
+4. Strange</div><div>ANSWER: 1. UP, 2. DOWN, 4. STRANGE, 3. CHARM</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements best explains why lead(II) nitrate is soluble, but lead(II) bromide is insoluble?</div><div>W) Lead(II) and nitrate are both hard, but bromide is soft<br>X) Lead(II) and bromide are both hard, but nitrate is soft<br>Y) Lead(II) and nitrate are both soft, but bromide is hard<br>Z) Lead(II) and bromide are both soft, but nitrate is hard</div><div>ANSWER: Z) Lead(II) and bromide are both soft, but nitrate is hard</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three statements concerning the Wittig reaction that are TRUE
+1. trans-alkenes are predominantly produced because of their thermodynamic stability
+2. In the first step of the reaction, the carbonyl group acts as the electrophile
+3. The driving force is the release of a gas</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A spring of force constant k stretched a distance d has a potential energy U. A spring of force constant k&#39; is stretched a distance d/2 and has potential energy 2U. What is the ratio of k&#39; to k?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Consider a solid disk, with an initial velocity of 10 meters per second. If rolling friction is ignored and this disk rolls without slipping up an incline, what is the maximum height to the nearest meter reached by the disk?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following steps would conceivably be the LAST step in a analytical protein purification protocol from cell lysate?</div><div>W) Adding TRITON-100X detergent buffer<br>X) 2D-PAGE<br>Y) HPLC<br>Z) Ammonium-sulfate precipitation</div><div>ANSWER: Y) HPLC</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Indicate all of the following three statements that are true of a DNA footprinting assay
+1. DNA footprinting is used to find the binding site of a protein to DNA
+2. Hydroxide ions are used as a low resolution probe
+3. Gel electrophoresis is performed on DNA fragments in a denaturing environment</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What is the value of the integral with lower bound e<sup>-3</sup> and upper bound e<sup>-2</sup> of 1 over the quantity x times the log(x), end quantity, dx?</div><div>W) 2/3<br>X) 3/2<br>Y) log(2/3)<br>Z) log(3/2)</div><div>ANSWER: Y) log(2/3)</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Suppose y(x) satisfies the differential equation: y&#39;(x) + x*y(x) = x, with initial value y(0) = -1. What is the limit of y(x) as x approaches minus infinity?</div><div>W) 0<br>X) 1<br>Y) Infinity<br>Z) Negative infinity</div><div>ANSWER: X) 1</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Why are massive compact halo objects (MACHOs) thought to be unable to explain the dark matter problem?</div><div>W) They would have evaporated by Hawking radiation in less than a Hubble time<br>X) Cosmic microwave background radiation observations indicate that MACHOs could not have formed in a Hubble time<br>Y) Several MACHOs would be detectable in the solar system but are not observed<br>Z) There should be a lot more MACHOs observed through microlensing</div><div>ANSWER: Z) There should be a lot more MACHOs observed through microlensing</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE regarding types of volcanic eruptions
+1. Strombolian eruptions feature short lived, explosive eruptions of moderately viscous lava
+2. Pyroclastic flows and lahars are common features of Hawaiian volcanoes
+3. Pelean eruptions involve runny basaltic lava flows</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+DOE researchers at the Joint Genome Institute recently used a functional genomics approach to better understand stomatal control in grasses. What ion principally enters guard cells during the opening of stomata?</div><div>ANSWER: POTASSIUM <span class="also-accept">(also accept: K<sup>+</sup>)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Order the following four steps of the uranium fuel cycle chronologically, from first to last
+1. Differential isotopic centrifugation
+2. Preparation of uranium hexafluoride
+3. Uranium baked into ceramic fuel pellets
+4. Preparation of yellowcake</div><div>ANSWER: 4, 2, 1, 3</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements concerning coordination chemistry is NOT TRUE?</div><div>W) Octahedral complexes generally have a higher splitting than tetrahedral complexes<br>X) Square planar complexes are common for d-8 metals<br>Y) Carbon monoxide is a strong field ligand<br>Z) Square planar coordination complexes with achiral ligands can be chiral</div><div>ANSWER: Z) Square planar coordination complexes with achiral ligands can be chiral</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+At a certain temperature, the weak acid HCN has an acid dissociation constant in water equal to 2.0 × 10<sup>-10</sup>. If a 2 molar solution of sodium cyanide was prepared, what is the pH of this solution, to one decimal place?</div><div>ANSWER: 12.0</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Unpolarized light is passed through two polarizing filters that are oriented an angle of 45 degrees from each other. What is the final light intensity divided by the initial light intensity?</div><div>ANSWER: 1/4</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A refrigerator pumps heat from the inside of a home at 7 degrees Celsius to the outside environment, where the temperature is 27 degrees Celsius. If 30 kJ of heat is pumped, what is the minimum amount of work that must have been supplied to the refrigerator, to the nearest kJ?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Indicate all of the following three statements that are true of thermoregulation in humans
+1. Thermogenin&#39;s mechanism of action is the acceleration of glycolysis in brown adipose tissue
+2. When the body is too cold, the hypothalamus releases thyrotropin-releasing factor
+3. Meissner&#39;s corpuscles in the skin play the role of sweat glands</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What is the name of a conserved sequence motif in plants, present in proteins of the same name that are transcription factors that control floral organ identity and are similar to HOX genes?</div><div>ANSWER: MADS-box</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the integral with lower bound –pi/4 and upper bound pi/4 of the quantity cos(t) + √(1+t<sup>2</sup>)sin<sup>3</sup>(t) dt?</div><div>ANSWER: √2</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Suppose that 3x is congruent to 5 mod 11, and 2y is congruent to 7 mod 11. What is (x + y) mod 11?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+On average, the water levels of sea lochs in Scotland have been falling for the last 10,000 years. Which of the following is the best explanation why?</div><div>W) Prolonged warming patterns over the last 10,000 years have caused the sea lochs to evaporate away<br>X) Changes in weather patterns have reduced precipitation and led to a decrease in water levels<br>Y) Growth of polar glaciers until recently has locked water, leading to a decrease in water levels<br>Z) The recession of glaciers 10,000 years ago has caused crust to isostatically rebound, decreasing relative water levels</div><div>ANSWER: Z) The recession of glaciers 10,000 years ago has caused crust to isostatically rebound, decreasing relative water levels</div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What chemical process, which generally uses neutral cobalt or iron carbonyl catalysts, converts the product of the water-gas shift reaction to higher alkanes?</div><div>ANSWER: FISCHER-TROPSCH PROCESS</div></div><hr><div class="packet-question"><div class="q-text">24. <span class="fw-semibold">BONUS</span> Energy <i>Short Answer</i>
+What form of tidal energy conversion extracts kinetic energy from moving masses of water, in particular tides, by using underwater axial turbines?</div><div>ANSWER: TIDAL STREAM GENERATION</div></div><hr><div class="packet-question"><div class="q-text">25. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three functional groups that can be reduced by sodium borohydride: Ketone Amide Ester</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">25. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Indicate all of the following three statements that are TRUE of Grignard reagents
+1. Grignard reagents are used in carbon-carbon bond forming reactions
+2. Preparation of a Grignard reagent involves reaction of an alkyl or aryl hydride with magnesium in absence of water
+3. In preparation of a Grignard reagent, the passivation layer of MgO covering the magnesium ribbon is necessary for initiation</div><div>ANSWER: 1 AND 2</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

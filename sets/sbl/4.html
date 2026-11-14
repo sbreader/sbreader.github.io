@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - SBL Fall Round 2</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/sbl/4" />
+<meta name="description" content="SBL Fall Round 2: 39 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="sbl" data-packet="4">
+<div class="float-row mb-3"><span class="float-start">Packet 4 (Fall Round 2) of <a href="sets/sbl/">SBL</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/SBL/SBL%20Fall%20Round%202.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Boiling occurs when the vapor pressure above a liquid becomes equal to or greater than what quantity?</div><div>ANSWER: ATMOSPHERIC PRESSURE <span class="also-accept">(also accept: EXTERNAL PRESSURE)</span> <span class="do-not-accept">(do not accept: PRESSURE)</span></div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following compounds has the lowest boiling point?</div><div>W) H<sub>2</sub>O<br>X) H<sub>2</sub>S<br>Y) HF<br>Z) PH<sub>3</sub></div><div>ANSWER: Z) PH<sub>3</sub></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What object is formed when a pulsar exceeds its TOV mass limit?</div><div>ANSWER: BLACK HOLE</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following moraine types is characterized by the merging of two lateral moraines?</div><div>W) End moraine<br>X) Medial moraine<br>Y) Ground moraine<br>Z) Shear moraine</div><div>ANSWER: X) Medial moraine</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the volume of a regular tetrahedron with a side length of 4?</div><div>ANSWER: 16√2/3 <span class="also-accept">(also accept: 16 SQUARE ROOT OF 2 OVER 3)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Hydroxylation of foreign substances to render them soluble occurs in which of the following organelles?</div><div>W) Rough endoplasmic reticulum<br>X) Smooth endoplasmic reticulum<br>Y) Golgi apparatus<br>Z) Peroxisome</div><div>ANSWER: X) Smooth endoplasmic reticulum</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three occurrences that would increase DNA expression
+1) Increase DNA methylation
+2) Decrease histone acetylation
+3) Increase histone phosphorylation.</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What elementary particle is often interpreted as an electron traveling backwards in time?</div><div>ANSWER: POSITRON <span class="also-accept">(also accept: ANTIELECTRON)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A camera lens with a focal length of 40 millimeters photographs a 5 meter tall tree from a distance of 10 meters. To the nearest millimeter, how tall is the image of the tree?</div><div>ANSWER: 20</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Scientists at Lawrence Berkeley National Lab are combining a series of techniques to identify and characterize all of the regulatory regions of the human genome. Which of the following is NOT an example of a regulatory region?</div><div>W) Exon<br>X) Promoter<br>Y) Silencer<br>Z) Enhancer</div><div>ANSWER: W) Exon</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Scientists at Fermilab are attempting to induce pair production using Higgs bosons. Higgs bosons are theoretically able to undergo pair production because they have what charge?</div><div>ANSWER: ZERO</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The derivative of linear momentum with respect to time is equal to what physical quantity?</div><div>ANSWER: FORCE</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A mass hangs on a string at a 45 degree angle from the vertical inside a car driving at constant speed around a circle with a radius of 10 meters. To the nearest tenth, how many meters per second is the car traveling?</div><div>ANSWER: 9.9</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three statements that are true of nebulae
+1) Planetary nebulae may be formed from the death of M type stars
+2) Dark nebulae can be classified as HII regions
+3) Reflection nebulae often appear red due to interstellar reddening.</div><div>ANSWER: NONE</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following acids has the strongest conjugate base?</div><div>W) Hydrofluoric acid<br>X) Hydrochloric acid<br>Y) Nitric acid<br>Z) Sulfuric acid</div><div>ANSWER: W) Hydrofluoric acid</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three statements that are true regarding neutral solutions
+1) pH always equals 7
+2) pH always equals pOH
+3) As temperature increases, pH increases.</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the partial derivative with respect to x of the expression 3 x<sup>2</sup>y?</div><div>ANSWER: 6 xy</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many lattice points are completely inside the circle centered at (0, 0) and with radius 5?</div><div>ANSWER: 69</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Scientists at Oak Ridge National Lab are attempting to characterize interactions at the liquid-liquid interface during solvent extraction. Solvent extraction is a laboratory technique in which a solute is partitioned between two immiscible solvents of greatly different polarity. Which of the following pairs of solvents may be used in solvent extraction?</div><div>W) Ethanol and methanol<br>X) Hexane and butane<br>Y) Water and diethyl ether<br>Z) Water and acetone</div><div>ANSWER: Y) Water and diethyl ether</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Scientists at Argonne National Lab are investigating the metal-metal bonding in the rhenium-fluorine ion Re<sub>4</sub>F<sub>18</sub><sup>6-</sup>. Indicating sign, what is the average oxidation state of the rhenium atoms in this ion?</div><div>ANSWER: +3</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+In which organ is most of the body’s glycogen stored?</div><div>ANSWER: LIVER</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three regions of the brain that are derived from the hindbrain
+1) Cerebellum
+2) Thalamus
+3) Pons.</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the equivalent resistance in ohms of a system of two resistors connected in parallel with individual resistances of 2 and 6 ohms?</div><div>ANSWER: 3/2</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+What is the term for vectors used in AC circuits to describe the frequencies and amplitude of waves graphically?</div><div>ANSWER: PHASORS</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Two sides of a triangle have lengths of 9 and 6. What is the largest possible area of the triangle?</div><div>ANSWER: 27</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+An equilateral convex hexagon ABCDEF has side length 1. Angles B, D, and F are each 150 degrees, and angles A, C, and E are each 90 degrees. What is the area of this hexagon?</div><div>ANSWER: (3 + √3)/2 <span class="also-accept">(also accept: 3 PLUS ROOT 3 ALL OVER 2)</span></div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+There is a neap tide at a beach on July 5th. When will the next spring tide be at the same beach?</div><div>W) July 6th<br>X) July 12th<br>Y) July 19th<br>Z) July 26th</div><div>ANSWER: X) July 12th</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+While studying metal sulfides, Jay finds mysterious brown cubes of goethite, an iron hydroxide mineral that does not crystallize in the isometric crystal system. H e believes that the goethite has replaced a sulfide mineral. What mineral has the goethite most likely replaced?</div><div>ANSWER: PYRITE</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Rank the following three solids in terms of increasing band gap
+1) Lead
+2) Germanium
+3) Diamond.</div><div>ANSWER: 1,2,3</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following three diatomic species in terms of increasing bond order as predicted by molecular orbital theory
+1) C<sub>2</sub><sup>+</sup>
+2) N<sub>2</sub><sup>-</sup>
+3) F<sub>2</sub><sup>2+</sup>.</div><div>ANSWER: 1,3,2</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following is NOT true about polynomials of x?</div><div>W) If the degree of a polynomial is odd, then the polynomial always has a real root<br>X) If the degree of a polynomial is 5 or greater, then the polynomial cannot be factored over the rationals<br>Y) Accounting for multiplicity, the number of roots a polynomial has is the same as its degree<br>Z) Polynomials cannot have any terms containing x to a negative exponent</div><div>ANSWER: X) If the degree of a polynomial is 5 or greater, then the polynomial cannot be factored over the rationals</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Alice and Bob each roll a die. What is the probability that Alice’s roll is higher than Bob’s roll?</div><div>ANSWER: 5/12</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A satellite of mass m is in an orbit of radius r. If m is doubled, then identify all of the following three quantities that also must change
+1) Orbital velocity
+2) Escape velocity
+3) Total mechanical energy.</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+The Eddington limit refers to a limit on what property of stars?</div><div>ANSWER: LUMINOSITY</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following bacteria is gram negative?</div><div>W) Bacillus anthracis<br>X) Clostridium botulinum<br>Y) Staphylococcus aureus<br>Z) Escherichia coli</div><div>ANSWER: Z) Escherichia coli</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What is the general term for inactive peptides that must be cleaved before they reach an active form?</div><div>ANSWER: ZYMOGEN</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at Lawrence Livermore National Lab are investigating the natural dimerization of amyloid beta proteins. The aggregation of amyloid beta proteins is an indicator for what neurodegenerative disease?</div><div>ANSWER: ALZHEIMER’S DISEASE</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at Ames Lab have developed a honeycomb vanadium lattice doped with iodine which displays ferromagnetism at 49 kelvins. However, the ferromagnetic properties of this lattice do not agree with standard mathematical models. What classical model of ferromagnetism represents discrete electron dipoles as a 2D lattice?</div><div>ANSWER: ISING MODEL</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Boron trichloride is a strong Lewis acid because it is able to accept a pair of electrons into what specific empty orbital on the boron atom?</div><div>ANSWER: 2P <span class="do-not-accept">(do not accept: P)</span></div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

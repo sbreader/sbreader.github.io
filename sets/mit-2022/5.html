@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2022 Round 3</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2022/5" />
+<meta name="description" content="MIT 2022 Round 3: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2022" data-packet="5">
+<div class="float-row mb-3"><span class="float-start">Packet 5 (Round 3) of <a href="sets/mit-2022/">MIT 2022</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2022/Round_3.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following three eons from most ancient to most recent
+1) Archean
+2) Proterozoic
+3) Hadean</div><div>ANSWER: 3,1,2</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Phytoplankton in the open ocean release sulfate aerosols which can act as condensation nuclei. Which of the following changes would you expect to occur if a large algal bloom were to occur in the open ocean?</div><div>W) Decrease in cloud cover<br>X) Increase in the Earth’s albedo<br>Y) Increased rain pH<br>Z) Increased upwelling in the ocean</div><div>ANSWER: X) Increase in the Earth’s albedo</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following three changes that would increase the resistance of a metallic resistor
+1) Stretching to increase the length while keeping the volume constant
+2) Increasing the temperature of the resistor, assuming the thermal coefficient of expansion is negligible compared to that of resistivity
+3) Increasing all physical dimensions of the resistor by the same factor</div><div>ANSWER: 1 and 2 <span class="also-accept">(also accept: All but 3)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A square loop of wire in the xy-plane has a side length of 2 centimeters and a resistance of 10<sup>−4</sup> ohms. A uniform magnetic field starts at 0 teslas and increases uniformly over 2 seconds until it reaches a value of 3 teslas in the positive z direction. While the magnetic field is turning on, what is the magnitude of the induced current in the wire in amperes?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The Davis Lab at MIT is working on coupling pulselabeling with quantitative mass spectrometry, which can detect the synthesis and degradation rates of proteins. Protein degradation is known to be promoted by E3 ligases through the attachment of what molecule?</div><div>ANSWER: Ubiquitin</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers in the Davis Lab at MIT also develop analytical methods for investigating macromolecular machines, such as with single particle cryo-EM data. Though still a relatively recent tool, cryo-EM has already surpassed X-ray crystallography in determining the structure of which of the following classes of proteins?</div><div>W) Nuclear<br>X) Cytoplasmic<br>Y) Membrane<br>Z) Extracellular</div><div>ANSWER: Y) Membrane</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Because elemental chlorine gas is highly corrosive, it is often generated in small amounts in the laboratory rather than being bought and used directly. Which of the following methods could be used to generate chlorine gas?</div><div>W) Addition of concentrated sulfuric acid to a solution of sodium hypochlorite<br>X) Addition of concentrated hydrochloric acid to a solution of sodium hypochlorite<br>Y) Addition of concentrated sulfuric acid to a solution of sodium chloride<br>Z) Addition of concentrated hydrochloric acid to a solution of sodium chloride</div><div>ANSWER: X) Addition of concentrated hydrochloric acid to a solution of sodium hypochlorite</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+When gaseous nitrogen dioxide is stored in a closed container, it establishes an equilibrium with its dimer, dinitrogen tetroxide. This exothermic reaction can be represented by the equation 2 NO<sub>2</sub> (g) ⇌ N<sub>2</sub>O<sub>4</sub> (g). By name or number, identify all of the following three statements that are true regarding this reaction
+1) As temperature increases, the forward reaction becomes more favorable
+2) As temperature increases, the equilibrium constant increases
+3) For this reaction at 100 kelvin, K<sub>p</sub> &gt; K<sub>c</sub></div><div>ANSWER: None</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Let x be the repeating decimal 0.900900900.... What is the value of x as a fraction in lowest terms?</div><div>ANSWER: 100 / 111</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Let z be the product of (3 + 4i) and (10 − 5i). What is the product of z and its conjugate?</div><div>ANSWER: 3125</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following amino acids does NOT contain nitrogen in its side chain?</div><div>W) Glutamine<br>X) Tryptophan<br>Y) Arginine<br>Z) Methionine</div><div>ANSWER: Z) Methionine</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+In bacteria, the start codon codes for what modified amino acid?</div><div>ANSWER: N-Formylmethionine <span class="also-accept">(also accept: Formylmethionine; fMet; HCO-Met; For-Met)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the name for a chain of extinct volcanoes that gets progressively older as one travels away from a hotspot?</div><div>ANSWER: Nematath <span class="also-accept">(also accept: Hotspot track)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Magma intrudes into a karstic region and many dikes form in the limestone bedrock. What rock would the limestone bedrock metamorphose into in the aureole of the magma?</div><div>ANSWER: Marble</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the floor of the square root of 420?</div><div>ANSWER: 20</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Three of the vertices of a cube of side length 7 form an equilateral triangle. What is the area of this triangle?</div><div>ANSWER: 49√3 / 2</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+An airplane flies forward at constant velocity. Its engines apply a total forward thrust of 50 kilonewtons, and expend a power of 10 megawatts. What is the speed of the airplane, in meters per second?</div><div>ANSWER: 200</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Two objects of masses 1 kilogram and 3 kilograms are connected by a spring with a spring constant of 3 newtons per meter. What is the period of oscillation of this system, expressed in terms of π and in seconds?</div><div>ANSWER: π</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+A desmotubule surrounded by a cytoplasmic sleeve forms what structure that connects the cytoplasm of adjacent plant cells?</div><div>ANSWER: Plasmodesma <span class="also-accept">(also accept: Plasmodesmata)</span></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+While most introns contain &quot;useless&quot; information that holds no value, in some genes specific removal of different introns can cause multiple proteins to be generated from a single transcript. What is this process called?</div><div>ANSWER: Alternative splicing</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following three elements by increasing first ionization energy
+1) Nitrogen
+2) Oxygen
+3) Fluorine</div><div>ANSWER: 2,1,3</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+What is the oxidation state of the central nitrogen atom in the most representative resonance structure of N<sub>2</sub>O?</div><div>ANSWER: +2</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers at MIT are studying methods of using lasers to cool clouds of atoms down to temperatures less than 1 microkelvin. What is the name for the ultracold state of matter produced in this manner?</div><div>ANSWER: Bose-Einstein condensate</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers from MIT’s Plasma Science and Fusion Center used an optimization methodology developed for machine learning to drastically reduce the CPU time required to predict the temperature of density profiles of a magnetically confined plasma. Plasmas are often described as &quot;ionized gas&quot;, which can be misleading. Unlike plasma, what velocity distribution do gas particles usually follow?</div><div>ANSWER: Maxwell-Boltzmann distribution</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A 6 kilogram bowling ball is slipping without rolling on a flat frictionless surface at a speed of 4 meters per second. Its trajectory will take it 1 meter from a bowling pin at closest approach. When the bowling ball is 10 meters from the pin, what is the magnitude of its angular momentum about the pin, in kilogram meters squared per second?</div><div>ANSWER: 24</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following is closest to the frequency in hertz of a pendulum with length 2.0 meters, if it were in a rocket ship on Earth accelerating at 3 g’s upwards?</div><div>W) 0.06<br>X) 0.7<br>Y) 1.8<br>Z) 10.9</div><div>ANSWER: X) 0.7</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Let f(x) denote the sum of the largest prime strictly less than x and the smallest prime strictly greater than x. What is the smallest value of x such that f(x) exceeds 200?</div><div>W) 100<br>X) 101<br>Y) 102<br>Z) 103</div><div>ANSWER: Y) 102</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+4 fair six-sided dice are rolled. What is the probability that exactly three of them result in the same number?</div><div>ANSWER: 5/54</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Stars that readily undergo the CNO cycle would have which of the following interiors?</div><div>W) Radiative core and radiative envelope<br>X) Radiative core and convective envelope<br>Y) Convective core and radiative envelope<br>Z) Convective core and convective envelope</div><div>ANSWER: Y) Convective core and radiative envelope</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following asteroid classes is most common in the outer asteroid belt?</div><div>W) M-type<br>X) S-type<br>Y) C-type<br>Z) L-type</div><div>ANSWER: Y) C-type</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following four elements by increasing melting point of their standard state
+1) Carbon
+2) Argon
+3) Iron
+4) Bromine</div><div>ANSWER: 2,4,3,1</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Consider the reactions A ⇌ 2B and B ⇌ C. If the equilibrium constants for these reactions are 0.4 and 0.5, respectively, what is the equilibrium constant for the reaction 4C ⇌ 2A?</div><div>ANSWER: 100</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers in the Solomon group at MIT are studying the healing of the Antarctic ozone hole, which was caused mainly by chlorofluorocarbons and other ozone-depleting substances. In the structure of the ozone molecule, what is the hybridization of the central oxygen atom?</div><div>ANSWER: sp<sup>2</sup></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Swager group at MIT have developed a chemiresistive sensor that exhibits selectivity for methane over heavier hydrocarbons like benzene and toluene. To two significant figures and in kelvin, at what temperature is the effusion rate of toluene equal to the effusion rate of methane at 400 kelvin?</div><div>ANSWER: 2300 <span class="also-accept">(also accept: 2.3 × 10<sup>3</sup>)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+How many sister chromatids are in a single human cell during the G2 phase of mitosis?</div><div>W) 23<br>X) 46<br>Y) 92<br>Z) 184</div><div>ANSWER: Y) 92</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What is the term for the proteins on chromosomes that connect to the spindle fibers during mitosis?</div><div>ANSWER: Kinetochores</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following types of resonance do quasi-satellites of a planet exhibit with the planet?</div><div>W) 1 to 1<br>X) 2 to 1<br>Y) 4 to 5<br>Z) 2 to 3</div><div>ANSWER: W) 1 to 1</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What effect, caused by inverse Compton scattering, allows the cosmic microwave background to map out regions of high and low density?</div><div>ANSWER: Sunyaev-Zeldovich effect <span class="also-accept">(also accept: SZ effect)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+An object moving through a fluid at a velocity v experiences a drag force. Which of the following best describes the dependence of this drag force on the velocity?</div><div>W) Proportional to v at all velocities<br>X) Proportional to v<sup>2</sup> at all velocities<br>Y) Proportional to v at low velocities and proportional to v<sup>2</sup> at high velocities<br>Z) Proportional to v at low velocities and inversely proportional to v at high velocities</div><div>ANSWER: Y) Proportional to v at low velocities and proportional to v<sup>2</sup> at high velocities</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+On the x-axis, a negative 2 coulomb charge is placed at x = 2 meters, and a positive 1 coulomb charge is placed at the origin. At how many points on the x-axis can a positive 1 coulomb charge be placed, such that it experiences no net force?</div><div>W) 0<br>X) 1<br>Y) 2<br>Z) 3</div><div>ANSWER: X) 1</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+If it takes 10 builders 10 days to build 10 boats, how long does it take 5 builders to build 20 boats?</div><div>ANSWER: 40</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+An arithmetic sequence has first term 1, and the sum of its first 100 terms is 2000. What is the value of the common difference between adjacent terms?</div><div>ANSWER: 38/99</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following pairs of compounds could be used to set up an effective buffer?</div><div>W) HF and NaF<br>X) HCl and NaCl<br>Y) HBr and NaBr<br>Z) HI and NaI</div><div>ANSWER: W) HF and NaF</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+The pKa of HF is 3.14. To two significant figures and in grams, how much NaF must be added to a 500 milliliter sample of 1 molar hydrofluoric acid to produce a solution buffered at a pH of 4.14?</div><div>ANSWER: 210</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Paracoumaryl alcohol is the monomer of what compound in the secondary cell wall of plants that provides compressive strength and stiffness?</div><div>ANSWER: Lignin</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+During late telophase in plant cell mitosis, the microtubules of the daughter cells form what structure that guides Golgi vesicles that eventually form the cell plate?</div><div>ANSWER: Phragmoplast</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

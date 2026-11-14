@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2022 Round 12</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2022/22" />
+<meta name="description" content="MIT 2022 Round 12: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2022" data-packet="22">
+<div class="float-row mb-3"><span class="float-start">Packet 22 (Round 12) of <a href="sets/mit-2022/">MIT 2022</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2022/Round_12.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements is true regarding fracture zones as opposed to transform faults?</div><div>W) They are the site of many earthquakes<br>X) Relative movement occurs in the same direction across them<br>Y) They occur between offset mid-ocean ridge segments<br>Z) The Dead Sea fault is an example of a fracture zone</div><div>ANSWER: X) Relative movement occurs in the same direction across them</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following four rocks or minerals that could contain the majority of the iron content of the iron rich layers found in banded iron formations
+1) Hematite
+2) Magnetite
+3) Chert
+4) Siderite</div><div>ANSWER: 1,2,4 <span class="also-accept">(also accept: All but 3)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three molecules that contribute to the heavily reducing environment of the cytosol of animal cells
+1) Glutathione
+2) NADPH
+3) NAD+</div><div>ANSWER: 1 and 2 <span class="also-accept">(also accept: All but 3)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three forms of histone modification that increase expression
+1) Acetylation
+2) Methylation
+3) Phosphorylation</div><div>ANSWER: 1 and 3 <span class="also-accept">(also accept: All but 2)</span></div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A material which is insulating at room temperature is heated to much higher temperature. Assuming it does not melt and there are no significant changes to its band structure, which of the following could occur?</div><div>W) It develops a strong voltage difference due to the Seebeck effect<br>X) It becomes a conductor<br>Y) It becomes a semiconductor<br>Z) It becomes a stronger insulator</div><div>ANSWER: Y) It becomes a semiconductor</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following gives the magnitude of the orbital angular momentum divided by the reduced Planck constant for an electron in an f -orbital?</div><div>W) √6<br>X) 3<br>Y) 2√3<br>Z) 12</div><div>ANSWER: Y) 2√3</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+If an integer ends in the digits 1260, then what is the largest number which it must be a multiple of?</div><div>ANSWER: 20</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+A monic degree-100 polynomial satisfies f(x) = x for all integer values of x between 1 and 100 inclusive. What is the value of f(0)?</div><div>W) 2<sup>50</sup><br>X) 2<sup>100</sup><br>Y) (50!)<sup>2</sup><br>Z) 100!</div><div>ANSWER: Z) 100!</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three reagents that could oxidize 1-pentanol to pentanal
+1) PCC
+2) DMP
+3) CrO<sub>3</sub> in H<sub>2</sub>SO<sub>4</sub></div><div>ANSWER: 1 and 2 <span class="also-accept">(also accept: All but 3)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, rank the following four compounds by increasing rate of nucleophilic aromatic substitution
+1) 2-fluoronitrobenzene
+2) 2-chloronitrobenzene
+3) 2-bromonitrobenzene
+4) 2-iodonitrobenzene</div><div>ANSWER: 4,3,2,1</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at the Weng Lab at MIT have recently discovered acutumine, a halogenase enzyme that requires a ferrous cofactor. What inorganic ion acts as a cofactor for hexokinase by stabilizing the negative phosphate groups on ATP?</div><div>ANSWER: Mg<sup>2+</sup> <span class="also-accept">(also accept: Magnesium)</span></div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers at the Weng Lab at MIT have recently used tobacco plants to biosynthesize moroidin, a bicyclic octapeptide known to inhibit the polymerization of tubulin. What common medication often prescribed for gout also inhibits the polymerization of tubulin?</div><div>ANSWER: Colchicine</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+A proton-NMR spectrum of N,N-dimethylformamide is taken at cryogenic temperatures. How many distinct signals are expected for this NMR spectrum?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+An IR spectrometer can resolve peaks to 0.1 wavenumber. Which of the following is closest to the shortest time scale of processes which the IR spectrometer can resolve in inverse seconds?</div><div>W) 10<sup>-7</sup><br>X) 10<sup>-9</sup><br>Y) 10<sup>-11</sup><br>Z) 10<sup>-13</sup></div><div>ANSWER: Y) 10<sup>-11</sup></div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+How many ordered triplets of positive integers (a, b, c) satisfy the equation a + b + c = 21?</div><div>ANSWER: 190</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many ordered triplets of positive odd integers (a, b, c) satisfy the equation a + b + c = 21?</div><div>ANSWER: 55</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers at MIT’s Plasma Science and Fusion Center are currently investigating the existence of exotic mesons. What is the name given to the proposed class of exotic mesons that consist of no valence quarks but interact with one another through the strong force?</div><div>ANSWER: Glueball <span class="also-accept">(also accept: Gluonium)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+MIT physicists have cooled and trapped a gas of potassium atoms to form an ultracold condensate. By name or number, identify all of the following three neutral isotopes of potassium which could theoretically form this state
+1) Potassium-39
+2) Potassium-40
+3) Potassium-41</div><div>ANSWER: 1 and 3 <span class="also-accept">(also accept: ALL BUT 2)</span></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements explains why superior mirages are more prevalent over water bodies or icy surfaces?</div><div>W) Air closer to the ground needs to be colder<br>X) Air closer to the ground needs to be warmer<br>Y) Air closer to the ground needs to be less humid<br>Z) Air closer to the ground needs to be more humid</div><div>ANSWER: W) Air closer to the ground needs to be colder</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+A lake in Illinois is approximately 9 feet deep. By name or number, identify all of the following four processes that it is likely to undergo
+1) Fall turnover
+2) Winter stratification
+3) Spring turnover
+4) Summer stratification</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four blood cells that are derived from myeloid stem cells
+1) Erythrocytes
+2) Platelets
+3) B cells
+4) Neutrophils</div><div>ANSWER: 1,2,4 <span class="also-accept">(also accept: All but 3)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+If the following four plant species were placed in a cladogram, which would form the outgroup?</div><div>W) Ginkgo<br>X) Maize<br>Y) Moth orchid<br>Z) Southern magnolia</div><div>ANSWER: W) Ginkgo</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following models of crystalline solids predicts a constant molar heat capacity of 3 times the ideal gas constant?</div><div>W) Einstein<br>X) Sommerfeld<br>Y) Debye<br>Z) Dulong-Petit</div><div>ANSWER: Z) Dulong-Petit</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+At temperatures very close to absolute zero, phonons dominate the energy of a crystalline solid. Phonons follow the same statistics as photons, and therefore, the internal energy due to phonons has the same temperature dependence as that of photons according to the Stefan-Boltzmann law. Based on this, the heat capacity of a solid at low temperature is proportional to what power of the temperature?</div><div>ANSWER: 3 <span class="also-accept">(also accept: Cubed)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What process allows for Strömgren spheres to maintain a constant radius when in equilibrium with ionizing photons?</div><div>ANSWER: Recombination</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three statements that correctly describe a difference between gegenschein and zodiacal light
+1) It has a low angle of reflection of the incident sunlight on dust particles
+2) It forms a dimmer elliptical spot within the brighter part of zodiacal light
+3) Dust particles for zodiacal light are seen in full phase</div><div>ANSWER: None</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements best explains why octahedral manganese (II) complexes are significantly less colored than those of chromium (III)?</div><div>W) The chromium (III) complex is high-spin, but the manganese (II) complex is low-spin<br>X) Chromium (III) complexes can engage in metal ligand charge transfer interactions, which manganese (II) complexes cannot<br>Y) d-d transitions in manganese (II) are spin-forbidden, but they are spin-allowed in chromium (III)<br>Z) There is significantly more spin-orbit coupling in chromium (III) complexes, which make electronic transitions easier</div><div>ANSWER: Y) d-d transitions in manganese (II) are spin-forbidden, but they are spin-allowed in chromium (III)</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Consider the hypothetical complex where a d<sup>8</sup> metal center is bound to a single N -heterocyclic carbene ligand. Answer the following two questions about this complex
+1) Is the HOMO of this complex of bonding, antibonding, or nonbonding character?
+2) Which d-orbital on the metal is the LUMO?</div><div>ANSWER: 1) Antibonding 2) d<sub>x<sup>2</sup> − y<sup>2</sup></sub></div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+During noncyclic electron flow, electrons from photosystem I are shuttled to ferredoxin. Ferredoxin is then oxidized by an enzyme that produces what important compound for use in the Calvin cycle?</div><div>ANSWER: NADPH</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following that are true about the cytochrome b6f complex
+1) Cytochrome b6f pumps protons into the stroma
+2) Cytochrome b6f is not involved in cyclic electron flow
+3) Cytochrome b6f catalyzes the oxidation and reduction of plastoquinone</div><div>ANSWER: 3 only</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+A right cylinder has a radius of 8 and a total surface area of 720π. What is the height of the cylinder?</div><div>W) 37<br>X) 38<br>Y) 39<br>Z) 40</div><div>ANSWER: W) 37</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+In a square prism, the ratio of the lengths of the longer face diagonal to the shorter face diagonal is 9. What is the ratio of the lengths of the space diagonal to the shortest side?</div><div>ANSWER: √163</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the name of the criterion which must be fulfilled for a deuterium-tritium thermonuclear fusion reactor to be considered sustainable?</div><div>ANSWER: Lawson criterion</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Equal intensities of orange light of wavelength 600 nanometers and violet light of wavelength 400 nanometers each undergo Rayleigh scattering. Which of the following is closest to the ratio of the intensity of the scattered orange light to the intensity of the scattered violet light?</div><div>W) 0.2<br>X) 0.4<br>Y) 0.7<br>Z) 1.5</div><div>ANSWER: W) 0.2</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+The Van Voorhis group at MIT uses computational methods such as density functional theory to study molecular systems. Which electronic structure theory is the simplest theory which serves as the foundation for density functional theory and obeys the Pauli exclusion principle but does not factor in spin correlation?</div><div>ANSWER: Hartree-Fock</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Researchers in the Cao group are using Förster resonance energy transfer to study multichromophoric systems. Which of the following best describes the most significant limitation of using this technology?</div><div>W) The length scale is restrictive because of the rapid decay in force with distance<br>X) The donor chromophore must be particularly bright, which is typically difficult to induce<br>Y) The acceptor chromophore must be particularly bright, which is typically difficult to induce<br>Z) It generally observes a low signal-to-noise ratio</div><div>ANSWER: Z) It generally observes a low signal-to-noise ratio</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Bis(2-chloroethyl) sulfide, or mustard gas, reacts with water much faster than 1,5-dichloropentane. Which of the following effects best explains this phenomenon?</div><div>W) Neighboring group participation<br>X) Anomeric effect<br>Y) Thorpe-Ingold effect<br>Z) Conjugation</div><div>ANSWER: W) Neighboring group participation</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+The carbons on the compound chlorocyclooctane are labeled from 1 to 8 starting from the carbon bonded to the chlorine and moving counterclockwise. By name or number, rank the following three modifications to this compound by increasing rate of solvolysis in acetic acid
+1) Replacing the 4-carbon with oxygen
+2) Replacing the 5-carbon with oxygen
+3) Replacing the 5-carbon with sulfur</div><div>ANSWER: 1,2,3</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+An object constrained to move in one dimension starts at rest at the origin, x = 0. It is subject to the position-dependent acceleration a(x) = 5x + 7. Which of the following gives the speed of the object as a function of position x &gt; 0?</div><div>W) √(5x<sup>2</sup> + 7x)<br>X) √(5x<sup>2</sup>/2 + 7x)<br>Y) √(10x<sup>2</sup> + 14x)<br>Z) √(5x<sup>2</sup> + 14x)</div><div>ANSWER: Z) √(5x<sup>2</sup> + 14x)</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A two-mole sample of an ideal gas has a volume of 6 liters at a temperature of 300 kelvin. The gas sample is then isothermally compressed to a volume of 2 liters. Which of the following is closest to the gas sample’s change in entropy in joules per kelvin?</div><div>W) −40<br>X) −20<br>Y) 20<br>Z) 40</div><div>ANSWER: X) −20</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+The interior angles of a hexagon form an arithmetic series, and the largest exterior angle is 135 degrees. What is the angle measure of the second smallest interior angle?</div><div>W) 60<br>X) 75<br>Y) 90<br>Z) 105</div><div>ANSWER: X) 75</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many values of x satisfy sin x = x/12?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following gymnosperms is the closest relative to angiosperms?</div><div>W) Cycadophyta<br>X) Coniferophyta<br>Y) Ginkgophyta<br>Z) Gnetophyta</div><div>ANSWER: Z) Gnetophyta</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four groups that undergo spiral cleavage during development
+1) Echinodermata
+2) Mollusca
+3) Annelida
+4) Nematoda</div><div>ANSWER: 2 and 3 <span class="also-accept">(also accept: All but 1)</span></div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following fusion processes requires the highest minimum ignition temperature?</div><div>W) Helium burning<br>X) Carbon burning<br>Y) Oxygen burning<br>Z) Neon burning</div><div>ANSWER: Y) Oxygen burning</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+The Hubble Space Telescope originally suffered from which of the following distortions due to its flat mirror?</div><div>W) Spherical aberration<br>X) Chromatic aberration<br>Y) Comatic aberration<br>Z) Pincushion distortion</div><div>ANSWER: W) Spherical aberration</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

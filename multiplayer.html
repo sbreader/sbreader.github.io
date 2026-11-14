@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Multiplayer</title>
+<meta name="description" content="Join a public Science Bowl lobby, or create or join a room with a 5-letter code. Everyone can buzz, with a live scoreboard, chat and real Science Bowl scoring. Free, no accounts or installs." />
+<link rel="canonical" href="https://sbreader.github.io/multiplayer" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="SB Reader" />
+<meta property="og:title" content="Multiplayer Science Bowl – Play Online with Friends" />
+<meta property="og:description" content="Join a public Science Bowl lobby, or create or join a room with a 5-letter code. Everyone can buzz, with a live scoreboard, chat and real Science Bowl scoring. Free, no accounts or installs." />
+<meta property="og:url" content="https://sbreader.github.io/multiplayer" />
+<meta name="twitter:card" content="summary" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="preload" href="data/meta.json" as="fetch" crossorigin />
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<!-- Loaded here rather than at the end of <body> so the question bank starts
+     downloading at once, while the rest of the page loads. -->
+<script src="js/data.js?v=4c47ebe00e"></script>
+<script>SBData.load();</script>
+<!-- A link straight into a room (?room= or ?lobby=) shows the room at once,
+     with "Connecting…", instead of the lobby first. -->
+<script>if (/[?&](room|lobby)=/.test(location.search)) document.documentElement.classList.add('mp-direct');</script>
+<!-- Multiplayer's other servers: the room list (Supabase) and the
+     connection service (PeerJS), reached sooner with the connections open. -->
+<link rel="preconnect" href="https://jvgshmtoinzgegfwwjah.supabase.co" crossorigin />
+<link rel="preconnect" href="https://0.peerjs.com" crossorigin />
+</head>
+<body>
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ============== LOBBY ============== -->
+<div class="container mt-3 mb-4" id="lobbyScreen">
+  <p class="lead">Play Science Bowl in real time against other players.</p>
+  <p>
+    You can invite friends to join you by sharing the URL to your room.
+    <span id="activeSummary">There are <span id="activePlayers">0</span> active players in <span id="activeRooms">0</span> active rooms.</span>
+  </p>
+  <p class="mb-0 pb-2">Create/Join a Room:</p>
+  <form id="roomForm">
+    <div class="input-group justify-content-center pb-2">
+      <label class="d-none" for="newRoomName">Room name</label>
+      <input class="form-control" id="newRoomName" type="text" maxlength="32" autocomplete="off" />
+      <button class="btn btn-success" type="submit">Go</button>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" id="privateRoomCheckbox" type="checkbox" />
+      <label class="form-check-label" for="privateRoomCheckbox">Make room private</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" id="controlledRoomCheckbox" type="checkbox" />
+      <label class="form-check-label" for="controlledRoomCheckbox">Make room controlled</label>
+    </div>
+  </form>
+  <p class="small-note mt-2" id="joinStatus"></p>
+  <hr>
+  <p>Try one of these rooms:</p>
+  <ul class="list-group mb-3" id="permanentRoomList"></ul>
+  <div class="d-flex justify-content-between mb-3">
+    <div>Or, check out a public room:</div>
+    <div class="form-check">
+      <input class="form-check-input" id="emptyRoomCheckbox" type="checkbox" />
+      <label class="form-check-label" for="emptyRoomCheckbox">Show empty rooms</label>
+    </div>
+  </div>
+  <ul class="list-group mb-5" id="roomList"></ul>
+</div>
+
+<!-- ============== ROOM ============== -->
+<div class="container-fluid mt-3 mb-5 pb-5 px-xxl-5" id="mpGameScreen" style="display:none;">
+  <div class="row">
+    <div class="col-12 col-lg-3 order-lg-1 mb-5 play-sidebar" id="settings">
+      <div class="timer d-block p-1 text-center" id="mpTimer"><span class="face" id="mpTimerFace">0</span><span class="fraction" id="mpTimerFraction">.0</span></div>
+      <hr>
+      <div class="form-check form-switch mb-2">
+        <input class="form-check-input" id="toggleOfflinePlayers" type="checkbox" role="switch" />
+        <label class="form-check-label" for="toggleOfflinePlayers">Show offline players</label>
+      </div>
+      <ul class="list-group" id="mpPlayerList"></ul>
+      <hr>
+      <div class="input-group mb-2">
+        <span class="input-group-text" title="Username" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/></svg>
+        </span>
+        <input class="form-control" id="mpUsername" type="text" placeholder="Username" maxlength="24" autocomplete="off" aria-label="Username" />
+      </div>
+      <fieldset id="mpRoomSettings">
+      <div id="mpRandomSettings">
+        <div class="mb-2"><select id="mpSettingsTournamentSelect" aria-label="Tournaments"></select></div>
+        <div id="mpSettingsYearRangeLabel">Year range</div>
+        <div class="dual-slider" id="mpSettingsYearSlider">
+          <div class="track"></div>
+          <div class="range-fill" id="mpSettingsYearSliderFill"></div>
+          <input type="range" id="mpSettingsYearMin" step="1" aria-label="Earliest year" />
+          <input type="range" id="mpSettingsYearMax" step="1" aria-label="Latest year" />
+        </div>
+        <div class="mt-2" id="mpSettingsRoundRangeLabel">Rounds 1-17</div>
+        <div class="dual-slider" id="mpSettingsRoundSlider">
+          <div class="track"></div>
+          <div class="range-fill" id="mpSettingsRoundSliderFill"></div>
+          <input type="range" id="mpSettingsRoundMin" min="1" max="17" value="1" step="1" aria-label="Lowest round" />
+          <input type="range" id="mpSettingsRoundMax" min="1" max="17" value="17" step="1" aria-label="Highest round" />
+        </div>
+        <div class="form-check form-switch mt-2">
+          <input class="form-check-input" id="mpToggleUnlabeled" type="checkbox" role="switch" checked />
+          <label class="form-check-label" for="mpToggleUnlabeled">Include questions with no round number</label>
+        </div>
+      </div>
+      <div class="mt-2">
+        <div class="mb-2" id="mpSubjectButtons"></div>
+        <div class="mb-1" id="mpSettingsMatchCount"></div>
+        <div class="d-flex align-items-baseline">
+          <button class="btn btn-link p-0" id="mpClearFilters" type="button">Clear all filters</button>
+          <!-- a link, not a button, so a controlled room's locked settings don't lock it too -->
+          <a class="ms-auto" href="#" id="mpClearStats" role="button">Clear stats</a>
+        </div>
+        <hr>
+        <div class="form-check form-switch">
+          <input class="form-check-input" id="mpTogglePublic" type="checkbox" role="switch" />
+          <label class="form-check-label" for="mpTogglePublic">Public room</label>
+        </div>
+        <div class="form-check form-switch d-none" id="mpControlledRow">
+          <input class="form-check-input" id="mpToggleControlled" type="checkbox" role="switch" />
+          <label class="form-check-label" for="mpToggleControlled" title="Only the room's owner can change the settings">Controlled room</label>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" id="mpToggleRebuzz" type="checkbox" role="switch" />
+          <label class="form-check-label" for="mpToggleRebuzz">Allow rebuzzes</label>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" id="mpToggleSkip" type="checkbox" role="switch" checked />
+          <label class="form-check-label" for="mpToggleSkip">Allow skips</label>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" id="mpToggleTimer" type="checkbox" role="switch" checked />
+          <label class="form-check-label" for="mpToggleTimer">Enable timer</label>
+        </div>
+        <div class="mb-2"></div>
+        <label for="mpSettingsRateSlider">Reading speed: <span id="mpSettingsRateValue">50</span><br></label>
+        <input class="form-range" id="mpSettingsRateSlider" type="range" min="0" max="100" step="5" value="50" />
+        <!-- as on QB Reader: under the reading speed, italic and muted -->
+        <p class="mb-1 text-body-secondary">
+          <i class="d-none" id="mpPermanentNote">This is a permanent room. Some settings have been restricted.</i>
+          <i class="d-none" id="mpControlledNote">This is a controlled room. Some settings can only be edited by the creator.</i>
+        </p>
+      </div>
+      </fieldset>
+      <div>
+        <div class="d-none d-lg-block">
+          <hr>
+          <p class="mb-0">
+            <span class="text-nowrap"><kbd>space</kbd> = buzz</span><br>
+            <span class="text-nowrap"><kbd>enter</kbd> = submit answer / open chat</span><br>
+            <span class="text-nowrap"><kbd>n</kbd> = next question</span><br>
+            <span class="text-nowrap"><kbd>s</kbd> = skip</span><br>
+            <span class="text-nowrap"><kbd>p</kbd> = pause / resume</span><br>
+            <span class="text-nowrap"><kbd>k</kbd> = show/hide last question</span><br>
+            <span class="text-nowrap"><kbd>t</kbd> = star/unstar last question</span><br>
+            <span class="text-nowrap"><kbd>q</kbd> = I was wrong / I was right</span><br>
+            <span class="text-nowrap"><kbd>e</kbd> = show/hide settings</span><br>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-9" id="content">
+      <div class="input-group d-none my-2" id="mpAnswerRow">
+        <input class="form-control" type="text" id="mpAnswerInput" placeholder="Enter answer" autocomplete="off" maxlength="200" aria-label="Your answer" />
+        <button class="btn btn-success" id="mpSubmitBtn" type="button">Submit</button>
+      </div>
+      <div class="input-group d-none my-2" id="mpChatRow">
+        <input class="form-control" type="text" id="mpChatInput" placeholder="Chat" maxlength="300" autocomplete="off" aria-label="Chat message" />
+        <button class="btn btn-success" id="mpChatSendBtn" type="button">Submit</button>
+      </div>
+      <div class="float-row d-flex flex-wrap justify-content-between align-items-start column-gap-3 row-gap-1">
+        <!-- Hidden, as QB Reader shows no room name here (the page title and
+             the address bar have it); kept for the copy-link code. -->
+        <span class="room-code-strip d-none">
+          <span id="mpRoomLabel">Room</span>
+          <span class="room-code is-name" id="mpRoomCodeDisplay" title="Click to copy the room's link" role="button" tabindex="0"></span>
+        </span>
+        <span class="ms-auto me-lg-2 text-end">
+          <b id="mpQuestionInfo"></b>
+        </span>
+      </div>
+      <div class="mt-2 question-panel" id="mpQuestionPanel">
+        <div class="reveal-measure-wrap" id="mpRevealMeasureWrap">
+          <div class="q-display" id="mpQDisplay"></div>
+          <div class="q-figures" id="mpQFigures" style="display:none;"></div>
+          <div class="choices-display" id="mpChoicesDisplay" style="display:none;">
+            <div class="choice-box" data-letter="W"><span class="letter">W)</span><span class="choice-text" id="mpChoiceTextW"></span></div>
+            <div class="choice-box" data-letter="X"><span class="letter">X)</span><span class="choice-text" id="mpChoiceTextX"></span></div>
+            <div class="choice-box" data-letter="Y"><span class="letter">Y)</span><span class="choice-text" id="mpChoiceTextY"></span></div>
+            <div class="choice-box" data-letter="Z"><span class="letter">Z)</span><span class="choice-text" id="mpChoiceTextZ"></span></div>
+          </div>
+        </div>
+      </div>
+      <a class="mt-1 mt-lg-3 p-0 btn btn-link float-end d-none" id="mpOverrideBtn" title="Shortcut: q">I was wrong</a>
+      <div class="my-1 my-lg-3 reveal-box" id="mpRevealBox" style="display:none;"></div>
+      <ul class="room-history list-unstyled" id="mpHistory"></ul>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid px-xxl-5 position-fixed bottom-0 play-buttons" id="mpButtonBar" style="display:none;">
+  <div class="row">
+    <div class="col-12 col-lg-9 py-3 bg-body" id="buttons">
+      <button class="btn btn-success" id="mpNextBtn" type="button" title="Shortcut: n">Start</button>
+      <button class="btn btn-primary" id="mpPauseBtn" type="button" title="Shortcut: p" aria-label="Pause" disabled></button>
+      <button class="btn btn-info" id="mpChatBtn" type="button" title="Shortcut: enter">Chat</button>
+      <button class="btn btn-danger" id="mpSettingsBtn" type="button" title="Shortcut: e" aria-label="Show or hide settings" aria-controls="settings"></button>
+      <button class="btn btn-primary float-end" id="mpBuzzBtn" type="button" title="Shortcut: space" disabled>Buzz</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/peerjs@1.5.4/dist/peerjs.min.js" integrity="sha384-nlUQ8ZqCbvStErob+biJNzSgltf6urV3VGqhfIfzhmg9RXmpeRm76ELw0pYnKlTR" crossorigin="anonymous"></script>
+<script src="js/answer-check.js?v=e50e78f0a7"></script>
+<script src="js/reveal.js?v=9bd421d9d9"></script>
+<script src="js/peer.js?v=43f78250f0"></script>
+<script src="js/mp-rules.js?v=f6d516e05d"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+<script src="js/reports.js?v=11b28451ea"></script>
+<script src="js/question-stats.js?v=dd0e3a179d"></script>
+<script src="js/rooms.js?v=b4dac1246c"></script>
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/multiplayer.js?v=74bd7c862f"></script>
+</body>
+</html>

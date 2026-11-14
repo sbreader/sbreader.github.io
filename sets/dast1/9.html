@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - DAST1 DAST Round 9</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/dast1/9" />
+<meta name="description" content="DAST1 DAST Round 9: 39 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="dast1" data-packet="9">
+<div class="float-row mb-3"><span class="float-start">Packet 9 (DAST Round 9) of <a href="sets/dast1/">DAST1</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/DAST1/DAST%20Round%209.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following vectors is perpendicular to the plane defined by the equation x minus 2 y plus 3 z equals 6?</div><div>W) 2 j minus k<br>X) 3 i minus 2 j plus 4 k<br>Y) –2 i plus 4 j minus 6 k<br>Z) i plus 2 j plus 3 k</div><div>ANSWER: Y) –2 i plus 4 j minus 6 k</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Given a sphere with the equation x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 9, what is the equation for a plane tangent to this sphere at the point (1, 2, 2)?</div><div>ANSWER: x + 2y + 2z = 9</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+How many hydrogen atoms are in the molecule cyclohexanone?</div><div>ANSWER: 10</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following four species that are electrophiles
+1) Enolates
+2) H plus
+3) Water
+4) Carbenium.</div><div>ANSWER: 2 AND 4</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+An ammeter of a low resistance of 0.1 ohms is used to measure the current through a 10 ohm resistor. The ammeter is placed with the resistor in series, and the system is then connected to an ideal battery of 100 volts. Find the current measured by the ammeter to the nearest tenth of an ampere.</div><div>ANSWER: 9.9</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Which of the following is NOT a possible consequence of the third law of thermodynamics?</div><div>W) There cannot exist any ideal gas as the temperature approaches 0 Kelvin<br>X) It is impossible to reach absolute zero<br>Y) Heat capacities must approach zero as temperature approaches zero<br>Z) It requires the sign of the entropy of an object with a temperature greater than absolute zero to be non-negative</div><div>ANSWER: Z) It requires the sign of the entropy of an object with a temperature greater than absolute zero to be non-negative</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What molecule serves as a co-repressor in the trp operon?</div><div>ANSWER: TRYPTOPHAN</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+What protein produced in the ileum plays a pivotal role in appetite suppression?</div><div>ANSWER: PEPTIDE YY</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The Roche lobe is the region of a star in a binary system where material inside the star is bound to it by gravity. If material from one star in a binary system passes the Roche lobe of another star, it will flow to that star. Which phenomenon is NOT likely to result from this type of interaction?</div><div>W) Starquakes<br>X) Millisecond pulsars<br>Y) Soft x-ray transients<br>Z) Cataclysmic variables</div><div>ANSWER: W) Starquakes</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Rishab points his telescope toward an interesting star he noticed in the night sky. Equipped with a spectrometer, he analyzes the spectrum produced by the star and notices strong lines corresponding to the compound titanium oxide, or TiO<sub>2</sub>. Which of the following spectral classes can the star likely be classified as?</div><div>W) O<br>X) A<br>Y) G<br>Z) M</div><div>ANSWER: Z) M</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers at Sandia National Labs are studying commercial chemical processes that may be helpful in producing compounds that extinguish chemical fires. What is the term for the process by which esters can be converted into carboxylic acids after treatment with sodium hydroxide and an acid?</div><div>ANSWER: SAPONIFICATION</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers at Sandia National Labs are studying the molecular makeup of plasma membranes. What is the term for groups of lipids found in membrane regions where clusters of specialized proteins performing common functions congregate?</div><div>ANSWER: LIPID RAFTS</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Find the number of solutions in the interval open bracket 0 to 2π close bracket such that the secant of x plus the tangent of x is equal to 2 times the cosine of x.</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+What is the net change in the number of pi-bonds in a cycloaddition?</div><div>W) –2<br>X) –1<br>Y) 1<br>Z) 2</div><div>ANSWER: W) –2</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following best explains why the d z squared atomic orbital does not have the normal clover shape that the rest of the d-orbitals have?</div><div>W) d z squared has a radial wavefunction that is partly imaginary, while the other d-orbitals have completely real radial wavefunctions<br>X) d z squared has a radial wavefunction that is completely real, while the other d-orbitals have partly imaginary wavefunctions<br>Y) d z squared has an angular wavefunction that is partly imaginary, while the other d-orbitals have completely real radial wavefunctions<br>Z) d z squared has an angular wavefunction that is completely real, while the other d-orbitals have partly imaginary wavefunctions</div><div>ANSWER: Z) d z squared has an angular wavefunction that is completely real, while the other d-orbitals have partly imaginary wavefunctions</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Dylan is studying the types of binary star systems using the Kepler telescope. He notices two main sequence stars orbiting each other in an elliptical path. After some observation, he realizes that the less massive star is more advanced in the stellar life cycle. What type of binary star system is this?</div><div>W) Algol-type binary<br>X) Cataclysmic variables<br>Y) Symbiotic binary<br>Z) X-Ray binary</div><div>ANSWER: W) Algol-type binary</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Star A has an absolute magnitude of 4, while star B has an absolute magnitude of –6. If star B’s radius is five times that of star A, then to the nearest tenth, by what factor is star B’s temperature larger than star A’s temperature?</div><div>ANSWER: 4.5</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following four particles that are pseudoscalar mesons
+1) pion
+2) omega meson
+3) phi meson
+4) eta meson.</div><div>ANSWER: 1 AND 4</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+In the hypothetical nuclear reaction where two up quarks and a strange quark turn into a proton and an electron antineutrino, identify all of the following four properties that are not conserved
+1) charge
+2) mass
+3) baryon number
+4) lepton number.</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Order the following three solutions in order of increasing solute potential assuming that they all are at the same temperature
+1) 2 Molar Sucrose
+2) 1 Molar Sodium Phosphate
+3) 3 Molar Glucose.</div><div>ANSWER: 2,3,1</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Assume round is dominant to wrinkled, and tall is dominant to short. A pea plant homozygous dominant for shape and height is crossed with a short and wrinkled pea plant. The offspring are allowed to self-pollinate. An F<sub>2</sub> offspring contains two peas in a pod. What is the probability that one pea is round and tall and the other is short and wrinkled?</div><div>ANSWER: 9/128</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+In order to manipulate silicon-based nanomaterials, researchers at Brookhaven National Lab have been studying the quantum confinement of the surface and bulk variants of what collective oscillations of electrons?</div><div>W) Excitons<br>X) Phonons<br>Y) Polaritons<br>Z) Plasmons</div><div>ANSWER: Z) Plasmons</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at Sandia National Labs are studying how to switch on Iron three ions in the octahedral sheet of an iron-containing phyllosilicate. Identify which of the following three minerals are phyllosilicates
+1) mica
+2) chlorite
+3) biotite</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The Mississippi River’s discharge into the ocean is larger than the ocean’s input into the river. Which of the following features does the Mississippi River have as a result of this?</div><div>W) Strong tidal currents<br>X) Lack of vertical salinity gradient<br>Y) Salt wedge<br>Z) Thorough mixing of water horizontally</div><div>ANSWER: Y) Salt wedge</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">VISUAL BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Answer the following three questions about this image
+1) What process is shown in this image?
+2) States such as Wisconsin, Michigan, and New York are greatly impacted by this process. Choosing from north, east, south, or west, what direction relative to a body of water receives the heaviest snowfall from this process in this region?
+3) By name or number, identify all of the following that would be conducive to this process
+1) atmospheric instability
+2) directional shear
+3) significantly colder air aloft</div><div class="q-figures"><img class="q-figure" src="data/img/dast1/86904.webp" width="1004" height="540" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) LAKE-EFFECT SNOW; 2) EAST; 3) 1 AND 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Bempedoic acid is a non-statin compound that is used to inhibit the synthesis of LDL cholesterol by blocking ATP citrate lyase, an enzyme that converts citrate to acetyl-CoA so that it can be used in the mevalonate pathway. However, statins act farther downstream in the pathway, blocking the conversion of what molecule into mevalonate?</div><div>ANSWER: HMG-CoA</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following statements regarding hemoglobin oxygen dissociation curves is incorrect?</div><div>W) High CO<sub>2</sub> concentrations lead to a left-shifted curve<br>X) High 2,3-BPG concentrations lead to a right-shifted curve<br>Y) Use of Fetal Hemoglobin leads to a right-shifted curve<br>Z) High temperature leads to a right-shifted curve</div><div>ANSWER: Y) Use of Fetal Hemoglobin leads to a right-shifted curve</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Which statement in organic chemistry predicts that, in endergonic reactions, the geometry of the transition state will closely resemble the geometry of the product?</div><div>ANSWER: HAMMOND’S POSTULATE</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements regarding the acid-catalyzed ring-opening of epoxides is false?</div><div>W) Nucleophiles will preferentially attack a secondary carbon over a primary carbon<br>X) When water is the nucleophile, sulfuric acid is a commonly used catalyst<br>Y) The mechanism proceeds first through proton transfer and then via a nucleophilic substitution<br>Z) There is stereochemical inversion about chiral centers</div><div>ANSWER: W) Nucleophiles will preferentially attack a secondary carbon over a primary carbon</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Akul wants to evaluate the Gaussian integral by switching from rectangular to polar coordinates. By what mathematical object should he multiply his integral in order to properly scale to the new coordinate system?</div><div>W) Hessian matrix<br>X) Jacobian determinant<br>Y) Ricci tensor<br>Z) Scaling vector</div><div>ANSWER: X) Jacobian determinant</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Water fills a cylindrical can to its top. The can is then rotated at some angular velocity about its center axis. If water is allowed to spill from the top of the can, which of the following best describes the shape of the surface of the water after a long time?</div><div>W) Hyperboloid<br>X) Ellipsoid<br>Y) Paraboloid<br>Z) Sphere</div><div>ANSWER: Y) Paraboloid</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Scientists at Brookhaven National Lab’s Center for Functional Nanomaterials need precise equipment in order to study the binding of SARS-CoV-2 to cells and find a way to inhibit it. In order to accomplish this, they are using what microscopic technique that uses a usually pyramidal-shaped tip attached to a cantilever that can very finely scan surfaces?</div><div>ANSWER: ATOMIC FORCE MICROSCOPY <span class="also-accept">(also accept: SCANNING FORCE MICROSCOPY)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at Lawrence Berkeley National Lab have been studying the binding ability of antibody-mimetic peptoid nanosheets. For example, they created a gold-peptoid-gold composite that can serve as a miniature version of what electronic device utilized for its rapid charging and discharging ability?</div><div>ANSWER: SUPERCAPACITOR</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What shape is formed when light passes through an object where each infinitesimally thin layer of the object has an index of refraction that varies with the sine of the angle that light approaches it divided by the speed of the light at the instant?</div><div>ANSWER: BRACHISTOCHRONE <span class="do-not-accept">(do not accept: CYCLOID)</span></div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Let a and b be three-dimensional vectors, where (3 a + 2 b) x (−4a-7b) = ka x b, where k is a scalar. What is the value of k?</div><div>ANSWER: -13</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+In bacteria, as well as in mitochondria and chloroplasts, the compound that initiates protein synthesis, rather than methionine, is methionine attached to what group?</div><div>ANSWER: FORMYL</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following that would increase an enzyme’s activation energy
+1) Making the active site complementary to the substrate instead of the transition state
+2) Increasing temperature from 40 degrees Celsius to 70 degrees Celsius
+3) Decreasing catalyst concentration</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the term for molecules that lack chiral centers but are optically active due to steric hindrance around a rotationally fixed bond?</div><div>ANSWER: ATROPISOMERS</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Arrange the following three elements by increasing ionization energy
+1) Gallium
+2) Indium
+3) Thallium.</div><div>ANSWER: 2,1,3</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

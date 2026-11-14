@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2020 round 13</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2020/13" />
+<meta name="description" content="MIT 2020 round 13: 47 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2020" data-packet="13">
+<div class="float-row mb-3"><span class="float-start">Packet 13 (round 13) of <a href="sets/mit-2020/">MIT 2020</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2020/round13.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following four plates which border the Pacific plate
+1) North American plate
+2) Nazca plate
+3) Philippine plate
+4) Scotia plate</div><div>ANSWER: 1,2,3</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, arrange the following four events in the post-main sequence evolution of a star like the Sun in chronological order, from earliest to latest
+1) Helium flash
+2) Asymptotic giant branch
+3) Red giant branch
+4) Horizontal branch</div><div>ANSWER: 3,1,4,2</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following vectors gives the direction of steepest change on a surface in 3 dimensions, defined by z = f(x, y)?</div><div>W) Curvature<br>X) Gradient<br>Y) Flux<br>Z) Normal</div><div>ANSWER: X) Gradient</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A positive integer is called fibbish if each digit, after the leftmost two, is at least the sum of the two digits to the left of it. What is the largest fibbish number?</div><div>ANSWER: 10112369</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Mangrove trees, which often reside in tidal swamps, exhibit what kind of root?</div><div>W) Buttress roots<br>X) Strangling aerial roots<br>Y) Storage roots<br>Z) Pneumatophores</div><div>ANSWER: Z) Pneumatophores</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+The ABC model of flower development describes the development of floral organs in relation to various classes of homeotic genes. In addition to the ABC type genes are the D and E type genes, which are said to play a role in ovule and verticil development. One such D type gene is floral binding protein 7, or FBP7. What specific gene family do FBP7 and many other floral organ identity genes belong to?</div><div>ANSWER: MADS-box</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers at the MIT Francis Bitter Magnet Laboratory are utilizing state-of-the-art nuclear magnetic resonance (NMR) spectrometers to characterize and study different molecules and their interactions. Which of the following nuclei could not be studied by a typical NMR spectrometer?</div><div>W) Hydrogen-2<br>X) Carbon-12<br>Y) Nitrogen-14<br>Z) Phosphorus-31</div><div>ANSWER: X) Carbon-12</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Dinca group at MIT are synthesizing redox active metal organic frameworks (MOF) which can activate small molecules such as oxygen and nitrogen. To characterize these MOFs, researchers are employing a variety of spectroscopic techniques. Order the following three spectroscopic techniques in increasing energy of light used in the technique
+1) Moessbauer
+2) NMR
+3) EPR</div><div>ANSWER: 2,3,1</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following constants represents the coupling strength of the electromagnetic force?</div><div>W) Fine structure constant<br>X) Planck’s reduced constant<br>Y) Yukawa coupling constant<br>Z) Von Klitzing constant</div><div>ANSWER: W) Fine structure constant</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A spaceship is emitting a signal of frequency f in its own rest frame. As it flies by you, at near the speed of light, which of the following best describes the frequency when you see the spaceship at its closest approach?</div><div>W) Greater than f<br>X) Less than f<br>Y) Equal to f<br>Z) Relation to f depends on f</div><div>ANSWER: X) Less than f</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following best describes the cause of gold’s distinctive color?</div><div>W) The surface of gold forms a passivation layer, which has a gold tilt<br>X) Impurities within gold metal causes metal chloride complexes to form, which have a gold hue<br>Y) Relativistic effects within gold shifts the wavelength of absorption into the blue region, resulting in a gold color<br>Z) Electron tunneling distorts the energy levels within the gold, causing the appearance of new absorption bands</div><div>ANSWER: Y) Relativistic effects within gold shifts the wavelength of absorption into the blue region, resulting in a gold color</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Cyclobutadiene has been found to form a stable complex with an iron tricarbonyl fragment. The four-carbon ring in this complex has been found to have aromatic properties. Answer the following two questions about this complex
+1) Using a combination of L, X, and Z, what is the covalent bond classification of the cyclobutadiene ligand in this complex?
+2) What is the formal number of pi electrons in the cyclobutadiene ring in the complex?</div><div>ANSWER: 1) LX<sub>2</sub>; 2) 6</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+In humans, what is the enzyme that converts carbon dioxide to bicarbonate and hydrogen ions?</div><div>ANSWER: Carbonic anhydrase</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following statements that are true about 2,3-BPG binding to hemoglobin.
+1) 2,3-BPG stabilizes the T state
+2) 2,3-BPG decreases binding affinity for hemoglobin to oxygen
+3) Fetal hemoglobin exihibits high affinity for 2,3-BPG</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+By name or number, indicate all of the following three statements that are true of the Einstein model of a solid
+1) It matches the Dulong-Petit prediction at high temperatures
+2) At low temperatures, it predicts heat capacity proportional to temperature cubed
+3) It models atoms as independent quantum harmonic oscillators</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By number, indicate all of the following which are true regarding the theory of solids
+1) The Debye model predicts that as temperature approaches 0 heat capacities scale as temperature cubed
+2) The Einstein model treats each atom as a quantum harmonic oscillator
+3) Vibrations within the solid can be modeled as pseudoparticles called phonons</div><div>ANSWER: 1,2,3 <span class="also-accept">(also accept: all)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+The sum of the first N positive perfect seventh powers can be written as a polynomial expression in N. When this polynomial is written in standard polynomial form, what is its leading term?</div><div>ANSWER: N<sup>8</sup>/8 <span class="also-accept">(also accept: (1/8)N<sup>8</sup>)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Find to one significant figure the area of a regular 1,000,000-sided polygon with side length 1.</div><div>ANSWER: 8 × 10<sup>10</sup></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Researchers at the MIT Department of Mathematics have conducted investigations into high-dimensional sphere packing, which aims to find the densest possible packing of congruent spheres in n -dimensional Euclidean space. The kissing number of a unit sphere is defined as the maximum number of unit spheres that can be placed tangent to the original so that no two overlap. What is the kissing number of a unit sphere in 3-dimensional space?</div><div>W) 2<br>X) 6<br>Y) 12<br>Z) 20</div><div>ANSWER: Y) 12</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Researchers at the MIT Mathematics Department have been focusing on the problem of determining which numbers can be represented as the sum of three cubes, yielding the recent discovery of an expression of 42 as the sum of three cubes, one of which is negative. Which of the following numbers cannot be written as the sum of three cubes?</div><div>W) 5<br>X) 7<br>Y) 9<br>Z) 11</div><div>ANSWER: W) 5</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Using hard-soft acid base theory, describe both the alpha-carbon and oxygen in an enolate.</div><div>W) Carbon is a hard base, while oxygen is a hard base<br>X) Carbon is a hard base, while oxygen is a soft base<br>Y) Carbon is a soft base, while oxygen is a hard base<br>Z) Carbon is a soft base, while oxygen is a soft base</div><div>ANSWER: Y) Carbon is a soft base, while oxygen is a hard base</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, arrange the following three species in order of increasing CH coupling in Carbon-13-NMR.
+1) Acetylene
+2) Ethylene
+3) Ethane</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following estuary types is characterized by low river flow and net seaward movement of water at all depths?</div><div>W) Salt wedge<br>X) Partially mixed<br>Y) Well-mixed<br>Z) Fjord-type</div><div>ANSWER: Y) Well-mixed</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, indicate all of the following three statements that are true of white dwarfs
+1) Heat is carried by electron conduction near the center of a white dwarf
+2) The interior of a white dwarf is close to isothermal
+3) The electrons in a white dwarf with mass near the Chandrasekhar limit are relativistic</div><div>ANSWER: 1,2,3 <span class="also-accept">(also accept: all)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+A point P is chosen uniformly at random on a circle of radius 1. A point Q is then chosen uniformly at random from the interior of the circle. Which of the following is closest to the probability that the distance P Q is at most 1?</div><div>W) 20%<br>X) 40%<br>Y) 60%<br>Z) 80%</div><div>ANSWER: X) 40%</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+How many primitive 20th roots of unity are there?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A rocket travels at speed 0.8c. What is the ratio of its kinetic energy to its rest energy?</div><div>ANSWER: 2/3</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Andrew is trying to ice skate through a circular loopde-loop with radius 2 meters. If there is no frictional energy loss in this loop, what is the minimum speed, in meters per second to the nearest integer, that Andrew needs at the beginning of the loop to clear it?</div><div>ANSWER: 10 meters per second</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the degeneracy of the 4th energy level of the rigid rotator model?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three statements which are true regarding photoredox catalysis
+1) Conformationally rigid complexes function as faster photoredox catalysts
+2) Rose-Bengal is a commonly used, polyhalogenated organic photoredox catalyst
+3) Amines are commonly used co-oxidizing agents, returning the photoredox catalyst to its original oxidation state</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following types of fungi does NOT have coenocytic hyphae?</div><div>W) Chytrids<br>X) Bread molds<br>Y) Mycorrhizhae<br>Z) Club fungi</div><div>ANSWER: Z) Club fungi</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following types of filaments is the cross-linking protein plectin NOT able to bundle to intermediate filaments?</div><div>W) Microtubules<br>X) Actin<br>Y) Tropomyosin<br>Z) Myosin II</div><div>ANSWER: Y) Tropomyosin</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following four components of a standard ophiolite complex from top to bottom.
+1) Pillow lava
+2) Sheeted dikes
+3) Layered gabbro
+4) Peridotite deposits</div><div>ANSWER: 4,3,2,1</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following gives the best definition for stellar opacity for a certain material?</div><div>W) The fraction of photons passing through which are absorbed or scattered<br>X) The change in visual apparent magnitude as a result of light passing through<br>Y) The cross-sectional area of absorption and scattering of light passing through, per unit mass<br>Z) The inverse of the mean free path of light passing through</div><div>ANSWER: Y) The cross-sectional area of absorption and scattering of light passing through, per unit mass</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Swager group at MIT have been using Janus emulsions for the detection of Listeria pathogens. These Janus emulsions are composed of two optically distinct phases within one droplet, and one phase is conjugated to an antibody. Which of the following best describes how the optics of the system evolve when Listeria is added?</div><div>W) Originally, both phases are visible, but only one is visible after Listeria addition<br>X) Originally, only one phase is visible, but both are visible after Listeria addition<br>Y) Originally, both phases are visible, but the orientation of these phases flips after Listeria addition<br>Z) Originally, only one phase is visible, but only the other phase is visible after Listeria addition</div><div>ANSWER: X) Originally, only one phase is visible, but both are visible after Listeria addition</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Energy <i>Short Answer</i>
+Researchers in the Bawendi group at MIT are focusing on quantum dots as next generation fluorescent dyes. Answer the following questions about quantum dots
+1) The energy levels of a quantum dot are proportional to what power of the radius?
+2) Quantum dots can be generated by many techniques, including one technique where the pattern is imprinted on a thin surface using light, and then etched. What is this technique known as?</div><div>ANSWER: 1) −2; 2) Photolithography</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What effect in extended solids analogous to Jahn- Teller distortion states that partially filled bands tend to distort to form one filled band and one empty band?</div><div>ANSWER: Peierls distortion</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true about hyperconjugation in the tertbutyl radical
+1) An increase in carbon-carbon bond order is observed
+2) The unpaired electron is slightly delocalized across the other three carbon atoms
+3) The unpaired electron is stabilized by hyperconjugation</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following statements about the hydrogen atom is true, ignoring fine structure?</div><div>W) L squared and H constitute a complete set of commuting observables<br>X) Only a finite number of bound states exist<br>Y) Muonic hydrogen has the same energy levels as ordinary hydrogen<br>Z) The ground state radial wavefunction is an exponential</div><div>ANSWER: Z) The ground state radial wavefunction is an exponential</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+By name or number, identify all of the following four properties of a free particle that can be simultaneously measured with position to an arbitrary degree of accuracy
+1) Linear momentum
+2) Spin angular momentum
+3) Total energy
+4) z -component of angular momentum</div><div>ANSWER: 2 only</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+The Banach-Tarski Paradox is a theorem stating that a sphere can be divided into finitely many pieces that can be rearranged to form two spheres of the same size. What somewhat controversial postulate commonly used in set theory is required to prove this theorem?</div><div>ANSWER: Axiom of Choice <span class="also-accept">(also accept: Choice; Well-Ordering Principle)</span></div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+By name or number, identify which of the following three posterior inference methods yield unbiased samples in all cases.
+1) Variational inference
+2) Gibbs sampling
+3) Hamiltonian Monte Carlo</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Capsaicin, found in chili peppers, can lead to pain by causing the release of what peptide?</div><div>ANSWER: Substance P</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following statements related to linking numbers that are true.
+1) The specific linking difference is calculated with respect to the specific length of the DNA molecule being analyzed
+2) Linking number is calculated as the difference between its writhe and twist components
+3) The superhelical density in cellular DNA is typically around − 0.06
+4) The writhe component of linking number may be interpreted as the measure of the coiling of the DNA helix axis</div><div>ANSWER: 3 and 4</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The Sunyaev-Zel’dovich effect, which is used by cosmologists to study the cosmic microwave background in galaxy clusters, is a result of which of the following physical phenomena?</div><div>W) Relativistic Doppler effect<br>X) Bremsstrahlung<br>Y) Cold dark matter<br>Z) Inverse Compton scattering</div><div>ANSWER: Z) Inverse Compton scattering</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true about the solar atmosphere
+1) Granules are caused by convection within the photosphere
+2) The optical depth of the photosphere is much less than one
+3) The pink color of the chromosphere is produced by Balmer emission lines</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">47. <span class="fw-semibold">BONUS</span> Energy <i>Short Answer</i>
+Researchers in the Bawendi group at MIT are focusing on quantum dots as next generation fluorescent dyes. Answer the following questions about quantum dots
+1) The energy levels of a quantum dot are proportional to what power of the radius?
+2) Quantum dots can be generated by many techniques, including one technique where the pattern is imprinted on a thin surface using light, and then etched. What is this technique known as?</div><div>ANSWER: -2; Photolithography</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

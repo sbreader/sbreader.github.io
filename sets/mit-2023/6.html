@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2023 Round 6</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2023/6" />
+<meta name="description" content="MIT 2023 Round 6: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2023" data-packet="6">
+<div class="float-row mb-3"><span class="float-start">Packet 6 (Round 6) of <a href="sets/mit-2023/">MIT 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2023/Round%206.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A mousetrap uses a torsion spring with a spring constant of 10 newton-meters per radian. Assume that when the mousetrap is set, the spring is held at 180 degrees away from its resting position. To the nearest ten joules, how much energy is released when the mousetrap is activated?</div><div>W) 50<br>X) 100<br>Y) 180<br>Z) 360</div><div>ANSWER: W) 50</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+The electric polarizability of a material describes how strongly a material’s internal dipoles are able to align with an applied electric field. In the case of oscillating electric fields, the polarizability depends on the frequency of oscillation. Which of the following best describes how the polarizability of most materials changes as oscillation frequency increases?</div><div>W) Always increases<br>X) Always decreases<br>Y) Increases, then decreases<br>Z) Decreases, then increases</div><div>ANSWER: X) Always decreases</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following minerals exhibits octahedral cleavage?</div><div>W) Mica<br>X) Calcite<br>Y) Fluorite<br>Z) Chlorite</div><div>ANSWER: Y) Fluorite</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three variables that you would expect to decrease significantly as you go deeper into the ocean off the coast of Antarctica
+1) Temperature
+2) Salinity
+3) Density</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The Sharp Lab at MIT uses methods such as RNAseq to investigate non-coding RNAs. One type of non-coding RNA known as long noncoding RNA can bind to and inactivate the X chromosome. What is the term for the structure formed by this process?</div><div>ANSWER: Barr body</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+The Schwartz Lab at MIT studies the mechanisms behind how signals and molecules are transported through nuclear pore complexes. Identify all of the following 3 items that are normally transported from inside the nucleus to the cytoplasm
+1) Ribosomes
+2) Pre-mRNA
+3) Mitochondrial proteins</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Identify all of the following 3 properties that are intrinsic under most conditions
+1) Activity coefficient for a pure solid
+2) Enthalpy
+3) Reduction potential</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following three values in terms of increasing speed for a ideal gas obeying the Maxwell-Boltzmann distribution
+1) Root-mean square speed
+2) Average speed
+3) Most probable speed</div><div>ANSWER: 3, 2, 1</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Intrinsic factor is released by what type of cells in the stomach?</div><div>ANSWER: Parietal cells</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Order the following 4 layers of a woody angiosperm from innermost to outermost
+1) Vascular Cambium
+2) Secondary Phloem
+3) Periderm
+4) Pith</div><div>ANSWER: 4, 1, 2, 3</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+A fair coin is flipped seven times. Which of the following is the probability it shows heads at least five of the seven times?</div><div>W) 27/128<br>X) 7/32<br>Y) 29/128<br>Z) 15/64</div><div>ANSWER: Y) 29/128</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+A function takes a positive integer that does not end in 0, reverses its digits, then outputs that number plus 100. How many fixed points does this function have?</div><div>W) 75<br>X) 80<br>Y) 85<br>Z) 90</div><div>ANSWER: X) 80</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+At low temperatures, which of the following cell membrane modifications would be MOST helpful in maintaining proper fluidity?</div><div>W) Increased presence of saturated fatty acids<br>X) Shortening of fatty acid tails<br>Y) Decreased levels of cholesterol<br>Z) Decreased number of phospholipids</div><div>ANSWER: X) Shortening of fatty acid tails</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following statements is NOT true regarding species following a type II survivorship curve?</div><div>W) Species generally have a constant rate of mortality across their lifetimes.<br>X) Songbirds follow a type II survivorship curve.<br>Y) A molting crab species would follow a linear type II survivorship curve.<br>Z) Species with type II survivorship have a lower rate of mortality at a young age than species with type III survivorship.</div><div>ANSWER: Y) A molting crab species would follow a linear type II survivorship curve.</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Identify all of the following three salts that are soluble in water under STP
+1) Sodium sulfate
+2) Silver fluoride
+3) Silver chloride</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following three one mole samples of ideal gas by increasing heat required to raise their temperature by 10 kelvin
+1) Carbon dioxide
+2) Water vapor
+3) Krypton</div><div>ANSWER: 3, 1, 2</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers in the Drennan lab at MIT are using X-ray crystallography to study enzyme structure and catalysis. What equation gives the wavelengths of light that will interfere constructively within a crystal by considering the path length difference between parallel rays of light?</div><div>ANSWER: Bragg’s law</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Bawendi lab at MIT have been investigating the use of stimulated perovskites for potential applications in quantum computing. The perovskite structure is best described by which of the following formulas?</div><div>W) ABO2<br>X) ABO3<br>Y) AB2O3<br>Z) AB2O4</div><div>ANSWER: X) ABO3</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+In the past 200 years, the 5 most impactful volcanic eruptions on climate were not the largest eruptions that happened during this timeframe. Why were these eruptions so much more impactful on the climate?</div><div>W) They occurred in northern winter<br>X) They occurred in northern summer<br>Y) The eruptions were in the tropics<br>Z) The eruptions were in polar regions</div><div>ANSWER: Y) The eruptions were in the tropics</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+What mineral is thought to make up the majority of the lower mantle in contact with the Earth’s core?</div><div>W) Perovskite<br>X) Olivine<br>Y) Ringwoodite<br>Z) Wadsleyite</div><div>ANSWER: W) Perovskite</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the value of x<sup>4</sup> + 1/x<sup>4</sup> given that x + 1/x = 3?</div><div>ANSWER: 47</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+A scientist is numerically computing the integral from 0 to 7 of 5/(1 + e<sup>−x</sup>). Which of the following Riemann sums of the integral would give the smallest answer?</div><div>W) Left-handed Riemann sum<br>X) Right-handed Riemann sum<br>Y) Middle Riemann sum<br>Z) Trapezoidal sum</div><div>ANSWER: W) Left-handed Riemann sum</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A battery, a resistor, and an uncharged capacitor are connected in series. Which of the following correctly describes the current and voltage across the capacitor, immediately after everything is connected?</div><div>W) The current is zero, and the voltage is zero<br>X) The current is zero, and the voltage is nonzero<br>Y) The current is nonzero, and the voltage is zero<br>Z) The current is nonzero, and the voltage is nonzero</div><div>ANSWER: Y) The current is nonzero, and the voltage is zero</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A parallel plate capacitor is constructed with two square plates with side length 10 centimeters placed very close together, and the plates have charge 100 and −100 picocoulombs, respectively. To the nearest power of 10, what is the magnitude of the electric field, in newtons per coulomb, at the center of the capacitor between the two plates?</div><div>ANSWER: 10<sup>3</sup></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+In a wild-type plant following the ABC hypothesis of flower formation, the order of structures from outer to inner is sepal-petal-stamen-carpel. Which of the following choices correctly describes the order of structures in a mutant plant lacking gene C?</div><div>W) Carpel-stamen-stamen-carpel<br>X) Sepal-petal-sepal-sepal<br>Y) Sepal-petal-petal-sepal<br>Z) Sepal-sepal-carpel-carpel</div><div>ANSWER: Y) Sepal-petal-petal-sepal</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Larry is a carrier for a lethal recessive disease, where individuals with both recessive alleles die before birth. He marries a woman who is also a carrier for this disease, and they have 120 children. What is the expected number of children that are carriers for this lethal disease?</div><div>ANSWER: 80</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+A graph is plotted to show the effect of temperature on the solubility of copper (II) sulfate pentahydrate. Which of the following variables when plotted against the inverse of temperature would produce a straight line?</div><div>W) Solubility<br>X) Inverse of solubility<br>Y) Logarithm of solubility<br>Z) Square of solubility</div><div>ANSWER: Y) Logarithm of solubility</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following layerings best describes cubic closest packing, where distinct letters represent distinct phase layers?</div><div>W) ABABAB<br>X) ABCABC<br>Y) ABBA<br>Z) ABCCBA</div><div>ANSWER: X) ABCABC</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+An infinitely long cylindrical shell has some uniform surface charge density σ. It is spun around its central axis with some angular velocity ω. The magnetic field strength inside the cylinder is proportional to the distance from the central axis raised to what power?</div><div>ANSWER: 0</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Lidia is looking at the infrared spectrum of a distant star. She sees an emission peak at a wavelength of 10,002 angstroms, but knows that the peak is supposed to be at exactly 10,000 angstroms. In scientific notation to one significant figure, what is the recessional velocity of the star in meters per second?</div><div>ANSWER: 6 × 10<sup>4</sup></div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Researchers in the MIT Kavli institute are studying the early universe by observing the galaxy cluster SPT2215. One of the instruments they are using is the Chandra X-ray observatory. Material observed by the Chandra X-ray telescope would most likely have temperatures closest to which of the following?</div><div>W) 10<sup>2</sup> kelvin<br>X) 10<sup>4</sup> kelvin<br>Y) 10<sup>7</sup> kelvin<br>Z) 10<sup>10</sup> kelvin</div><div>ANSWER: Y) 10<sup>7</sup> kelvin</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at MIT have recently made breakthroughs in understanding the black hole information paradox. This paradox arises because information thrown into the black hole is lost when it is radiated later through what phenomenon?</div><div>ANSWER: Hawking radiation</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Galaxies experiencing ram-pressure stripping of its interstellar medium are generally interacting with what subset of the intergalactic medium?</div><div>ANSWER: Intracluster Medium <span class="do-not-accept">(do not accept: WHIM)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+A lunar eclipse often leaves the moon a deep red. What phenomena is responsible for this red coloration?</div><div>ANSWER: Rayleigh Scattering</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Arjun randomly chooses a divisor of 80. What is the probability it is divisible by 2?</div><div>W) 1/2<br>X) 3/5<br>Y) 4/5<br>Z) 9/10</div><div>ANSWER: Y) 4/5</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Jonathan has a data set with a variance of 18. If every element in the set is multiplied by 3, what is the new variance of the data set?</div><div>W) 6<br>X) 18<br>Y) 54<br>Z) 162</div><div>ANSWER: Z) 162</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Rank the following 3 molecules in terms of increasing a parameter in the van der Waals equation
+1) H<sub>2</sub>O
+2) NH<sub>3</sub>
+3) CH<sub>4</sub></div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Given that iron is a group 8 transition metal, how many unpaired electrons are in the complex Fe(CN)<sub>4</sub><sup>2-</sup>?</div><div>ANSWER: 0</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Two point charges of -2 coulombs and +7 coulombs are placed inside a conducting shell. In coulombs, what is the net charge accumulated on the inside surface of the conducting shell?</div><div>ANSWER: −5 <span class="do-not-accept">(do not accept: 5)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A ball is launched vertically into the air at a speed of 20 meters per second. 1 second later, another ball is launched into the air at 20 meters per second. In seconds to 2 significant figures, how much time after the second ball is launched does it take for the balls to pass each other?</div><div>ANSWER: 1.5</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following results from the precession of earth’s rotational axis?</div><div>W) Vernal equinox occurs earlier each sidereal year<br>X) Summer is at its peak in later and later months each tropical year<br>Y) The angle the earth makes with the ecliptic grows larger over time<br>Z) Thuban will be the pole star in 14,000 years</div><div>ANSWER: W) Vernal equinox occurs earlier each sidereal year</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Some supernovae remnants have been observed to be travelling at speeds greater than the escape velocity of the galaxy. What best explains this observation?</div><div>W) Asymmetric supernovae providing a kick<br>X) Mass loss to a binary companion leading to a slingshot effect<br>Y) Supernovae creating a galactic-scale oberth effect<br>Z) Monopolar outflows leading to acceleration</div><div>ANSWER: W) Asymmetric supernovae providing a kick</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A regular hexagon has vertices A, B, C, D, E, and F in that order. If the area of triangle ABC is 12, what is the area of hexagon ABCDEF?</div><div>ANSWER: 72</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The point (2, 2) is rotated by 60 degrees counterclockwise around the origin. What are the coordinates of the resulting point?</div><div>ANSWER: (1 − √3, 1 + √3)</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following features is NOT characteristic of maize?</div><div>W) Heterospory<br>X) Parallel venation<br>Y) Presence of vessel elements<br>Z) Taproot system</div><div>ANSWER: Z) Taproot system</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Xylose is a 5-carbon monosaccharide. Xylo-biose is a disaccharide consisting of two xylose molecules connected with a beta 1,4 glycosidic linkage. What is the chemical formula of xylobiose?</div><div>ANSWER: C<sub>10</sub>H<sub>18</sub>O<sub>9</sub></div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

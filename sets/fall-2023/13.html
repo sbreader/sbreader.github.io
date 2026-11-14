@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Fall 2023 Round 13</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/fall-2023/13" />
+<meta name="description" content="Fall 2023 Round 13: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="fall-2023" data-packet="13">
+<div class="float-row mb-3"><span class="float-start">Packet 13 (Round 13) of <a href="sets/fall-2023/">Fall 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1W9jk_GhtahHQytEsIBSjNNUVgKIgQKAo/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+An LC-circuit is most analogous to which of the following mechanical systems?</div><div>W) A barrel rolling down an incline<br>X) A fluid flowing without resistance<br>Y) A mass oscillating on a spring<br>Z) A ball bouncing on a table until it gradually comes to rest</div><div>ANSWER: Y) A mass oscillating on a spring</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A uniformly-charged insulating sphere of radius 5 is placed at the origin. At which of the following coordinates is the magnitude of the electric field the greatest?</div><div>W) (1, 0, 0)<br>X) (4, 3, 0)<br>Y) (5, 1, 1)<br>Z) (1, 2, 2)</div><div>ANSWER: X) (4, 3, 0)</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following aluminosilicate minerals forms at the highest temperature and lowest pressure?</div><div>W) Kyanite<br>X) Sillimanite<br>Y) Andalusite<br>Z) Granulite</div><div>ANSWER: W) Kyanite</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Order the following four minerals from highest to lowest crystallization temperature
+1) Muscovite
+2) Quartz
+3) Pyroxene
+4) Biotite.</div><div>ANSWER: 3, 4, 1, 2</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the IUPAC name of the major organic product formed when potassium tert-butoxide is reacted with isopropyl iodide?</div><div>ANSWER: PROPENE <span class="also-accept">(also accept: PROPYLENE)</span></div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Arthur is performing a reductive amination, in which he adds an amine to a ketone in the first step. Which of the following pH levels is most desirable for this reaction?</div><div>W) 1<br>X) 4<br>Y) 7<br>Z) 10</div><div>ANSWER: X) 4</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Order the following three methods of NADH entry into the mitochondria by increasing efficiency
+1) Glycerol-phosphate shuttle
+2) Diffusion across mitochondrial membranes
+3) Malate-oxaloacetate shuttle.</div><div>ANSWER: 2, 1, 3</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">VISUAL BONUS</span> Biology <i>Short Answer</i>
+Shown in the image is a segment of a plant that has been cut apart and displayed under a microscope. Answer the following two questions regarding the image
+1. Identify the three tissue types denoted A, B, and C as either ground, vascular, or dermal, respectively.
+2. Name the red, banded structure that is labeled D in the image</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86892.webp" width="1111" height="862" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – A: VASCULAR; B: DERMAL; C: GROUND; 2 – CASPARIAN STRIP</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The Utzat Group at UC Berkeley has been studying nanoconfined systems, which can be modeled using a 1D particle-in-a-box. If the length of such a system is doubled, by what factor does its ground state energy change?</div><div>ANSWER: 1/4</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">VISUAL BONUS</span> Physics <i>Short Answer</i>
+Researchers at the Kanté Lab are studying new semiconducting materials in order to create lasers that reliably function when scaled in size. Shown in the image is the band structure observed when holes of uniform size and spacing were etched using lithography into indium gallium arsenide phosphide. Answer the following two questions about this image
+1. What quantity is represented on the kx and ky axes?
+2. What is the term for the hexagon-like drawing in the top left corner, which is thought of as a unit cell in reciprocal space?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86893.webp" width="892" height="834" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – WAVE VECTOR; 2 – BRILLOUIN ZONE</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+An ant takes an infinite random walk on a grid of D dimensions. What is the highest dimension D such that the ant is guaranteed to cross its starting point?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A positive integer leaves a remainder of 1 when divided by 3, a remainder of 5 when divided by 7, and a remainder of 9 when divided by 11. What is the smallest such integer?</div><div>ANSWER: 229</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers at the Bergner Lab at UC Berkeley have studied ice-phase reactions of hydrocarbons and oxygen in conditions resembling those of the interstellar medium. Which of the following is a possible product of the reaction between oxygen and ethane?</div><div>W) Ethylene oxide<br>X) Acetaldehyde<br>Y) Ketene<br>Z) Carbon dioxide</div><div>ANSWER: X) Acetaldehyde</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Scientists at the Zhang Lab at UC Berkeley are developing drugs with an acrylamide group that target mutated regions in oncogene proteins. What canonical amino acid is most likely to undergo a Michael addition with an acrylamide to form a covalent bond?</div><div>ANSWER: CYSTEINE</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+In the Calvin cycle, the conversion 1,3-bisphosphoglycerate to glyceraldehyde-3-phosphate requires six equivalents of what cofactor?</div><div>ANSWER: NAD+</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Natural killer cells are responsible for inducing which of the following?</div><div>W) Antibody-dependent cellular cytotoxicity<br>X) Release of histamine<br>Y) Phagocytosis of larger organisms<br>Z) Release of granules for helminth destruction</div><div>ANSWER: W) Antibody-dependent cellular cytotoxicity</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Jordan is analyzing a complex reaction coordinate when he finds that it proceeds via 7 distinct transition states. How many reactive intermediates must have been formed in this reaction?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">VISUAL BONUS</span> Chemistry <i>Short Answer</i>
+Shown in the image is a small-molecule pharmaceutical drug, known as BM212, which has shown promise in treating bacterial infections such as tuberculosis. Answer the following two questions regarding this image
+1. The structure labeled A, known as pyrrole, is a common moiety in medicinal chemistry. What is the general term for an organic molecule such as pyrrole that contains a non-carbon atom within the ring backbone?
+2. Is structure A aromatic, antiaromatic, or nonaromatic?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86894.webp" width="438" height="692" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – HETEROCYCLE; 2 – AROMATIC</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The diffusion equation has been successful in describing a variety of seemingly unrelated physical phenomena, such as heat flow. In the analogy between diffusion and heat flow, the diffusion coefficient most directly corresponds to what quantity?</div><div>ANSWER: THERMAL CONDUCTIVITY</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Arthur measures the period of a pendulum of length L on planet X to be 2 seconds. On Earth, Constantine measures the period of a pendulum of length 3L to be 3 seconds. To the nearest integer and in meters per second squared, what is the gravitational field strength on planet X?</div><div>ANSWER: 13</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following types of precipitation occurs when snowflakes melt and then refreeze into pellets before falling to the ground?</div><div>W) Sleet<br>X) Snow<br>Y) Freezing rain<br>Z) Hail</div><div>ANSWER: W) Sleet</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">VISUAL BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Shown in the image is a view of Mount Rose and Lake Tahoe, located in the Sierra Nevada Mountain range. Answer the following two questions
+1) The Sierra Nevada was created through what type of mountain building, which occurs at active continental margins?
+2) The Lake Tahoe basin was formed by a down-dropped block between two normal faults. What is the term for this type of fault block?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86895.webp" width="1268" height="852" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1) Andean type; 2) Graben <span class="also-accept">(also accept: Cordilleran type)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the partial derivative with respect to y of the following expression: sine of the quantity e to the power xy?</div><div>ANSWER: xexy cos(exy)</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">VISUAL BONUS</span> Math <i>Short Answer</i>
+Shown in the image is a triangle ABC with side lengths 13, 14, and 15. The triangle’s incircle, I, is shown in blue below. A second circle, J, with an approximate radius of 1.35, is tangent to I as well as sides AB and AC. Answer the following two questions about this image
+1. What is the radius of circle I?
+2. A third circle K is drawn tangent to circle J, AC, and AB. What is its radius to the nearest tenth?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86896.webp" width="942" height="874" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – 4; 2 – 0.5</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers of the Utzat Group at UC Berkeley analyze the energetics of electrons in nanocrystals, where the system is excited to have a total quantum spin of 1. What term describes quantum states with an overall spin of 1?</div><div>ANSWER: TRIPLET</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">VISUAL BONUS</span> Physics <i>Short Answer</i>
+Researchers at the Lawrence Berkeley National Laboratory have been collaborating with researchers at the Large Hadron Collider to measure the mass of the top quark using particle collision events like the one depicted in the image. During such collisions, so-called jets like the yellow lines in the center of the image frequently arise. Answer the following questions regarding these jets.
+1. The jets originate from the decay of what subatomic particles?
+2. Which fundamental force is responsible for the formation of these jets?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86897.webp" width="996" height="817" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – QUARKS; 2 – STRONG <span class="also-accept">(also accept: BOTTOM QUARK; STRONG NUCLEAR)</span></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Consider the formation of a moon around two identically-sized planets. If the first planet has a density eight times of the second, how many times closer to the center of the second planet could a moon form compared to the center of the first planet?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three astronomical objects that would ALWAYS exhibit a positive redshift as seen by an observer on Earth
+1) TON 618 Quasar
+2) Andromeda Galaxy
+3) Halley’s Comet.</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+The van’t Hoff factor for acetic acid dissolving in benzene is around 0.5, while the van’t Hoff factor for acetone under the same conditions is around 1. Which of the following best explains this observation?</div><div>W) Acetone interacts more strongly with benzene via London dispersion forces<br>X) Acetone has a higher vapor pressure than acetic acid<br>Y) Acetic acid forms dimers in benzene<br>Z) Acetic acid forms hydrogen bonds to benzene molecules</div><div>ANSWER: Y) Acetic acid forms dimers in benzene</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Rank the following three cyclohexane conformations in terms of increasing energy
+1) Boat
+2) Chair
+3) Twist-boat.</div><div>ANSWER: 2, 3, 1</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+RNA sequencing is often used to determine the intron and exon boundaries in DNA. Which primer anneals to the polyadenylation signal to begin reverse transcription?</div><div>W) Oligo-dT<br>X) PCR<br>Y) M13<br>Z) T7</div><div>ANSWER: W) Oligo-dT</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three mutagens that act as intercalating agents
+1) Nitrosoguanidine
+2) Acridine orange
+3) Aflatoxin.</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A 2 by 2 matrix has trace 0 and determinant –2025. What are its two eigenvalues?</div><div>ANSWER: –45 AND 45</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the volume contained by a cup of height 4 with its sides traced out by the function z = x<sup>2</sup> + y<sup>2</sup>?</div><div>ANSWER: 8π</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+The electric potential in a medium is given by the function V(x, y, z) = xy<sup>2</sup> + z<sup>2</sup>. Giving your answer in i, j, k notation, what is the electric field in this medium?</div><div>ANSWER: –y<sup>2</sup> i – 2xy j – 2z k</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Identify all of the following three statements that are true about a PN junction
+1) The Fermi level stays constant across the PN junction
+2) The depletion region shrinks when the junction is reverse biased
+3) LEDs work by taking advantage of electron-hole recombination in these junctions.</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Catalytic triads are an important part of the active site of many hydrolysing enzymes. This mechanism occurs through the use of an acid, a base, and a nucleophile. Which of the following is not used as a nucleophile in catalytic triads?</div><div>W) Cysteine<br>X) Methionine<br>Y) Serine<br>Z) Threonine</div><div>ANSWER: X) Methionine</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">VISUAL BONUS</span> Biology <i>Short Answer</i>
+Shown in the image is the metabolic pathway for production of acetyl CoA from fatty acids. Answer the following two questions about this image
+1. What reactant, denoted as A, is required to produce L-beta-hydroxyacyl-CoA?
+2. The enzyme acyl-CoA acetyltransferase catalyzes the reaction between two acyl-CoA molecules. This reaction is the reverse of what name reaction involving two enolizable esters?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86898.webp" width="1400" height="820" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – WATER; 2 – CLAISEN CONDENSATION</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+A spontaneous voltaic cell consists of a copper cathode suspended in 3-molar Cu<sup>2+</sup> solution and an iron anode suspended in 2-molar Fe<sup>2+</sup> solution. Identify all of the following three modifications to the cell which would result in an increased cell potential
+1) Increasing the temperature
+2) Increasing the concentration of Cu<sup>2+</sup> to 4-molar
+3) Replacing the cathode with silver suspended in 3-molar Ag<sup>+</sup> solution.</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Austenite Iron, with an atomic radius of 126 picometers and an atomic mass of 55.8 grams per mole, has an FCC crystal structure with a density of 7 grams per cubic centimeter. Which of the following is closest to the unit cell edge length in picometers?</div><div>W) 180<br>X) 290<br>Y) 360<br>Z) 440</div><div>ANSWER: Y) 360</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Consider the Fibonacci sequence with first and second terms equal to 1. What is the greatest common divisor of the 16th and 248th terms of this sequence?</div><div>ANSWER: 21</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the determinant of the inverse of the 2-by-2 matrix with first row 6, 7 and second row 12, 3?</div><div>ANSWER: –1/66</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following asteroid types is most common?</div><div>W) C-type<br>X) M-type<br>Y) O-type<br>Z) S-type</div><div>ANSWER: W) C-type</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">VISUAL BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Shown in the image is a tropical cyclone viewed from the International Space Station. Answer the following two questions regarding this image
+1. Given its appearance and the fact that it was officially classified as a Super Typhoon, which specific ocean basin is this tropical cyclone located in?
+2. In which quadrant of a tropical cyclone are hazards like storm surge, winds, and tornadoes generally maximized?</div><div class="q-figures"><img class="q-figure" src="data/img/fall-2023/86899.webp" width="1276" height="858" alt="Figure for this question" loading="lazy" decoding="async"></div><div>ANSWER: 1 – NORTHWESTERN PACIFIC; 2 – RIGHT FRONT QUADRANT</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Scientists at Brookhaven National Laboratory and Stanford independently discovered the J/Psi meson, which contains what quark and its antimatter equivalent?</div><div>ANSWER: CHARM QUARK</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A non-interacting lattice gas, where space is divided into a grid with cells containing either zero or one gas molecules, is most analogous to which of the following models?</div><div>W) Einstein model<br>X) Ising model<br>Y) Drude model<br>Z) Debye model</div><div>ANSWER: X) Ising model</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

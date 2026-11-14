@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2022 Round 7</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2022/13" />
+<meta name="description" content="MIT 2022 Round 7: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2022" data-packet="13">
+<div class="float-row mb-3"><span class="float-start">Packet 13 (Round 7) of <a href="sets/mit-2022/">MIT 2022</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2022/Round_7.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+What is the dimension of the nullspace of the 3 × 3 matrix with all entries 1?</div><div>W) 0<br>X) 1<br>Y) 2<br>Z) 3</div><div>ANSWER: Y) 2</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the area of the set of all points which are within a distance of at most one unit from the boundary of a square of side length 7?</div><div>ANSWER: 52 + π</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A telescope consists of a concave spherical mirror with a radius of 160 centimeters, and is pointed vertically towards stars at the zenith. How far above the bottom of the mirror, in centimeters, should a detector be placed to properly form an image of the stars?</div><div>ANSWER: 80</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, identify all of the following three statements regarding cosmic inflation that are true
+1) Cosmic inflation has been theorized to solve the flatness problem by exponentially growing the universe out of any curvature
+2) The inflationary era of the universe is theorized to have occurred at around 0.01 seconds after the Big Bang
+3) The principles of cosmic inflation explain the isotropy of the universe</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers in the Knouse Lab at MIT used a newly developed system to search for genes important to hepatocyte viability, and discovered that MHC genes involved with antigen presentation are especially essential. What does the term MHC stand for?</div><div>ANSWER: Major histocompatibility complex</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+The Knouse Lab at MIT has recently developed genome-wide CRISPR screening in the mouse liver, which uses lentiviruses encoding one of the necessary components of the CRISPR-Cas9 system. What is this component that is the synthetic combination of crRNA and tracrRNA?</div><div>ANSWER: sgRNA <span class="also-accept">(also accept: Single-guide RNA)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What term describes the area where the northeast and southeast trade winds meet?</div><div>ANSWER: Intertropical Convergence Zone <span class="also-accept">(also accept: ITCZ)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+River A has the same cross-sectional area but twice the velocity as River B. How many times greater is River A’s competence and capacity, respectively, when compared with River B?</div><div>ANSWER: 4 and 2 <span class="also-accept">(also accept: Quadruple and double)</span> <span class="do-not-accept">(do not accept: 2 and 4)</span></div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Which amino acid, known for its anti-helix properties, is characterized by a ring in its structure?</div><div>ANSWER: Proline</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following amino acids is incorrectly paired with its polar properties?</div><div>W) Serine, polar<br>X) Arginine, polar<br>Y) Tryptophan, polar<br>Z) Leucine, nonpolar</div><div>ANSWER: Y) Tryptophan, polar</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+A saturated aqueous solution of which of the following barium salts would have the lowest boiling point?</div><div>W) Barium hydroxide<br>X) Barium cyanide<br>Y) Barium sulfate<br>Z) Barium acetate</div><div>ANSWER: Y) Barium sulfate</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three compounds that contain an sp<sup>2</sup> hybridized nitrogen atom
+1) N<sub>2</sub>Cl<sub>2</sub>
+2) N<sub>2</sub>H<sub>4</sub>
+3) NH<sub>2</sub>CHO</div><div>ANSWER: 1 and 3 <span class="also-accept">(also accept: All but 2)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+In the gas phase, strong hydrogen bonding between two molecules of acetic acid will cause them to bond together, forming a dimer. This reaction is spontaneous at which of the following temperatures?</div><div>W) Spontaneous at low temperatures only<br>X) Spontaneous at high temperatures only<br>Y) Always spontaneous<br>Z) Never spontaneous</div><div>ANSWER: W) Spontaneous at low temperatures only</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Cellulose is a polysaccharide consisting of hundreds to thousands of D-glucose units. During the polymerization of D-glucose to form cellulose, condensation reactions occur to form glycosidic bonds between adjacent glucose molecules. Expressed in terms of n, and rounding all terms to the nearest gram per mole, what is the molar mass of a cellulose strand formed from n glucose units?</div><div>ANSWER: 162 n + 18</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following three mountain ranges from youngest to oldest
+1) Appalachians
+2) Andes
+3) Himalayas</div><div>ANSWER: 3,2,1</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Olivine is best categorized as which of the following types of silicates?</div><div>W) Nesosilicates<br>X) Inosilicates<br>Y) Tectosilicates<br>Z) Phyllosilicates</div><div>ANSWER: W) Nesosilicates</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the period of the product of the two functions sin(4x) and cos(4x)?</div><div>ANSWER: π/4</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+If x is less than y and log<sub>x</sub>(y) + log<sub>y</sub>(x) = 10, what is the value of log<sub>x</sub>(y)?</div><div>ANSWER: 5 + 2√6</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following four areas in a human nephron where water is reabsorbed
+1) Proximal tubule
+2) Descending limb of the Loop of Henle
+3) Ascending limb of the Loop of Henle
+4) Collecting duct</div><div>ANSWER: 1,2,4 <span class="also-accept">(also accept: All but 3)</span></div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Arthur has not been drinking enough water, and as a result, the blood pressure in his afferent arteriole has dropped. What endocrine circuit, controlled by the juxtaglomerular apparatus, will activate, resulting in an increase in Arthur’s blood pressure?</div><div>ANSWER: Renin-angiotensin-aldosterone system <span class="also-accept">(also accept: RAAS)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A spring-mass system undergoes damped harmonic oscillation. After some time, the amplitude of the oscillation is 98 percent of the original amplitude. To the nearest percent, how much of the original energy has been lost?</div><div>W) 0.5<br>X) 1<br>Y) 2<br>Z) 4</div><div>ANSWER: Z) 4</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An idealized sand timer consists of spherical sand particles with radius 0.1 millimeter funneled from a cylinder with a radius of 1 centimeter into a circular hole with a radius of 1 millimeter. The total height of the sand in the cylinder is 3 centimeters. On the surface of Earth, it takes 4 minutes for the sand to drain completely. If the same sand timer is used on a planet with a surface gravity of 3.3 meters per second squared, to the nearest minute, how long will it take for the sand to drain completely?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Physicists in the MIT Laboratory for Nuclear Science were recently part of a team which discovered a sudden change in the nuclear magnetic behavior of indium when the number of neutrons reached 82. What is the name for such numbers, including 2, 8, and 20, for which the nucleons are arranged into complete shells leading to increased stability and other interesting properties?</div><div>ANSWER: Magic numbers</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers at MIT’s Research Laboratory of Electronics have constructed an optical switch controlled by a single photon, allowing light to control the transmission of light. This is an optical analogue to what electrical circuit component, which can control or amplify electrical signals?</div><div>ANSWER: Transistor</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers in the Cummins group at MIT are developing ways to form transient reactive intermediates, such as P2. What is the predicted bond order of P2 using molecular orbital theory?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers in the Jamison group at MIT are working on developing various applications of epoxide-opening cascades. Low molecular weight cyclic oligomers of ethylene oxide are also known as what family of compounds?</div><div>ANSWER: Crown ethers</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A block of mass 5 kilograms is at rest on a 30 degree frictionless inclined plane. If a spring with a spring constant of 98 newtons per meter is attached to a wall such that the spring is parallel to the inclined plane, which of the following is closest to the distance, in meters, that the spring must be stretched such that the block remains at rest?</div><div>W) 0.25<br>X) 0.5<br>Y) 1<br>Z) 3</div><div>ANSWER: W) 0.25</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A person weighing 50 kilograms stands at the center of a 12 meter long raft floating on water. The person then walks to the edge of the raft. If the raft weighs 100 kilograms, how much, in meters, does the raft move?</div><div>W) 1<br>X) 2<br>Y) 4<br>Z) 6</div><div>ANSWER: X) 2</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The energy density of a universe filled with photons scales with what power of distance?</div><div>W) −4<br>X) −3<br>Y) 3<br>Z) 4</div><div>ANSWER: W) −4</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+A quasar lensed by a dwarf elliptical galaxy that has a uniform, highly eccentric ellipsoidal mass distribution would appear as which of the following types of objects?</div><div>W) Einstein ring<br>X) Einstein Cross<br>Y) Multiple arcs and arclets<br>Z) Four equally spaced arcs</div><div>ANSWER: X) Einstein Cross</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Given that the three pKa&#39;s of H<sub>3</sub>PO<sub>4</sub> are 2, 7, and 12, which of the following is closest to the pH of a 1 molar solution of sodium dihydrogen phosphate?</div><div>W) 2<br>X) 4.5<br>Y) 5.5<br>Z) 7</div><div>ANSWER: X) 4.5</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+How many normal modes of vibration does cyclohexane have?</div><div>ANSWER: 48</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+The A and B antigens on red blood cells are distinguished in the structure of which of the following types of macromolecule?</div><div>W) Carbohydrates<br>X) Lipids<br>Y) Nucleic acids<br>Z) Proteins</div><div>ANSWER: W) Carbohydrates</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+By name or number, identify all of the following three statements that are true about tryptophan
+1) It is an aromatic amino acid
+2) It is an essential amino acid
+3) It is a precursor to melatonin</div><div>ANSWER: 1,2,3 <span class="also-accept">(also accept: All)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+For a given length d, which of the following solids has the greatest volume?</div><div>W) A square pyramid with base side length d and height 2 d<br>X) A cube with side length d<br>Y) A cone with radius d and height d<br>Z) A sphere with diameter d</div><div>ANSWER: Y) A cone with radius d and height d</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+For what values of a are the vectors 7ai + 3j + 4ak and 2i + 10j − ak orthogonal?</div><div>ANSWER: a = −3/2, 5</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+How many positive integers less than 100 are equal to the product of their digits?</div><div>ANSWER: 9</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+x<sup>2</sup> and y are inversely proportional values, and y<sup>4</sup> and z are directly proportional values. If when x = 2 and y = 3, z = 4, what is the value of z when x = 4?</div><div>ANSWER: 1/64</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Unlike other quarks, the top quark is not observed to form bound states with other quarks. Which of the following provides the best explanation for this phenomenon?</div><div>W) The top quark decays too quickly, before bound states can be formed<br>X) Its large mass prevents other quarks from getting close enough to form bound states<br>Y) The top quark does not interact with the strong nuclear force<br>Z) Experiments have only been able to produce top quarks in the absence of other quarks</div><div>ANSWER: W) The top quark decays too quickly, before bound states can be formed</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An ideal Carnot cycle operates between reservoirs of temperature -23 degrees celsius and 27 degrees celsius. If 10 joules of work are done, how many joules of heat must be transferred to the cold reservoir?</div><div>ANSWER: 50</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+To avoid predation, beavers find success by either being large to fight off potential threats or being small to run away from them. Intermediate sized beavers often are less successful. Which of the following types of selection is occurring?</div><div>W) Directional<br>X) Disruptive<br>Y) Stabilizing<br>Z) Normalized</div><div>ANSWER: X) Disruptive</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+In a population of humans in Hardy-Weinberg equilibrium, red-green colorblindness is found in 40% of the men. What percent of women in this population are red-green colorblind?</div><div>ANSWER: 16%</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+At which of the following masses will the iron-rich core of a large star trigger a core-collapse supernova?</div><div>W) Jeans mass<br>X) Chandrasekhar limit<br>Y) TOV limit<br>Z) Eddington limit</div><div>ANSWER: X) Chandrasekhar limit</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following could be the progenitor of a short gamma-ray burst?</div><div>W) Core-collapse supernova<br>X) Hypernova<br>Y) Kilonova<br>Z) Tidal disruption event</div><div>ANSWER: Y) Kilonova</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements best explains why the presence of peroxides during the addition of HBr to an alkene results in the anti-Markovnikov product?</div><div>W) The peroxide reacts with the Markovnikov product to form the anti-Markovnikov product<br>X) A rearrangement occurs after the Markovnikov product is formed<br>Y) The peroxide causes steric hindrance at the more substituted position<br>Z) The reaction proceeds through a radical mechanism rather than an ionic mechanism</div><div>ANSWER: Z) The reaction proceeds through a radical mechanism rather than an ionic mechanism</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+A standard galvanic cell is constructed based on the reaction 3 Cu<sup>2+</sup> + 2 Al → 3 Cu + 2 Al<sup>3+</sup>, with KCl in the salt bridge. By name or number, identify all of the following three changes that would increase the cell potential
+1) Addition of sodium hydroxide solution to the aluminum half-cell
+2) Replacing KCl with K<sub>2</sub>SO<sub>4</sub> in the salt bridge
+3) Addition of distilled water to double the volume in both half-cells</div><div>ANSWER: 1 only</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

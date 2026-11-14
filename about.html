@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - About</title>
+<meta name="description" content="What SB Reader is, where its Science Bowl questions come from, keyboard shortcuts, and how answers are graded." />
+<link rel="canonical" href="https://sbreader.github.io/about" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+</head>
+<body>
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5">
+  <p class="lead">A text-based Science Bowl packet reader and database created by <a href="https://github.com/UnweidlyKhan349">Henry Lu</a>.</p>
+  <p>Its design and features follow <a href="https://www.qbreader.org/">QB Reader</a>, the quizbowl reader. New here? See the <a href="tips">tips and instructions</a>.</p>
+  <p>
+    Packets are collected from publicly posted practice packets on <a href="https://scibowl.live/">scibowl.live</a>, tournament packets from <a href="https://scibowl.stanford.edu/">scibowl.stanford.edu</a> and <a href="https://oly.mehvix.com/">oly.mehvix.com</a>, the official NSB regional sample sets from <a href="https://science.osti.gov/wdts/nsb">science.osti.gov</a>, the <a href="https://speriphery.com/">Science Bowl Periphery</a> packet archive and database, released <a href="https://isobowl.com/">ISOBowl</a> Premier packets, and a personal archive.
+    If you notice any issues with a question or its subject, please <b>report the question</b> (preferred) or <a href="https://github.com/UnweidlyKhan349/sbreader/issues/new">open an issue</a>.
+    Packets are numbered in the order they're read: by round where there is one, and otherwise by name.
+  </p>
+  <p>
+    Feel free to contribute to the <a href="https://github.com/UnweidlyKhan349/sbreader">source code on GitHub</a> (MIT License).
+    If you have a feature you want to see in SB Reader, you can <a href="https://github.com/UnweidlyKhan349/sbreader/issues/new">open a new issue</a>.
+    Changes are listed in the <a href="https://github.com/UnweidlyKhan349/sbreader/blob/main/CHANGELOG.md">changelog</a>.
+  </p>
+
+  <h4>Why SB Reader?</h4>
+  <ul>
+    <li>Real toss-ups and bonuses from regional, national and invitational packets, and from practice sets written by school teams.</li>
+    <li>Can filter questions by subject, toss-up/bonus, format, level, tournament, year and round.</li>
+    <li>Play on your own, or with friends in a multiplayer room.</li>
+    <li>Excellent mobile support.</li>
+    <li>Over 100,000 questions from over 100 sets.</li>
+  </ul>
+
+  <h4>What does making an account do?</h4>
+  <p>Making an account gives you the following features:</p>
+  <ul>
+    <li>Keeps your starred questions on every device you log in on.</li>
+    <li>Lets you track your toss-up and bonus stats.</li>
+    <li>Keeps your settings (theme, reading speed, multiplayer name).</li>
+  </ul>
+  <p>Without an account, everything works and is saved in your browser, and your answers still count toward each question's community stats.</p>
+
+  <h4>Why do I need to confirm my email?</h4>
+  <p>
+    If signing up asks you to, open the link in the email it sends, then log in.
+    This is to prevent spam accounts from being created.
+    Your email will not be used for anything other than your account, and you can reset your password with it.
+  </p>
+
+  <h4>Does it cost money to create an account?</h4>
+  <p>No. SB Reader is completely free.</p>
+
+  <h4>What do I do if someone is causing trouble in a room?</h4>
+  <p>If a player in a room is causing issues, such as spamming, advertising, or being expletive, you have a few options.</p>
+  <ul>
+    <li>You can start a vote kick on a player with "Votekick" in the menu by their name. If enough players also vote, they are kicked from that room and can't rejoin for 30 minutes.</li>
+    <li>When the room is private and you are its owner (it has your crown), you can ban the player instead: press "Ban" in the menu by their name, and they can't rejoin.</li>
+    <li>As the owner, you can also mute a player with "Mute" in the same menu, so their chat messages no longer reach the room. You can unmute them at any time.</li>
+  </ul>
+
+  <h4>Where can I request a set?</h4>
+  <p>You can do so by <a href="https://github.com/UnweidlyKhan349/sbreader/issues/new">opening an issue</a> on GitHub.</p>
+
+  <h4>Can I get a copy of all the questions?</h4>
+  <p>The whole question bank is in the <a href="https://github.com/UnweidlyKhan349/sbreader/tree/main/data/bank">source code</a>, one JSON file per tournament.</p>
+
+  <h4>How are answers graded?</h4>
+  <p>Automatically, following Science Bowl conventions. If the grader gets one wrong, use <b>I was wrong</b> / <b>I was right</b> (or q) to flip it.</p>
+  <ul>
+    <li>Multiple choice: give the letter (W, X, Y or Z) or the exact text of the choice.</li>
+    <li>Short answer: capitalisation, punctuation and spacing don't matter, and the packet's "accept" and "do not accept" notes are followed.</li>
+    <li>Numbers are compared whole, with their sign. Scientific notation can be typed as <code>3.2 x 10^23</code>, <code>3.2*10^23</code> or <code>3.2e23</code>; a decimal matches a fraction in lowest terms with the same value (<code>0.5</code> = <code>1/2</code>); units may be written out or abbreviated (<code>10 joules</code> = <code>10 J</code>).</li>
+    <li>"Identify all" questions: give the item numbers in any form (<code>1 and 3</code>, <code>13</code>, <code>1, 3</code>). Ranking questions must be in the right order.</li>
+    <li>Multi-part answers: every part must be given, separated by commas, semicolons or "and".</li>
+    <li>The last word of an answer (effect, law, theorem, experiment, relation and the like) can be left off when the words before it say which one is meant: <code>michelson-morley</code>, <code>photoelectric</code>, <code>ideal gas</code>. A short everyday word still needs it (<code>rock</code> isn't the rock cycle). <code>all</code>, <code>all of them</code> and <code>all of the above</code> are the same answer.</li>
+    <li>In an ordering of things the question lists, <code>the other one</code> stands for the one item left (<code>p wave, s wave, other one</code>).</li>
+    <li>A near miss (a typo, or the answer plus extra words) is marked wrong with "Close" beside it.</li>
+  </ul>
+
+  <h4>What are the keyboard shortcuts?</h4>
+  <ul>
+    <li>Space: buzz</li>
+    <li>Enter: submit (in Multiplayer, also open the chat)</li>
+    <li>n: start / next question (once the question is over)</li>
+    <li>s: skip the question being read</li>
+    <li>p: pause / resume</li>
+    <li>k: show / hide the last question</li>
+    <li>t: star / unstar the last question</li>
+    <li>q: I was wrong / I was right</li>
+    <li>e: show / hide settings</li>
+  </ul>
+  <p>Shortcuts are ignored while you're typing in a text box (except Enter).</p>
+
+  <h4>Packet List:</h4>
+  <p>Please visit the <a href="set-list">Set List</a> for every tournament, its level and date, and its packets.</p>
+</div>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

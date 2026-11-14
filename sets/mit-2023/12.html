@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2023 Round 12</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2023/12" />
+<meta name="description" content="MIT 2023 Round 12: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2023" data-packet="12">
+<div class="float-row mb-3"><span class="float-start">Packet 12 (Round 12) of <a href="sets/mit-2023/">MIT 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2023/Round%2012.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A spherical planet has uniform density and radius 4000 kilometers, and the gravitational acceleration at a point 2000 kilometers from the center of the planet is 3 meters per second squared. In meters per second squared, what is the gravitational acceleration at a point 8,000 kilometers from the center of the planet?</div><div>ANSWER: 1.5</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Three charges are placed at the vertices of an equilateral triangle of side length 1 meter. The charges have magnitude of +1 coulomb, +1 coulomb, and −2 coulombs. In coulomb-meters, what is the magnitude of the dipole moment of this configuration?</div><div>W) 1/3<br>X) 1<br>Y) √3<br>Z) 3</div><div>ANSWER: Y) √3</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at the Lourido Lab at the Whitehead Institute of MIT are studying the parasite-host interaction of pathogens like Toxoplasma gondii and Plasmodium falciparum. These infectious agents are protists that fall under which phylum?</div><div>ANSWER: Apicomplexa <span class="also-accept">(also accept: Apicomplexans)</span></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers at the Boyden Lab of MIT are employing optogenetics to study neuron interactions. In particular, they have inserted a gene for channelrhodopsin-2 into these neurons, which allows them to fire action potential upon exposure to blue light. Similar to rhodopsin found in the rod and cone cells of the eye, which of the following vitamin A-derived molecules does channelrhodopsin-2 use to capture light?</div><div>W) Beta-carotene<br>X) Retinol<br>Y) Retinal<br>Z) Retinoic Acid</div><div>ANSWER: Y) Retinal</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Order the following three periods by increasing average surface temperature on Earth
+1) Cretaceous
+2) Cryogenian
+3) Quaternary</div><div>ANSWER: 2,3,1</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following four groups of silicates that have some members classified as one of the six asbestos minerals by the EPA
+1) Nesosilicates
+2) Inosilicates
+3) Phyllosilicates
+4) Tectosilicates</div><div>ANSWER: 2 and 3</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+How many integers on the closed interval from 1 to 2,000 satisfy the property that the remainder after division by 4 is equal to the remainder after division by 5?</div><div>W) 100<br>X) 400<br>Y) 500<br>Z) 1600</div><div>ANSWER: X) 400</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+A bacterial colony has an initial population of 100 bacteria. Each hour, the population of the colony has an equal chance of either doubling or halving. To the nearest whole bacteria, what is the expected population of the colony after 2 hours have passed?</div><div>ANSWER: 156</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following transition metals observes the most wide range of stable oxidation states?</div><div>W) Iron<br>X) Cobalt<br>Y) Nickel<br>Z) Copper</div><div>ANSWER: W) Iron</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Rank the following three types of materials in terms of increasing magnetic susceptibility
+1) Paramagnetic
+2) Diamagnetic
+3) Ferromagnetic</div><div>ANSWER: 2, 1, 3</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+A 40 kilobase plasmid is numbered from 0 to 40 kilobases starting at the origin of replication. Restriction enzyme X cleaves the plasmid at 10 and 30 kilobases. Restriction enzyme Y cleaves the plasmid at 20 kilobases. How many bands would show if a solution containing plasmids digested using restriction enzymes X and Y is run through gel electrophoresis?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following would be considered an extrinsic activator of apoptosis?</div><div>W) Cytochrome c<br>X) DNA damage<br>Y) Hypoxia<br>Z) Fas ligand</div><div>ANSWER: Z) Fas ligand</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Researchers at the Schlau-Cohen Lab at MIT used fluorescence microscopy to study the dynamics of cell membranes. The measurement of what mechanism allowed the chemists to indirectly predict the distance between fluorophores attached to cell membranes?</div><div>ANSWER: FRET <span class="also-accept">(also accept: Forster Resonance Energy Transfer)</span></div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Researchers in the Buchwald group at MIT are working on methods to improve cross-coupling reactions. Carbon-carbon cross-coupling reactions mostly commonly utilize which of the following transition metals?</div><div>W) Iron<br>X) Copper<br>Y) Palladium<br>Z) Platinum</div><div>ANSWER: Y) Palladium</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+According to simple rate laws, identify all of the following three reaction orders that correspond to reactions that reach completion in a finite amount of time
+1) − 0.5
+2) 0.5
+3) 1.5</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+One can compute the energy difference between consecutive energy level of a particle in a box. Identify all of the following three quantities that scale linearly with that energy difference
+1) Inverse of mass
+2) Quantum number
+3) Inverse of length</div><div>ANSWER: 1 and 2</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Iris throws a brick at 45 degrees from the horizontal standing on ground level. Assuming the coefficient of static and kinetic friction are equal, what is the minimum coefficient of static friction between the brick and the ground such that the brick does not move after landing on the ground?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The radial wave function of an atomic orbital in hydrogen is proportional to the square of the radial distance, multiplied by an exponentially decaying factor. The angular wave function is proportional to the expression 3 cos<sup>2</sup> θ − 1, where θ is the angle from the z axis. What is the principal quantum number of the atomic orbital?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+How many primitive 12th roots of unity are there?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+The root mean square speed of particles inside a gas cloud is 60 meters per second, while the arithmetic mean speed of the particles is 50 meters per second. To two significant figures, what is the standard deviation of the particle speeds?</div><div>ANSWER: 33</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+You discover a grass plant outside your house with yellowing along the midrib of the leaf. This yellowing is only apparent on older leaves. Which of the following choices correctly pairs the plant’s mineral deficiency with the mobility of the mineral?</div><div>W) Nitrogen, mobile<br>X) Nitrogen, immobile<br>Y) Phosphorus, mobile<br>Z) Phosphorus, immobile</div><div>ANSWER: W) Nitrogen, mobile</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Order the following three agents by increasing oxidation strength
+1) P680+
+2) Cytochrome C
+3) NAD+</div><div>ANSWER: 3, 2, 1</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Bjerknes feedback relates the equatorial Sea Surface Temperature anomaly to the zonal pressure differences to how they affect the persistent wind speed. Bjerknes feedback would have the greatest relevance to which of the following phenomena?</div><div>W) Pacific Decadal Oscillation<br>X) Rossby waves<br>Y) El Nino Southern Oscillation<br>Z) Atmospheric Rivers</div><div>ANSWER: Y) El Nino Southern Oscillation</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Minerals tend to have characteristic luster, but some minerals may exhibit different lusters in different specimen. Which of the following minerals may exhibit both metallic and vitreous luster?</div><div>W) Magnetite<br>X) Hematite<br>Y) Sphalerite<br>Z) Pyrite</div><div>ANSWER: Y) Sphalerite</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+A sphere’s radius is decreased from 16 units to 8 units. By how many square units is the surface area reduced?</div><div>W) 192π<br>X) 384π<br>Y) 768π<br>Z) 1536π</div><div>ANSWER: Y) 768π</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the area of a truncated cone with a base radius of 3, top radius of 1, and height of 3?</div><div>ANSWER: (10 + 4√13)π</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Martin Desutch, who was a professor of physics at MIT, discovered an exotic atom formed by an electron and its anti-particle. What is the name of this exotic atom?</div><div>ANSWER: Positronium</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Researchers in the MIT Center for Theoretical Physics are trying to reconcile general relativity with the principles of quantum mechanics. One of the major ideas of current quantum gravity research is that some gravitational theories in curved spacetime are equivalent to non-gravitational theories on the boundary of the spacetime. What is the name of this correspondence?</div><div>ANSWER: AdS-CFT correspondence</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Jonah cannot see clearly, and his doctor tries to fix his vision with a variety of lenses. The doctor notices that a biconcave lens fixes his vision, but a convex makes it blurrier. Which of the following visual conditions does Jonah have?</div><div>W) Myopia<br>X) Hyperopia<br>Y) Glaucoma<br>Z) Presbyopia</div><div>ANSWER: W) Myopia</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Order the following four cells or structures of the visual pathway that are stimulated starting from light hitting photoreceptors in the retina
+1) Lateral geniculate nucleus
+2) Ganglion cells
+3) Bipolar cells
+4) Optic tract</div><div>ANSWER: 3, 2, 4, 1</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Material A has a magnetic susceptibility of −2 and Material B has a magnetic susceptibility of 3. If bricks of both materials are placed in a magnetic field with constant strength everywhere, what is the ratio of the magnitude of the magnetization inside brick A to the magnitude of the magnetization inside brick B?</div><div>ANSWER: 1/4</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Two sound waves with wavelengths 10 and 15 meters interfere in phase with one another. The resulting wave can be written as a high frequency oscillation modulated by a low frequency envelope. In meters, what is the wavelength of the high frequency oscillation?</div><div>ANSWER: 12</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following situations is most likely the cause of the asymmetrical distribution of maria on Earth’s moon?</div><div>W) The moon’s mantle was pulled closer to earth than the lighter crust which was subject to centrifugal force, leading to thinner crust on the near side of the moon.<br>X) The moon cooled faster than the earth whose heat emission caused preferential crystallization of lunar material on the far side of the moon.<br>Y) Tidal heating from the earth’s gravitational pull preferentially melted mantle material on its near side.<br>Z) The moon was hit by a single large asteroid on its far side which caused massive flood basalt eruptions in its near side.</div><div>ANSWER: X) The moon cooled faster than the earth whose heat emission caused preferential crystallization of lunar material on the far side of the moon.</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+What portion of an HII region is generally unionized?</div><div>W) 0.7<br>X) 0.3<br>Y) 0.1<br>Z) 0.01</div><div>ANSWER: Z) 0.01</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+A transition between the highest occupied molecular orbital and the lowest unoccupied molecular orbital of a conjugated pi system is best described as which of the following?</div><div>W) Sigma to sigma star<br>X) Pi to pi star<br>Y) n to sigma star<br>Z) n to pi star</div><div>ANSWER: X) Pi to pi star</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+In a typical iodine clock reaction where solutions of potassium iodide, hydrogen peroxide, sodium thiosulfate, and sulfuric acid are mixed, and starch is added, the originally colorless mixture would suddenly turn dark blue when which of the following species is fully consumed?</div><div>W) Hydrogen Peroxide<br>X) Iodide<br>Y) Sulfuric Acid<br>Z) Thiosulfate</div><div>ANSWER: Z) Thiosulfate</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is our best estimate for the cosmic density parameter of the observable universe?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+MIT will experience a total solar eclipse on April 8th of 2024. This is only one instance of the same eclipse which has occurred repeatedly since before MIT was founded. When was the last time this eclipse occurred?</div><div>W) April 1970<br>X) December 1988<br>Y) March 2006<br>Z) July 2018</div><div>ANSWER: Y) March 2006</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+How many normal modes of vibration does the ground-state of ethyne have?</div><div>ANSWER: 7</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Gideon makes a plot of vapor pressure versus temperature for ethanol and n-hexane. Which of the following best describes what he will plot?</div><div>W) Two exponential curves where ethanol’s vapor pressure increases more rapidly<br>X) Two exponential curves where n-hexane’s vapor pressure increases more rapidly<br>Y) Two logarithmic curves where ethanol’s vapor pressure increases more rapidly<br>Z) Two logarithmic curves where n-hexane’s vapor pressure increases more rapidly</div><div>ANSWER: W) Two exponential curves where ethanol’s vapor pressure increases more rapidly</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following four components of cellular respiration that involve an isomerization step
+1) Glycolysis
+2) Pyruvate dehydrogenation
+3) Krebs cycle
+4) Electron transport chain</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+A blood type A-positive mother and a B-positive father have a blood type O-minus child. As a fraction, what is the probability that the couple’s next child has an A-positive blood type?</div><div>ANSWER: 3/16</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A regular polygon with N sides has a side length of 1/N. As N approaches infinity, the area of the polygon approaches what value?</div><div>ANSWER: 1/(4π)</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Alice, Bob, Charlie, and David are all playing a basketball tournament such that they are randomly paired up and the winners of each pair best out of 1 for the title. When Alice plays Bob, she has a chance of 1/3 of winning. When Alice plays Charlie or David, she has a 2/3 chance of winning. When Bob plays Charlie or David, he has a 3/4 chance of winning. What is the probability that Alice wins the tournament?</div><div>ANSWER: 7/27</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+An object is in an elliptical orbit around a planet. How many points are there in the object’s orbit where the power exerted on the object by gravity is equal to zero?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A plank of wood with dimensions 1 meter by 1 meter by 5 centimeters and density 0.5 grams per cubic centimeter is floating on a body of water. The plank is slightly displaced vertically. Which of the following values is closest to the frequency of the vertical oscillation of the plank, in radians per second?</div><div>W) 5<br>X) 10<br>Y) 15<br>Z) 20</div><div>ANSWER: Z) 20</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

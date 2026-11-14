@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - Fall 2023 Round 8</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/fall-2023/8" />
+<meta name="description" content="Fall 2023 Round 8: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="fall-2023" data-packet="8">
+<div class="float-row mb-3"><span class="float-start">Packet 8 (Round 8) of <a href="sets/fall-2023/">Fall 2023</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/16nxJbZJvtFWxKtJ9FqSa5cK2fXscj7Ps/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Chaotropic agents such as guanidinium chloride are known to denature proteins and nucleic acids, mainly by disrupting what interactions?</div><div>ANSWER: HYDROGEN BONDING</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following molecular geometries most resembles the transition state of an SN2 reaction?</div><div>W) Trigonal pyramidal<br>X) Tetrahedral<br>Y) Trigonal bipyramidal<br>Z) Octahedral</div><div>ANSWER: Y) Trigonal bipyramidal</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Neo-endemism refers to a new species arising due to mutation specific to an environment. Which of the following ecosystems is characterized by its neo-endemic population?</div><div>W) Desert<br>X) Chaparral<br>Y) Serpentine<br>Z) Redwoods</div><div>ANSWER: Y) Serpentine</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three proteins that are essential for maintenance of histone modifications during DNA replication
+1) Methyltransferase
+2) Acetyltransferase
+3) Deacetylase.</div><div>ANSWER: 1, 2</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the term for the streamlined, elongated hills left behind by a glacier, whose gentler slope points in the direction of flow?</div><div>ANSWER: DRUMLIN</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What is the term for a cloud of gas and dust found in the interstellar medium that is dense enough to block or absorb visible light from stars behind it?</div><div>ANSWER: DARK NEBULA <span class="also-accept">(also accept: ABSORPTION NEBULA)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the volume contained within an octahedron with all sides of length 2?</div><div>ANSWER: 8√2/3 <span class="also-accept">(also accept: 8 TIMES THE SQUARE ROOT OF 2 OVER 3)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the cross product of the two vectors i – 2j + k and 3i – 2j + 4k?</div><div>ANSWER: –6i – j + 4k</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers at H2NEW of Lawrence Berkeley National Lab are investigating methods of generating hydrogen via electrolysis. During electrolysis, how many electrons are transferred for every two moles of water oxidized?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at the Space Sciences Laboratory at UC Berkeley are working on the ESCAPADE twin satellite mission to study the transfer of solar wind through the unique atmosphere of Mars. Identify all of the following three particles which would be found in solar wind
+1) Protons
+2) Electrons
+3) Alpha particles.</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the term used to describe the shear stress required to create a given velocity gradient in a thin layer of fluid?</div><div>ANSWER: VISCOSITY <span class="also-accept">(also accept: DYNAMIC VISCOSITY)</span> <span class="do-not-accept">(do not accept: KINEMATIC VISCOSITY)</span></div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Consider two charged conducting spherical shells of equal radius, where sphere A has twice the charge of sphere B. If initially the surface of sphere A has electric potential V, then what is the electric potential at the center of sphere B after connecting the two spheres?</div><div>W) V<br>X) 4V/3<br>Y) 3V/2<br>Z) 2V</div><div>ANSWER: X) 4V/3</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Zeolites are a class of silicate minerals that are used in household products, medicine, and chemical reactions. In a zeolite, how many oxygen atoms does each silicate tetrahedron share with its neighboring tetrahedra?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following is NOT true of subduction zones?</div><div>W) They are characterized by high temperature and low pressure<br>X) They can occur without collision between two plates<br>Y) They cause the majority of high-magnitude earthquakes<br>Z) Older oceanic plates tend to subduct underneath younger oceanic plates</div><div>ANSWER: W) They are characterized by high temperature and low pressure</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+In vegetative plants, which of the following colors in the visible electromagnetic spectrum promotes the most growth?</div><div>W) Red<br>X) Green<br>Y) Yellow<br>Z) Blue</div><div>ANSWER: Z) Blue</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+A polygenic trait is a phenotype that is affected by multiple genes. Which of the following methods is often used to determine corresponding genes?</div><div>W) Reporter assay<br>X) Linkage mapping<br>Y) Karyotyping<br>Z) Genome-wide association study</div><div>ANSWER: Z) Genome-wide association study</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers in the Hariharan Lab at UC Berkeley are interested in identifying genes that influence gene expression related to the winding of DNA strands in the chromosome. Which of the following functional groups is added to histone protein subunits to cause them to condense?</div><div>W) Methyl<br>X) Ester<br>Y) Carbonyl<br>Z) Alkyl</div><div>ANSWER: W) Methyl</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Energy <i>Multiple Choice</i>
+Scientists at Lawrence Berkeley National Lab are studying fast-charging battery technologies. Which of the following properties is MOST responsible for the possibility of fast charging in a battery?</div><div>W) Energy density<br>X) Cycle life<br>Y) Critical current density<br>Z) Voltage</div><div>ANSWER: Y) Critical current density</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+How many ways are there to arrange 6 distinct people around a circular table where the seats are indistinguishable?</div><div>ANSWER: 120</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the definite integral from –1 to 1 of 1 over the quantity x<sup>2</sup> + 1 dx?</div><div>ANSWER: π/2</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following compounds has the highest boiling point?</div><div>W) Hexane<br>X) 1-hexene<br>Y) Cyclopentane<br>Z) 1-pentyne</div><div>ANSWER: W) Hexane</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements must be true for the reversible, adiabatic expansion of an ideal gas?</div><div>W) Entropy change is zero<br>X) Energy change is zero<br>Y) Temperature is constant<br>Z) Pressure is constant</div><div>ANSWER: W) Entropy change is zero</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What is the equivalent capacitance, in farads, of a circuit containing a 10-farad capacitor in series with a 20-farad capacitor?</div><div>ANSWER: 20/3 <span class="also-accept">(also accept: 6 2/3)</span></div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A car has a maximum acceleration and deceleration of 5 meters per second squared. If the car is to start from rest, travel forward, and come to rest exactly 20 meters from where it started, what is the shortest time, in seconds, required for this maneuver?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What is the process through which temperature regulation occurs in the pectoral fins of dolphins?</div><div>ANSWER: COUNTERCURRENT EXCHANGE</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+The early ancestors of the homo genus arose from Africa around 7 million years ago. Order the appearance of the following three early hominids from oldest to youngest
+1) Ardipithecus
+2) Neanderthals
+3) Australopithecus</div><div>ANSWER: 1, 3, 2</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following statements is true regarding p-values?</div><div>W) A p-value less than 5% indicates a failure to reject the null hypothesis<br>X) A p-value greater than 5% indicates statistical significance<br>Y) A p-value will be the same for one and two-tailed tests for all p-tests<br>Z) A p-value of less than 1% indicates high statistical significance</div><div>ANSWER: Z) A p-value of less than 1% indicates high statistical significance</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the area of an isosceles triangle with side lengths 18 and 41?</div><div>ANSWER: 360</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the name of the hypothetical remnant of a low mass star which has radiated away all of its heat over quadrillions of years, and which our universe is not yet old enough to contain?</div><div>ANSWER: BLACK DWARF</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three ocean zones into which the Great Barrier Reef may be classified
+1) Photic zone
+2) Benthic zone
+3) Neritic zone.</div><div>ANSWER: 1, 2</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+An object is placed 10 centimeters away from a concave mirror with a focal length of 8 centimeters. Which of the following best describes the image formed?</div><div>W) Inverted and real<br>X) Inverted and virtual<br>Y) Upright and real<br>Z) Upright and virtual</div><div>ANSWER: W) Inverted and real</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+You observe a fish swim past your face at half the speed of light. If you measure the length of the fish at that moment to be 1 meter, what is the rest length of the fish?</div><div>ANSWER: 2√3/3 <span class="also-accept">(also accept: 2 TIMES THE SQUARE ROOT OF 3 OVER 3)</span></div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers working on Lawrence Berkeley National Lab’s LuSEE-Night experiment are landing a probe on the moon to detect incoming radio waves. Rank the following three types of waves in terms of increasing wavelength
+1) Infrared waves
+2) Radio waves
+3) Gamma rays.</div><div>ANSWER: 3, 1, 2</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Researchers at the Thermal Energy Group at Lawrence Berkeley National Lab are working on hydrogen generation via pyrolysis, the thermal decomposition of organic material. Generally, which of the following substances CANNOT be obtained via pyrolysis?</div><div>W) Ethylene<br>X) Carbon monoxide<br>Y) Coke fuel<br>Z) Oxygen</div><div>ANSWER: Z) Oxygen</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+The reduced mass of an HCl molecule is closest to which of the following values in amu?</div><div>W) 1<br>X) 18<br>Y) 36<br>Z) 72</div><div>ANSWER: W) 1</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Consider the reaction A + B forms C. If the graph of 1 over the concentration of A is linear with time when B is in large excess, and the slope of the graph varies linearly with the concentration of B, what is this reaction’s overall reaction order?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the limit of the quantity sine 3x divided by x as x approaches zero?</div><div>ANSWER: 3</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Find all real roots of the function f(x) = x<sup>4</sup> – 2x<sup>2</sup> – 3.</div><div>ANSWER: √3 AND -√3 <span class="also-accept">(also accept: SQUARE ROOT 3 AND NEGATIVE SQUARE ROOT 3)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following molecules works alongside troponin to perform smooth and striated muscle contraction in humans?</div><div>W) Kinase<br>X) Dynein<br>Y) Tropomyosin<br>Z) Actin</div><div>ANSWER: Y) Tropomyosin</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+A gene enhanced by transcription factor II D must have what other protein for RNA polymerase II to form the transcription preinitiation complex?</div><div>ANSWER: TATA BOX BINDING PROTEIN <span class="also-accept">(also accept: TBP)</span></div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+At which of the following wavelengths would the amplitude of the cosmic background radiation be the largest?</div><div>W) 1 nanometer<br>X) 1 micrometer<br>Y) 1 millimeter<br>Z) 1 kilometer</div><div>ANSWER: Y) 1 millimeter</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three effects that are associated with a La Niña
+1) Low pressure in the Western Pacific
+2) Strong trade winds
+3) Weak Peru current.</div><div>ANSWER: 1 AND 2</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Constantine places 20 grams of solid cadmium carbonate into a 1-liter beaker of water at standard temperature and pressure. If the Ksp of cadmium carbonate is 10<sup>-12</sup>, what is the concentration in moles per liter of the aqueous carbonate ion at equilibrium?</div><div>ANSWER: 10<sup>-6</sup></div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+According to molecular orbital theory, a neutral S2 molecule contains how many electrons in its pi star orbitals?</div><div>ANSWER: 2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Identify all of the following three types of materials that tend to become more conductive as temperature rises
+1) Semiconductors
+2) Conductors
+3) Insulators.</div><div>ANSWER: 1 AND 3</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A 4-meter long rod with a mass of 2 kilograms is fixed at one end, and a 5-kilogram point mass is attached to its other end. How much force in newtons must be applied at the midpoint of the bar to generate an angular acceleration of 3 radians per second squared?</div><div>ANSWER: 136</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

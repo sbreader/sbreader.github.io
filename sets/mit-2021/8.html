@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MIT 2021 round 8</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mit-2021/8" />
+<meta name="description" content="MIT 2021 round 8: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mit-2021" data-packet="8">
+<div class="float-row mb-3"><span class="float-start">Packet 8 (round 8) of <a href="sets/mit-2021/">MIT 2021</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://lebot.djiang.xyz/packets/MIT-2021/round8.pdf" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+A light wave is propagating in the positive x direction. If at a given point in time, its electric field points in the negative y direction, in which direction does its corresponding magnetic field point?</div><div>W) Positive x<br>X) Negative x<br>Y) Positive z<br>Z) Negative z</div><div>ANSWER: Z) Negative z</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A train moving at 60% of the speed of light relative to Nancy has a clock at one end. Oscar synchronizes his watch with this clock and walks a distance of 10 light seconds in his frame, ending at other end of the train. As observed from Nancy’s frame, what is the magnitude of the difference in time, in seconds, between the clock and Oscar’s watch?</div><div>ANSWER: 4.8 seconds</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of these molecules are IR inactive?</div><div>W) CO<sub>2</sub><br>X) N<sub>2</sub><br>Y) H<sub>2</sub>O<br>Z) Cyclopentane</div><div>ANSWER: X) N<sub>2</sub></div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following bonds is strongest?</div><div>W) Silicon-hydrogen single bond<br>X) Silicon-oxygen single bond<br>Y) Silicon-fluorine single bond<br>Z) Silicon-chlorine single bond</div><div>ANSWER: Y) Silicon-fluorine single bond</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following best describes the polar equation r = 5 / (4 + 9 cos(θ))?</div><div>W) Ellipse with major axis parallel to x-axis<br>X) Ellipse with major axis parallel to y-axis<br>Y) Hyperbola with major axis parallel to x-axis<br>Z) Hyperbola with major axis parallel to y-axis</div><div>ANSWER: Y) Hyperbola with major axis parallel to x-axis</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What branch of geometry replaces Euclid’s Fifth Postulate with the statement, “For any given line R and point P not on R, in the plane containing both line R and point P there are at least two distinct lines through P that do not intersect R &quot;?</div><div>ANSWER: Hyperbolic geometry</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers at MIT are currently studying protein folding and conformation. An important step is to isolate pure mixtures, where researchers typically rely on chromatographic separation. Which of the following chromatographic methods would be most suitable for separating an ATP-dependent protein from one that is not ATP-dependent?</div><div>W) Size-exclusion<br>X) Cation exchange<br>Y) Anion exchange<br>Z) Affinity</div><div>ANSWER: Z) Affinity</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers at MIT are currently studying translational regulation mechanisms. In prokaryotic translation, what is the term for the process employed by the trp operon where the formation of a hairpin structure may lead to blocked translation?</div><div>ANSWER: Attenuation</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following statements is true regarding soil particle-ion interactions?</div><div>W) Negatively charged ions bind well with soil particles<br>X) Neutral pH is ideal for ion-soil particle interactions<br>Y) Ions are not involved with soil damage<br>Z) Synthetic bacterial genes in plants may lead to acid secretion to uptake aluminum cations</div><div>ANSWER: Z) Synthetic bacterial genes in plants may lead to acid secretion to uptake aluminum cations</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Which of the 20 amino acids is most likely to occupy the largest area on a Ramachandran Plot?</div><div>ANSWER: Glycine</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following statements is true regarding a wave approaching the shore?</div><div>W) Its velocity remains constant<br>X) Its wavelength decreases<br>Y) Its waveheight decreases<br>Z) Its frequency increases</div><div>ANSWER: X) Its wavelength decreases</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+In which zone of the ocean is abrasion most intense?</div><div>W) Neritic<br>X) Intertidal<br>Y) Surf<br>Z) Swash</div><div>ANSWER: Y) Surf</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following unit cells has the highest packing efficiency?</div><div>W) Simple cubic<br>X) Body-centered cubic<br>Y) Diamond cubic<br>Z) Face-centered cubic</div><div>ANSWER: Z) Face-centered cubic</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+A body-centered cubic unit cell has atoms with radii of 340 picometers. To one significant figure and in picometers, what is the side length of the unit cell?</div><div>ANSWER: 800 picometers</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following amino acids is NOT classified as hydrophobic?</div><div>W) Proline<br>X) Alanine<br>Y) Phenylalanine<br>Z) Serine</div><div>ANSWER: Z) Serine</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Assuming physiological pH, calculate the overall charge of this peptide, whose residues are represented with their one-letter abbreviations: A.S.P.A.R.T.A.T.E.</div><div>ANSWER: 0</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Researchers at MIT are using relativistic effects in galaxy clustering as a new probe of what process in the early universe which explains the apparent problem that distant parts of the cosmic microwave background are isotropic?</div><div>ANSWER: Cosmic inflation <span class="also-accept">(also accept: cosmological inflation; inflation)</span></div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Researchers at MIT are studying the results of the LIGO detectors of gravitational waves. Which of the following statements is NOT true about gravitational waves?</div><div>W) They are often studied by Everhart-Thornley detectors.<br>X) Quantum radiation pressure noise dominates LIGO detectors at frequencies below 100 hertz.<br>Y) They travel at the speed of light.<br>Z) The first indirect evidence of gravitational waves came from a neutron star binary.</div><div>ANSWER: W) They are often studied by Everhart-Thornley detectors.</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+If Z is a standard normal random variable, then what is the expectation of Z<sup>3</sup>?</div><div>ANSWER: 0</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Sam repeatedly draws balls from a bag containing 4 different balls, uniformly at random with replacement. What is the expected value of the number of draws it will take Sam to have seen all the balls?</div><div>ANSWER: 25 / 3</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following pairs correctly describes both a property of an ideal ammeter and the appropriate location of an ammeter to measure the current along a segment of a circuit?</div><div>W) Infinite resistance, connected in parallel<br>X) Zero resistance, connected in parallel<br>Y) Infinite resistance, connected in series<br>Z) Zero resistance, connected in series</div><div>ANSWER: Z) Zero resistance, connected in series</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A capacitor is fully charged in a circuit, and then is taken out without discharging. A dielectric is then placed between the plates of the capacitor. What happens to the charge and voltage across the capacitor, respectively?</div><div>W) Charge stays the same, voltage increases<br>X) Charge stays the same, voltage decreases<br>Y) Charge decreases, voltage increases<br>Z) Charge decreases, voltage decreases</div><div>ANSWER: X) Charge stays the same, voltage decreases</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following classes of spiral galaxies is most similar to a lenticular galaxy?</div><div>W) Sa<br>X) Sb<br>Y) Sc<br>Z) Sd</div><div>ANSWER: W) Sa</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+By name or number, order the following four evolutionary events chronologically
+1) First birds
+2) First mammals
+3) First flowering plants
+4) First arthropods</div><div>ANSWER: 4,2,1,3</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What empirical law states that each planet is approximately twice as far from the sun as the previous planet?</div><div>ANSWER: Titius-Bode law <span class="also-accept">(also accept: Bode’s law)</span></div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Nemesis was a brown dwarf which was theorized to exist in the solar system beyond the Oort Cloud. However, sky surveys have since ruled out its existence, because it otherwise likely would have been detected by telescopes observing in which of the following regions of the EM spectrum?</div><div>W) Ultraviolet<br>X) Infrared<br>Y) Microwave<br>Z) Radio</div><div>ANSWER: X) Infrared</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+The propagation of electrical signals between adjacent plant cells is mediated through what pores, which are generally used in symplastic pathways and are located in the plant cell wall?</div><div>ANSWER: Plasmodesmata</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following plants do NOT exhibit thig-monastic movement?</div><div>W) Common sundew<br>X) Low’s pitcher plant<br>Y) Touch-me-not<br>Z) Venus flytrap</div><div>ANSWER: X) Low’s pitcher plant</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+By name or number, arrange the following three steps in the order that they occur in a Carnot cycle, beginning from isothermal expansion
+1) Isothermal compression
+2) Adiabatic compression
+3) Adiabatic expansion</div><div>ANSWER: 3,1,2</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+What particles with net zero color are composed of three gluons?</div><div>ANSWER: Glueballs</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+By name or number, identify all of the following three solvents which are miscible with water
+1) Acetone
+2) Diethyl ether
+3) Hexane</div><div>ANSWER: 1 only</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+In thin layer chromatography with silica as the stationary phase, which of the following solvent systems is most likely to produce the largest R<sub>f</sub> value for a given organic compound?</div><div>W) Hexane<br>X) 20 percent dichloromethane in hexane<br>Y) 20 percent diethyl ether in hexane<br>Z) 20 percent ethyl acetate in hexane</div><div>ANSWER: Z) 20 percent ethyl acetate in hexane</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following statements about the circumcircle of a triangle is NOT true?</div><div>W) The circumcircle is always the smallest circle which encloses the triangle.<br>X) The radius of the circumcircle is a term in the extended Law of Sines.<br>Y) The center of the circumcircle is always at an equal distance to each of the vertices of the triangle.<br>Z) The circumcircle of a right triangle always has one of the sides of the triangle as a diameter.</div><div>ANSWER: W) The circumcircle is always the smallest circle which encloses the triangle.</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Suppose that a cone has a radius of 1 and a height of 2. What is the volume of the largest possible cylinder that can be inscribed within the cone such that the bases of the cylinder are parallel to the base of the cone?</div><div>ANSWER: 8 π/27</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Energy <i>Short Answer</i>
+Researchers in the Bawendi group at MIT are studying the science and applications of nanocrystals. What term refers to semiconductor nanocrystals that are generally under 10 nm in diameter and are subject to quantum confinement?</div><div>ANSWER: quantum dots <span class="also-accept">(also accept: artificial atoms)</span></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers in the Drennan group are visualizing met-alloproteins and metalloenzymes by combining X-ray crystallography and a technique where frozen samples are vitrified in liquid ethane, have electron beams passed through them, and then imaged by aligning and sub-volume averaging many low-resolution frames of individual proteins. What is this technique called?</div><div>ANSWER: Cryogenic electron micrscopy <span class="also-accept">(also accept: cryo-EM)</span></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following features would most strongly indicate the presence of star formation?</div><div>W) Bok globule<br>X) H1 region<br>Y) WHIM<br>Z) Galactic filaments</div><div>ANSWER: W) Bok globule</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What term describes the alternating light and dark bands on glaciers that form due to the trapping of air bubbles in the winter and sediments in the summer respectively?</div><div>ANSWER: Ogives</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What type of cells synthesize bone tissue?</div><div>ANSWER: Osteoblasts <span class="do-not-accept">(do not accept: osteocytes or osteoclasts)</span></div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following hormones mediates epiphyseal plate fusion?</div><div>W) Testosterone<br>X) Progesterone<br>Y) Estrogen<br>Z) Androsterone</div><div>ANSWER: Y) Estrogen</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What theorem of calculus states that the integral of the curl over a surface is equal to the line integral of the vector field around the boundary of the surface?</div><div>ANSWER: Stokes’ Theorem</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the integral of the flux of the vector field xî+y ĵ+z k̂ out of a sphere centered at the origin of radius 2?</div><div>ANSWER: 32π</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following statements is true about the reduction of oxygen to water?</div><div>W) Oxygen will not be reduced at low potential<br>X) The presence of a catalyst will change the thermodynamic potential of oxygen reduction<br>Y) At intermediate potentials, oxygen will be reduced to hydrogen peroxide instead of water<br>Z) The standard reduction potential at pH 7 is higher than the standard reduction potential at pH 14</div><div>ANSWER: Z) The standard reduction potential at pH 7 is higher than the standard reduction potential at pH 14</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+If the standard reduction potential from oxygen to water at pH 0 is 1.23 volts, which of the following values is closest to the reduction potential at pH 4 in volts?</div><div>W) 1.0<br>X) 0.9<br>Y) 0.8<br>Z) 0.7</div><div>ANSWER: W) 1.0</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Given that the Schwarzschild radius of the Sun is approximately 3 kilometers, which of the following is closest to the Schwarzschild radius of Sirius A, which has a mass of roughly 2 solar masses?</div><div>W) 3 kilometers<br>X) 4 kilometers<br>Y) 6 kilometers<br>Z) 12 kilometers</div><div>ANSWER: Y) 6 kilometers</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+A spacecraft in a circular orbit about the Earth then undergoes a short burn to quickly increase its velocity tangentially to its orbit. Which of the following terms best describes the point in its new orbit that the burn was performed, assuming the orbit is still bound?</div><div>W) Periapsis<br>X) Apoapsis<br>Y) Co-vertex<br>Z) The spacecraft does not return to this point</div><div>ANSWER: W) Periapsis</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

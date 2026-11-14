@@ -1,0 +1,574 @@
+/* SB Reader styles. Bootstrap 5.3 (css/vendor/bootstrap.min.css) is loaded
+   first and does most of the work; this file holds the qbreader-style
+   touches on top of it and the parts Bootstrap has no component for (the
+   round slider, the custom selects, the reveal, figures, the multiplayer
+   leaderboard). Colours come from Bootstrap's --bs-* variables, so every
+   rule here follows the Light / Night theme that js/site.js puts on
+   <html data-bs-theme>. */
+
+/* ---------------- Theme tokens ---------------- */
+:root {
+  --bg: var(--bs-body-bg);
+  --bg-alt: var(--bs-tertiary-bg);
+  --panel: var(--bs-body-bg);
+  --panel-2: var(--bs-secondary-bg);
+  --border: var(--bs-border-color);
+  --text: var(--bs-body-color);
+  --text-dim: var(--bs-secondary-color);
+  --accent: var(--bs-primary);
+  --accent-2: var(--bs-primary);
+  --good: var(--bs-success);
+  --bad: var(--bs-danger);
+  --warn: #d39e00;
+  --radius: var(--bs-border-radius);
+  --shadow: none;
+  /* Subject colours (badges, active subject buttons, lobby accents). */
+  /* Subject colours: six distinct hues, none of them the blue of buttons
+     and links or the red of Incorrect. */
+  --math: #6f42c1;
+  --phys: #d63384;
+  --bio: #198754;
+  --chem: #c99a06;
+  --ess: #0f8b8d;
+  --energy: #8b5e34;
+  --other: #6c757d;
+  --logo-prefix-color: #0080ff;
+  --logo-suffix-color: #000;
+  --navbar-bg: #dfebfb;
+  --timer-bg: linear-gradient(#ddd, #eee);
+}
+
+/* Night: qbreader's palette on top of Bootstrap's dark theme. */
+[data-bs-theme=dark] {
+  color-scheme: dark;
+  --bs-body-bg: #222;
+  --bs-body-bg-rgb: 34, 34, 34;
+  --bs-body-color: #e0e0e0;
+  --bs-body-color-rgb: 224, 224, 224;
+  --bs-secondary-bg: #2d2d2d;
+  --bs-tertiary-bg: #2a2a2a;
+  --bs-border-color: #444;
+  --bs-primary: #375a7f;
+  --bs-primary-rgb: 55, 90, 127;
+  --bs-link-color: #6ea8fe;
+  --bs-link-color-rgb: 110, 168, 254;
+  --bs-link-hover-color: #9ec5fe;
+  --warn: #e8b445;
+  --math: #8c68cd;
+  --phys: #d7559a;
+  --bio: #2a8f5f;
+  --chem: #b8900f;
+  --ess: #1c9c9e;
+  --energy: #a8754a;
+  --other: #6c757d;
+  --logo-suffix-color: #fff;
+  --navbar-bg: #333;
+  --timer-bg: linear-gradient(#444, #333);
+}
+[data-bs-theme=dark] .btn-primary {
+  --bs-btn-bg: #375a7f; --bs-btn-border-color: #375a7f;
+  --bs-btn-hover-bg: #2f4d6c; --bs-btn-hover-border-color: #2c4866;
+  --bs-btn-active-bg: #2c4866; --bs-btn-active-border-color: #29445f;
+  --bs-btn-disabled-bg: #375a7f; --bs-btn-disabled-border-color: #375a7f;
+}
+[data-bs-theme=dark] .btn-outline-primary {
+  --bs-btn-color: #8bb3e0; --bs-btn-border-color: #375a7f;
+  --bs-btn-hover-color: #fff; --bs-btn-hover-bg: #375a7f; --bs-btn-hover-border-color: #375a7f;
+  --bs-btn-active-color: #fff; --bs-btn-active-bg: #375a7f; --bs-btn-active-border-color: #375a7f;
+}
+[data-bs-theme=dark] .card, [data-bs-theme=dark] .modal { --bs-card-bg: #222; --bs-modal-bg: #222; }
+[data-bs-theme=dark] .list-group { --bs-list-group-bg: transparent; --bs-list-group-active-bg: #375a7f; --bs-list-group-active-border-color: #375a7f; }
+[data-bs-theme=dark] .pagination { --bs-pagination-active-bg: #375a7f; --bs-pagination-active-border-color: #375a7f; }
+[data-bs-theme=dark] .form-check-input:checked { background-color: #375a7f; border-color: #375a7f; }
+
+html { scrollbar-gutter: stable; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+.btn:hover, .nav-link:hover, .dropdown-item:hover, #logo:hover { text-decoration: none; }
+body { min-height: 100vh; }
+
+/* Catalog search-term highlight. */
+mark.search-hit { background: #f8ff00; color: #212529; border-radius: 2px; padding: 0 1px; }
+
+/* Exponent/subscript notation ("x^2", "K_c") rendered from question,
+   choice, and answer text. line-height: 0 keeps a sup/sub from inflating
+   the height of the line it sits on - this matters because the reveal
+   animation reserves box height up front from the plain-text version,
+   before the final swap to this markup. */
+sup, sub { font-size: 0.72em; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+sub { top: 0.25em; }
+
+/* ---------------- Navbar (qbreader look) ---------------- */
+#navbar { background-color: var(--navbar-bg); position: sticky; top: 0; z-index: 1030; }
+[data-bs-theme=dark] #navbar {
+  --bs-navbar-color: rgba(255, 255, 255, .55);
+  --bs-navbar-hover-color: rgba(255, 255, 255, .75);
+  --bs-navbar-active-color: #fff;
+  --bs-navbar-brand-color: #fff;
+  --bs-navbar-toggler-border-color: rgba(255, 255, 255, .25);
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+/* QB Reader's exact logo rule (its fallback is plain sans-serif). */
+#logo { font-family: Inter, 'Source Sans Pro', sans-serif; font-size: 1.5rem; font-weight: bold; }
+.logo-prefix { color: var(--logo-prefix-color); }
+.logo-suffix { color: var(--logo-suffix-color); }
+#navbar .dropdown-item.active, #navbar .dropdown-item:active { color: var(--bs-dropdown-link-active-color); }
+/* The theme icon stands in for QB Reader's icon-font glyph, which is a
+   full line (1.5em) tall, so the button is the same 40px high. */
+#bd-theme .theme-icon-active { display: inline-flex; align-items: center; height: 1.5em; }
+
+/* ---------------- Shared bits ---------------- */
+.small-note { color: var(--text-dim); font-size: .875rem; }
+.section-title { font-weight: 500; margin: 1rem 0 .4rem; }
+.section-title:first-child { margin-top: 0; }
+.field-label { display: block; font-weight: 500; margin-bottom: .35rem; }
+.empty-state { text-align: center; color: var(--text-dim); padding: 3rem 1rem; }
+.panel {
+  background: var(--bs-body-bg);
+  border: var(--bs-border-width) solid var(--bs-border-color-translucent);
+  border-radius: var(--bs-border-radius);
+  padding: 1rem;
+}
+[data-bs-theme=dark] .panel { border-color: rgba(255, 255, 255, .125); }
+.subtitle { color: var(--text-dim); }
+.icon-btn { display: inline-flex; align-items: center; justify-content: center; line-height: 1; }
+.btn .icon-svg, .btn svg { vertical-align: -.125em; }
+
+
+/* Text inputs that aren't Bootstrap .form-control yet get its look. */
+input[type="text"]:not(.form-control), input[type="search"]:not(.form-control), textarea:not(.form-control), select:not(.form-select) {
+  background-color: var(--bs-body-bg);
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  color: var(--bs-body-color);
+  padding: .375rem .75rem;
+  border-radius: var(--bs-border-radius);
+  font-size: 1rem;
+  font-family: inherit;
+}
+input[type="text"]:not(.form-control):focus, input[type="search"]:not(.form-control):focus, textarea:not(.form-control):focus {
+  border-color: #86b7fe; outline: 0; box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+input[type="checkbox"]:not(.form-check-input) {
+  width: 1em; height: 1em; accent-color: var(--bs-primary);
+  cursor: pointer; vertical-align: middle; margin: 0;
+}
+
+/* ---------------- Single-thumb range sliders (reading speed) ---------------- */
+/* Bootstrap's .form-range look (qbreader's reading-speed slider): a plain
+   gray track and a round primary-colour thumb. */
+input[type="range"] {
+  -webkit-appearance: none; appearance: none;
+  width: 100%; height: 1.5rem; padding: 0; margin: 0;
+  background: transparent; border: 0; outline: none; cursor: pointer;
+}
+input[type="range"]:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 1px var(--bs-body-bg), 0 0 0 .25rem rgba(var(--bs-primary-rgb), .25); }
+input[type="range"]::-webkit-slider-runnable-track { width: 100%; height: .5rem; background: var(--bs-secondary-bg); border-radius: 1rem; }
+input[type="range"]::-moz-range-track { width: 100%; height: .5rem; background: var(--bs-secondary-bg); border-radius: 1rem; border: 0; }
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none;
+  width: 1rem; height: 1rem; margin-top: -.25rem; border: 0; border-radius: 1rem;
+  background: var(--bs-primary);
+}
+input[type="range"]::-moz-range-thumb { width: 1rem; height: 1rem; border: 0; border-radius: 1rem; background: var(--bs-primary); }
+
+/* ---------------- Checklist dropdowns (SBData.enhanceMultiSelect) ---------------- */
+.sb-native-select-hidden { display: none; }
+/* QB Reader's checklist dropdown (its Difficulties menu), copied from its
+   style.css: SBData.enhanceMultiSelect builds it. */
+.btn-default {
+  --bs-btn-color: var(--bs-body-color); --bs-btn-hover-color: var(--bs-body-color); --bs-btn-active-color: var(--bs-body-color);
+  --bs-btn-bg: transparent; --bs-btn-hover-bg: transparent; --bs-btn-active-bg: transparent;
+}
+.dropdown-checklist { --dropdown-checklist-border-color: #ced4da; }
+[data-bs-theme=dark] .dropdown-checklist { --dropdown-checklist-border-color: #6c757d; }
+.dropdown-checklist button { border-color: var(--dropdown-checklist-border-color); --bs-btn-hover-border-color: var(--dropdown-checklist-border-color); }
+.dropdown-checklist-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.checkbox-menu {
+  background-color: #fff !important; color-scheme: light; max-height: min(60vh, 26rem); overflow-y: auto;
+  width: max-content; min-width: 100%; max-width: min(28rem, calc(100vw - 16px));
+}
+.dropdown-menu-end.dropdown-menu-start-fallback[data-bs-popper] { right: auto; left: 0; }
+.checkbox-menu li label {
+  display: block; padding: 3px 10px; clear: both; font-weight: normal; line-height: 1.42857143; color: #333;
+  white-space: normal; margin: 0; transition: background-color .4s ease; cursor: pointer;
+}
+.checkbox-menu li input[type="checkbox"] { margin: 0 5px; top: 2px; position: relative; width: auto; height: auto; vertical-align: baseline; accent-color: auto; }
+.checkbox-menu li.active label { background-color: #cbcbff; font-weight: bold; }
+.checkbox-menu li label:hover, .checkbox-menu li label:focus { background-color: #f5f5f5; }
+.checkbox-menu li.active label:hover, .checkbox-menu li.active label:focus { background-color: #b8b8ff; }
+.checkbox-menu-tools { position: sticky; top: calc(-1 * var(--bs-dropdown-padding-y)); z-index: 1; display: flex; gap: .25rem; padding: .25rem .5rem .375rem; background: #fff; }
+.checkbox-menu-tools .form-control { background: #fff; color: #333; border-color: #ced4da; }
+.checkbox-menu-tools .btn-link { color: #0d6efd; }
+.checkbox-menu-empty { padding: 3px 10px; color: #6c757d; font-size: .875rem; }
+
+/* ---------------- Filter toggles ---------------- */
+/* A .chip is a small outline button that fills in when it's on. Built by
+   the page scripts. */
+.chip-row { display: flex; flex-wrap: wrap; gap: .375rem; }
+.chip {
+  --chip-color: var(--bs-primary);
+  display: inline-flex; align-items: center;
+  padding: .375rem .75rem; font-size: 1rem; line-height: 1.5; font-weight: 400;
+  border: var(--bs-border-width) solid var(--bs-border-color); border-radius: var(--bs-border-radius);
+  background: transparent; color: var(--bs-body-color);
+  cursor: pointer; user-select: none; font-family: inherit;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.chip:hover { border-color: var(--chip-color); color: var(--chip-color); }
+.chip:focus-visible { outline: 0; box-shadow: 0 0 0 .25rem rgba(var(--bs-primary-rgb), .25); }
+/* The Database's subject boxes fill the left half in equal widths, three to
+   a row (six in a row would wrap "Earth & Space"). */
+#subjectChips { display: grid; grid-template-columns: repeat(3, 1fr); gap: .375rem; }
+#subjectChips .chip { justify-content: center; text-align: center; white-space: nowrap; }
+/* The other filters fill the right half: a 2 x 2 grid of pairs, each chip
+   stretched to share its cell. One pair per row where two won't fit: on
+   phones, and from 992 px (when they move beside the subjects) to 1199 px. */
+.filter-chip-groups { display: grid; grid-template-columns: 1fr; gap: .375rem 1rem; }
+@media (min-width: 576px) and (max-width: 991.98px), (min-width: 1200px) { .filter-chip-groups { grid-template-columns: 1fr 1fr; } }
+.filter-chip-groups .chip-row { flex-wrap: nowrap; }
+.filter-chip-groups .chip { flex: 1 1 0; justify-content: center; text-align: center; white-space: nowrap; }
+.chip.active { background: var(--chip-color); border-color: var(--chip-color); color: #fff; }
+.chip.active:hover { filter: brightness(.92); color: #fff; }
+/* Subject chips are QB Reader's category boxes, as in Play: red outline,
+   square corners, filled red when on. */
+.chip[data-subject] { --chip-color: var(--bs-danger); border-color: var(--chip-color); color: var(--chip-color); border-radius: 0; }
+.chip[data-subject].active { color: #fff; }
+
+/* ---------------- Badges for subject / type / format ---------------- */
+.tag {
+  --tag-color: var(--bs-secondary);
+  display: inline-block; padding: .35em .65em;
+  font-size: .75em; font-weight: 700; line-height: 1; white-space: nowrap; vertical-align: baseline;
+  border-radius: var(--bs-border-radius);
+  background: var(--tag-color); color: #fff;
+}
+.tag.subject-math { --tag-color: var(--math); }
+.tag.subject-phys { --tag-color: var(--phys); }
+.tag.subject-bio { --tag-color: var(--bio); }
+.tag.subject-chem { --tag-color: var(--chem); }
+.tag.subject-ess { --tag-color: var(--ess); }
+.tag.subject-energy { --tag-color: var(--energy); }
+.tag.subject-other { --tag-color: var(--other); }
+.tag.fmt, .tag.qtype-tossup, .tag.qtype-bonus {
+  background: var(--bs-secondary-bg); color: var(--bs-secondary-color);
+}
+.tag.visual { --tag-color: var(--ess); background: var(--tag-color); color: #fff; }
+
+/* Figures for visual questions. Most packet figures are drawn on white, so
+   each one sits on a white card: on the dark page a transparent or white
+   diagram then reads as a slide rather than a hole in the layout. The
+   width/height attributes set in questionFigures() keep the aspect ratio
+   while the image loads. */
+.q-figures { display: flex; flex-wrap: wrap; gap: 12px; margin: 12px 0 4px; align-items: flex-start; }
+.q-figure {
+  display: block;
+  max-width: 100%;
+  max-height: 420px;
+  width: auto;
+  height: auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px;
+  cursor: zoom-in;
+  box-shadow: 0 1px 6px rgba(0,0,0,.35);
+}
+.q-card .q-figure, .q-log-entry .q-figure { max-height: 300px; }
+.question-panel .q-figures { margin: 16px 0 6px; }
+.question-panel .q-figure { max-height: min(52vh, 460px); }
+.lightbox {
+  /* Above the navbar (1030), the bottom button bar (1020) and Bootstrap's
+     modals and popovers, so the whole figure shows. */
+  position: fixed; inset: 0; z-index: 2000;
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px 16px;
+  background: rgba(0,0,0,.85);
+  cursor: zoom-out;
+}
+.lightbox img {
+  max-width: 100%; max-height: 100%;
+  background: #fff; border-radius: 8px; padding: 8px;
+  box-shadow: var(--shadow);
+}
+.lightbox-close { position: absolute; top: 14px; right: 14px; }
+
+.filter-checkbox-label { font-size: 1rem; }
+
+.filter-chip-groups { column-gap: 1rem; row-gap: .375rem; }
+.btn-link { text-decoration: none; }
+.btn-link:hover { text-decoration: underline; }
+.filter-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: .5rem; flex-wrap: wrap; gap: .5rem; }
+.filter-actions { display: flex; gap: .5rem; }
+
+.icon-btn { min-width: 2.25rem; padding-left: .5rem; padding-right: .5rem; }
+.btn.icon-btn.active { color: var(--warn); }
+
+/* ---------------- Question cards (SBData.questionCard) ---------------- */
+.q-card .card-header { padding-top: .35rem; padding-bottom: .35rem; }
+.q-card .q-text { margin: 0 0 .25rem; }
+/* Numbered statements are on their own lines (SBData.splitNumberedStatements). */
+.q-text { white-space: pre-line; }
+.q-card .choices { margin: .25rem 0; white-space: pre-wrap; }
+.q-card .a-text { font-weight: 700; }
+.q-card .q-figure { max-height: 300px; }
+.q-card .card-footer { color: var(--bs-secondary-color); }
+/* The title: bold and underlined, a link to the source packet. */
+.q-card .q-card-title-text { font-weight: 700; text-decoration: underline; color: inherit; }
+.q-card a.q-card-title-text:hover { color: var(--bs-link-hover-color); }
+.q-card .q-card-links { padding-top: .1rem; }
+.q-card .q-num { font-weight: 400; }
+
+/* Pagination's "Page [n] of N" jump box. */
+.page-jump { width: auto; }
+.page-jump-input { width: 4.5rem; text-align: center; }
+.page-jump-input::-webkit-outer-spin-button, .page-jump-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.page-jump-input[type="number"] { -moz-appearance: textfield; appearance: textfield; }
+
+/* ---------------- Play / Multiplayer layout (qbreader's play page) ---------------- */
+/* The timer at the top of the settings sidebar. */
+.timer { font-size: 250%; background: var(--timer-bg); border-radius: 0; font-variant-numeric: tabular-nums; line-height: 1.5; }
+.timer .fraction { font-size: 50%; }
+
+/* The settings sidebar: open beside the question on wide screens (the gear
+   button collapses it), above the question and closed on narrow ones. */
+@media (max-width: 991.98px) {
+  /* Closed on a phone, the sidebar still shows its timer. */
+  .play-sidebar:not(.show) > :not(.timer) { display: none !important; }
+  .play-sidebar:not(.show) { margin-bottom: .5rem !important; }
+  /* (The timer keeps its full size, 250%, as QB Reader's does on a phone.) */
+}
+@media (min-width: 992px) {
+  .play-sidebar.collapsed { display: none; }
+  /* With the sidebar hidden, the question and the buttons take the full
+     width, as on QB Reader. */
+  body.sidebar-collapsed #content, body.sidebar-collapsed #buttons { width: 100%; }
+}
+.play-sidebar .chip-row { gap: .25rem; }
+.play-sidebar .chip { padding: .125rem .45rem; font-size: .8125rem; }
+
+/* The button bar pinned to the bottom of the screen. */
+.play-buttons { z-index: 1020; }
+/* The bottom bar spans the page, but only its buttons column is painted and
+   takes clicks, so the sidebar beside it stays visible and clickable. */
+.play-buttons, .play-buttons > .row { pointer-events: none; }
+.play-buttons #buttons { pointer-events: auto; }
+.play-buttons .btn svg { display: block; }
+/* The bottom bar as on QB Reader: buttons at their natural width (icon
+   buttons narrow, with Bootstrap Icons' pause-fill and gear), all the same
+   height. */
+#buttons .btn { height: 2.375rem; display: inline-flex; align-items: center; justify-content: center; vertical-align: middle; }
+#buttons .btn.float-end { float: right; }
+
+/* Past questions under the current one. */
+/* As on QB Reader: some space, a rule, then the history. */
+.room-history { border-top: .5px solid var(--bs-border-color); margin-top: 1rem; padding-top: .5rem; }
+/* The question label links to the packet once the question is over. */
+.question-info-link { color: inherit; text-decoration: underline; }
+.question-info-link:hover { color: inherit; }
+.do-not-accept { color: inherit; font-weight: inherit; }
+
+.question-panel { position: relative; }
+.question-panel::after { content: ""; display: table; clear: both; }
+/* 16px text, as QB Reader's question. */
+.question-panel .q-display { font-size: 1rem; line-height: 1.5; white-space: pre-wrap; }
+.question-panel .q-display.mp-waiting-text { color: var(--text-dim); font-size: 1rem; }
+/* Multiplayer lobby's "waiting to start" screen - just one line of text
+   and the Start button, so the panel's usual min-height (sized for a full
+   question + choices) and the tag row's always-reserved space (normally
+   there so revealing a question's tags doesn't shift anything) are both
+   dropped instead of leaving a large empty gap above and below that line. */
+.question-panel.mp-lobby-compact { min-height: 0; }
+.choices-display { margin-top: .75rem; display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+.choice-box { border: var(--bs-border-width) solid var(--bs-border-color); border-radius: var(--bs-border-radius); padding: .5rem .75rem; line-height: 1.5; }
+.choice-box .letter { font-weight: 700; margin-right: .5rem; }
+.choice-box.reveal-correct { border-color: var(--bs-success); background: var(--bs-success-bg-subtle); }
+.choice-box.clickable { cursor: pointer; transition: border-color .12s ease, background .12s ease; }
+.choice-box.clickable:hover { border-color: var(--bs-primary); background: var(--bs-tertiary-bg); }
+@media (max-width: 767.98px) { .choices-display { grid-template-columns: 1fr; } }
+
+.reveal-box { margin-top: .75rem; }
+.reveal-box .ans-line { font-weight: 700; margin-bottom: .25rem; }
+/* "(also accept: ...)" reads as part of the same answer statement, so it
+   keeps the exact same color/weight/size as the "Answer: ..." text around
+   it (inherit from the parent .ans-line/.a-text) instead of the old
+   dimmed/smaller treatment that visually split it off as a lesser aside. */
+.reveal-box .ans-line .also-accept, .a-text .also-accept { color: inherit; font-size: inherit; font-weight: inherit; }
+.reveal-box .alt-line { color: var(--text-dim); font-size: .875rem; margin-bottom: .2rem; }
+.reveal-box .who-line { color: var(--text-dim); font-size: .875rem; }
+/* A wrong answer that was a near miss (a typo, or the key plus extra words). */
+.close-hint { color: var(--warn); font-size: .875rem; margin-bottom: .25rem; }
+.reveal-box .src-line { color: var(--text-dim); font-size: .875rem; margin-top: .4rem; }
+
+.q-log-entry:not(.card) { background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; }
+.q-log-entry:not(.card) .meta-row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
+.q-log-entry:not(.card) .a-text { font-weight: 700; margin-top: 6px; }
+.grade-badge {
+  display: inline-block; padding: .35em .65em; border-radius: var(--bs-border-radius);
+  font-size: .75em; font-weight: 700; line-height: 1; vertical-align: .1em;
+}
+.grade-badge.correct { background: var(--bs-success); color: #fff; }
+.grade-badge.incorrect { background: var(--bs-danger); color: #fff; }
+.grade-badge.skipped { background: var(--bs-secondary-bg); color: var(--bs-secondary-color); }
+
+/* ---------------- Multiplayer ---------------- */
+.mp-player-row { text-decoration: none; color: var(--bs-body-color); }
+/* The Votekick menu beside a player's name (QB Reader's caret toggle). */
+.mp-player-row .dropdown-toggle { color: inherit; border: 0; line-height: 1; }
+.mp-player-row .dropdown-menu { top: 100%; left: 0; margin-top: .125rem; }
+.mp-player-row.user-score,
+.mp-player-row.user-score:hover, .mp-player-row.user-score:focus, .mp-player-row.user-score:active {
+  background-color: var(--user-score-background); color: var(--bs-body-color);
+}
+.mp-player-row.buzzed { box-shadow: inset 3px 0 0 var(--bs-warning); }
+.mp-player-row.answered-correct { box-shadow: inset 3px 0 0 var(--bs-success); }
+.mp-player-row.answered-incorrect { box-shadow: inset 3px 0 0 var(--bs-danger); }
+.mp-player-row.offline { color: var(--bs-secondary-color); }
+:root { --user-score-background: #FFF9C4; }
+[data-bs-theme=dark] { --user-score-background: #4A90E2; }
+.room-history .event-username { font-weight: 500; }
+/* A chat message still being typed reads a little greyer, as on QB Reader. */
+.room-history .chat-live .live-chat-text { color: var(--bs-secondary-color) !important; }
+.room-history .mp-inline-override { line-height: inherit; vertical-align: baseline; border: 0; }
+/* Hidden rooms (empty ones, or "No public rooms." while there are rooms)
+   are still in the list, so Bootstrap's sibling rule takes the top border
+   and corners off whichever item shows first. Put them back on the first
+   and last items that show. */
+#roomList > .list-group-item:not(.d-none) {
+  border-top-width: var(--bs-list-group-border-width);
+  border-top-left-radius: inherit; border-top-right-radius: inherit;
+}
+#roomList > .list-group-item:not(.d-none) ~ .list-group-item:not(.d-none) {
+  border-top-width: 0; border-top-left-radius: 0; border-top-right-radius: 0;
+}
+#roomList > .list-group-item:not(.d-none):not(:has(~ .list-group-item:not(.d-none))) {
+  border-bottom-left-radius: inherit; border-bottom-right-radius: inherit;
+}
+
+/* The room code (or public lobby's name) above the question: click to copy
+   an invite link. */
+.room-code-strip { display: inline-flex; align-items: center; gap: .5rem; flex-wrap: wrap; min-width: 0; }
+.room-code.is-name { white-space: nowrap; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+.room-code {
+  font-weight: 700; letter-spacing: 2px; cursor: pointer;
+  border: var(--bs-border-width) dashed var(--bs-border-color); border-radius: var(--bs-border-radius);
+  padding: 0 .5rem;
+}
+.room-code:hover { background: rgba(var(--bs-primary-rgb), .1); border-color: var(--bs-primary); }
+.room-code.copied { background: var(--bs-success-bg-subtle); border-color: var(--bs-success); color: var(--bs-success-text-emphasis); }
+/* "Link copied!" and a lobby's name are words, not codes: no code spacing. */
+.room-code.copied, .room-code.is-name { letter-spacing: normal; }
+
+/* ---------------- Dual-handle range slider (round filter) ---------------- */
+/* All pointer interaction is handled manually by JS on .dual-slider itself
+   (see SBData.wireRoundRangeSlider) - both <input type="range"> elements
+   are purely visual/keyboard-accessible, with pointer-events off entirely
+   (including their thumbs), so a press anywhere on the track always reaches
+   the container and can pick up + drag the nearest handle in one motion,
+   in either direction, even when both handles are tied at the same point. */
+/* Looks like QB Reader's year-range slider: a plain gray 8px track the full
+   width, no fill between the handles, and two blue round handles (1.2em)
+   that stop flush with the track's ends. */
+.dual-slider { position: relative; height: 24px; cursor: pointer; touch-action: none; }
+.dual-slider .track { position: absolute; top: 50%; left: 0; right: 0; height: 8px; margin-top: -4px; background: var(--bs-secondary-bg); border-radius: 8px; }
+.dual-slider .range-fill { display: none; }
+.dual-slider input[type="range"] {
+  position: absolute; top: 0; left: 0; width: 100%; height: 24px; margin: 0;
+  background: transparent; border: none; outline: none; border-radius: 0;
+  pointer-events: none; -webkit-appearance: none; appearance: none;
+}
+.dual-slider input[type="range"]::-webkit-slider-runnable-track { background: transparent; height: 24px; border-radius: 0; }
+.dual-slider input[type="range"]::-moz-range-track { background: transparent; height: 24px; border: none; border-radius: 0; }
+.dual-slider input[type="range"]::-webkit-slider-thumb {
+  pointer-events: none; -webkit-appearance: none; appearance: none;
+  width: 16px; height: 16px; border-radius: 50%; margin-top: 4px;
+  background: var(--bs-primary); border: 0; cursor: pointer;
+}
+.dual-slider input[type="range"]::-moz-range-thumb {
+  pointer-events: none; width: 16px; height: 16px; border-radius: 50%;
+  background: var(--bs-primary); border: 0; cursor: pointer;
+}
+.round-range-label { margin-top: .25rem; }
+
+/* ---------------- Reveal tag badges (subject/format/qtype revealed in sequence) ---------------- */
+
+.small-note.status-error {
+  color: var(--bs-danger-text-emphasis); background: var(--bs-danger-bg-subtle);
+  border: var(--bs-border-width) solid var(--bs-danger-border-subtle); border-radius: var(--bs-border-radius);
+  padding: .5rem .75rem; display: inline-block;
+}
+
+/* ---------------- Subject toggles (SBPlay.subjectButtons) ---------------- */
+/* Each subject is an outline toggle in its own colour, filled when it's on,
+   as QB Reader's category buttons are, two to a row in the sidebar. */
+.subject-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .375rem; }
+/* Subject toggles: QB Reader's category boxes (red outline, square corners). */
+.btn-subject {
+  --bs-btn-disabled-color: var(--bs-danger); --bs-btn-disabled-border-color: var(--bs-danger);
+  /* No fill on hover: only clicking turns a subject on or off. */
+  --bs-btn-hover-bg: transparent; --bs-btn-hover-color: var(--bs-danger); --bs-btn-hover-border-color: var(--bs-danger);
+}
+.btn-subject:disabled.active { opacity: 1; background-color: var(--bs-danger); border-color: var(--bs-danger); color: #fff; }
+.modal-backdrop.show { opacity: .5; }
+
+/* ---------------- History cards (SBPlay.historyCard) ---------------- */
+.clickable { cursor: pointer; }
+.history-card .card-header-clickable { flex: 1; }
+.star-question { display: inline-flex; align-items: center; line-height: 1.5; }
+.star-question svg { display: block; }
+.history-card .q-text { margin-bottom: .25rem; }
+.history-card .choices { white-space: pre-wrap; }
+.history-card .q-figure { max-height: 300px; }
+
+/* Player popover (Multiplayer), as QB Reader's: 250 px wide, the stats list
+   edge to edge. */
+.custom-popover { position: absolute; z-index: var(--bs-popover-zindex); width: 250px; max-width: calc(100vw - 16px); --bs-popover-max-width: 100%; --bs-popover-body-padding-x: 0; --bs-popover-body-padding-y: 0; }
+.custom-popover .popover-arrow { position: absolute; }
+.custom-popover .list-group-item { background: transparent; }
+
+/* As on QB Reader nothing is reserved for text still to come: a choice box
+   only appears once its text starts, and everything below moves down as
+   the question fills in. */
+.choice-box:has(> .choice-text:empty) { display: none; }
+/* No room for the choices until the first one is read out, so the rule under
+   the question sits as close as QB Reader's while the stem is read. */
+.choices-display:not(:has(.choice-text:not(:empty))) { margin-top: 0; }
+
+/* Set List sort carets sit on the text's baseline, like Bootstrap Icons. */
+.sort-indicator svg { vertical-align: -.125em; }
+
+/* Set and packet pages (set.html, packet.html), as QB Reader's. */
+#setPage .float-row { overflow: auto; }
+.packet-question .q-text { margin: 0; }
+
+/* ---------------- Multiplayer: owners, controlled rooms, direct links ---------------- */
+/* A link straight into a room: the lobby stays hidden while it connects. */
+html.mp-direct #lobbyScreen { display: none !important; }
+/* A controlled room's settings, for everyone but its owner. */
+#mpRoomSettings:disabled { opacity: .6; }
+/* The room owner's crown before their name, as on QB Reader. */
+/* QB Reader's crown (an inline SVG) before the room owner's name. */
+.mp-crown { flex-shrink: 0; }
+/* A player the owner has muted. */
+.mp-muted { margin-left: .25rem; opacity: .7; }
+/* Database: All text / Question only / Answer only stay on one row on a
+   phone (a flex row, so no whitespace between them adds width). */
+#searchType { display: flex; flex-wrap: wrap; column-gap: .75rem; }
+#searchType .form-check-inline { margin-right: 0; }
+
+/* ---------------- Account pages (stats, graphs, stars), as QB Reader's ---------------- */
+/* The links between the stats, graphs and starred pages. */
+.user-nav { --bs-nav-underline-gap: 1.25rem; }
+.user-nav .nav-link { padding-top: .25rem; padding-bottom: .25rem; }
+/* Stats tables: the numbers line up, and a heading sorts when clicked. */
+.stats-table th, .stats-table td { white-space: nowrap; }
+.stats-table thead th { user-select: none; }
+.stats-table td, .stats-table tfoot th { font-variant-numeric: tabular-nums; }
+#form input[type=date] { color-scheme: light; }
+[data-bs-theme=dark] #form input[type=date] { color-scheme: dark; }
+/* Best Buzz: "(#)" where you buzzed, highlighted as QB Reader's. */
+.buzz-marker { background-color: var(--bs-highlight-bg, #fff3cd); color: var(--bs-highlight-color, inherit); font-weight: 600; padding: 0 .15em; border-radius: .2em; }
+/* Graphs: each chart fills a box of a set height, two to a row on a wide
+   screen and one, shorter, on a phone. */
+.chart-box { position: relative; height: 280px; }
+@media (max-width: 575.98px) { .chart-box { height: 220px; } }

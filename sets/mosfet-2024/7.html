@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MOSFET 2024 Round 7</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mosfet-2024/7" />
+<meta name="description" content="MOSFET 2024 Round 7: 47 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mosfet-2024" data-packet="7">
+<div class="float-row mb-3"><span class="float-start">Packet 7 (Round 7) of <a href="sets/mosfet-2024/">MOSFET 2024</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1py81jojVwWsV4wiqVrShZcU-JGqq6GBR/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following enzymes catalyzes the formation of fructose-1,6 bisphosphate in glycolysis?</div><div>W) hexokinase<br>X) fructokinase<br>Y) phosphofructokinase<br>Z) phosphoglucose isomerase</div><div>ANSWER: Y) phosphofructokinase</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+The loss of neurons in the substantia nigra in patients with Parkinson’s Disease leads to the underproduction of what neurotransmitter?</div><div>ANSWER: DOPAMINE</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What quantity is equal to the sum of the latent heats of fusion and vaporization?</div><div>ANSWER: LATENT HEAT OF SUBLIMATION</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+In the ground state 2p subshell of oxygen, there are four electrons that can each occupy one of the three 2p orbitals x, y, and z. Identify all of the following three allotments of electrons that are always disallowed
+1) one in x, two in y, one in z
+2) two in x, two in y, none in z
+3) one in x, one in y, two in z.</div><div>ANSWER: 2 ONLY</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What is the name given to a layer of a mostly-impermeable layer of rock separating two aquifers that transmits water at very slow rates?</div><div>ANSWER: AQUITARD</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three types of supernovae which, when observed, would lack hydrogen lines in their emission spectra
+1) Type Ia
+2) Type Ib
+3) Type II</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+Which of the following numbers leaves a remainder of 1 when multiplied by 5 and divided by 32?</div><div>W) 11<br>X) 13<br>Y) 19<br>Z) 23</div><div>ANSWER: X) 13</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Two numbers, A and B, have a greatest common divisor of 16 and a least common multiple of 320. How many possible ordered pairs (A,B) exist if A and B are positive integers?</div><div>ANSWER: 4</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following physical laws is not included in Maxwell’s equations?</div><div>W) Lenz’s Law<br>X) Gauss’s Law<br>Y) Ampere’s Circuital Law<br>Z) Faraday’s Law of Induction</div><div>ANSWER: W) Lenz’s Law</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A very massive Sanjay kicks a very light, stationary soccer ball. Modeling the situation as a perfectly elastic collision, if the speed of Sanjay’s foot is 12 m/s, what is the speed of the ball directly after the collision, in meters per second and to two significant figures?</div><div>ANSWER: 24</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers at UW Madison are studying population dynamics and how allele frequencies change over time. Assuming Hardy-Weinberg equilibrium, what is the frequency of the dominant allele if 64% of the population shows the recessive phenotype?</div><div>W) 0.2<br>X) 0.4<br>Y) 0.6<br>Z) 0.8</div><div>ANSWER: W) 0.2</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers at UW-Madison are using radioactive nitrogen to follow certain biological pathways in the cell. Which of the following molecules could NOT be studied using radioactive nitrogen?</div><div>W) Tryptophan<br>X) Alanine<br>Y) Thymine<br>Z) Linoleic acid</div><div>ANSWER: Z) Linoleic acid</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+A modified form of what nucleobase forms the 5’ cap of an mRNA molecule?</div><div>ANSWER: GUANINE</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+In Arachnoids, the gene for pincer size is epistatically controlled by gene B such that little b little b individuals have a second set of pincers. Otherwise, small pincers are dominant to large pincers. If an arachnoid heterozygous for both genes mates with an arachnoid with two sets of small pincers, what is the probability that their first baby bug has two sets of large pincers?</div><div>ANSWER: 1/24</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following combinations of angular momentum and magnetic quantum numbers is NOT possible for an electron?</div><div>W) l = 0, ml = 1<br>X) l = 1, ml = -1<br>Y) l = 2, ml = 0<br>Z) l = 3, ml = -3</div><div>ANSWER: W) l = 0, ml = 1</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following four kinetic reaction orders that go to completion in a finite amount of time
+1) Zeroth
+2) First
+3) Second
+4) Third</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following Galilean moons is not involved in the Laplace resonance?</div><div>W) Io<br>X) Europa<br>Y) Ganymede<br>Z) Callisto</div><div>ANSWER: Z) Callisto</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+You are studying a geologic formation with two rock layers, a fault, and an unconformity. Rock layer A is composed of sandstone, and it is directly underlain by layer B, which is composed of granite. Fault C cuts through layer B but not layer A. Place the following four geologic structures from oldest to youngest
+1) Layer A
+2) Layer B
+3) Fault C
+4) Unconformity D</div><div>ANSWER: 2, 3, 4, 1</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+A comet orbiting a star has an orbital eccentricity of exactly 1. Which of the following adjectives best describes its path?</div><div>W) Circular<br>X) Elliptical<br>Y) Hyperbolic<br>Z) Parabolic</div><div>ANSWER: Z) Parabolic</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Let a,b,c be roots of the cubic x<sup>3</sup>-3x<sup>2</sup> + 5x-9. Determine the sum 1/a + 1/b + 1/c.</div><div>ANSWER: 5/9</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+For an ideal Hookean spring, the restoring force is proportional to the spring constant k. What intensive property of an isotropic material is defined as the amount of stress per unit of strain felt on an object, and is analogous to the spring constant?</div><div>ANSWER: YOUNG’S MODULUS</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+In free space, muons decay with a lifetime of 2.2 microseconds. However, even traveling at near light speeds, muons created in the upper atmosphere due to scattering would take close to 50 microseconds to reach the ground. Which of the following effects most directly explains the apparently impossible detection of muons at sea level?</div><div>W) Light cones<br>X) Length dilation<br>Y) Minkowski spacetime<br>Z) Time dilation</div><div>ANSWER: Z) Time dilation</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers at UW Madison are studying the effects of heat loss due to nonconservative forces. Identify all of the following forces that are nonconservative
+1) Spring force
+2) Gravity
+3) Friction</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+DOE researchers are working in conjunction with a team at Washington University St. Louis to examine the effects of copper on the nitrogen cycle-in particular, denitrification. These researchers have found that increasing copper levels will prevent the release of what nitrogen-containing greenhouse gas three hundred times more potent than CO<sub>2</sub>?</div><div>ANSWER: NITROUS OXIDE</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+What vitamin is a cofactor of proline hydroxylase and is required for proper formation of collagen?</div><div>W) Vitamin A<br>X) Vitamin C<br>Y) Vitamin D<br>Z) Vitamin K</div><div>ANSWER: X) Vitamin C</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following 3 statements that correctly describe a characteristic of a k-selected species
+1) Rapid development
+2) Small body size
+3) Long life span</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Ozone molecules in the atmosphere undergo decomposition by a reaction mechanism involving what type of reactive intermediates, which have at least one unpaired electron?</div><div>ANSWER: RADICAL <span class="also-accept">(also accept: FREE RADICAL)</span></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Identify all of the following three metals which would be able to reduce H<sup>+</sup> ions to hydrogen gas
+1) Silver
+2) Copper
+3) Zinc</div><div>ANSWER: 3 ONLY</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The halocline is a vertical zone where which of the following properties of seawater rapidly changes with depth?</div><div>W) Temperature<br>X) Pressure<br>Y) Salinity<br>Z) Density</div><div>ANSWER: Y) Salinity</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Olber’s paradox suggests that if the universe is homogeneous and infinite, we should see an infinite number of stars in the sky, and thus the night sky would be infinitely bright instead of mostly dark. Which of the following best explains this apparent paradox?</div><div>W) At large scales, the universe is not homogenous<br>X) Dark matter interferes with the observation of distant stars at visible wavelengths<br>Y) The universe is expanding at an accelerating rate<br>Z) Supermassive black holes between us and faraway stars deflect light away from Earth via gravitational lensing</div><div>ANSWER: Y) The universe is expanding at an accelerating rate</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Real number a satisfies sin(a) = 12/13. What two values are possible for the value of sec(a)?</div><div>ANSWER: ±13/5</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+What is the area of a rhombus with side length 2 and one angle equal to 75 degrees?</div><div>W) 2√3<br>X) √6 + √2<br>Y) √6-√2<br>Z) 3√2</div><div>ANSWER: X) √6 + √2</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Harry shoots a rubber ball at a stationary pendulum. Order the following three situations by increasing maximum heights of the pendulum’s bob
+1) The ball bounces backwards after hitting the bob
+2) The ball sticks to the bob
+3) The ball punctures the bob and continues forwards</div><div>ANSWER: 3, 2, 1</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A circular conducting loop with radius 4m has a current of 10A flowing through it. What is the magnitude of the loop’s magnetic dipole moment?</div><div>ANSWER: 160π A m<sup>2</sup></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Researchers at UW-Madison are studying perovskite materials. Many oxides adopt perovskite structures, with formula unit ABO3, where A and B denote metal cations. If A is Ca<sup>2+</sup>, which of the following elements could be cation B?</div><div>W) Rb<sup>+</sup><br>X) Sr<sup>2+</sup><br>Y) Sc<sup>3+</sup><br>Z) Ti<sup>4+</sup></div><div>ANSWER: Z) Ti<sup>4+</sup></div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Researchers at UW Madison are studying reaction kinetics of transition metal complexes. Identify all of the following three changes that would increase the forward rate of a reaction
+1) Increasing the temperature
+2) Decreasing the surface area of a metal reactant
+3) Decreasing the concentration of reactants</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Which of the following immune cells cannot perform phagocytosis?</div><div>W) Macrophage<br>X) Dendritic Cell<br>Y) Neutrophil<br>Z) Cytotoxic T-Cell</div><div>ANSWER: Z) Cytotoxic T-Cell</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Order the following three zones from closest to farthest from the root cap
+1) Zone of differentiation
+2) Zone of division
+3) Zone of elongation</div><div>ANSWER: 2, 3, 1</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following acids could be added to a solution of potassium hydroxide to prepare a buffer?</div><div>W) Hydrofluoric<br>X) Hydrochloric<br>Y) Hydrobromic<br>Z) Hydroiodic</div><div>ANSWER: W) Hydrofluoric</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following does NOT correctly describe an assumption of Kinetic Molecular Theory?</div><div>W) Gas particles occupy non-negligible volume<br>X) All collisions are elastic<br>Y) Gas particles are in constant motion<br>Z) There is no attraction between gas particles</div><div>ANSWER: W) Gas particles occupy non-negligible volume</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Oumuamua is an interstellar object that passed through the Solar System with enough energy to fully escape the Sun’s gravity. What shape did this object’s trajectory around the Sun take?</div><div>W) Circle<br>X) Ellipse<br>Y) Parabola<br>Z) Hyperbola</div><div>ANSWER: Z) Hyperbola</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Place the following three minerals in order of increasing melting point
+1) Olivine
+2) Plagioclase Feldspar
+3) Quartz</div><div>ANSWER: 3, 2, 1</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+A spinner for a game is divided into 6 sections numbered 1-6. Each section’s size is proportional to the number in it. What is the probability of spinning a 5?</div><div>ANSWER: 5/21</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Multiple Choice</i>
+Which of the following numbers is NOT a prime factor of 2<sup>16</sup>-1?</div><div>W) 3<br>X) 5<br>Y) 11<br>Z) 17</div><div>ANSWER: Y) 11</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+De Broglie was the first to introduce the concept that, contrary to classical intuition, quantum particles can be described by a wave with wavelength that is inversely proportional to what property of the particle?</div><div>W) Position<br>X) Velocity<br>Y) Momentum<br>Z) Energy</div><div>ANSWER: Y) Momentum</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Gauss’ Law for Magnetism states that the divergence of the magnetic flux density is zero. This is equivalent to requiring the nonexistence of what kind of hypothetical object?</div><div>ANSWER: MAGNETIC MONOPOLE</div></div><hr><div class="packet-question"><div class="q-text">47. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Real number a satisfies sin(a) = 12/13. What is the sum of the two possible values of sec(a)?</div><div>ANSWER: 0</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

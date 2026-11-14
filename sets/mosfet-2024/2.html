@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MOSFET 2024 Round 2</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mosfet-2024/2" />
+<meta name="description" content="MOSFET 2024 Round 2: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mosfet-2024" data-packet="2">
+<div class="float-row mb-3"><span class="float-start">Packet 2 (Round 2) of <a href="sets/mosfet-2024/">MOSFET 2024</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1ISJUiWNaszhz4TBobAQHWG8dgMoMfEAK/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Leber’s hereditary neuropathy is a mitochondrially inherited disease. If a man with the disease marries a woman without it what is the probability that at least 2 of their children have the disease?</div><div>W) 3/4<br>X) 9/16<br>Y) 5/16<br>Z) 0</div><div>ANSWER: Z) 0</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following three molecules that would be considered steroids
+1) Estradiol
+2) Epinephrine
+3) Progesterone</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+What is the simplest hydrocarbon?</div><div>ANSWER: METHANE</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Which of the following changes is associated with a decrease in entropy?</div><div>W) Increase in temperature<br>X) Condensation of a gas<br>Y) Increase in volume<br>Z) Dissolution of a salt</div><div>ANSWER: X) Condensation of a gas</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following planets does not possess a ring system?</div><div>W) Uranus<br>X) Saturn<br>Y) Jupiter<br>Z) Mars</div><div>ANSWER: Z) Mars</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What term describes the part of the coast that is exposed to air during low tides, but submerged during high tides?</div><div>ANSWER: INTERTIDAL ZONE <span class="also-accept">(also accept: FORESHORE)</span></div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Kartik plays a coin flipping game where he flips a fair coin until it lands on tails. What is the expected number of heads he sees before he gets tails for the first time?</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Points A, B, and C lie on circle O. If the arc AC containing point B measures 240 degrees, what is the measure of angle ABC, in degrees?</div><div>ANSWER: 60 DEGREES</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A 2kg mass is hung from a massless, 3m string, forming a simple pendulum. If the length of the string is doubled, by what factor is the period of the pendulum multiplied?</div><div>ANSWER: √2</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+What partial differential equation, arguably the cornerstone of quantum mechanics, can be used to describe how the probability of observing a particle at different points in space evolves over time?</div><div>ANSWER: SCHRODINGER EQUATION</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+Researchers at Korea University recently claimed to have discovered LK-99, a substance which reaches near zero resistivity at room temperature. What is the term for this type of material?</div><div>ANSWER: SUPERCONDUCTOR</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Scientists at Oak Ridge National Laboratory are studying global warming-induced changes to the carbon cycle. Identify all of the following three processes that are net carbon sources
+1) Decomposition
+2) Deforestation
+3) Photosynthesis</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following three organelles that are thought to have resulted from endosymbiosis
+1) Mitochondrion
+2) Chloroplast
+3) Ribosome</div><div>ANSWER: 1 AND 2 (MITOCHONDRION, CHLOROPLAST)</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following statements is not true about plants and water?</div><div>W) Root hairs help increase absorption of water by the roots by increasing surface area<br>X) The majority of water lost by a plant is through the stomata<br>Y) Water puts pressure on plant cell walls creating turgor pressure<br>Z) Water primarily travels through the phloem</div><div>ANSWER: Z) Water primarily travels through the phloem</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following properties does NOT generally increase as you move towards the upper right of the periodic table?</div><div>W) Ionization energy<br>X) Electronegativity<br>Y) Atomic radius<br>Z) Electron affinity</div><div>ANSWER: Y) Atomic radius</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+The decay of a certain radioactive isotope is observed to have a half-life that remains constant over time. What is the order of this reaction?</div><div>W) Zeroth<br>X) First<br>Y) Second<br>Z) Third</div><div>ANSWER: X) First</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+In which of the following constellations would you find the star Polaris?</div><div>W) Orion<br>X) Canis major<br>Y) Ursa major<br>Z) Ursa minor</div><div>ANSWER: Z) Ursa minor</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following sedimentary rocks has the smallest grain size?</div><div>W) Breccia<br>X) Conglomerate<br>Y) Sandstone<br>Z) Shale</div><div>ANSWER: Z) Shale</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the period of the function f(x) = 4 times the sine of the quantity 2x-π/6 end quantity + 1?</div><div>ANSWER: π</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+The golden ratio is equal to (1 + √5) / 2. By name or number, identify all of the following three quadratics with the golden ratio as a root.
+1) x<sup>2</sup>-x-1
+2) x<sup>2</sup> + x-1
+3) 2x<sup>2</sup>-2x-2</div><div>ANSWER: 1 and 3</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+What ideal thermodynamic process gives rise to the most efficient heat engine possible?</div><div>ANSWER: CARNOT ENGINE <span class="also-accept">(also accept: CARNOT CYCLE)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Ray and Owen are standing on a small, massive platform which is free to move in any direction, and is initially at rest. Ray jumps off with speed v to the east, while at the same time, Owen jumps off at identical speed v to the west. Given that Ray is heavier than Owen, which of the following can be said about the platform’s motion immediately after the two jump?</div><div>W) The platform is moving to the east<br>X) The platform is moving to the west<br>Y) The platform remains at rest<br>Z) There is not enough information to determine how the platform moves</div><div>ANSWER: X) The platform is moving to the west</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers at UW Madison are studying quality of life and minimally invasive post-surgery outcomes, specifically in bariatric patients. Bariatric surgery would most likely be used to target which of the following afflictions?</div><div>W) Pancreatic cancer<br>X) Lung trauma<br>Y) Morbid obesity<br>Z) Diverticulitis</div><div>ANSWER: Y) Morbid obesity</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Researchers at MIT are studying soft robotics, where mechanical components are made of stretchy materials, such as silicone rubber, instead of metals, which are more rigid and do not as easily change shape. What kind of deformation is exhibited by silicone rubber?</div><div>W) Ductile<br>X) Elastic<br>Y) Brittle<br>Z) Anisotropic</div><div>ANSWER: X) Elastic</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+What is the term for a relationship between two species that benefits one and neither benefits nor harms the other?</div><div>W) Mutualism<br>X) Commensalism<br>Y) Ammensalism<br>Z) Parasitism</div><div>ANSWER: X) Commensalism</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+What protective covering insulates the axons of nerve cells and allows for more efficient conduction of action potentials?</div><div>W) Myelin Sheath<br>X) Axonal Covering<br>Y) Axon Hillock<br>Z) Zona Pellucida</div><div>ANSWER: W) Myelin Sheath</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+When copper metal is added to a solution of silver (I) nitrate, the solution gradually turns blue due to the generation of what ion?</div><div>W) Ag<sup>+</sup><br>X) NO<sub>3</sub><sup>-</sup><br>Y) Cu<sup>2+</sup><br>Z) H<sup>+</sup></div><div>ANSWER: Y) Cu<sup>2+</sup></div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Glass, although solid, consists of randomly-arranged molecules and contains no long-range atomic structure. What type of solid is glass?</div><div>W) Crystalline<br>X) Amorphous<br>Y) Denetworked<br>Z) Molecular</div><div>ANSWER: X) Amorphous</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+What term describes the process where ice chunks break off the edge of a glacier?</div><div>ANSWER: CALVING</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Given that the spreading rate for the Mid-Atlantic Ridge is approximately 2.5 centimeters per year, how many years ago did oceanic crust found 300 kilometers away from the Mid-Atlantic Ridge form?</div><div>ANSWER: 12 MILLION</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Identify all of the following three functions that are considered even
+1) Cosine (x)
+2) Sine (x)
+3) Tan (x)</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+What is the sum of the geometric series with first term 2 and fourth term -2/27?</div><div>ANSWER: 3 / 2</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following laws of physics states that the square of an object’s orbital period is proportional to the cube of the semimajor axis of its orbit?</div><div>W) Newton’s Law of Gravitation<br>X) Kepler’s 1st Law<br>Y) Kepler’s 2nd Law<br>Z) Kepler’s 3rd Law</div><div>ANSWER: Z) Kepler’s 3rd Law</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A car of mass 1500 kg, initially traveling at 20 m/s to the right skids to a stop. What is the magnitude of the total work done on the car by the road during this process?</div><div>ANSWER: 300,000</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Researchers at UW-Madison are studying nutrient content in local lakes. What term describes the process where bodies of water are enriched with excessive amounts of nutrients, often leading to algal blooms?</div><div>ANSWER: EUTROPHICATION</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Researchers at UW-Madison are studying the organization of chromosomal DNA within the nucleus. What highly basic proteins found in the nucleus serve as structural support for DNA, and when bound to DNA form repeating units called nucleosomes?</div><div>ANSWER: HISTONES</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+In a tragic golf cart accident, Joe’s gallbladder was destroyed, leaving him unable to secrete bile. Which of the following macromolecules would Joe have a difficult time digesting after the accident?</div><div>W) Fats<br>X) Proteins<br>Y) Nucleic acids<br>Z) Carbohydrates</div><div>ANSWER: W) Fats</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following organelles do plant cells not possess?</div><div>W) Flagella<br>X) Mitochondria<br>Y) Golgi Apparatus<br>Z) Lysosomes</div><div>ANSWER: Z) Lysosomes</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+In electrochemical cells, what is the technical term for the electrode where oxidation occurs?</div><div>ANSWER: ANODE</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+Place the following three ions in order of increasing ionic radius
+1) F<sup>-</sup>
+2) Na<sup>+</sup>
+3) Cl<sup>-</sup></div><div>ANSWER: 2, 1, 3</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Which of the following best describes the location of red giants on the HR diagram?</div><div>W) Upper Right<br>X) Lower Right<br>Y) Upper Left<br>Z) Lower Left</div><div>ANSWER: W) Upper Right</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Due to the expansion of the universe, objects that are far away from the Milky Way are perceived to be moving away from us at various velocities. This causes a Doppler shift in the light they emit. What is the name for this phenomenon?</div><div>ANSWER: REDSHIFT</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the coefficient of x<sup>3</sup>y in the polynomial expansion of the expression (x + 2y)<sup>4</sup>?</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Harry attempts 10 shots while playing basketball. He has a 1/2 chance of making his first shot, and a 2/3 chance for every shot after that. What is the expected number of shots he makes?</div><div>ANSWER: 13/2</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A wheel of radius 4 m is undergoing uniform rotation with tangential velocity 12 meters per second. What is its centripetal acceleration, in meters per second squared?</div><div>ANSWER: 36</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+An ideal gas is stored in a box of volume 1L and pressure 1Pa. Keeping the temperature of the gas constant, the volume of the box is decreased to 0.25 L. What is the final pressure of the box in pascals?</div><div>ANSWER: 4Pa</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>

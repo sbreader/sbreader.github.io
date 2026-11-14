@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (Google Analytics, through Tag Manager): first thing in <head>, on every page. -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDN9VXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="UTF-8" />
+<meta name="sb-version" content="20742d691f889cbdbcb9d4920c226e443d8053af" />
+<base href="/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBReader - MOSFET 2024 Round 5</title>
+<link rel="canonical" href="https://sbreader.github.io/sets/mosfet-2024/5" />
+<meta name="description" content="MOSFET 2024 Round 5: 46 Science Bowl toss-ups and bonuses, with answers." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css?v=626de2c2e8" />
+<script src="js/site.js?v=b8366c7695"></script>
+<link rel="icon" href="favicon.ico" sizes="32x32" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#dfebfb" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#333333" media="(prefers-color-scheme: dark)" />
+<script src="js/data.js?v=4c47ebe00e"></script>
+</head>
+<body data-page="packet">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1 py-0" id="logo" href="./"><span class="logo-prefix">SB</span><span class="logo-suffix">Reader</span></a>
+    <button class="navbar-toggler" type="button" data-sb-collapse="navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-navigation">
+        <a class="nav-link" href="solo">Play</a>
+        <a class="nav-link" href="multiplayer">Multiplayer</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog" role="button" data-sb-dropdown>Database</a>
+          <div class="dropdown-menu" data-bs-popper="static">
+            <a class="dropdown-item" href="catalog">Search</a>
+            <a class="dropdown-item" href="set-list">Set List</a>
+            <a class="dropdown-item" href="frequency-list">Frequency List</a>
+          </div>
+        </div>
+        <a class="nav-link" href="about">About</a>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle d-flex align-items-center" type="button" data-sb-dropdown aria-haspopup="menu" aria-label="Toggle theme">
+              <span class="theme-icon-active"></span><span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="static">
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="light"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/></svg>Light<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="dark"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>Night<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-sb-theme-value="auto"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-2"><path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/></svg>Auto<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="ms-auto d-none theme-check"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/></svg></button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+          </li>
+          <li class="nav-item" id="navAccount"><a class="nav-link" href="login" id="login-link">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl mt-3 mb-5 pb-5" id="setPage" data-set="mosfet-2024" data-packet="5">
+<div class="float-row mb-3"><span class="float-start">Packet 5 (Round 5) of <a href="sets/mosfet-2024/">MOSFET 2024</a>:</span><a class="float-end" href="set-list">Back to all sets</a></div><p class="set-source"><a href="https://drive.google.com/file/d/1s89gbSlnCFYhE1QiW99AY_i_pqRSlxhO/view" target="_blank" rel="noopener">Source packet</a></p><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+Identify all of the following 3 groups of organisms that possess a cell wall
+1) Fungi
+2) Gram-negative bacteria
+3) Gram-positive bacteria</div><div>ANSWER: ALL</div></div><hr><div class="packet-question"><div class="q-text">1. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following statements best explains the movement of vesicles to and from the Golgi apparatus?</div><div>W) Vesicles from the endoplasmic reticulum fuse with the trans end and vesicles tagged for secretion exit the cis end<br>X) Vesicles from the endoplasmic reticulum fuse with the cis end and vesicles tagged for secretion exit the trans end<br>Y) Vesicles from the endoplasmic reticulum fuse with the cis end and vesicles tagged for secretion exit the cis end<br>Z) Vesicles from the endoplasmic reticulum fuse with the trans end and vesicles tagged for secretion exit the trans end</div><div>ANSWER: X) Vesicles from the endoplasmic reticulum fuse with the cis end and vesicles tagged for secretion exit the trans end</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following choices best describes how an increase in temperature typically affects the solubility of a salt?</div><div>W) Solubility continuously increases<br>X) Solubility continuously decreases<br>Y) Solubility increases, then decreases<br>Z) Solubility decreases, then increases</div><div>ANSWER: W) Solubility continuously increases</div></div><hr><div class="packet-question"><div class="q-text">2. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+In a galvanic cell, which of the following quantities must be greater than 1?</div><div>W) Standard reduction potential<br>X) Standard oxidation potential<br>Y) Equilibrium constant<br>Z) Gibbs free energy</div><div>ANSWER: Y) Equilibrium constant</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+The Pleiades are classified as which of the following types of astronomical object?</div><div>W) Constellation<br>X) Planetary nebula<br>Y) Open star cluster<br>Z) Dwarf galaxy</div><div>ANSWER: Y) Open star cluster</div></div><hr><div class="packet-question"><div class="q-text">3. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Place the following three ocean zones in order of decreasing distance from the coast
+1) Continental rise
+2) Abyssal plain
+3) Continental shelf</div><div>ANSWER: 2, 1, 3</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Bob flips a coin. If it lands heads, he writes down the number 1. If it lands tails, he writes a random real number between 0 and 1, inclusive. What is the probability that the number he writes down is greater than 1/2?</div><div>ANSWER: 3/4</div></div><hr><div class="packet-question"><div class="q-text">4. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Simplify the fraction with numerator 2 minus 5i and denominator 1 plus 2i.</div><div>ANSWER: (-8-9i) / 5</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+The second law of thermodynamics states that which of the following quantities may only increase over time in a closed system?</div><div>W) Temperature<br>X) Entropy<br>Y) Enthalpy<br>Z) Pressure</div><div>ANSWER: X) Entropy</div></div><hr><div class="packet-question"><div class="q-text">5. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A disk with a mass m and radius r is spinning with angular velocity 12 rad/s. If an identical disk which is not spinning is slowly placed directly on top of the first disk, in radians per second, what is the angular velocity of the system after both disks are eventually brought to the same speed due to friction?</div><div>ANSWER: 6</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers at UW-Madison are studying cellular energetics and the role of ATP in cell processes. Which of the following is NOT a component of ATP?</div><div>W) Phosphate group<br>X) Adenine<br>Y) Glycerol<br>Z) Ribose</div><div>ANSWER: Y) Glycerol</div></div><hr><div class="packet-question"><div class="q-text">6. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+Researchers at Argonne National Lab are developing a new method of recycling HDPE plastics–which are made from ethylene monomers–as an alternative to burning them after use. How many molecules of oxygen are consumed when a ten-monomer HDPE chain is burned?</div><div>W) 10<br>X) 20<br>Y) 30<br>Z) 40</div><div>ANSWER: X) 20</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Phototropism is a plant growth response toward light to maximize photosynthetic production. What group of plant hormones plays the largest role in phototropism?</div><div>W) Auxins<br>X) Cytokinins<br>Y) Gibberellins<br>Z) Jasmonates</div><div>ANSWER: W) Auxins</div></div><hr><div class="packet-question"><div class="q-text">7. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Place the following 3 nitrogenous waste products in order of increasing amount of water lost to excretion
+1) Uric Acid
+2) Ammonia
+3) Urea</div><div>ANSWER: 1, 3, 2</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following substances has standard enthalpy of formation of 0?</div><div>W) Diamond<br>X) Water<br>Y) Liquid nitrogen<br>Z) Graphite</div><div>ANSWER: Z) Graphite</div></div><hr><div class="packet-question"><div class="q-text">8. <span class="fw-semibold">BONUS</span> Chemistry <i>Multiple Choice</i>
+In general, which of the following pairs of elements will produce the strongest bond?</div><div>W) Metal and metal<br>X) Metal and nonmetal<br>Y) Metalloid and nonmetal<br>Z) Nonmetal and nonmetal</div><div>ANSWER: X) Metal and nonmetal</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Collisional mountain belts are associated with which of the following types of plate boundaries?</div><div>W) Continental-continental divergent<br>X) Continental-continental convergent<br>Y) Oceanic-oceanic divergent<br>Z) Oceanic-oceanic convergent</div><div>ANSWER: X) Continental-continental convergent</div></div><hr><div class="packet-question"><div class="q-text">9. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+What is the only dwarf planet that is NOT found in the Kuiper belt or beyond?</div><div>ANSWER: CERES</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">TOSS-UP</span> Math <i>Multiple Choice</i>
+In Mexico, presidential elections are held every six years. Given that there will be a presidential election in 2024, in which of the following years did Mexico NOT hold a presidential election?</div><div>W) 1934<br>X) 1958<br>Y) 1970<br>Z) 1990</div><div>ANSWER: Z) 1990</div></div><hr><div class="packet-question"><div class="q-text">10. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+An equilateral triangle lies inside a circle of radius 2. What is its perimeter?</div><div>ANSWER: 6√3 <span class="also-accept">(also accept: 6 SQUARE ROOT 3)</span></div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A 5kg block traveling with a velocity of 5 m/s in the x direction collides perfectly inelastically with a 2 kg block traveling with a velocity of -2 m/s in the x direction. In meters per second, what is the velocity of the 2kg block directly after the collision?</div><div>ANSWER: +3 m/s</div></div><hr><div class="packet-question"><div class="q-text">11. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+Identify all of the following three values that are nonzero for neutrinos
+1) Spin
+2) Mass
+3) Charge</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Short Answer</i>
+Researchers at UW Madison are studying catalysts and their effect on chemical reactions. Identify all of the following parameters of a chemical reaction that a catalyst changes
+1) Activation energy
+2) Energy of the reactants
+3) Energy of the products</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">12. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Researchers at UW-Madison are studying mutations and the effects of frameshift mutations. Which of the following mutations would cause a frameshift mutation?</div><div>W) Insertion of a single nucleotide<br>X) Deletion of six nucleotides<br>Y) Insertion of three nucleotides<br>Z) Substitution of one nucleotide for another</div><div>ANSWER: W) Insertion of a single nucleotide</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+During DNA replication, which of the following enzymes is responsible for removing supercoils from the DNA?</div><div>W) Topoisomerase<br>X) Helicase<br>Y) DNA polymerase<br>Z) Single stranded binding protein</div><div>ANSWER: W) Topoisomerase</div></div><hr><div class="packet-question"><div class="q-text">13. <span class="fw-semibold">BONUS</span> Biology <i>Multiple Choice</i>
+Which of the following options best describes the LAC operon and the role of allolactose?</div><div>W) The LAC operon is inducible and allolactose is an inducer<br>X) The LAC operon is repressible and allolactose is a corepressor<br>Y) The LAC operon is inducible, and allolactose is a corepressor<br>Z) The LAC operon is repressible and allolactose is an inducer</div><div>ANSWER: W) The LAC operon is inducible and allolactose is an inducer</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following is NOT a possible molecular geometry for a molecule with 4 total electron domains?</div><div>W) Linear<br>X) Trigonal pyramidal<br>Y) Tetrahedral<br>Z) Bent</div><div>ANSWER: W) Linear</div></div><hr><div class="packet-question"><div class="q-text">14. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+The standard reduction potentials of Silver and Zinc are +0.80 and -0.76 Volts, respectively. In volts, what is the standard cell potential of a galvanic cell with a silver cathode and zinc anode?</div><div>ANSWER: 1.56</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Multiple Choice</i>
+Quickly rotating planets will deviate from sphericity, becoming squashed at the poles due to centrifugal force. Given this, which of the following planets would you expect to be the most perfectly spherical?</div><div>W) Venus<br>X) Earth<br>Y) Jupiter<br>Z) Neptune</div><div>ANSWER: W) Venus</div></div><hr><div class="packet-question"><div class="q-text">15. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three geologic features that are glacial landforms
+1) U-shaped valley
+2) Oxbow
+3) Drumlin</div><div>ANSWER: 1</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+Triangle ABC has a semi-perimeter of 12 and inradius of 1. What is the area of triangle ABC?</div><div>ANSWER: 12</div></div><hr><div class="packet-question"><div class="q-text">16. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Emmy is conducting an experiment using orchids and observes that thirty of her two hundred trials resulted in a purple flower. However, her hypothesis predicted that a quarter of the flowers would be purple. Calculate the chi squared value for this instance.</div><div>ANSWER: 8</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">TOSS-UP</span> Physics <i>Multiple Choice</i>
+Which of the following particles has integer spin?</div><div>W) Electron<br>X) Photon<br>Y) Proton<br>Z) Neutron</div><div>ANSWER: X) Photon</div></div><hr><div class="packet-question"><div class="q-text">17. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A carnot engine operates between a hot reservoir at temperature 300K and a cold reservoir at temperature 100K. In the form of a simplified fraction, what is the efficiency of this particular engine?</div><div>ANSWER: 2/3</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">TOSS-UP</span> Biology <i>Multiple Choice</i>
+Researchers at UW-Madison are studying the effectiveness of C4 photosynthesis compared to C3 photosynthesis. Which of the following enzymes, found in C4 plants, fixes CO<sub>2</sub> by converting PEP into oxaloacetate?</div><div>W) Rubisco<br>X) Hexokinase<br>Y) Malate dehydrogenase<br>Z) Pep carboxylase</div><div>ANSWER: Z) Pep carboxylase</div></div><hr><div class="packet-question"><div class="q-text">18. <span class="fw-semibold">BONUS</span> Physics <i>Multiple Choice</i>
+Researchers at UW Madison are studying the fluid properties of blood, which is considered to be a non-newtonian fluid. Which of the following statements is true about non-Newtonian fluids?</div><div>W) The viscosity of a non-Newtonian fluid is dependent on the stress applied to the fluid<br>X) Laminar flow is more common in non-newtonian fluids than in Newtonian fluids<br>Y) The density of non-newtonian fluids is always constant<br>Z) All colloids are non-newtonian fluids</div><div>ANSWER: W) The viscosity of a non-Newtonian fluid is dependent on the stress applied to the fluid</div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">TOSS-UP</span> Biology <i>Short Answer</i>
+What vitamin is needed for DNA synthesis and amino acid metabolism, and if deficient can lead to pernicious anemia?</div><div>ANSWER: COBALAMIN <span class="also-accept">(also accept: B12)</span></div></div><hr><div class="packet-question"><div class="q-text">19. <span class="fw-semibold">BONUS</span> Biology <i>Short Answer</i>
+Identify all of the following 3 reactions that require the input of ATP
+1) Conversion of glucose to glucose-6-phosphate
+2) Conversion of Pyruvate to acetyl-CoA
+3) Conversion of oxaloacetate and acetyl-CoA into citric acid</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">TOSS-UP</span> Chemistry <i>Multiple Choice</i>
+Which of the following metals is commonly found in the +7 oxidation state?</div><div>W) Vanadium<br>X) Titanium<br>Y) Manganese<br>Z) Iron</div><div>ANSWER: Y) Manganese</div></div><hr><div class="packet-question"><div class="q-text">20. <span class="fw-semibold">BONUS</span> Chemistry <i>Short Answer</i>
+For the gas phase reaction A + 2 B yields C at equilibrium, the partial pressures of gases A, B, and C, are 0.05 bar, 2.0 bar, and 0.125 bar respectively. What is the value of the equilibrium constant Kp for this reaction?</div><div>ANSWER: 0.625</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">TOSS-UP</span> Earth &amp; Space <i>Short Answer</i>
+Identify all of the following three metamorphic rocks that have limestone as their protolith
+1) Marble
+2) Quartzite
+3) Slate</div><div>ANSWER: 1 ONLY</div></div><hr><div class="packet-question"><div class="q-text">21. <span class="fw-semibold">BONUS</span> Earth &amp; Space <i>Short Answer</i>
+After its red giant phase, the Sun will eventually cool into what kind of small, dense astrophysical object?</div><div>ANSWER: WHITE DWARF</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">TOSS-UP</span> Math <i>Short Answer</i>
+What is the sum of the cubes of the roots of the quadratic polynomial x<sup>2</sup>-12x + 35?</div><div>ANSWER: 468</div></div><hr><div class="packet-question"><div class="q-text">22. <span class="fw-semibold">BONUS</span> Math <i>Short Answer</i>
+Two numbers a and b satisfy the condition that the greatest common denominator of a and b equals 10, and a times b equals 500. What is the least common multiple of a and b?</div><div>ANSWER: 50</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">TOSS-UP</span> Physics <i>Short Answer</i>
+A charge moving through a region with an external electric and magnetic field will experience a force proportional to the sum of the magnitude of each field. What is the term for this force?</div><div>ANSWER: LORENTZ FORCE</div></div><hr><div class="packet-question"><div class="q-text">23. <span class="fw-semibold">BONUS</span> Physics <i>Short Answer</i>
+A wheel is rolling without slipping with center of mass velocity v to the right. Order the following three locations on the wheel in terms of increasing instantaneous rightward translational velocity
+1) Point of contact with the ground
+2) Center of the wheel
+3) Topmost point on the wheel</div><div>ANSWER: 1, 2, 3</div></div>
+</div>
+
+<script src="js/play-common.js?v=ce2fd98739"></script>
+<script src="js/set-pages.js?v=92213c34aa"></script>
+<script src="js/config.js?v=d72942fd70"></script>
+<script src="js/account-core.js?v=fb96918069"></script>
+<script src="js/account.js?v=5d9f0b76ec"></script>
+</body>
+</html>
